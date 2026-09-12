@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+*.swp
+*~
+# Optional: uncomment if GEDCOM contains sensitive living data you do not want on GitHub
+# *.ged
+_archive/
