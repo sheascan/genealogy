@@ -9,3 +9,37 @@ venv/
 # Optional: uncomment if GEDCOM contains sensitive living data you do not want on GitHub
 # *.ged
 _archive/
+# Binary backups and Gramps databases
+*.gramps
+*.gramps.bak
+*.gpkg
+*.zip
+*.pdf
+
+# Database snapshot directories
+Gramps Backups/
+Rebuilds/
+_archive/
+archive/
+ark/
+website-ark/
+
+# Python virtualenvs and caches
+venv/
+__pycache__/
+*.pyc
+
+# Local diagnostic dumps
+tree*.txt
+hourglass_out.txt
+hourglass_report.txt
+family/
+family/
+ancestry/
+Gramps Reports/
+hourglass_report.html
+
+# Google Drive virtual pointer files (not readable by git)
+*.gdoc
+*.gsheet
+*.gslides

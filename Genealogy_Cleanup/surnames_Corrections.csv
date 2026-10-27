@@ -1,0 +1,51 @@
+Original_Surname,Count,Target_Surname,Action_Flag
+Callahan,20,Callaghan,RENAME
+CANNON,3,Cannon,RENAME
+Carr/Kerr,1,Kerr,RENAME
+Chodzeisner,3,Chodziesner,RENAME
+coll,1,Coll,RENAME
+coyle,1,Coyle,RENAME
+da silva,1,Da Silva,RENAME
+dillon,1,Dillon,RENAME
+DUFFY,1,Duffy,RENAME
+Dunsworth,1,Dunworth,RENAME
+friel,8,Friel,RENAME
+FRIEL,6,Friel,RENAME
+GIROUARD,1,Girouard,RENAME
+Herrity,1,Heraghty,RENAME
+martin,2,Martin,RENAME
+Mc Allister,4,McAllister,RENAME
+Mc Ateer,4,McAteer,RENAME
+mc ateer,1,McAteer,RENAME
+Mc Bride,1,McBride,RENAME
+Mc Conagly,1,McConigley,RENAME
+mc conigley,1,McConigley,RENAME
+Mc Conigley,5,McConigley,RENAME
+Mc conigley,1,McConigley,RENAME
+Mc Conigly,6,McConigley,RENAME
+Mc connigley,6,McConigley,RENAME
+Mc Elroy,2,McElroy,RENAME
+Mc Elwaine,1,McElwaine,RENAME
+Mc elwaine,1,McElwaine,RENAME
+Mc Elwee,2,McElwee,RENAME
+Mc Ginley,12,McGinley,RENAME
+Mc Groddy,1,McGroddy,RENAME
+Mc Kinley,4,McKinley,RENAME
+McAlister,1,McAllister,RENAME
+mcateer,2,McAteer,RENAME
+McAteer / McIntire / McIntyre,1,McIntyre,RENAME
+McBride,61,McElwaine,RENAME
+mcbride,2,McElwaine,RENAME
+Mcconigley,2,McConigley,RENAME
+McElwain,1,McElwaine,RENAME
+Mcelwaine,1,McElwaine,RENAME
+Mcelwee,2,McElwee,RENAME
+Mcginley,1,McGinley,RENAME
+MCGINNIS,1,McGinnis,RENAME
+Mcgonigle,1,McGonigle,RENAME
+Mchugh,1,McHugh,RENAME
+McLoughlin,1,McLaughlin,RENAME
+O Boyle,8,O'Boyle,RENAME
+O&#039;Toole,1,O'Toole,RENAME
+Oshea,1,O'Shea,RENAME
+Sweeney (of the hill),3,Sweeney,RENAME

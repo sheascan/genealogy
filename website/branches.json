@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "parents": "Mick Sean McConigley & Margaret Heraghty",
+    "hub_url": "index.html"
+  },
+  "Mary": [
+    {
+      "label": "Seamus (8)",
+      "file": "Mary_Seamus.svg",
+      "count": 8
+    },
+    {
+      "label": "Margaret (21)",
+      "file": "Mary_Margaret.svg",
+      "count": 21
+    },
+    {
+      "label": "Annie (8)",
+      "file": "Mary_Annie.svg",
+      "count": 8
+    },
+    {
+      "label": "Patrick (9)",
+      "file": "Mary_Patrick.svg",
+      "count": 9
+    },
+    {
+      "label": "Shiela (5)",
+      "file": "Mary_Shiela.svg",
+      "count": 5
+    },
+    {
+      "label": "May (6)",
+      "file": "Mary_May.svg",
+      "count": 6
+    }
+  ],
+  "Mick": [
+    {
+      "label": "James (4)",
+      "file": "Mick_James.svg",
+      "count": 4
+    },
+    {
+      "label": "Margaret (5)",
+      "file": "Mick_Margaret.svg",
+      "count": 5
+    },
+    {
+      "label": "John (5)",
+      "file": "Mick_John.svg",
+      "count": 5
+    }
+  ],
+  "Sean": [
+    {
+      "label": "Anne (10)",
+      "file": "Sean_Anne.svg",
+      "count": 10
+    }
+  ],
+  "Norah": [],
+  "Brigid": [],
+  "Paddy": [],
+  "Charlie": [
+    {
+      "label": "Sinead (4)",
+      "file": "Charlie_Sinead.svg",
+      "count": 4
+    }
+  ],
+  "Danny": [],
+  "Tommy": []
+}

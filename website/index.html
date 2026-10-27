@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>McConigley Family Genealogy Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0f1d;
+      --bg-surface: #111827;
+      --bg-panel: #1f2937;
+      --border-dim: #374151;
+      --gold-primary: #f59e0b;
+      --gold-light: #fef3c7;
+      --gold-dark: #b45309;
+      --emerald: #10b981;
+      --rose: #f43f5e;
+      --text-main: #f9fafb;
+      --text-muted: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    /* Top Global Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 58px;
+      background: rgba(17, 24, 39, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-dim);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      z-index: 100;
+    }
+
+    .brand-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--gold-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    .brand-subtitle {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+      margin-left: 6px;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .nav-btn {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-dim);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-btn:hover {
+      background: #2d3748;
+      color: var(--text-main);
+      border-color: #4b5563;
+    }
+
+    .nav-btn.active {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: var(--gold-primary);
+      color: var(--gold-primary);
+    }
+
+    /* Main Viewport Container */
+    #viewport-container {
+      position: absolute;
+      top: 58px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+
+    .view-screen {
+      position: absolute;
+      inset: 0;
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+
+    .view-screen.active {
+      display: block;
+    }
+    #screen-hourglass.active {
+      display: flex !important;
+      flex-direction: column;
+      height: 100%;
+    }
+    #hourglass-frame {
+      width: 100%;
+      height: calc(100% - 48px);
+      flex: 1 1 auto;
+      border: none;
+      background: #ffffff;
+    }
+
+    /* Floating Canvas Toolbar Controls */
+    .canvas-hud {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      display: flex;
+      gap: 8px;
+      background: rgba(17, 24, 39, 0.85);
+      backdrop-filter: blur(8px);
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border-dim);
+      z-index: 50;
+      align-items: center;
+    }
+
+    .hud-btn {
+      background: #374151;
+      color: white;
+      border: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .hud-btn:hover {
+      background: #4b5563;
+    }
+
+    .hud-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      padding: 0 6px;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    /* HUB & SPOKE STYLES */
+    #hub-canvas-wrap {
+      width: 100%;
+      height: 100%;
+      cursor: grab;
+      position: relative;
+    }
+
+    #hub-canvas-wrap:active {
+      cursor: grabbing;
+    }
+
+    #hubSvg {
+      display: block;
+      transform-origin: 0 0;
+    }
+
+    /* SVG Interactive Classes */
+    .spoke-line {
+      stroke: #374151;
+      stroke-width: 3px;
+      stroke-dasharray: 6 6;
+      transition: stroke 0.3s, stroke-width 0.3s;
+    }
+
+    .child-group {
+      cursor: pointer;
+      transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .child-group:hover .spoke-line,
+    .child-group.hovered .spoke-line {
+      stroke: var(--gold-primary);
+      stroke-width: 5px;
+      stroke-dasharray: none;
+    }
+
+    .child-group:hover .child-circle {
+      stroke: var(--gold-primary) !important;
+      stroke-width: 5px !important;
+      filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.45));
+    }
+
+    .center-hub-group {
+      cursor: pointer;
+    }
+
+    .center-hub-group:hover circle.hub-main {
+      stroke: #fde68a !important;
+      filter: drop-shadow(0 0 25px rgba(245, 158, 11, 0.6));
+    }
+
+    /* Sibling Quick Bar on Hub Screen */
+    .sibling-quickbar {
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(17, 24, 39, 0.88);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-dim);
+      padding: 3px 12px;
+      border-radius: 30px;
+      display: flex;
+      gap: 4px;
+      z-index: 50;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .sibling-pill {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 16px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .sibling-pill:hover {
+      background: #374151;
+      color: white;
+    }
+
+    .sibling-pill.active {
+      background: var(--gold-primary);
+      color: #000;
+      font-weight: 700;
+    }
+
+    /* CHILD SVG STUDIO SCREEN */
+    #child-view-screen {
+      background: #0d1322;
+      position: relative;
+    }
+
+    .child-nav-hud {
+      position: absolute;
+      top: 18px;
+      left: 24px;
+      background: rgba(17, 24, 39, 0.9);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border-dim);
+      border-radius: 8px;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      z-index: 50;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    }
+
+    .return-hub-btn {
+      background: var(--gold-primary);
+      color: #000;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-weight: 700;
+      font-size: 0.78rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .return-hub-btn:hover {
+      background: #fbbf24;
+    }
+
+    .child-title-group {
+      border-left: 1px solid var(--border-dim);
+      padding-left: 12px;
+    }
+
+    .child-title-name {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--gold-light);
+    }
+
+    .child-title-meta {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    .sibling-stepper {
+      display: flex;
+      gap: 4px;
+      margin-left: 8px;
+    }
+
+    .stepper-btn {
+      background: #374151;
+      border: 1px solid #4b5563;
+      color: white;
+      padding: 5px 9px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      cursor: pointer;
+    }
+
+    .stepper-btn:hover {
+      background: #4b5563;
+    }
+
+    #child-canvas-wrap {
+      width: 100%;
+      height: 100%;
+      cursor: grab;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #child-canvas-wrap:active {
+      cursor: grabbing;
+    }
+
+    #child-svg-stage {
+      position: absolute;
+      transform-origin: 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ANCESTRY FULL TREE SCREEN */
+    #ancestry-view-screen {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    /* HOURGLASS REPORT SCREEN */
+    #hourglass-view-screen {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .report-toolbar {
+      height: 48px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-dim);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    .font-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .font-btn {
+      background: var(--bg-panel);
+      color: white;
+      border: 1px solid var(--border-dim);
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+
+    .font-btn:hover {
+      background: #374151;
+    }
+
+    #hourglass-frame {
+      flex: 1;
+      width: 100%;
+      border: none;
+      background: white;
+    }
+  
+    /* Mobile Touch & Ergonomics */
+    @media (max-width: 768px) {
+      header {
+        padding: 0 10px;
+        height: 50px;
+      }
+      .brand-title {
+        font-size: 0.95rem;
+      }
+      .brand-subtitle {
+        display: none;
+      }
+      .nav-btn {
+        padding: 5px 8px;
+        font-size: 0.72rem;
+      }
+      .sibling-quickbar {
+        width: 95%;
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: flex-start;
+        padding: 6px 8px;
+        top: 8px;
+        -webkit-overflow-scrolling: touch;
+      }
+      .sibling-pill {
+        flex: 0 0 auto;
+        font-size: 0.75rem;
+        padding: 6px 12px;
+      }
+      .canvas-hud {
+        bottom: 14px;
+        right: 14px;
+        padding: 4px 6px;
+        gap: 4px;
+      }
+      .hud-btn {
+        width: 36px;
+        height: 36px;
+      }
+      .child-nav-hud {
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        justify-content: space-between;
+        padding: 6px 10px;
+      }
+    }
+
+  #screen-child { display: none !important; }
+</style>
+</head>
+<body>
+
+  <!-- Top Global Header -->
+  <header>
+    <div class="brand-title" id="btnHomeBrand">
+      <span>McCONIGLEY</span>
+      <span class="brand-subtitle">Donegal Family Atlas</span>
+    </div>
+
+    <nav class="nav-tabs">
+      <button class="nav-btn active" id="tabHub">● Hub &amp; Spokes</button>
+      <button class="nav-btn" id="tabAncestry">Ancestry Chart</button>
+      <button class="nav-btn" id="tabHourglass">Hourglass Report</button>
+    </nav>
+  </header>
+
+  <!-- Viewport Switcher -->
+  <div id="viewport-container">
+
+    <!-- 1. HUB & SPOKE VIEW -->
+    <section class="view-screen active" id="screen-hub">
+      <div class="sibling-quickbar" id="hubSiblingBar"></div>
+
+      <div id="hub-canvas-wrap">
+        <svg id="hubSvg" viewBox="0 0 1100 1100" width="1100" height="1100">
+          <defs>
+            <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+              <stop offset="100%" stop-color="#0a0f1d" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="centerMedallion" cx="40%" cy="35%" r="70%">
+              <stop offset="0%" stop-color="#b45309" />
+              <stop offset="60%" stop-color="#78350f" />
+              <stop offset="100%" stop-color="#451a03" />
+            </radialGradient>
+            <radialGradient id="emeraldNode" cx="35%" cy="30%" r="70%">
+              <stop offset="0%" stop-color="#059669" />
+              <stop offset="100%" stop-color="#064e3b" />
+            </radialGradient>
+            <radialGradient id="roseNode" cx="35%" cy="30%" r="70%">
+              <stop offset="0%" stop-color="#e11d48" />
+              <stop offset="100%" stop-color="#881337" />
+            </radialGradient>
+            <radialGradient id="norahNode" cx="35%" cy="30%" r="70%">
+              <stop offset="0%" stop-color="#6366f1" />
+              <stop offset="100%" stop-color="#312e81" />
+            </radialGradient>
+          </defs>
+
+          <!-- Concentric Orbit Ring Markers -->
+          <circle cx="550" cy="550" r="160" fill="none" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 6" />
+          <circle cx="550" cy="550" r="380" fill="none" stroke="#1f2937" stroke-width="2" />
+          <circle cx="550" cy="550" r="500" fill="none" stroke="#111827" stroke-width="1.5" />
+
+          <!-- Dynamic Spokes and Children will be injected here -->
+          <g id="spokesLayer"></g>
+          <g id="nodesLayer"></g>
+
+          <!-- Central Progenitor Hub Medallion -->
+          <g class="center-hub-group" id="centerHubBtn">
+            <!-- Pulsing Halo -->
+            <circle cx="550" cy="550" r="145" fill="none" stroke="#f59e0b" stroke-opacity="0.25" stroke-width="4" />
+            <circle class="hub-main" cx="550" cy="550" r="120" fill="url(#centerMedallion)" stroke="#f59e0b" stroke-width="4.5" />
+            
+            <text x="550" y="505" text-anchor="middle" fill="#fef3c7" font-family="'Cinzel', serif" font-size="20" font-weight="700" letter-spacing="1.5">MICK SHAN</text>
+            <text x="550" y="530" text-anchor="middle" fill="#fcd34d" font-family="'Cinzel', serif" font-size="16" font-weight="500">&amp; MAGGIE</text>
+            <text x="550" y="562" text-anchor="middle" fill="#ffffff" font-family="'Cinzel', serif" font-size="22" font-weight="900" letter-spacing="2">McCONIGLEY</text>
+
+            <rect x="445" y="582" width="210" height="26" rx="13" fill="#18181b" stroke="#f59e0b" stroke-width="1.5" />
+            <text x="550" y="599" text-anchor="middle" fill="#fbbf24" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Ancestry Overview ›</text>
+          </g>
+        </svg>
+      </div>
+
+      <!-- Hub HUD Controls -->
+      <div class="canvas-hud">
+        <button class="hud-btn" id="btnHubZoomIn" title="Zoom In">+</button>
+        <button class="hud-btn" id="btnHubZoomOut" title="Zoom Out">−</button>
+        <button class="hud-btn" id="btnHubFit" title="Fit to Screen" style="font-size:0.75rem;">FIT</button>
+        <button class="hud-btn" id="btnHubReset" title="Reset View" style="font-size:0.75rem;">1:1</button>
+        <div class="hud-label" id="hubZoomLabel">100%</div>
+      </div>
+    </section>
+
+    <!-- 2. CHILD TREE VIEW (AUTO-FIT SCREEN) -->
+    <section class="view-screen" id="screen-child">
+      <!-- Child Navigation Header HUD -->
+      <div class="child-nav-hud">
+        <button class="return-hub-btn" id="btnChildBackHub">‹ Return to Hub</button>
+        <div class="child-title-group">
+          <div class="child-title-name" id="childDisplayName">Child Name</div>
+          <div class="child-title-meta" id="childDisplayMeta">Birth Order # • McConigley Line</div>
+        </div>
+        <div class="sibling-stepper">
+          <button class="stepper-btn" id="btnPrevSibling" title="Previous Sibling (Left Arrow)">◀ Prev</button>
+          <button class="stepper-btn" id="btnNextSibling" title="Next Sibling (Right Arrow)">Next ▶</button>
+        </div>
+      </div>
+
+      <div id="child-canvas-wrap">
+        <div id="child-svg-stage"></div>
+      </div>
+
+      <!-- Child Canvas HUD -->
+      <div class="canvas-hud">
+        <button class="hud-btn" id="btnChildZoomIn">+</button>
+        <button class="hud-btn" id="btnChildZoomOut">−</button>
+        <button class="hud-btn" id="btnChildFit" style="font-size:0.75rem;">FIT</button>
+        <button class="hud-btn" id="btnChildReset" style="font-size:0.75rem;">1:1</button>
+        <div class="hud-label" id="childZoomLabel">100%</div>
+      </div>
+    </section>
+
+    <!-- 3. ANCESTRY SVG VIEW -->
+    <section class="view-screen" id="screen-ancestry">
+      <button class="return-hub-btn" id="btnAncestryBackHub" style="position:absolute;top:20px;left:24px;z-index:20;">‹ Return to Hub</button>
+      <div id="ancestry-canvas-wrap" style="width:100%;height:100%;cursor:grab;position:relative;overflow:hidden;">
+        <div id="ancestry-stage" style="position:absolute;transform-origin:0 0;"></div>
+      </div>
+      <div class="canvas-hud">
+        <button class="hud-btn" id="btnAncestryZoomIn">+</button>
+        <button class="hud-btn" id="btnAncestryZoomOut">−</button>
+        <button class="hud-btn" id="btnAncestryFit" style="font-size:0.75rem;">FIT</button>
+        <button class="hud-btn" id="btnAncestryReset" style="font-size:0.75rem;">1:1</button>
+        <div class="hud-label" id="ancestryZoomLabel">100%</div>
+      </div>
+    </section>
+
+    <!-- 4. HOURGLASS REPORT VIEW -->
+    <section class="view-screen" id="screen-hourglass">
+      <div class="report-toolbar">
+        <span style="font-size:0.9rem;font-weight:600;color:var(--gold-primary);">Gramps Hourglass Report Viewer</span>
+        <div class="font-controls">
+          <span style="font-size:0.78rem;color:var(--text-muted);margin-right:4px;">Font Scale:</span>
+          <button class="font-btn" id="btnFontDown">A−</button>
+          <button class="font-btn" id="btnFontReset">Reset</button>
+          <button class="font-btn" id="btnFontUp">A+</button>
+          <a href="hourglass_report.html" target="_blank" class="font-btn" style="text-decoration:none;margin-left:8px;">Open Raw Tab ↗</a>
+        </div>
+      </div>
+      <iframe id="hourglass-frame" src="hourglass_report.html"></iframe>
+    </section>
+
+  </div>
+
+  <script>
+    /* =========================================================================
+       DATA DEFINITION: 9 SIBLINGS IN BIRTH ORDER
+       ========================================================================= */
+    const SIBLINGS = [
+      { id: 'mary',    num: 1, name: 'Mary',    gender: 'f', file: 'descendants.html#Mary',    desc: 'Descendants' },
+      { id: 'mick',    num: 2, name: 'Mick',    gender: 'm', file: 'descendants.html#Mick',    desc: 'Descendants' },
+      { id: 'sean',    num: 3, name: 'Sean',    gender: 'm', file: 'descendants.html#Sean',    desc: 'Descendants' },
+      { id: 'norah',   num: 4, name: 'Norah',   gender: 'f', file: 'descendants.html#Norah',   desc: 'Unitary (No Desc.)', unitary: true },
+      { id: 'brigid',  num: 5, name: 'Brigid',  gender: 'f', file: 'descendants.html#Brigid',  desc: 'Descendants' },
+      { id: 'paddy',   num: 6, name: 'Paddy',   gender: 'm', file: 'descendants.html#Paddy',   desc: 'Descendants' },
+      { id: 'charlie', num: 7, name: 'Charlie', gender: 'm', file: 'descendants.html#Charlie', desc: 'Descendants' },
+      { id: 'danny',   num: 8, name: 'Danny',   gender: 'm', file: 'descendants.html#Danny',   desc: 'Descendants' },
+      { id: 'tommy',   num: 9, name: 'Tommy',   gender: 'm', file: 'descendants.html#Tommy',   desc: 'Descendants' }
+    ];
+
+    /* =========================================================================
+       GEOMETRIC CONSTANTS (TIGHTENED CONNECTOR DISTANCE)
+       ========================================================================= */
+    const HUB_CX = 550;
+    const HUB_CY = 550;
+    const SPOKE_RADIUS = 380; // Shortened orbit distance: nodes sit comfortably close
+    const NODE_RADIUS = 88;   // Doubled node size preserved for high legibility
+
+    let currentSiblingIndex = 0;
+    let activeScreen = 'hub';
+
+    /* =========================================================================
+       HUB PAN & ZOOM ENGINE
+       ========================================================================= */
+    let hubState = { x: 0, y: 0, scale: 1, isDragging: false, startX: 0, startY: 0 };
+    const hubWrap = document.getElementById('hub-canvas-wrap');
+    const hubSvg = document.getElementById('hubSvg');
+    const hubZoomLabel = document.getElementById('hubZoomLabel');
+
+    function updateHubTransform() {
+      hubSvg.style.transform = `translate(${hubState.x}px, ${hubState.y}px) scale(${hubState.scale})`;
+      hubZoomLabel.textContent = `${Math.round(hubState.scale * 100)}%`;
+    }
+
+    function fitHubToScreen() {
+      const containerRect = hubWrap.getBoundingClientRect();
+      const svgSize = 1100;
+      const scaleW = (containerRect.width * 0.94) / svgSize;
+      const scaleH = (containerRect.height * 0.94) / svgSize;
+      hubState.scale = Math.min(scaleW, scaleH, 1.4);
+      hubState.x = (containerRect.width - svgSize * hubState.scale) / 2;
+      hubState.y = (containerRect.height - svgSize * hubState.scale) / 2;
+      updateHubTransform();
+    }
+
+    // Wheel zoom
+    hubWrap.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const zoomFactor = e.deltaY < 0 ? 1.12 : 0.88;
+      const rect = hubWrap.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      const newScale = Math.min(Math.max(0.35, hubState.scale * zoomFactor), 4.0);
+      hubState.x = mouseX - (mouseX - hubState.x) * (newScale / hubState.scale);
+      hubState.y = mouseY - (mouseY - hubState.y) * (newScale / hubState.scale);
+      hubState.scale = newScale;
+      updateHubTransform();
+    }, { passive: false });
+
+    // Drag to pan
+    hubWrap.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
+      hubState.isDragging = true;
+      hubState.startX = e.clientX - hubState.x;
+      hubState.startY = e.clientY - hubState.y;
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!hubState.isDragging) return;
+      hubState.x = e.clientX - hubState.startX;
+      hubState.y = e.clientY - hubState.startY;
+      updateHubTransform();
+    });
+
+    window.addEventListener('mouseup', () => { hubState.isDragging = false; });
+
+    document.getElementById('btnHubZoomIn').onclick = () => { hubState.scale *= 1.2; updateHubTransform(); };
+    document.getElementById('btnHubZoomOut').onclick = () => { hubState.scale /= 1.2; updateHubTransform(); };
+    document.getElementById('btnHubReset').onclick = () => { hubState.scale = 1; updateHubTransform(); };
+    document.getElementById('btnHubFit').onclick = fitHubToScreen;
+
+    /* =========================================================================
+       RENDER HUB & SPOKES
+       ========================================================================= */
+    function renderHubDiagram() {
+      const spokesLayer = document.getElementById('spokesLayer');
+      const nodesLayer = document.getElementById('nodesLayer');
+      const quickBar = document.getElementById('hubSiblingBar');
+
+      spokesLayer.innerHTML = '';
+      nodesLayer.innerHTML = '';
+      quickBar.innerHTML = '';
+
+      const count = SIBLINGS.length;
+      const angleStep = (2 * Math.PI) / count;
+      const startAngle = -Math.PI / 2; // Mary (#1) starts at top (12 o'clock)
+
+      SIBLINGS.forEach((sib, i) => {
+        const angle = startAngle + i * angleStep;
+        const nx = HUB_CX + SPOKE_RADIUS * Math.cos(angle);
+        const ny = HUB_CY + SPOKE_RADIUS * Math.sin(angle);
+
+        // 1. Spoke Line
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', HUB_CX);
+        line.setAttribute('y1', HUB_CY);
+        line.setAttribute('x2', nx);
+        line.setAttribute('y2', ny);
+        line.setAttribute('class', 'spoke-line');
+        line.setAttribute('id', `spoke-${sib.id}`);
+        spokesLayer.appendChild(line);
+
+        // 2. Child Group Node
+        const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        group.setAttribute('class', 'child-group');
+        group.setAttribute('id', `node-group-${sib.id}`);
+
+        // Node fill color selection
+        let fillGradient = sib.unitary ? 'url(#norahNode)' : (sib.gender === 'f' ? 'url(#roseNode)' : 'url(#emeraldNode)');
+        let strokeColor = sib.unitary ? '#a5b4fc' : (sib.gender === 'f' ? '#fda4af' : '#6ee7b7');
+
+        // Outer glow/shadow ring
+        const outerCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        outerCircle.setAttribute('cx', nx);
+        outerCircle.setAttribute('cy', ny);
+        outerCircle.setAttribute('r', NODE_RADIUS + 8);
+        outerCircle.setAttribute('fill', 'none');
+        outerCircle.setAttribute('stroke', strokeColor);
+        outerCircle.setAttribute('stroke-opacity', '0.35');
+        outerCircle.setAttribute('stroke-width', '2');
+        group.appendChild(outerCircle);
+
+        // Main Child Node Circle
+        const mainCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        mainCircle.setAttribute('class', 'child-circle');
+        mainCircle.setAttribute('cx', nx);
+        mainCircle.setAttribute('cy', ny);
+        mainCircle.setAttribute('r', NODE_RADIUS);
+        mainCircle.setAttribute('fill', fillGradient);
+        mainCircle.setAttribute('stroke', strokeColor);
+        mainCircle.setAttribute('stroke-width', '4');
+        group.appendChild(mainCircle);
+
+        // Birth Order Pill Badge
+        const badgeG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        const badgeRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        badgeRect.setAttribute('x', nx - 35);
+        badgeRect.setAttribute('y', ny - NODE_RADIUS - 15);
+        badgeRect.setAttribute('width', '70');
+        badgeRect.setAttribute('height', '30');
+        badgeRect.setAttribute('rx', '15');
+        badgeRect.setAttribute('fill', '#111827');
+        badgeRect.setAttribute('stroke', strokeColor);
+        badgeRect.setAttribute('stroke-width', '2');
+
+        const badgeText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        badgeText.setAttribute('x', nx);
+        badgeText.setAttribute('y', ny - NODE_RADIUS + 5);
+        badgeText.setAttribute('text-anchor', 'middle');
+        badgeText.setAttribute('fill', strokeColor);
+        badgeText.setAttribute('font-family', "'Inter', sans-serif");
+        badgeText.setAttribute('font-size', '15');
+        badgeText.setAttribute('font-weight', '700');
+        badgeText.textContent = `#${sib.num}`;
+
+        badgeG.appendChild(badgeRect);
+        badgeG.appendChild(badgeText);
+        group.appendChild(badgeG);
+
+        // Child Given Name
+        const nameText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        nameText.setAttribute('x', nx);
+        nameText.setAttribute('y', ny - 6);
+        nameText.setAttribute('text-anchor', 'middle');
+        nameText.setAttribute('fill', '#ffffff');
+        nameText.setAttribute('font-family', "'Cinzel', serif");
+        nameText.setAttribute('font-size', '23');
+        nameText.setAttribute('font-weight', '700');
+        nameText.setAttribute('letter-spacing', '1');
+        nameText.textContent = sib.name.toUpperCase();
+        group.appendChild(nameText);
+
+        // Surname
+        const surnameText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        surnameText.setAttribute('x', nx);
+        surnameText.setAttribute('y', ny + 22);
+        surnameText.setAttribute('text-anchor', 'middle');
+        surnameText.setAttribute('fill', strokeColor);
+        surnameText.setAttribute('font-family', "'Inter', sans-serif");
+        surnameText.setAttribute('font-size', '15');
+        surnameText.setAttribute('font-weight', '600');
+        surnameText.textContent = 'McConigley';
+        group.appendChild(surnameText);
+
+        // Subtitle Action Pill
+        const subPill = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        const pillW = sib.unitary ? 170 : 140;
+        subPill.setAttribute('x', nx - pillW / 2);
+        subPill.setAttribute('y', ny + 38);
+        subPill.setAttribute('width', pillW);
+        subPill.setAttribute('height', '26');
+        subPill.setAttribute('rx', '13');
+        subPill.setAttribute('fill', 'rgba(10, 15, 29, 0.85)');
+        subPill.setAttribute('stroke', strokeColor);
+        subPill.setAttribute('stroke-width', '1.5');
+        group.appendChild(subPill);
+
+        const subText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        subText.setAttribute('x', nx);
+        subText.setAttribute('y', ny + 55);
+        subText.setAttribute('text-anchor', 'middle');
+        subText.setAttribute('fill', '#f3f4f6');
+        subText.setAttribute('font-family', "'Inter', sans-serif");
+        subText.setAttribute('font-size', '11.5');
+        subText.setAttribute('font-weight', '600');
+        subText.textContent = sib.desc;
+        group.appendChild(subText);
+
+        // Node Click Event
+        group.addEventListener('click', () => {
+          openChildView(i);
+        });
+
+        // Hover highlighting
+        group.addEventListener('mouseenter', () => {
+          line.setAttribute('stroke', '#f59e0b');
+          line.setAttribute('stroke-width', '5');
+          line.setAttribute('stroke-dasharray', 'none');
+        });
+        group.addEventListener('mouseleave', () => {
+          line.setAttribute('stroke', '#374151');
+          line.setAttribute('stroke-width', '3');
+          line.setAttribute('stroke-dasharray', '6 6');
+        });
+
+        nodesLayer.appendChild(group);
+
+        // Top quickbar pill
+        const pill = document.createElement('button');
+        pill.className = 'sibling-pill';
+        pill.textContent = sib.name;
+        pill.onclick = () => openChildView(i);
+        quickBar.appendChild(pill);
+      });
+    }
+
+    /* =========================================================================
+       CHILD VIEW & FIT-TO-SCREEN ENGINE
+       ========================================================================= */
+    let childState = { x: 0, y: 0, scale: 1, isDragging: false, startX: 0, startY: 0 };
+    const childWrap = document.getElementById('child-canvas-wrap');
+    const childStage = document.getElementById('child-svg-stage');
+    const childZoomLabel = document.getElementById('childZoomLabel');
+
+    function updateChildTransform() {
+      childStage.style.transform = `translate(${childState.x}px, ${childState.y}px) scale(${childState.scale})`;
+      childZoomLabel.textContent = `${Math.round(childState.scale * 100)}%`;
+    }
+
+    function autoFitChildToScreen() {
+      const svg = childStage.querySelector('svg');
+      if (!svg) return;
+
+      const containerRect = childWrap.getBoundingClientRect();
+      
+      // Reset transform temporarily to measure natural rendered geometry
+      childStage.style.transform = 'none';
+
+      let bbox = null;
+      try {
+        bbox = svg.getBBox();
+      } catch (e) {
+        bbox = null;
+      }
+
+      // If we got a valid tight bounding box from the drawn wedges, normalize the SVG viewBox
+      if (bbox && bbox.width > 50 && bbox.height > 50) {
+        // Pad by 4% so outermost labels aren't trimmed
+        const padX = bbox.width * 0.04;
+        const padY = bbox.height * 0.04;
+        svg.setAttribute('viewBox', `${bbox.x - padX} ${bbox.y - padY} ${bbox.width + padX * 2} ${bbox.height + padY * 2}`);
+        svg.setAttribute('width', bbox.width + padX * 2);
+        svg.setAttribute('height', bbox.height + padY * 2);
+      }
+
+      // Measure clean rendered bounds
+      const svgRect = svg.getBoundingClientRect();
+      const w = svgRect.width || 900;
+      const h = svgRect.height || 900;
+
+      // Fit to 82% of screen height/width (comfortable reading margin)
+      const scaleW = (containerRect.width * 0.82) / w;
+      const scaleH = (containerRect.height * 0.82) / h;
+      childState.scale = Math.min(scaleW, scaleH);
+
+      // Center exactly in the viewport
+      childState.x = (containerRect.width - w * childState.scale) / 2;
+      childState.y = (containerRect.height - h * childState.scale) / 2;
+
+      updateChildTransform();
+    }
+
+    // Interactive Pan & Zoom for Child Studio
+    childWrap.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const zoomFactor = e.deltaY < 0 ? 1.12 : 0.88;
+      const rect = childWrap.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      const newScale = Math.min(Math.max(0.2, childState.scale * zoomFactor), 5.0);
+      childState.x = mouseX - (mouseX - childState.x) * (newScale / childState.scale);
+      childState.y = mouseY - (mouseY - childState.y) * (newScale / childState.scale);
+      childState.scale = newScale;
+      updateChildTransform();
+    }, { passive: false });
+
+    childWrap.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
+      childState.isDragging = true;
+      childState.startX = e.clientX - childState.x;
+      childState.startY = e.clientY - childState.y;
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!childState.isDragging) return;
+      childState.x = e.clientX - childState.startX;
+      childState.y = e.clientY - childState.startY;
+      updateChildTransform();
+    });
+
+    window.addEventListener('mouseup', () => { childState.isDragging = false; });
+
+    document.getElementById('btnChildZoomIn').onclick = () => { childState.scale *= 1.2; updateChildTransform(); };
+    document.getElementById('btnChildZoomOut').onclick = () => { childState.scale /= 1.2; updateChildTransform(); };
+    document.getElementById('btnChildReset').onclick = () => { childState.scale = 1; updateChildTransform(); };
+    document.getElementById('btnChildFit').onclick = autoFitChildToScreen;
+
+    /* Unitary Fallback SVG Generator for Norah */
+    function generateUnitarySvg(name) {
+      return `
+        <svg viewBox="0 0 900 900" width="900" height="900" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="norahGrad" cx="50%" cy="50%" r="60%">
+              <stop offset="0%" stop-color="#312e81" />
+              <stop offset="100%" stop-color="#0f172a" />
+            </radialGradient>
+          </defs>
+          <rect width="900" height="900" fill="url(#norahGrad)" rx="20"/>
+          <circle cx="450" cy="450" r="320" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="8 8"/>
+          <circle cx="450" cy="450" r="240" fill="#1e1b4b" stroke="#818cf8" stroke-width="4"/>
+          
+          <text x="450" y="380" text-anchor="middle" fill="#c7d2fe" font-family="'Cinzel', serif" font-size="20">PROGENITORS: MICK SHAN &amp; MAGGIE</text>
+          <text x="450" y="440" text-anchor="middle" fill="#ffffff" font-family="'Cinzel', serif" font-size="44" font-weight="900">${name.toUpperCase()} McCONIGLEY</text>
+          <text x="450" y="490" text-anchor="middle" fill="#a5b4fc" font-family="'Inter', sans-serif" font-size="20" font-weight="600">Birth Order: Sibling #4</text>
+          
+          <rect x="300" y="530" width="300" height="44" rx="22" fill="#4338ca"/>
+          <text x="450" y="558" text-anchor="middle" fill="#ffffff" font-family="'Inter', sans-serif" font-size="16" font-weight="700">Unitary Line • No Descendants</text>
+          
+          <text x="450" y="660" text-anchor="middle" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="15">County Donegal, Ireland • McConigley Line</text>
+        </svg>
+      `;
+    }
+
+    /* Load and Display Active Child Tree */
+    async function loadChildSvg(index) {
+      const sib = SIBLINGS[index];
+      currentSiblingIndex = index;
+
+      document.getElementById('childDisplayName').textContent = `${sib.name} McConigley`;
+      document.getElementById('childDisplayMeta').textContent = `Sibling #${sib.num} of 9 • ${sib.desc}`;
+
+      childStage.innerHTML = `<div style="color:var(--text-muted);font-size:1.1rem;padding:40px;">Loading ${sib.file}...</div>`;
+
+      try {
+        const response = await fetch(sib.file);
+        if (!response.ok) throw new Error('File not found');
+        const svgText = await response.text();
+        childStage.innerHTML = svgText;
+      } catch (err) {
+        console.warn(`Could not load ${sib.file}, generating unitary vector fallback.`);
+        childStage.innerHTML = generateUnitarySvg(sib.name);
+      }
+
+      // Ensure embedded SVGs scale smoothly
+      const svg = childStage.querySelector('svg');
+      if (svg) {
+        svg.style.overflow = 'visible';
+        svg.style.display = 'block';
+      }
+
+      // Automatically auto-fit to screen immediately after DOM render
+      setTimeout(autoFitChildToScreen, 50);
+    }
+
+    function openChildView(index) {
+      const sibName = SIBLINGS[index].name;
+      window.location.href = 'descendants.html#' + sibName;
+    }
+
+    document.getElementById('btnPrevSibling').onclick = () => {
+      const prev = (currentSiblingIndex - 1 + SIBLINGS.length) % SIBLINGS.length;
+      loadChildSvg(prev);
+    };
+
+    document.getElementById('btnNextSibling').onclick = () => {
+      const next = (currentSiblingIndex + 1) % SIBLINGS.length;
+      loadChildSvg(next);
+    };
+
+    document.getElementById('btnChildBackHub').onclick = () => switchScreen('hub');
+
+    /* =========================================================================
+       ANCESTRY SVG ENGINE
+       ========================================================================= */
+    let ancestryState = { x: 0, y: 0, scale: 1, isDragging: false, startX: 0, startY: 0 };
+    const ancestryWrap = document.getElementById('ancestry-canvas-wrap');
+    const ancestryStage = document.getElementById('ancestry-stage');
+    const ancestryZoomLabel = document.getElementById('ancestryZoomLabel');
+
+    function updateAncestryTransform() {
+      ancestryStage.style.transform = `translate(${ancestryState.x}px, ${ancestryState.y}px) scale(${ancestryState.scale})`;
+      ancestryZoomLabel.textContent = `${Math.round(ancestryState.scale * 100)}%`;
+    }
+
+    function autoFitAncestry() {
+      const svg = ancestryStage.querySelector('svg');
+      if (!svg) return;
+      const rect = ancestryWrap.getBoundingClientRect();
+      const vb = svg.viewBox ? svg.viewBox.baseVal : null;
+      const w = (vb && vb.width) ? vb.width : (svg.clientWidth || 1000);
+      const h = (vb && vb.height) ? vb.height : (svg.clientHeight || 1000);
+      ancestryState.scale = Math.min((rect.width * 0.94) / w, (rect.height * 0.94) / h, 2.0);
+      ancestryState.x = (rect.width - w * ancestryState.scale) / 2;
+      ancestryState.y = (rect.height - h * ancestryState.scale) / 2;
+      updateAncestryTransform();
+    }
+
+    async function loadAncestrySvg() {
+      if (ancestryStage.children.length > 0) return;
+      try {
+        const resp = await fetch('Ancestry.svg');
+        const text = await resp.text();
+        ancestryStage.innerHTML = text;
+        setTimeout(autoFitAncestry, 60);
+      } catch (e) {
+        ancestryStage.innerHTML = '<div style="color:red;padding:40px;">Failed to load Ancestry.svg</div>';
+      }
+    }
+
+    ancestryWrap.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const factor = e.deltaY < 0 ? 1.12 : 0.88;
+      const rect = ancestryWrap.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const newScale = Math.min(Math.max(0.2, ancestryState.scale * factor), 5.0);
+      ancestryState.x = mx - (mx - ancestryState.x) * (newScale / ancestryState.scale);
+      ancestryState.y = my - (my - ancestryState.y) * (newScale / ancestryState.scale);
+      ancestryState.scale = newScale;
+      updateAncestryTransform();
+    }, { passive: false });
+
+    ancestryWrap.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
+      ancestryState.isDragging = true;
+      ancestryState.startX = e.clientX - ancestryState.x;
+      ancestryState.startY = e.clientY - ancestryState.y;
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!ancestryState.isDragging) return;
+      ancestryState.x = e.clientX - ancestryState.startX;
+      ancestryState.y = e.clientY - ancestryState.startY;
+      updateAncestryTransform();
+    });
+
+    window.addEventListener('mouseup', () => { ancestryState.isDragging = false; });
+
+    document.getElementById('btnAncestryZoomIn').onclick = () => { ancestryState.scale *= 1.2; updateAncestryTransform(); };
+    document.getElementById('btnAncestryZoomOut').onclick = () => { ancestryState.scale /= 1.2; updateAncestryTransform(); };
+    document.getElementById('btnAncestryReset').onclick = () => { ancestryState.scale = 1; updateAncestryTransform(); };
+    document.getElementById('btnAncestryFit').onclick = autoFitAncestry;
+
+    /* Center Progenitor Medallion jumps to Ancestry chart */
+    const centerBtn = document.getElementById('centerHubBtn');
+    if (centerBtn) {
+      centerBtn.style.cursor = 'pointer';
+      ['click', 'pointerup'].forEach(evt => {
+        centerBtn.addEventListener(evt, (e) => {
+          e.stopPropagation();
+          switchScreen('ancestry');
+        });
+      });
+    }
+
+    const btnAncestryBack = document.getElementById('btnAncestryBackHub');
+    if (btnAncestryBack) {
+      btnAncestryBack.onclick = () => switchScreen('hub');
+    }
+
+    /* =========================================================================
+       HOURGLASS REPORT FONT CONTROLS
+       ========================================================================= */
+    let currentReportFontRem = 1.0;
+    const iframe = document.getElementById('hourglass-frame');
+
+    function applyIframeFontScale() {
+      try {
+        const doc = iframe.contentDocument || iframe.contentWindow.document;
+        if (!doc) return;
+        let style = doc.getElementById('custom-font-style');
+        if (!style) {
+          style = doc.createElement('style');
+          style.id = 'custom-font-style';
+          doc.head.appendChild(style);
+        }
+        style.textContent = `
+          body, table, td, th, p, li, a, div { 
+            font-size: ${currentReportFontRem}rem !important; 
+            line-height: 1.5 !important; 
+          }
+        `;
+      } catch (e) {
+        console.warn('Iframe cross-origin guard preventing style injection.');
+      }
+    }
+
+    document.getElementById('btnFontUp').onclick = () => {
+      currentReportFontRem = Math.min(2.0, currentReportFontRem + 0.15);
+      applyIframeFontScale();
+    };
+    document.getElementById('btnFontDown').onclick = () => {
+      currentReportFontRem = Math.max(0.7, currentReportFontRem - 0.15);
+      applyIframeFontScale();
+    };
+    document.getElementById('btnFontReset').onclick = () => {
+      currentReportFontRem = 1.0;
+      applyIframeFontScale();
+    };
+    iframe.onload = applyIframeFontScale;
+
+    /* =========================================================================
+       SCREEN SWITCHER & TOP NAVIGATION
+       ========================================================================= */
+    function switchScreen(target) {
+      activeScreen = target;
+
+      document.querySelectorAll('.view-screen').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+
+      if (target === 'hub') {
+        document.getElementById('screen-hub').classList.add('active');
+        document.getElementById('tabHub').classList.add('active');
+        setTimeout(fitHubToScreen, 20);
+      } else if (target === 'child') {
+        document.getElementById('screen-child').classList.add('active');
+      } else if (target === 'ancestry') {
+        document.getElementById('screen-ancestry').classList.add('active');
+        document.getElementById('tabAncestry').classList.add('active');
+        loadAncestrySvg();
+      } else if (target === 'hourglass') {
+        document.getElementById('screen-hourglass').classList.add('active');
+        document.getElementById('tabHourglass').classList.add('active');
+      }
+    }
+
+    document.getElementById('tabHub').onclick = () => switchScreen('hub');
+    document.getElementById('tabAncestry').onclick = () => switchScreen('ancestry');
+    document.getElementById('tabHourglass').onclick = () => switchScreen('hourglass');
+    document.getElementById('btnHomeBrand').onclick = () => switchScreen('hub');
+
+    /* Keyboard Shortcuts */
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        switchScreen('hub');
+      } else if (activeScreen === 'child') {
+        if (e.key === 'ArrowLeft') document.getElementById('btnPrevSibling').click();
+        if (e.key === 'ArrowRight') document.getElementById('btnNextSibling').click();
+        if (e.key.toLowerCase() === 'f') autoFitChildToScreen();
+      } else if (activeScreen === 'hub') {
+        if (e.key.toLowerCase() === 'f') fitHubToScreen();
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (activeScreen === 'hub') fitHubToScreen();
+      if (activeScreen === 'child') autoFitChildToScreen();
+      if (activeScreen === 'ancestry') autoFitAncestry();
+    });
+
+    
+    // Generic Touch Gesture Handler (Pan & Pinch-to-Zoom)
+    function attachTouchHandlers(container, stateRef, updateFn) {
+      let initialDist = 0;
+      let initialScale = 1;
+
+      container.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 1) {
+          stateRef.isDragging = true;
+          stateRef.startX = e.touches[0].clientX - stateRef.x;
+          stateRef.startY = e.touches[0].clientY - stateRef.y;
+        } else if (e.touches.length === 2) {
+          stateRef.isDragging = false;
+          initialDist = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY
+          );
+          initialScale = stateRef.scale;
+        }
+      }, { passive: true });
+
+      container.addEventListener('touchmove', (e) => {
+        if (e.touches.length === 1 && stateRef.isDragging) {
+          e.preventDefault();
+          stateRef.x = e.touches[0].clientX - stateRef.startX;
+          stateRef.y = e.touches[0].clientY - stateRef.startY;
+          updateFn();
+        } else if (e.touches.length === 2 && initialDist > 0) {
+          e.preventDefault();
+          const dist = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY
+          );
+          const factor = dist / initialDist;
+          stateRef.scale = Math.min(Math.max(0.2, initialScale * factor), 5.0);
+          updateFn();
+        }
+      }, { passive: false });
+
+      container.addEventListener('touchend', (e) => {
+        if (e.touches.length < 2) initialDist = 0;
+        if (e.touches.length === 0) stateRef.isDragging = false;
+      }, { passive: true });
+    }
+
+    attachTouchHandlers(hubWrap, hubState, updateHubTransform);
+    attachTouchHandlers(childWrap, childState, updateChildTransform);
+    attachTouchHandlers(ancestryWrap, ancestryState, updateAncestryTransform);
+
+    // Boot
+    renderHubDiagram();
+    setTimeout(fitHubToScreen, 100);
+  </script>
+</body>
+</html>

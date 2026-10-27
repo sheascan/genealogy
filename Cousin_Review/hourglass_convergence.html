@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hourglass Convergence: McConigley x Heraghty</title>
+    <style>
+        body {
+            background: #090d16;
+            color: #f8fafc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 24px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        .header h1 { color: #f59e0b; margin: 0 0 8px 0; font-size: 1.8rem; }
+        .header p { color: #94a3b8; margin: 0; font-size: 0.95rem; }
+        .ancestry-split {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+        .pedigree-wing {
+            flex: 1;
+            background: rgba(17, 24, 39, 0.7);
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .wing-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #38bdf8;
+            border-bottom: 1px dashed #334155;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .ancestor-unit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .ancestor-branch {
+            display: flex;
+            gap: 12px;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .branch-col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .anc-tag { font-size: 0.72rem; color: #f59e0b; font-weight: bold; margin-bottom: 4px; }
+        .ancestor-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            padding: 6px 12px;
+            text-align: center;
+            min-width: 130px;
+        }
+        .ancestor-card .p-name { font-weight: 600; font-size: 0.88rem; color: #f1f5f9; }
+        .ancestor-card .p-id { font-size: 0.72rem; color: #94a3b8; font-family: monospace; }
+        .knot-container {
+            display: flex;
+            justify-content: center;
+            margin: 16px 0 32px 0;
+        }
+        .knot-card {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(16, 185, 129, 0.15));
+            border: 2px solid #f59e0b;
+            border-radius: 10px;
+            padding: 14px 28px;
+            text-align: center;
+        }
+        .knot-title { font-size: 0.75rem; text-transform: uppercase; color: #f59e0b; font-weight: bold; }
+        .knot-names { font-size: 1.25rem; font-weight: bold; color: #ffffff; margin-top: 4px; }
+        .descendants-section {
+            background: rgba(17, 24, 39, 0.8);
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .section-header {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #10b981;
+            margin-bottom: 14px;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 8px;
+        }
+        .person-node { border-left: 2px solid #334155; padding-left: 12px; margin: 8px 0; }
+        .node-new { border-left-color: #10b981; }
+        .node-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+        .person-name { font-weight: 600; font-size: 0.92rem; }
+        .person-id { font-size: 0.72rem; color: #94a3b8; font-family: monospace; }
+        .badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+        .new-badge { background: #064e3b; color: #6ee7b7; border: 1px solid #10b981; }
+        .base-badge { background: #1e293b; color: #94a3b8; }
+        .sp-badge { background: #172554; color: #93c5fd; }
+        .spouse-box {
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px solid #1e293b;
+            border-radius: 6px;
+            padding: 6px 10px;
+            margin: 4px 0 4px 8px;
+        }
+        .spouse-header { display: flex; align-items: center; gap: 8px; }
+        .spouse-label { font-size: 0.7rem; color: #38bdf8; font-weight: bold; }
+        .spouse-name { font-weight: 600; font-size: 0.88rem; }
+        .spouse-id { font-size: 0.72rem; color: #94a3b8; font-family: monospace; }
+        .children-title { font-size: 0.72rem; color: #94a3b8; margin: 4px 0 2px 4px; }
+        .children-list { margin-left: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hourglass Convergence: McConigley x Heraghty</h1>
+        <p>Bi-directional audit tracing dual ancestral root systems into shared descendants</p>
+    </div>
+
+    <div class="ancestry-split">
+        <div class="pedigree-wing">
+            <div class="wing-title">Paternal Ancestry: Mick Sean McConigley</div>
+            <div class="ancestor-unit">
+    <div class="ancestor-card">
+        <div class="p-name">Mick Sean McConigley</div>
+        <div class="p-id">I500007</div>
+    </div>
+    </div>
+        </div>
+        <div class="pedigree-wing">
+            <div class="wing-title">Maternal Ancestry: Margaret Heraghty</div>
+            <div class="ancestor-unit"><div class="ancestor-branch"><div class="branch-col"><span class="anc-tag">Father:</span><div class="ancestor-unit"><div class="ancestor-branch"><div class="branch-col"><span class="anc-tag">Father:</span><div class="ancestor-unit"><div class="ancestor-branch"><div class="branch-col"><span class="anc-tag">Father:</span></div></div>
+    <div class="ancestor-card">
+        <div class="p-name">Patrick Heraghty</div>
+        <div class="p-id">I500066</div>
+    </div>
+    </div></div><div class="branch-col"><span class="anc-tag">Mother:</span><div class="ancestor-unit">
+    <div class="ancestor-card">
+        <div class="p-name">Margaret Friel</div>
+        <div class="p-id">I500067</div>
+    </div>
+    </div></div></div>
+    <div class="ancestor-card">
+        <div class="p-name">Michael Heraghty</div>
+        <div class="p-id">I500060</div>
+    </div>
+    </div></div><div class="branch-col"><span class="anc-tag">Mother:</span><div class="ancestor-unit"><div class="ancestor-branch"><div class="branch-col"><span class="anc-tag">Father:</span><div class="ancestor-unit">
+    <div class="ancestor-card">
+        <div class="p-name">Hugh Coyle</div>
+        <div class="p-id">I500075</div>
+    </div>
+    </div></div><div class="branch-col"><span class="anc-tag">Mother:</span><div class="ancestor-unit">
+    <div class="ancestor-card">
+        <div class="p-name">Catherine Kerr</div>
+        <div class="p-id">I500076</div>
+    </div>
+    </div></div></div>
+    <div class="ancestor-card">
+        <div class="p-name">Hannah Coyle</div>
+        <div class="p-id">I500061</div>
+    </div>
+    </div></div></div>
+    <div class="ancestor-card">
+        <div class="p-name">Margaret Heraghty</div>
+        <div class="p-id">I500006</div>
+    </div>
+    </div>
+        </div>
+    </div>
+
+    <div class="knot-container">
+        <div class="knot-card">
+            <div class="knot-title">&#10022; Convergence Pivot Union &#10022;</div>
+            <div class="knot-names">Mick Sean McConigley &times; Margaret Heraghty</div>
+        </div>
+    </div>
+
+    <div class="descendants-section">
+        <div class="section-header">Shared Progeny &amp; Descendant Branches (9 Children)</div>
+        <div class="descendants-container">
+            
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Mick McConigley</span>
+            <span class="person-id">I500003</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Bridget Carr</span>
+                        <span class="spouse-id">I500002</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (10):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Mike McConigley</span>
+            <span class="person-id">I500001</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Anne O&#x27;Donnell</span>
+                        <span class="spouse-id">I500106</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Christine McConigley</span>
+            <span class="person-id">I500107</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Joseph Byrne</span>
+                        <span class="spouse-id">I503400</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                </div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Brid McConigley</span>
+            <span class="person-id">I500108</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">James McConigley</span>
+            <span class="person-id">I500713</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Carmel Corrigan</span>
+                        <span class="spouse-id">I500901</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Michael McConigley</span>
+            <span class="person-id">I500902</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Joanne McAndrew</span>
+                        <span class="spouse-id">I500936</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Séamus Michael McConigley</span>
+            <span class="person-id">I503399</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Cormac McConigley</span>
+            <span class="person-id">I500903</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Sarah Kelly</span>
+                        <span class="spouse-id">I500937</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                </div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Margaret McConigley</span>
+            <span class="person-id">I500714</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Matt O&#x27;Donoghue</span>
+                        <span class="spouse-id">I500904</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Ciara O&#x27;Donoghue</span>
+            <span class="person-id">I500905</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Emmet Ryan</span>
+                        <span class="spouse-id">I500933</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Harry Ryan</span>
+            <span class="person-id">I500934</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Lucy Ryan</span>
+            <span class="person-id">I500935</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Eimear O&#x27;Donoghue</span>
+            <span class="person-id">I500906</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">John McConigley</span>
+            <span class="person-id">I500715</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Catherine Sheridan</span>
+                        <span class="spouse-id">I500908</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Ciaran McConigley</span>
+            <span class="person-id">I500907</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Donata</span>
+                        <span class="spouse-id">I500929</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Fiachra McConigley</span>
+            <span class="person-id">I500930</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Niamh McConigley</span>
+            <span class="person-id">I500909</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Dave Keane</span>
+                        <span class="spouse-id">I500931</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Conn Keane</span>
+            <span class="person-id">I500932</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Ann McConigley</span>
+            <span class="person-id">I500716</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">John Sweeney</span>
+                        <span class="spouse-id">I500916</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Sean Sweeney</span>
+            <span class="person-id">I500917</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Grainne Sweeney</span>
+            <span class="person-id">I500918</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Patrick McConigley</span>
+            <span class="person-id">I500717</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Evelyn Wilhaire</span>
+                        <span class="spouse-id">I500910</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Cillian McConigley</span>
+            <span class="person-id">I500911</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Laura McConigley</span>
+            <span class="person-id">I500912</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Liam McConigley</span>
+            <span class="person-id">I500718</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Margaret Gallagher</span>
+                        <span class="spouse-id">I500919</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Ruadhri McConigley</span>
+            <span class="person-id">I500920</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Emma</span>
+                        <span class="spouse-id">_NEW_mick_78</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Odhran McConigley</span>
+            <span class="person-id">I500921</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Maureen McConigley</span>
+            <span class="person-id">I500719</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Ollie Cleary</span>
+                        <span class="spouse-id">I500922</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Ronan Cleary</span>
+            <span class="person-id">I500923</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Orlagh Cleary</span>
+            <span class="person-id">I500924</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Aoife Cleary</span>
+            <span class="person-id">I500925</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Martina McConigley</span>
+            <span class="person-id">I500720</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Simon Chodziesner</span>
+                        <span class="spouse-id">I500913</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Liam Chodziesner</span>
+            <span class="person-id">I500914</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Noreen McConigley</span>
+            <span class="person-id">I500721</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">James McGettigan</span>
+                        <span class="spouse-id">I500926</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Enda McGettigan</span>
+            <span class="person-id">I500927</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Kevin McGettigan</span>
+            <span class="person-id">I500928</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Norah McConigley</span>
+            <span class="person-id">I500209</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Brigid McConigley</span>
+            <span class="person-id">I500406</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">John Dillon</span>
+                        <span class="spouse-id">I500414</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (4):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">John Joseph Dillon</span>
+            <span class="person-id">I500976</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Sarah Anne &quot;Anne&quot; Dillon</span>
+            <span class="person-id">I500966</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Michael Joseph Dillon</span>
+            <span class="person-id">I500967</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Anne Marie Furlong</span>
+                        <span class="spouse-id">_NEW_brigid_42</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Ava Bridget Dillon</span>
+            <span class="person-id">_NEW_brigid_43</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Sean James Dillon</span>
+            <span class="person-id">_NEW_brigid_44</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Gerard Anthony Dillon</span>
+            <span class="person-id">I500722</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Patrick McConigley</span>
+            <span class="person-id">I500405</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Annie Doherty</span>
+                        <span class="spouse-id">I500581</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (6):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Margaretta McConigley</span>
+            <span class="person-id">I503627</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Mark McConigley</span>
+            <span class="person-id">_NEW_paddy_39</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Mary Teresa McConigley</span>
+            <span class="person-id">I500580</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Aaron McConigley</span>
+            <span class="person-id">_NEW_paddy_46</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Noreen McConigley</span>
+            <span class="person-id">I503629</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Lisa McConigley</span>
+            <span class="person-id">_NEW_paddy_48</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Conor McConigley</span>
+            <span class="person-id">_NEW_paddy_49</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Anita McConigley</span>
+            <span class="person-id">I503628</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Paul McBride</span>
+                        <span class="spouse-id">_NEW_paddy_41</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Damien McBride</span>
+            <span class="person-id">_NEW_paddy_42</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Lauren McBride</span>
+            <span class="person-id">_NEW_paddy_43</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Ryan McBride</span>
+            <span class="person-id">_NEW_paddy_44</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Patrick McConigley</span>
+            <span class="person-id">I503630</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Siobhan McConigley</span>
+                        <span class="spouse-id">_NEW_paddy_51</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Odhrán McConigley</span>
+            <span class="person-id">_NEW_paddy_52</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Darragh McConigley</span>
+            <span class="person-id">_NEW_paddy_53</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Patrick McConigley</span>
+            <span class="person-id">_NEW_paddy_54</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Paula McConigley</span>
+            <span class="person-id">I503631</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Michaela McConigley</span>
+            <span class="person-id">_NEW_paddy_56</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Patrick McConigley</span>
+            <span class="person-id">_NEW_paddy_57</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Charlie McConigley</span>
+            <span class="person-id">I500732</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Alice Carr</span>
+                        <span class="spouse-id">I500733</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (4):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Noreen McConigley</span>
+            <span class="person-id">I500735</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Thomas McConigley</span>
+            <span class="person-id">I500734</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Sinead McConigley</span>
+            <span class="person-id">I500758</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Fiona McConigley</span>
+            <span class="person-id">I500759</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Mary McConigley</span>
+            <span class="person-id">I500210</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">James Friel</span>
+                        <span class="spouse-id">I500388</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (10):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Seamus Friel</span>
+            <span class="person-id">I500390</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Catherine McKinley</span>
+                        <span class="spouse-id">I500582</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                </div><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">James Patrick Friel</span>
+            <span class="person-id">_NEW_mary_41</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Sharon Keneddy</span>
+                        <span class="spouse-id">_NEW_mary_42</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Saoirse Friel</span>
+            <span class="person-id">_NEW_mary_43</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Kayleigh Friel</span>
+            <span class="person-id">_NEW_mary_45</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Aleesha Friel</span>
+            <span class="person-id">_NEW_mary_46</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div>
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Theresa Coll</span>
+                        <span class="spouse-id">_NEW_mary_44</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Jerry Friel</span>
+            <span class="person-id">_NEW_mary_47</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Emma Nugent</span>
+                        <span class="spouse-id">_NEW_mary_48</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Maime Friel</span>
+            <span class="person-id">_NEW_mary_49</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Lottie Friel</span>
+            <span class="person-id">_NEW_mary_50</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Annemarie Friel</span>
+            <span class="person-id">_NEW_mary_51</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Alan Murphy</span>
+                        <span class="spouse-id">_NEW_mary_52</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Margaret Friel</span>
+            <span class="person-id">I500407</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Willie McAteer</span>
+                        <span class="spouse-id">I500415</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                </div><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (5):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">John Mc Ateer</span>
+            <span class="person-id">_NEW_mary_55</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Maria Stanley</span>
+                        <span class="spouse-id">_NEW_mary_56</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Gemma Stanley</span>
+            <span class="person-id">_NEW_mary_57</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Liam Mc Ateer</span>
+            <span class="person-id">_NEW_mary_58</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">James Mc Ateer</span>
+            <span class="person-id">_NEW_mary_59</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Maureen Coll</span>
+                        <span class="spouse-id">_NEW_mary_60</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Jamie Mc Ateer</span>
+            <span class="person-id">_NEW_mary_61</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Tyler Mc Ateer</span>
+            <span class="person-id">_NEW_mary_62</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Kadyn Mc Ateer</span>
+            <span class="person-id">_NEW_mary_63</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Sheila Mc Ateer</span>
+            <span class="person-id">_NEW_mary_64</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Mark Tierney</span>
+                        <span class="spouse-id">_NEW_mary_65</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (4):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Michael Tierney</span>
+            <span class="person-id">_NEW_mary_66</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Luke Tierney</span>
+            <span class="person-id">_NEW_mary_67</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Jake Tierney</span>
+            <span class="person-id">_NEW_mary_68</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Shaun Tierney</span>
+            <span class="person-id">_NEW_mary_69</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Angela Mc Ateer</span>
+            <span class="person-id">_NEW_mary_70</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Damien Lynch</span>
+                        <span class="spouse-id">_NEW_mary_71</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (4):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Cormic Lynch</span>
+            <span class="person-id">_NEW_mary_72</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Ciaran Lynch</span>
+            <span class="person-id">_NEW_mary_73</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Zoe Lynch</span>
+            <span class="person-id">_NEW_mary_74</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Clara Lynch</span>
+            <span class="person-id">_NEW_mary_75</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Marie Mc Ateer</span>
+            <span class="person-id">_NEW_mary_76</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Martin Mc Ateer</span>
+                        <span class="spouse-id">_NEW_mary_77</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Calum Mc Ateer</span>
+            <span class="person-id">_NEW_mary_78</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Amy Mc Ateeer</span>
+            <span class="person-id">_NEW_mary_79</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Lucy Mc Ateer</span>
+            <span class="person-id">_NEW_mary_80</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">John Friel</span>
+            <span class="person-id">I500728</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">sean Friel</span>
+            <span class="person-id">I500756</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div>
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Rachael Fox</span>
+                        <span class="spouse-id">_NEW_mary_82</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Jamie Friel</span>
+            <span class="person-id">_NEW_mary_84</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Annie Friel</span>
+            <span class="person-id">I500727</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">John Morris</span>
+                        <span class="spouse-id">_NEW_mary_86</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Angela Morris</span>
+            <span class="person-id">_NEW_mary_87</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Duncan Roberts</span>
+                        <span class="spouse-id">_NEW_mary_88</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Calum Roberts</span>
+            <span class="person-id">_NEW_mary_89</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Joseph Roberts</span>
+            <span class="person-id">_NEW_mary_90</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Lisa Morris</span>
+            <span class="person-id">_NEW_mary_91</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Rob Mosquito</span>
+                        <span class="spouse-id">_NEW_mary_92</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Connor Mosquito</span>
+            <span class="person-id">_NEW_mary_93</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Poppy Mosquito</span>
+            <span class="person-id">_NEW_mary_94</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Bobby Morris</span>
+            <span class="person-id">_NEW_mary_95</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Olivia Morris</span>
+            <span class="person-id">_NEW_mary_96</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Michael Friel</span>
+            <span class="person-id">I500408</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">marie Da Silva</span>
+                        <span class="spouse-id">I500583</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                </div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Patrick Friel</span>
+            <span class="person-id">I500729</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Anne-Marie Bain</span>
+                        <span class="spouse-id">_NEW_mary_100</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Dawn Grossart</span>
+            <span class="person-id">_NEW_mary_101</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Rebecca Bain</span>
+            <span class="person-id">_NEW_mary_102</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Tyler Bain</span>
+            <span class="person-id">_NEW_mary_103</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Ellie Bain</span>
+            <span class="person-id">_NEW_mary_104</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Melissa Covin</span>
+            <span class="person-id">_NEW_mary_105</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Ryan Covin</span>
+                        <span class="spouse-id">_NEW_mary_106</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Theo Bain</span>
+            <span class="person-id">_NEW_mary_107</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Gail Grossart</span>
+            <span class="person-id">_NEW_mary_108</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Kyle Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_109</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Liam Friel</span>
+            <span class="person-id">_NEW_mary_110</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Charlie Friel</span>
+            <span class="person-id">I500409</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Kathleen Ruddy</span>
+                        <span class="spouse-id">_NEW_mary_112</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Daniel Friel</span>
+            <span class="person-id">_NEW_mary_113</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Sian Downey</span>
+                        <span class="spouse-id">_NEW_mary_114</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Sloane Friel</span>
+            <span class="person-id">_NEW_mary_115</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Quinn Friel</span>
+            <span class="person-id">_NEW_mary_116</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Shiela Friel</span>
+            <span class="person-id">I500730</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Patrick Mc Loughlin</span>
+                        <span class="spouse-id">_NEW_mary_118</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Christopher McLoughlin 25 Aug 1985</span>
+            <span class="person-id">_NEW_mary_119</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Jackie Ryan</span>
+                        <span class="spouse-id">_NEW_mary_120</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Patrick Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_121</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Darragh Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_122</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Fiadh Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_123</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Scott Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_124</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">May Friel</span>
+            <span class="person-id">I500731</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Donal Mc Loughlin</span>
+                        <span class="spouse-id">_NEW_mary_127</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (5):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Paul Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_128</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container"><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Chloe Kennedy McLoughlin</span>
+            <span class="person-id">_NEW_mary_129</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Ashleigh Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_130</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Megan Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_131</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Leah Mc Loughlin</span>
+            <span class="person-id">_NEW_mary_132</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">bf Colm Gilheaney</span>
+            <span class="person-id">_NEW_mary_133</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">gerard Friel</span>
+            <span class="person-id">I500410</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Tommy McConigley</span>
+            <span class="person-id">I500726</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Bridget McGuane</span>
+                        <span class="spouse-id">I503609</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (8):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Michael McConigley</span>
+            <span class="person-id">I503610</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Sarah Stevens</span>
+                        <span class="spouse-id">I503618</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Senan McConigley</span>
+            <span class="person-id">I503623</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Caoimhe McConigley</span>
+            <span class="person-id">I503624</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Eileen McConigley</span>
+            <span class="person-id">I503611</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Thomas McConigley</span>
+            <span class="person-id">I503612</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Helen Nolan</span>
+                        <span class="spouse-id">I503619</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Oisin McConigley</span>
+            <span class="person-id">I503625</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Tadhg McConigley</span>
+            <span class="person-id">I503626</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Mairead McConigley</span>
+            <span class="person-id">I503613</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">David Murphy</span>
+                        <span class="spouse-id">I503620</span>
+                        <span class="badge sp-badge">SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Fiach Murphy</span>
+            <span class="person-id">I503621</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Doireann Murphy</span>
+            <span class="person-id">I503622</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div></div></div><div class="spouse-box"><div class="spouse-header"><span class="spouse-label">UNKNOWN PARTNER</span></div><div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Sadhbh Murphy</span>
+            <span class="person-id">_NEW_tommy_52</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Sean McConigley</span>
+            <span class="person-id">I503614</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Claire McConigley</span>
+            <span class="person-id">I503615</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Cathal McConigley</span>
+            <span class="person-id">I503616</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    </div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Jamesy McConigley</span>
+            <span class="person-id">I503617</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Ariela Araneda</span>
+                        <span class="spouse-id">_NEW_tommy_57</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Sean McConigley</span>
+            <span class="person-id">I500724</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Catherine McAnnena</span>
+                        <span class="spouse-id">_NEW_sean_40</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (1):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Anne McConigley</span>
+            <span class="person-id">_NEW_sean_41</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">? Peterson</span>
+                        <span class="spouse-id">_NEW_sean_56</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (2):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Steven Peterson</span>
+            <span class="person-id">_NEW_sean_57</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Sharon Peterson</span>
+            <span class="person-id">_NEW_sean_58</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">? Haylock</span>
+                        <span class="spouse-id">_NEW_sean_59</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div></div></div></div></div></div></div></div></div>
+    <div class="person-node node-base">
+        <div class="node-header">
+            <span class="person-name">Danny McConigley</span>
+            <span class="person-id">I500725</span>
+            <span class="badge base-badge">BASELINE</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Kathleen Wilkes</span>
+                        <span class="spouse-id">_NEW_danny_38</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Mike Kent-McConigley</span>
+            <span class="person-id">_NEW_danny_39</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Gillian Kent</span>
+                        <span class="spouse-id">_NEW_danny_40</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                <div class="children-title">Children (3):</div><div class="children-list">
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Jessica Kent-McConigley</span>
+            <span class="person-id">_NEW_danny_41</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Hannah Kent-McConigley</span>
+            <span class="person-id">_NEW_danny_42</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Caitlin Kent-McConigley</span>
+            <span class="person-id">_NEW_danny_43</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div></div></div></div></div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Dominic McConigley</span>
+            <span class="person-id">_NEW_danny_44</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    </div>
+    <div class="person-node node-new">
+        <div class="node-header">
+            <span class="person-name">Celia Robinson</span>
+            <span class="person-id">_NEW_danny_45</span>
+            <span class="badge new-badge">NEW COUSIN ADDITION</span>
+        </div>
+    <div class="marriages-container">
+                <div class="spouse-box">
+                    <div class="spouse-header">
+                        <span class="spouse-label">PARTNER / SPOUSE:</span>
+                        <span class="spouse-name">Warren Robinson</span>
+                        <span class="spouse-id">_NEW_danny_46</span>
+                        <span class="badge new-badge">NEW SPOUSE</span>
+                    </div>
+                </div></div></div></div></div></div></div>
+        </div>
+    </div>
+</body>
+</html>

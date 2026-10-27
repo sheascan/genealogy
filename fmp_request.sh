@@ -1,0 +1,14 @@
+curl --url 'https://www.findmypast.ie/titan/marshal/graphql' \
+  -H 'apollographql-client-app: titan' \
+  -H 'sec-ch-ua-platform: "Chrome OS"' \
+  -H 'Referer: https://www.findmypast.ie/search/results?_page=3&lastname=carr&sourcecountry=ireland&keywordsplace=county%20donegal%2c%20ireland&keywordsplace_proximity=5&sourcecategory=life%20events%20(bmds)&collection=parish%20marriages~civil%20marriage%20%26%20divorce~civil%20deaths%20%26%20burials~parish%20baptisms~civil%20births&eventyear=1830&eventyear_offset=40&sid=999' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="8", "Chromium";v="156", "Google Chrome";v="156"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'country-code: IE' \
+  -H 'User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'apollographql-client-version: v71527' \
+  -H 'content-type: application/json' \
+  -H 'apollographql-client-name: titan-client' \
+  -H 'locale: en_IE' \
+  --data-raw $'{"operationName":"searchResultsRecordsAndMetadata","variables":{"filters":[{"values":["carr"],"variants":false,"field":"LastName"},{"values":["ireland"],"field":"SourceCountry"},{"values":["county donegal, ireland"],"proximity":5,"field":"KeywordsPlace"},{"values":["life events (bmds)"],"field":"SourceCollection"},{"values":["parish marriages","civil marriage & divorce","civil deaths & burials","parish baptisms","civil births"],"field":"SourceCategory"},{"values":["1830"],"offset":40,"field":"EventYear"}],"order":null,"pageNumber":3},"query":"query searchResultsRecordsAndMetadata($filters: [SearchFilter\u0021], $order: RecordSearchOrder, $pageNumber: Int) {\\n  root {\\n    id\\n    search {\\n      id\\n      recordSearch(filters: $filters, order: $order, pageNumber: $pageNumber) {\\n        id\\n        numberOfRecords\\n        numberOfNextPages\\n        records {\\n          id\\n          fields {\\n            fieldId\\n            value\\n            __typename\\n          }\\n          transcript {\\n            id\\n            creditCost\\n            recordMetadataId\\n            isNationalTrust\\n            __typename\\n          }\\n          pdf {\\n            id\\n            creditCost\\n            recordMetadataId\\n            isNationalTrust\\n            __typename\\n          }\\n          image {\\n            id\\n            creditCost\\n            recordMetadataId\\n            isNationalTrust\\n            mediaSource\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n"}'

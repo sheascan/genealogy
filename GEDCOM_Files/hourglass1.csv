@@ -1,0 +1,200 @@
+ID,Father,Mother,Relationship,Marriage Date
+F0001,,,Married,
+F0003,"McCarron, John","McConigley, Catherine",Married,
+F0004,"McConigley, John","McAteer, Msry",Married,
+F0006,"McConigley, Patrick","Grant, Mary",Married,
+F0007,"Grant, Michael","McConigley, Sarah",Married,
+F0008,"Grant, Charles",", Mary",Married,
+F0010,"McConigley, James",,Married,
+F500001,"McConigley, Mick","Carr, Bridget",Unknown,
+F500002,"Carr, James","Dorrian, Annie",Married,1939-07-15
+F500003,"McConigley, Mick Sean","Heraghty, Margaret",Married,1926-02-09
+F500004,"Dorrian, John","Dorrian, Bridget",Married,1912-02-20
+F500006,"Dorrian, William",", Nancy",Unknown,
+F500007,"Dorrian, Edward","Cannon, Sheila/Giley/Julia Julia",Married,1892-01-30
+F500008,"Dorrian, William","Callaghan, Cecelia",Married,
+F500009,"Dorrian, James",,Unknown,
+F500010,"Cannon, Patrick","Sweeney (of the hill), Anne",Unknown,
+F500011,"Coyle, Peter","Dorrian, Ellen",Married,1922-02-07
+F500012,"Sweeney, Charles","Dorrian, Sarah",Married,1927-09-06
+F500013,"Cannon, Pat","McAteer / McIntire / McIntyre, Ann McIntire",Unknown,
+F500015,"Coyle, Eddie","Canning, Sarah",Married,
+F500016,"Coyle, Barney","Coll, Tessie",Married,
+F500018,Cannon,,Unknown,
+F500025,"Heraghty, Michael","Coyle, Hannah",Married,1901-01-29
+F500026,"Heraghty, Patrick","Friel, Margaret",Unknown,
+F500027,"Coyle, Hugh","Kerr, Catherine",Unknown,
+F500028,"McAllister, James","Heraghty, Mary Anne",Married,1928-02-09
+F500029,"McAteer, Patrick","Heraghty, Cassie",Married,1933-02-23
+F500030,"Sweeney, John","Heraghty, Rose",Married,1932-01-20
+F500031,"Heraghty, Mickey","Friel, Maggie Kate",Married,
+F500032,"Logue, John","Heraghty, Theresa",Married,1957-02-00
+F500034,"Marley, Edward","McAllister, Mary",Married,
+F500035,,"McConigley, Mary",Married,1887-02-09
+F500037,"McElwaine, John","Sweeney, Mary",Married,
+F500046,"McConigley, Mike","O'Donnell, Anne",Married,1984-04-06
+F500051,"O Boyle, Patrick","Cannon, Catherine",Married,
+F500052,"Cannon, Patrick F","Coll, Hannah",Married,1922-02-22
+F500053,"McConigley, John","McMackin, Mary",Married,1891-01-29
+F500054,"McConigley, John","Gibbons, Unity",Married,1880-01-02
+F500055,"Cannon, Brian (Briney Bán)","Mcginley, Honora",Married,
+F500056,"Carr, James","Boyle, Alice",Married,
+F500057,"Carr, Denis","Mc Ginley, Grace",Married,
+F500058,Sweeney (of the hill),,Unknown,
+F500061,"Begley, Michael","Cannon, Mary",Married,1886-01-25
+F500062,"Cannon, John","Boyle, Catherine 'Kate Wandy'",Married,1900-02-04
+F500063,"Griffin, John","Cannon, Susan",Married,1882-01-15
+F500064,"Callaghan, Anthony","Cannon, Susan",Married,1895-02-07
+F500065,"Cannon, Thomas","Friel, Margaret",Married,
+F500066,"McElwaine, James","Cannon, Shiela",Married,
+F500067,"Cannon, Henry","McCarry, Mary",Married,
+F500069,"Friel, Dermot","Dorrian, Eileen",Married,
+F500071,"McMackin, John","McAteer, Nancy",Married,1849-02-20
+F500072,,"McMackin, Mary",Married,
+F500075,"McMackin, Daniel?",", Ann",Married,
+F500076,"Martin, Stephen","McMackin, Bridget",Married,1908-02-27
+F500077,"McMackin, Denis","Sweeney, Winifred",Married,
+F500091,"McHugh, Charles","Cannon, Mary E",Married,
+F500092,"Cannon, John","Friel, Mary",Married,1876-02-15
+F500093,,"Carr, Bridget",Married,1851-01-12
+F500094,"Begley, John","Begley, Catherine",Married,1928-11-28
+F500095,"Begley, James","McGinley, Bridget",Married,1925-02-22
+F500113,"Cannon, Michael","Gallagher, Roseann",Married,1918-01-09
+F500114,"Cannon, Michael","Friel, Mary",Married,1906-02-25
+F500115,"Cannon, John","Friel, Catherine (Kitty)",Married,1903-04-19
+F500123,"Weik, unknown? ?","McHugh, Rita Marie",Unknown,
+F500125,"McElwee, John","McElwaine, Hannah",Married,1890-02-18
+F500126,"McElwee, Michael","Heraghty, Maggie",Married,1906-01-22
+F500136,"Friel, James II","McConigley, Mary",Married,
+F500140,"McElwee, John","Cooney, Catherine",Married,1928-06-13
+F500141,"McElwee, John","Cooney, Catherine",Unknown,
+F500142,"Dillon, John","McConigley, Brigid",Married,1956-04-04
+F500143,"McAteer, Willie","Friel, Margaret",Married,
+F500153,"McElwee, James Francis","Brestic, Elizabeth Anne",Married,1956-10-06
+F500156,"McHugh, John Charles","Kellagher, Mary E.",Married,about 1883
+F500168,"Zamell, Anthony","McHugh, Cecelia",Married,
+F500170,"Nelson, John Henry","McHugh, Elizabeth",Married,1910-06-29
+F500171,"Boyle, Connell A.","McHugh, Catherine M.",Married,1914
+F500172,"Moore, Casper","McHugh, Mary",Married,
+F500180,"Gallagher, Mickey","Carr, Biddy",Married,1932
+F500181,"Gallagher, Michael","Carr, Annie",Married,1931-01-28
+F500193,"Cannon, Patrick Valentine",", Mary Agnes",Married,
+F500195,"Cannon, Sean","Corcoran, Amy",Married,
+F500196,", Michael Patrick","Cannon, Annie Teresa",Married,1940-01-03
+F500197,"Cannon, Bernard Vincent",", Mai",Married,
+F500198,"Duffin, Bill","Cannon, Hanorah",Married,
+F500199,", Arthur Henry",", Joan",Married,
+F500202,"Heraghty, Michael",,Unknown,
+F500213,"O Boyle, Patrick",,Married,1899-01-15
+F500214,"Deeney, Charles","Boyle, Anna/Nancy Boyle",Married,
+F500215,"Boyle, John","Griffin, Rose Anne",Married,1924-02-26
+F500218,"O'Donnell, James","Deeney, Kathleen",Married,
+F500222,"McConigley, Patrick","Doherty, Annie",Married,
+F500223,"Friel, Seamus III","McKinley, Catherine",Unknown,
+F500224,"Friel, Michael","da silva, marie",Unknown,
+F500232,"Boyle, James","Keesor, Alice Elizabeth",Married,
+F500236,"Callaghan, Francis (Frank)","Creaven, Sarah",Married,1935
+F500237,"Callaghan, John Edward","Oshea, Agnes Mary",Married,1931
+F500238,"McFadden, Ben",Dorrian,Married,
+F500245,"Nelson, Carl Walfred","Nelson, Elizabeth Margaret",Married,
+F500252,"Darr, Harry Alfred Jr.","Nelson, Mary Louise",Married,1946-06-27
+F500254,"Girard, Louis","Nelson, Mildred",Married,1932-09-14
+F500257,"McConigley, Charlie","Carr, Alice",Married,
+F500259,,"Carr, Annie",Married,1903-02-15
+F500268,"Friel, John",,Unknown,
+F500269,"Carr, Patrick","Carr, Hannah",Married,1938-02-01
+F500270,Carr,,Unknown,
+F500275,"Mc Ginley, Charles","McAteer, Bridget",Married,
+F500298,,"Kerr, Bridget",Unknown,
+F500299,"McConigley, James","Corrigan, Carmel",Married,
+F500300,"O'Donoghue, Matt","McConigley, Margaret",Married,
+F500301,"McConigley, John","Sheridan, Catherine",Unknown,
+F500302,"McConigley, Patrick","Wilhaire, Evelyn",Married,
+F500303,"Chodzeisner, Simon","McConigley, Martina",Married,
+F500305,"Sweeney, John","McConigley, Ann",Married,
+F500306,"McConigley, Liam","Gallagher, Margaret",Married,
+F500307,"Cleary, Ollie","McConigley, Maureen",Married,
+F500308,"McGettigan, James","McConigley, Noreen",Married,
+F500309,"McConigley, Ciaran",", Donata",Married,
+F500310,"Keane, Dave","McConigley, Niamh",Married,
+F500311,"Ryan, Emmet","O'Donoghue, Ciara",Married,
+F500312,"McConigley, Michael","McAndrew, Joanne",Married,2021-04-09
+F500313,"McConigley, Cormac","Kelly, Sarah",Married,
+F500320,"McConigley, John","Callaghan, Bridget",Married,1850-12-02
+F500321,"McConigley, Patrick","McAteer, Bridget",Married,
+F500322,"McConigley, Francis",,Unknown,
+F500323,"McConigley, Patrick",,Unknown,
+F500325,"Friel, James","Heraghty, Bridget",Married,1938-04-27
+F500326,"Doherty, John","Carr, Grace Ann",Married,
+F500327,"Doherty, Seamus","McKinley, Catriona",Married,
+F500328,"McElwaine, Neil","Dorrian, Ellen",Married,
+F500329,"McElwaine, Neil","Carr, Anne",Married,
+F500339,"McConigley, Frank",,Unknown,
+F500352,"Gillan, Alexander","Cannon, Margaret",Married,
+F500385,"Carr, Edward","Shiels, Mary",Married,1903-08-17
+F500387,"Friel, Paddy Barney","Gallagher, Mary Ellen",Married,1965
+F500388,,"Carr, Anne",Married,1893-01-08
+F500397,"Carr, Mick",,Unknown,
+F500405,"Megafu, Emmanuel","Dorrian, Kathleen Patricia",Married,
+F500406,,"Sweeney, Monica",Married,
+F500417,"Gibney, Francis","Coyle, Celia j",Married,
+F500418,"McBride, Christopher","Coyle, Margaret",Married,
+F500419,"Coyle, Donal","Clinton, Freda",Married,
+F500428,,"McConigley, Sarah",Unknown,
+F500448,"Boyle, William J Sr.","Bannon, Elizabeth Marie",Married,
+F500456,"McHugh, William Joseph","McHugh, Seretha Raphaela",Married,1923-07-05
+F500464,"McConigley, Hugh","Friel, Bridget",Married,1870-10-02
+F500470,"Kerr, Charles",,Married,
+F500476,Dunsworth,"Friel, Bridget",Married,
+F500496,McGroddy,,Unknown,
+F500514,"Friel, Patrick","Dorrian, Susanah",Married,
+F500536,,"Carr, Mary",Married,1879-01-04
+F500551,"Spellman, Robert Matthew","Boyle, Josephine A",Married,1965-12-19
+F500560,,"McConigley, Mary",Married,1934
+F500565,Friel,"Friel, Margery",Married,
+F500601,,"Dorrian, Margaret Madge",Unknown,
+F500609,"McConigley, Patrick",,Married,about 1870
+F500642,,"McConigley, Bridget 1c",Married,1906
+F500643,,"Sweeney, Sheila Seline",Married,
+F500657,,"Kerr, Margaret",Married,
+F500677,"Girouard, Arthur Joseph","Cannon, Susan",Unknown,
+F500693,,"McConigley, Mary Ann",Married,about 1912
+F500701,,"Mcgonigle, Mary",Married,
+F500709,"McConigley, James",,Unknown,
+F500710,,"Dorrian, Sarah",Married,
+F500711,,"Dorrian, Sarah",Unknown,
+F500714,,"carr, mary",Unknown,
+F500772,"McConigley, James",,Unknown,
+F500773,"Carr, Edward",,Married,1890-02-11
+F500833,"McCarron, John",,Unknown,
+F500911,"Byrne, Joseph","McConigley, Christine",Married,2023-10-28
+F500917,,"Kerr, Margaret",Unknown,
+F500918,,"McConigley, Julia 1919",Unknown,
+F500919,,"carr, mary",Unknown,
+F500920,"Kerr, James",,Unknown,
+F500942,"Gallagher, Hugh Phillip","Cannon, Anne Marie",Married,1939-11-01
+F500945,,"McConigley, Bridget 1c",Unknown,
+F500950,"Fahey, Alan","Dorrian, Susannah",Married,1979-12-00
+F500951,"Fahey, Gavin","Heraghty, Claire",Married,
+F500953,"McConigley, Tommy","McGuane, Bridget",Married,
+F500954,"McConigley, Michael","Stevens, Sarah",Married,
+F500955,"McConigley, Thomas","Nolan, Helen",Married,
+F500956,"Murphy, David","McConigley, Mairead",Married,
+F500957,"McGroddy, Andrew","McAllister, Sarah",Married,1962-12-26
+F500966,"Begley, Michael Joe","Carr, Anna",Married,
+F500983,"McConigley, John",,Married,
+F500987,"McConigley, John","McAteer, Catherine",Unknown,
+F501045,"Cannon, Henry John Sr","Mcelwaine, Mary",Married,
+F501062,"Callaghan, John","McConigley, Bridget.1b",Married,1906
+F501065,"Callaghan, Edward James 1b","Sweeney, Sheila Seline",Married,
+F501078,"Carr, Brian",,Married,
+F501079,"Dorrian, Hugh",,Married,1891-06-21
+F501094,"McConigley, Patrick","Carr, Margaret",Married,
+F501100,"McConigley, Francis",,Married,
+F501113,"Carr, Neil",,Married,1933-05-10
+F501114,"Mcconigley, John",,Married,1849-02-05
+F501115,"Callaghan, Edward James 1b",,Unknown,
+F501116,"Callaghan, Mickey 1b","Gavigan, Kathleen",Married,
+F501122,McConigley,McConagly,Unknown,
+F501151,,"carr, Maggie",Married,about 1902
+F501155,,"McAteer, Catherine",Unknown,

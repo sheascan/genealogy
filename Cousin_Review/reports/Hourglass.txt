@@ -1,0 +1,163 @@
+Loading Rebuilds/baseline_add_cousins_and_theShans.gramps...
+
+================================================================================
+HOURGLASS REPORT: Mick Sean McConigley & Margaret Heraghty
+================================================================================
+
+[ HUSBAND'S ANCESTRY ]
+│                    ┌─────McConigley, Patrick (b. 1800)
+│             ┌─────McConigley, John (b. 1825, d. 1910)
+│             │      └─────McAteer, Bridget (b. 1805)
+│      ┌─────McConigley, John (b. 1854)
+│      │      └─────Callaghan, Bridget (b. 1830)
+──────McConigley, Mick Sean (b. 1897, d. 1962)
+│      │             ┌─────McMackin, Daniel?
+│      │      ┌─────McMackin, John (d. 1892, b. 1820)
+│      │      │      └─────Ann (d. 1868, b. 1787)
+│      └─────McMackin, Mary (b. 1856, d. 1924)
+│             └─────McAteer, Nancy (b. 1826, d. 1874)
+
+[ WIFE'S ANCESTRY ]
+│                    ┌─────Heraghty, Michael (d. 1875)
+│             ┌─────Heraghty, Patrick (d. 1892, b. 1849)
+│      ┌─────Heraghty, Michael (b. 1879, d. 1948)
+│      │      └─────Friel, Margaret (d. 1895, b. 1849)
+──────Heraghty, Margaret (b. 1902, d. 1975)
+│      │      ┌─────Coyle, Hugh (b. 1842, d. 1901)
+│      └─────Coyle, Hannah (b. 1879, d. 1946)
+│             └─────Kerr, Catherine (d. 1907, b. 1841)
+
+[ DESCENDANTS & SPOUSES ]
+└─────McConigley, Mick Sean (b. 1897, d. 1962) + Heraghty, Margaret (b. 1902, d. 1975)
+├───── McConigley, Mary (d. 2001) + Friel, James
+│      ├───── Friel, Seamus (b. 1946, d. 2012) + McKinley, Catherine
+│      │      ├───── Friel, James Patrick + Keneddy, Sharon + Coll, Theresa
+│      │      ├───── Friel, Jerry + Nugent, Emma
+│      │      └───── Friel, Annemarie + Murphy, Alan
+│      ├───── Friel, Margaret (b. 1949) + McAteer, Willie (b. 1942, d. 2005)
+│      │      ├───── Mc Ateer, John + Stanley, Maria
+│      │      ├───── Mc Ateer, James + Coll, Maureen
+│      │      ├───── Mc Ateer, Sheila + Tierney, Mark
+│      │      ├───── Mc Ateer, Angela + Lynch, Damien
+│      │      └───── Mc Ateer, Marie + Mc Ateer, Martin
+│      ├───── Friel, John (b. 1950) + Fox, Rachael
+│      │      └───── Friel, sean (b. 1970, d. 1972)
+│      │      └───── Friel, Jamie
+│      ├───── Friel, Annie (b. 1951) + Morris, John
+│      │      ├───── Morris, Angela + Roberts, Duncan
+│      │      ├───── Morris, Lisa + Mosquito, Rob
+│      │      └───── Morris, Bobby
+│      ├───── Friel, Michael (b. 1953, d. 2003) + Da Silva, marie (d. 2004)
+│      ├───── Friel, Patrick (b. 1958) + Bain, Anne-Marie
+│      │      ├───── Grossart, Dawn
+│      │      ├───── Grossart, Gail
+│      │      └───── Friel, Liam
+│      ├───── Friel, Charlie (b. 1959, d. 2018) + Ruddy, Kathleen
+│      │      └───── Friel, Daniel + Downey, Sian
+│      ├───── Friel, Shiela (b. 1962) + Mc Loughlin, Patrick
+│      │      ├───── 1985, Christopher McLoughlin 25 Aug + Ryan, Jackie
+│      │      └───── Mc Loughlin, Scott
+│      ├───── Friel, May + Mc Loughlin, Donal
+│      │      ├───── Mc Loughlin, Paul
+│      │      ├───── Mc Loughlin, Ashleigh
+│      │      ├───── Mc Loughlin, Megan
+│      │      ├───── Mc Loughlin, Leah
+│      │      └───── Gilheaney, bf Colm
+│      └───── Friel, gerard
+├───── McConigley, Mick (b. 1928, d. 2017) + Carr, Bridget (b. 1939)
+│      ├───── McConigley, Mike (b. 1960) + O'Donnell, Anne (b. 1956)
+│      │      ├───── McConigley, Christine (b. 1988) + Byrne, Joseph (b. 1988)
+│      │      └───── McConigley, Brid (b. 1990)
+│      ├───── McConigley, James (b. 1961) + Corrigan, Carmel
+│      │      ├───── McConigley, Michael (b. 1991) + McAndrew, Joanne
+│      │      └───── McConigley, Cormac (b. 1994) + Kelly, Sarah
+│      ├───── McConigley, Margaret (b. 1962) + O'Donoghue, Matt
+│      │      ├───── O'Donoghue, Ciara + Ryan, Emmet (b. 1982)
+│      │      └───── O'Donoghue, Eimear
+│      ├───── McConigley, John (b. 1964) + Sheridan, Catherine
+│      │      ├───── McConigley, Ciaran + Donata
+│      │      └───── McConigley, Niamh + Keane, Dave
+│      ├───── McConigley, Ann (b. 1965) + Sweeney, John (b. 1966)
+│      │      ├───── Sweeney, Sean (b. 2001)
+│      │      └───── Sweeney, Grainne (b. 2004)
+│      ├───── McConigley, Patrick (b. 1967) + Wilhaire, Evelyn (b. 1972)
+│      │      ├───── McConigley, Cillian
+│      │      └───── McConigley, Laura
+│      ├───── McConigley, Liam (b. 1969) + Gallagher, Margaret (b. 1969)
+│      │      ├───── McConigley, Ruadhri (b. 1999) + Emma
+│      │      └───── McConigley, Odhran (b. 2003)
+│      ├───── McConigley, Maureen (b. 1971) + Cleary, Ollie (b. 1973)
+│      │      ├───── Cleary, Ronan (b. 2013)
+│      │      ├───── Cleary, Orlagh (b. 2014)
+│      │      └───── Cleary, Aoife (b. 2014)
+│      ├───── McConigley, Martina (b. 1973) + Chodziesner, Simon
+│      │      └───── Chodziesner, Liam
+│      └───── McConigley, Noreen (b. 1975) + McGettigan, James (b. 1972)
+│             ├───── McGettigan, Enda (b. 2006)
+│             └───── McGettigan, Kevin (b. 2008)
+├───── McConigley, Norah (d. 2005, b. 1932)
+├───── McConigley, Sean + McAnnena, Catherine
+│      ├───── McConigley, Anne + Peterson, Steve
+│      │      ├───── Peterson, Steven
+│      │      └───── Peterson, Sharon + Haylock, ?
+│      ├───── McConigley, Margaret
+│      ├───── McConigley, Rose
+│      ├───── McConigley, John (b. 1961)
+│      ├───── McConigley, Maureen
+│      ├───── McConigley, Teresa
+│      └───── McConigley, Charles
+│      └───── McConigley, Charles
+├───── McConigley, Brigid (b. 1934, d. 1999) + Dillon, John (d. 1992, b. 1916)
+│      ├───── Dillon, John Joseph (b. 1958, d. 1958)
+│      ├───── Dillon, Sarah Anne "Anne" (b. 1959)
+│      ├───── Dillon, Michael Joseph (b. 1969) + Furlong, Anne Marie
+│      │      ├───── Dillon, Ava Bridget
+│      │      └───── Dillon, Sean James
+│      └───── Dillon, Gerard Anthony
+├───── McConigley, Patrick (b. 1936, d. 2008) + Doherty, Annie
+│      ├───── McConigley, Margaretta (b. 1968)
+│      │      └───── McConigley, Mark
+│      ├───── McConigley, Mary Teresa (b. 1971, d. 2022)
+│      │      └───── McConigley, Aaron
+│      ├───── McConigley, Noreen
+│      │      ├───── McConigley, Lisa
+│      │      └───── McConigley, Conor
+│      ├───── McConigley, Anita + McBride, Paul
+│      │      ├───── McBride, Damien
+│      │      ├───── McBride, Lauren
+│      │      └───── McBride, Ryan
+│      ├───── McConigley, Patrick + McConigley, Siobhan
+│      │      ├───── McConigley, Odhrán
+│      │      ├───── McConigley, Darragh
+│      │      └───── McConigley, Patrick
+│      └───── McConigley, Paula
+│             ├───── McConigley, Michaela
+│             └───── McConigley, Patrick
+├───── McConigley, Charlie (b. 1938, d. 2017) + Carr, Alice
+│      ├───── McConigley, Noreen (b. 1973)
+│      ├───── McConigley, Thomas (b. 1976)
+│      ├───── McConigley, Sinead
+│      └───── McConigley, Fiona
+├───── McConigley, Danny + Wilkes, Kathleen
+│      ├───── Kent-McConigley, Mike + Kent, Gillian
+│      │      ├───── Kent-McConigley, Jessica
+│      │      ├───── Kent-McConigley, Hannah
+│      │      └───── Kent-McConigley, Caitlin
+│      ├───── McConigley, Dominic
+│      └───── Robinson, Celia + Robinson, Warren
+└───── McConigley, Tommy + McGuane, Bridget
+       ├───── McConigley, Michael + Stevens, Sarah
+       │      ├───── McConigley, Senan
+       │      └───── McConigley, Caoimhe
+       ├───── McConigley, Eileen
+       ├───── McConigley, Thomas + Nolan, Helen
+       │      ├───── McConigley, Oisin
+       │      └───── McConigley, Tadhg
+       ├───── McConigley, Mairead + Murphy, David
+       │      ├───── Murphy, Fiach
+       │      └───── Murphy, Doireann
+       │      └───── Murphy, Sadhbh
+       ├───── McConigley, Sean
+       ├───── McConigley, Claire
+       ├───── McConigley, Cathal
+       └───── McConigley, Jamesy + Araneda, Ariela

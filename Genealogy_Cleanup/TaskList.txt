@@ -1,0 +1,48 @@
+Going from 4,500 down to 600 records is an ~87% reduction. That is a massive contraction, and it strongly suggests that the pruning either aggressively severed collateral in-law branches early, or hit bottleneck "bridge" individuals whose removal cascaded through entire subtrees.
+
+The intermediate artifacts generated at each stage of the pipeline allow you to audit what was discarded and why:
+
+**1. Duplication vs. Structural Loss (`quarantine_catalog.csv`)**
+
+* Check `quarantine_catalog.csv` sorted by `Subtree_Size` descending.
+
+
+* Look for duplicate branches where `Subtree_Size` is unusually large. If a duplicate couple was severed, all descendants exclusively under that couple were quarantined. Ensure that the `Primary_Anchor` in your canonical file actually carries those descendants or that you didn't quarantine a branch with richer generational data.
+
+
+
+**2. Collateral & Surnames (`branches_to_cull.csv`)**
+
+* Open `branches_to_cull.csv` and filter by `Cull_Decision == "PRUNE"`.
+
+
+* Verify whether people with maternal ancestral lines (e.g., your direct grandmothers' ancestral families) were classified as `PRUNE`.
+
+
+* Remember that `gedcom_tuned_branches.py` only traces **ancestors of root** and **all descendants of those ancestors**. It treats the ancestors of an in-law (or the parents of a spouse who is not a direct ancestor) as extraneous collateral. If you want to retain allied local families, their surnames must be added to `SURNAME_TARGETS`.
+
+
+
+**3. Gateway Bottlenecks (`gedcom_find_bridges.py`)**
+
+* Run `gedcom_find_bridges.py <file.ged> <root_id> 5`.
+
+
+* Setting the cutoff to 5 or 6 hops will highlight the exact gateway individuals where hundreds of people branch off. If one of those gateways is marked `PRUNE` in your culling sheet, pruning that single person or couple will discard the entire downstream subtree.
+
+
+
+**Strategy for Your Friend's 12,000-Person File**
+Do not run the full quarantine/prune pipeline right away. Run diagnostics first:
+
+1. **Baseline audit:** Run `gedcom_audit.py` to check INDI/FAM ratios and custom tags.
+
+
+2. **Duplicate scan:** Run `gedcom_detect_duplicates.py` and inspect `duplicates_manifest.csv`. Large trees assembled from online merges often have hundreds of duplicate sibling pairs and duplicate couples.
+
+
+3. **Distance distribution:** Run `gedcom_distance_report.py` using his root ID to examine how many records sit at 10+ hops or are completely disconnected (`-1`).
+
+
+
+Would you like to adjust `SURNAME_TARGETS` in `gedcom_tuned_branches.py` to include more allied Donegal families before running your friend's file, or inspect a specific large branch from `quarantine_catalog.csv` first?

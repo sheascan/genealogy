@@ -95,7 +95,7 @@ with open("cousins.csv", "r") as f:
         print(f"""        <tr>
           <td><strong>{focus}</strong></td>
           <td><a href="{slug}.html">/{slug}.html</a> <span class="url-token">({pfx})</span></td>
-          <td><a class="sheet-link" href="sheets/{slug}.php" target="_blank">✏️ Report changes</a></td>
+          <td><a class="sheet-link" href="sheets/redirect.php?id={slug}" target="_blank">✏️ Report changes</a></td>
         </tr>""")
 ' >> "$ADMIN_CONSOLE"
 

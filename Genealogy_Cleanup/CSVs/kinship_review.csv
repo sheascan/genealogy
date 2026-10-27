@@ -1,0 +1,4498 @@
+Action (KEEP/PRUNE),Degree_Hops,ID,Name,Birth_Year,Death_Year
+,26,@I504885@,Isabella BRITTON,1838,1916
+,26,@I504886@,Bridget BRITTON,1840,1902
+,26,@I504887@,Rose BRITTON,1843,1918
+,26,@I504888@,Mary Anne BRITTON,1901,1910
+,26,@I504889@,Teresa BRITTON,1850,1918
+,26,@I504890@,Edward BRITTON,1851,1919
+,26,@I504891@,Agnes BRITTON,1855,1926
+,25,@I503937@,Catherine McKernan,1844,
+,25,@I503938@,Susan McKernan,1846,
+,25,@I503939@,Bernard McKernan,1846,
+,25,@I503940@,Bridget McKernan,1848,
+,25,@I503943@,Patrick Haughey,1838,
+,25,@I503944@,Catherine Haughey,1840,
+,25,@I503945@,Brigid Haughey,1842,
+,25,@I503946@,Sara Haughey,1844,
+,25,@I503947@,Margaret Haughey,1847,
+,25,@I503948@,Michael Haughey,1848,
+,25,@I503949@,Alice Haughey,1850,
+,25,@I503950@,John Haughey,1853,
+,25,@I503951@,Bridget Conway,1869,1899
+,25,@I503952@,Mary Eugine Herrmann,1876,1940
+,25,@I503953@,(Hugh) Charles McKernan,1896,1937
+,25,@I503954@,Mary Katherine McKernan,1904,1950
+,25,@I503955@,Patrick McKernan,1906,
+,25,@I503956@,Elizabeth (Lizzie) Brolly,1878,
+,25,@I503957@,Hugh McKernan,1903,
+,25,@I503958@,Eileen McKernan,1904,
+,25,@I503959@,Cecelia (Cissie) McKernan,1907,
+,25,@I503960@,Mary Teresa McKernan,1908,
+,25,@I503961@,Patrick McKernan,1909,
+,25,@I503962@,John Gerard McKernan,1912,2000
+,25,@I503974@,Catherine Harvey,1877,1971
+,25,@I503975@,Mary Agnes McKernan,1909,2005
+,25,@I503976@,Sr. Celine (Rose Anne) McKernan,1910,
+,25,@I503977@,Eileen (Lena) McKernan,1912,
+,25,@I503978@,Catherine (Kathleen) McKernan,1914,1988
+,25,@I503979@,Alice McKernan,1916,2008
+,25,@I503980@,Hugh McKernan,1918,2013
+,25,@I504867@,Hugh Ballintra (Snr.) Britton,1875,1950
+,25,@I504868@,Christy (Christopher Edward) Britton,1876,1925
+,25,@I504869@,Robert John Britton,1879,1879
+,25,@I504870@,William Britton,1880,1880
+,25,@I504871@,Mary (Mamie) Britton,1881,1961
+,25,@I504872@,Fergie Britton,1882,1950
+,25,@I504875@,Hugh Ballintra (Snr.) Britton,1875,1950
+,25,@I504876@,Christy (Christopher Edward) Britton,1876,1925
+,25,@I504877@,Robert John Britton,1879,1879
+,25,@I504878@,William Britton,1880,1880
+,25,@I504879@,Mary (Mamie) Britton,1881,1961
+,25,@I504880@,Fergie Britton,1882,1950
+,25,@I504883@,Hugh 'The Nailor' BRITTON,1811,1893
+,25,@I504884@,Mary Anne PILKINGTON,1812,1892
+,25,@I504893@,Bernard Egan,1908,1911
+,25,@I504894@,Joan Cummins,1921,2006
+,25,@I504895@,Donal Patrick Britton,1951,1996
+,25,@I504896@,Cabrini (Joan C.B.) Britton,1948,2018
+,25,@I504899@,Margaret McCauley,1901,1918
+,25,@I504900@,Annie Cathleen McCauley,1901,1943
+,25,@I504901@,Catherine McCauley,1911,1932
+,25,@I504902@,Patrick McCauley,1901,1905
+,25,@I504903@,Una Crennan,,1992
+,25,@I504904@,Ernan (Ernan Francis) Britton,1946,1992
+,24,@I503453@,John (Johnnie) McKernan,1865,1935
+,24,@I503454@,Alice McKernan,1868,1892
+,24,@I503455@,Patrick McKernan,1870,1902
+,24,@I503456@,Hugh McKernan,1873,1962
+,24,@I503457@,Michael (Mickey) Hugh McKernan,1878,1968
+,24,@I503713@,Rose Cellini,1926,2004
+,24,@I503859@,Henry McCaughey,1911,1911
+,24,@I503860@,Mary McCaughey,1887,
+,24,@I503861@,Johnny McCaughey,1866,
+,24,@I503862@,Thomas McCaughey,1889,1891
+,24,@I503863@,"Elizabeth ""Lizzie"" McCaughey",1885,
+,24,@I503864@,Annie McCaughey,1901,
+,24,@I503865@,Thomas McCaughey,1891,1901
+,24,@I503866@,Peter McCaughey,1881,
+,24,@I503867@,Patrick McCaughey,1869,1925
+,24,@I503868@,Margaret Jane 'Maggie' McCaughey,1876,1911
+,24,@I503935@,John McKernan,1840,
+,24,@I503936@,Alice Fox,1840,1880
+,24,@I503941@,Micheal Haughey,1815,1883
+,24,@I503942@,Maria McGurk,1809,1860
+,24,@I503973@,Mary McKernan,1871,1914
+,24,@I504546@,Arthur Kelly,1849,
+,24,@I504547@,Joseph Kelly,1853,
+,24,@I504548@,James Kelly,1842,
+,24,@I504549@,Mary Kelly,1844,
+,24,@I504553@,Arthur Kelly,1849,
+,24,@I504554@,Joseph Kelly,1853,
+,24,@I504555@,James Kelly,1842,
+,24,@I504556@,Mary Kelly,1844,
+,24,@I504565@,Arthur Kelly,1849,
+,24,@I504566@,Joseph Kelly,1853,
+,24,@I504567@,James Kelly,1842,
+,24,@I504568@,Mary Kelly,1844,
+,24,@I504577@,Arthur Kelly,1849,
+,24,@I504578@,Joseph Kelly,1853,
+,24,@I504579@,James Kelly,1842,
+,24,@I504580@,Mary Kelly,1844,
+,24,@I504589@,Arthur Kelly,1849,
+,24,@I504590@,Joseph Kelly,1853,
+,24,@I504591@,James Kelly,1842,
+,24,@I504592@,Mary Kelly,1844,
+,24,@I504846@,Marie (Dr.) Britton,1915,2010
+,24,@I504847@,Pat Britton,1916,2001
+,24,@I504848@,Dermot (Canon) Britton,1917,2005
+,24,@I504849@,Kevin Britton,1919,1989
+,24,@I504850@,Rita Britton,1920,2013
+,24,@I504851@,Bernie Britton,1926,2003
+,24,@I504852@,Joseph Christopher Britton,1933,1999
+,24,@I504856@,Marie (Dr.) Britton,1915,2010
+,24,@I504857@,Pat Britton,1916,2001
+,24,@I504858@,Dermot (Canon) Britton,1917,2005
+,24,@I504859@,Kevin Britton,1919,1989
+,24,@I504860@,Rita Britton,1920,2013
+,24,@I504861@,Bernie Britton,1926,2003
+,24,@I504862@,Joseph Christopher Britton,1933,1999
+,24,@I504865@,HUGH Britton,1854,1902
+,24,@I504866@,Anne (Maryanne) Cahill,1854,1899
+,24,@I504873@,HUGH Britton,1854,1902
+,24,@I504874@,Anne (Maryanne) Cahill,1854,1899
+,24,@I504897@,Patrick McCauley,1911,1930
+,24,@I504898@,Ellen Gallagher,1860,1897
+,23,@I503451@,Hugh McKernan,1841,1900
+,23,@I503452@,Mary Haughey,1836,1915
+,23,@I503472@,Mary Agnes Wallace,1940,1930
+,23,@I503473@,John Joseph Skiffington,1940,1940
+,23,@I503474@,Hugh G. Skiffington,1940,1940
+,23,@I503475@,Joseph I Skiffington,1950,2011
+,23,@I503714@,Alfred Lorenz,1896,1967
+,23,@I503722@,Joseph Quinn,1895,1964
+,23,@I503754@,Frances Cunningham,1904,1977
+,23,@I503755@,Hugh Edward Skiffington,1925,1925
+,23,@I503756@,Frances Patricia Skiffington,1936,1992
+,23,@I503757@,Hugh Charles Skiffington,1932,2009
+,23,@I503857@,John McCaughey,1901,1916
+,23,@I503858@,Isabella Flanagan,1901,1929
+,23,@I503928@,Francis Cahill,1905,1915
+,23,@I503929@,Mary Ellen Cahill,1930,1997
+,23,@I504102@,John Dillon,1837,
+,23,@I504103@,William Dillon,,1959
+,23,@I504104@,Margaret Dillon,1867,1945
+,23,@I504105@,John Dillon,1868,1908
+,23,@I504106@,Alice Dillon,1871,1910
+,23,@I504107@,Rosanna Dillon,1873,1873
+,23,@I504108@,Michael Dillon,1875,1875
+,23,@I504109@,Catherine Dillon,1876,1906
+,23,@I504110@,Patrick Dillon,1880,1906
+,23,@I504111@,Rose Anne Dillon,1888,1913
+,23,@I504233@,Joseph McCaul,1901,1964
+,23,@I504544@,Kelly,,
+,23,@I504545@,,,
+,23,@I504551@,Kelly,,
+,23,@I504552@,,,
+,23,@I504563@,Kelly,,
+,23,@I504564@,,,
+,23,@I504575@,Kelly,,
+,23,@I504576@,,,
+,23,@I504587@,Kelly,,
+,23,@I504588@,,,
+,23,@I504628@,Catherine McClafferty,1888,1961
+,23,@I504629@,Eugene A Kelly,1938,2001
+,23,@I504630@,Edward Aloysius Kelly,1923,2003
+,23,@I504631@,John Paul Kelly,1916,1943
+,23,@I504632@,Peter Joseph Kelly,1916,2000
+,23,@I504633@,John McBride,1889,1973
+,23,@I504634@,Patrick Joseph McBride,1915,
+,23,@I504635@,Peter John McBride,1917,
+,23,@I504636@,Mary Theresa McBride,1920,
+,23,@I504637@,Francis McBride,1918,
+,23,@I504638@,Catherine McClafferty,1888,1961
+,23,@I504639@,Eugene A Kelly,1938,2001
+,23,@I504640@,Edward Aloysius Kelly,1923,2003
+,23,@I504641@,John Paul Kelly,1916,1943
+,23,@I504642@,Peter Joseph Kelly,1916,2000
+,23,@I504643@,John McBride,1889,1973
+,23,@I504644@,Patrick Joseph McBride,1915,
+,23,@I504645@,Peter John McBride,1917,
+,23,@I504646@,Mary Theresa McBride,1920,
+,23,@I504647@,Francis McBride,1918,
+,23,@I504703@,Beulah Fox,1903,1930
+,23,@I504704@,C. Kathryn Yerger,1917,1990
+,23,@I504705@,Teresa Skiffington,1935,1940
+,23,@I504706@,Francis Skiffington,1926,1930
+,23,@I504707@,Esther Skiffington,1940,2009
+,23,@I504745@,John Daly,1787,
+,23,@I504746@,Susan McAleer,1822,1913
+,23,@I504747@,Owen Daly,1855,
+,23,@I504748@,Ellen Daly,1856,
+,23,@I504749@,Thomas Daly,1858,
+,23,@I504750@,Susan Daly,1861,
+,23,@I504751@,John Daly,1864,1947
+,23,@I504769@,William McGough,1800,
+,23,@I504770@,James McGough,1805,1871
+,23,@I504771@,John McGough,1788,
+,23,@I504772@,Anne Donaghy,,1859
+,23,@I504773@,Susan,,
+,23,@I504774@,Owen Daly,1855,
+,23,@I504775@,Patrick Daly,1857,
+,23,@I504776@,Mary Jane Daly,1859,
+,23,@I504777@,Mary Jane Daly,1861,
+,23,@I504778@,Thomas Daly,1865,
+,23,@I504779@,Michael Kelly,,
+,23,@I504780@,Patrick Kelly,1840,
+,23,@I504781@,Francis Kelly,1842,
+,23,@I504782@,Mary Kelly,1846,
+,23,@I504783@,Michael Kelly,1850,
+,23,@I504815@,Anne (Annie) McDevitt,1866,1903
+,23,@I504816@,Charles McDevitt,1868,1868
+,23,@I504817@,John McDevitt,1870,1901
+,23,@I504818@,Elizabeth (Lizzie) McDevitt,1872,1872
+,23,@I504819@,Margaret Jane (Maggie) McDevitt,1876,1961
+,23,@I504820@,William Joseph McDevitt,1879,1906
+,23,@I504821@,Annie McDermott,1866,1886
+,23,@I504822@,Annie McDevitt,1866,1886
+,23,@I504835@,Anne (Annie) McDevitt,1866,1903
+,23,@I504836@,Charles McDevitt,1868,1868
+,23,@I504837@,John McDevitt,1870,1901
+,23,@I504838@,Elizabeth (Lizzie) McDevitt,1872,1872
+,23,@I504839@,Margaret Jane (Maggie) McDevitt,1876,1961
+,23,@I504840@,William Joseph McDevitt,1879,1906
+,23,@I504841@,Annie McDermott,1866,1886
+,23,@I504842@,Annie McDevitt,1866,1886
+,23,@I504844@,Fergie Britton,1882,1911
+,23,@I504845@,Mary McCauley,1887,1901
+,23,@I504854@,Fergie Britton,1882,1911
+,23,@I504855@,Mary McCauley,1887,1937
+,22,@I503090@,Della (Bridget) McKernan,1880,1940
+,22,@I503091@,John Joseph Skiffington,1900,1930
+,22,@I503092@,Hugh Charles Skiffington,1978,1978
+,22,@I503093@,Marie Skiffington,1900,1900
+,22,@I503203@,Mary Skiffington,1824,
+,22,@I503204@,Catherine Skiffington,1816,
+,22,@I503205@,Hugh Skiffington,1819,1887
+,22,@I503206@,Anne Jane Skiffington,1821,
+,22,@I503207@,James Skiffington,1829,
+,22,@I503208@,Arthur Skiffington,1832,
+,22,@I503260@,Bridget Conway,1869,1899
+,22,@I503261@,Mary Eugine Herrmann,1876,1940
+,22,@I503262@,(Hugh) Charles McKernan,1896,1937
+,22,@I503263@,Mary Katherine McKernan,1904,1950
+,22,@I503264@,Patrick McKernan,1906,
+,22,@I503266@,James McCaughey,1867,1911
+,22,@I503267@,Mary Jane McCaughey,1930,1911
+,22,@I503268@,James Henry McCaughey,1899,1902
+,22,@I503269@,Margaret J Mccaughey,1901,1911
+,22,@I503270@,Anastasia McCaughey,1903,1911
+,22,@I503271@,Catherine McCaughey,1906,1911
+,22,@I503272@,Elizabeth Virginia Mccaughey,1909,1911
+,22,@I503273@,Hugh John McCaughey,1911,1977
+,22,@I503274@,Winifred Evelyn McCaughey,1915,1943
+,22,@I503478@,Catherine McKernan,1844,
+,22,@I503479@,Susan McKernan,1846,
+,22,@I503480@,Bernard McKernan,1846,
+,22,@I503481@,Bridget McKernan,1848,
+,22,@I503646@,Michael F,1869,1891
+,22,@I503647@,Joseph James,1896,1923
+,22,@I503648@,Michael Vincent,1902,1956
+,22,@I503649@,Anna M Lacey,1902,1975
+,22,@I503650@,Margaret V Lacey,1892,1981
+,22,@I503651@,Francis P,1896,1910
+,22,@I503652@,Estella M Lacey,1906,1931
+,22,@I503653@,Hugh,1905,1978
+,22,@I503715@,Anastasia Skiffington,1901,1993
+,22,@I503729@,Patrick Daly,1822,1874
+,22,@I503730@,Anne Daly,1818,
+,22,@I503731@,Thomas Daly,1824,1887
+,22,@I503748@,Anne F. Brown,1900,
+,22,@I503749@,John P Skiffington,1920,1930
+,22,@I503750@,Marie Skiffington,1900,1907
+,22,@I503751@,Hugh P Skiffington,1900,1912
+,22,@I503752@,Francis Cornelius Skiffington,1930,1990
+,22,@I503753@,Annie L Skiffington,1897,
+,22,@I503763@,Anne Jane Kelly,1856,
+,22,@I503764@,Mary Anne Daly,1900,
+,22,@I503765@,John Joseph Daly,1897,
+,22,@I503901@,Peter Kelly,1847,1923
+,22,@I503902@,John (Peter) Kelly,1847,1923
+,22,@I503903@,John (Peter) Kelly,1847,1923
+,22,@I503904@,Peter John Kelly,1847,1923
+,22,@I503905@,Peter John Kelly,1847,1923
+,22,@I503906@,Peter Kelly,1876,1940
+,22,@I503907@,Owen Kelly,1940,1944
+,22,@I503908@,Patrick Kelly,1880,1960
+,22,@I503909@,John Kelly,1882,1972
+,22,@I503910@,Joseph Kelly,1887,1919
+,22,@I503911@,Margaret Kelly,1894,1963
+,22,@I503912@,Owen Kelly,1940,1878
+,22,@I503913@,Patrick Kelly,1880,1880
+,22,@I503914@,John Kelly,1882,1882
+,22,@I503915@,,,
+,22,@I503916@,Joseph Kelly,1887,1919
+,22,@I503917@,Margaret Kelly,1894,1963
+,22,@I503918@,Annie Skiffington,1880,1920
+,22,@I503919@,Annie,1880,1920
+,22,@I503921@,Mae Anna Haney,1899,1980
+,22,@I503922@,Margaret Skiffington,1902,1958
+,22,@I503924@,,,
+,22,@I503925@,John Skiffington,1905,1975
+,22,@I503926@,Michael Skiffington,1907,1908
+,22,@I503927@,,,
+,22,@I503965@,Patrick Haughey,1838,
+,22,@I503966@,Catherine Haughey,1840,
+,22,@I503967@,Brigid Haughey,1842,
+,22,@I503968@,Sara Haughey,1844,
+,22,@I503969@,Margaret Haughey,1847,
+,22,@I503970@,Michael Haughey,1848,
+,22,@I503971@,Alice Haughey,1850,
+,22,@I503972@,John Haughey,1853,
+,22,@I503985@,Catherine Harvey,1877,1971
+,22,@I503986@,Mary Agnes McKernan,1909,2005
+,22,@I503987@,Sr. Celine (Rose Anne) McKernan,1910,
+,22,@I503988@,Eileen (Lena) McKernan,1912,
+,22,@I503989@,Catherine (Kathleen) McKernan,1914,1988
+,22,@I503990@,Alice McKernan,1916,2008
+,22,@I503991@,Hugh McKernan,1918,2013
+,22,@I503996@,Elizabeth (Lizzie) Brolly,1878,
+,22,@I503997@,Hugh McKernan,1903,
+,22,@I503998@,Eileen McKernan,1904,
+,22,@I503999@,Cecelia (Cissie) McKernan,1907,
+,22,@I504000@,Mary Teresa McKernan,1908,
+,22,@I504001@,Patrick McKernan,1909,
+,22,@I504002@,John Gerard McKernan,1912,2000
+,22,@I504157@,James Wallace,1884,
+,22,@I504158@,Patrick Wallace,1886,
+,22,@I504159@,Peter Wallace,1887,
+,22,@I504160@,Michael Wallace,1891,
+,22,@I504161@,Margaret Wallace,1900,
+,22,@I504162@,Bridget Wallace,1897,
+,22,@I504296@,Margaret Skiffington,1901,1958
+,22,@I504298@,John Skiffington,1905,1975
+,22,@I504299@,Michael Skiffington,1908,1947
+,22,@I504310@,Margaret Carr,,
+,22,@I504311@,Catherine [Cassie] Mc connigley,1911,1990
+,22,@I504312@,John James Mc connigley,1909,1911
+,22,@I504313@,maggie McConigley,1911,1911
+,22,@I504314@,mary ann Mc connigley,1907,
+,22,@I504315@,John James Mc Coach,1911,
+,22,@I504316@,,,
+,22,@I504317@,Hugh McCoach,1901,
+,22,@I504340@,Margaret Hegarty,1885,1978
+,22,@I504384@,Margaret Skiffington,1901,1958
+,22,@I504386@,Mae Anna Haney,1899,1980
+,22,@I504387@,Michael Skiffington,1908,1947
+,22,@I504397@,Mae Anna Haney,1899,1980
+,22,@I504398@,John Skiffington,1905,1975
+,22,@I504399@,Michael Skiffington,1908,1947
+,22,@I504416@,Catherine Shiels,1869,1940
+,22,@I504417@,Mary Ellen McConigley,1897,1911
+,22,@I504418@,Patrick MacConigley,1911,1901
+,22,@I504419@,Margery Hannah MacConigly,1911,1901
+,22,@I504420@,Charles MacConigly,1911,1975
+,22,@I504421@,Laurence MacConigly,1911,1983
+,22,@I504422@,Hugh Aloysius MacConigly,1911,1987
+,22,@I504423@,Denis Ignatius MacConigly,1911,1953
+,22,@I504550@,Mary Kelly,1884,
+,22,@I504557@,Patrick Kelly,1880,1960
+,22,@I504558@,Peter Kelly,1876,1940
+,22,@I504559@,John Kelly,1882,1972
+,22,@I504560@,Mary Kelly,1884,
+,22,@I504561@,Joseph Kelly,1887,1919
+,22,@I504562@,Margaret Kelly,1894,1963
+,22,@I504569@,Peter Kelly,1876,1940
+,22,@I504570@,Owen Kelly,1878,1944
+,22,@I504571@,John Kelly,1882,1972
+,22,@I504572@,Mary Kelly,1884,
+,22,@I504573@,Joseph Kelly,1887,1919
+,22,@I504574@,Margaret Kelly,1894,1963
+,22,@I504581@,Patrick Kelly,1880,1960
+,22,@I504582@,Peter Kelly,1876,1940
+,22,@I504583@,Owen Kelly,1878,1944
+,22,@I504584@,John Kelly,1882,1972
+,22,@I504585@,Mary Kelly,1884,
+,22,@I504586@,Margaret Kelly,1894,1963
+,22,@I504593@,Patrick Kelly,1880,1960
+,22,@I504594@,Peter Kelly,1876,1940
+,22,@I504595@,Owen Kelly,1878,1944
+,22,@I504596@,John Kelly,1882,1972
+,22,@I504597@,Mary Kelly,1884,
+,22,@I504598@,Joseph Kelly,1887,1919
+,22,@I504700@,Michael Fox,1900,
+,22,@I504701@,Marguerite Fox,1920,1920
+,22,@I504702@,Frank Fox,1905,1920
+,22,@I504743@,Charles Daly,,
+,22,@I504744@,Rose McMaster,,
+,22,@I504768@,McGough,,
+,22,@I504784@,James Donnelly,,
+,22,@I504785@,Susan Donnelly,1879,
+,22,@I504786@,Patrick Donnelly,1878,
+,22,@I504787@,Thomas Donnelly,1873,
+,22,@I504788@,James Donnelly,1877,
+,22,@I504789@,Mary Anne Donnelly,1876,
+,22,@I504790@,Catherine Donnelly,1875,
+,22,@I504791@,Alexander McVeigh,1850,1934
+,22,@I504792@,Anne McVeigh,1883,
+,22,@I504793@,Mary McVeigh,1882,1908
+,22,@I504794@,Michael McVeigh,1888,
+,22,@I504795@,Catherine McVeigh,1890,
+,22,@I504796@,James McVeigh,1886,1962
+,22,@I504797@,John McVeigh,1880,
+,22,@I504798@,Francis McVeigh,1892,
+,22,@I504799@,Patrick McVeigh,1885,
+,22,@I504800@,Catherine McGilly,,
+,22,@I504801@,Catherine Daly,1879,
+,22,@I504813@,William McDevitt,1836,1899
+,22,@I504814@,Margaret Jane (Peggy) Deeney,1839,1870
+,22,@I504823@,Kathleen Columba Britton,1922,2004
+,22,@I504833@,William McDevitt,1836,1899
+,22,@I504834@,Margaret Jane (Peggy) Deeney,1839,1870
+,22,@I504843@,Kathleen Columba Britton,1922,2004
+,21,@I502917@,Ellen Sweeney,1835,1860
+,21,@I502918@,Michael Callahan,1880,1882
+,21,@I503026@,Alice McKernan,1868,1892
+,21,@I503028@,Patrick McKernan,1870,1902
+,21,@I503030@,Hugh McKernan,1873,1962
+,21,@I503031@,Michael (Mickey) Hugh McKernan,1876,1966
+,21,@I503033@,John (Johnnie) McKernan,1865,1947
+,21,@I503035@,Mary McKernan,1871,1914
+,21,@I503055@,Margaret Skiffington,1854,1875
+,21,@I503056@,Patrick Skiffington,1856,1893
+,21,@I503057@,Bridget Skiffington,1861,1904
+,21,@I503058@,John Skiffington,1864,1934
+,21,@I503059@,Hugh Skiffington,1866,1893
+,21,@I503060@,Anne Jane (Jenny) Skiffington,1869,1896
+,21,@I503061@,Michael Skiffington,1871,1897
+,21,@I503105@,Callehan,,
+,21,@I503106@,Anna Callehan,1880,
+,21,@I503107@,Julia Callehan,1880,
+,21,@I503108@,James Callehan,1880,
+,21,@I503109@,William Callehan,1880,
+,21,@I503110@,John Callehan,1880,
+,21,@I503111@,Ellen Callehan,1880,
+,21,@I503112@,Mary Callehan,1880,
+,21,@I503201@,Hugh Skiffington,1789,1865
+,21,@I503202@,Mary Keenan,,
+,21,@I503297@,Annie E McElwee,1868,1910
+,21,@I503388@,James Daly,1857,1895
+,21,@I503389@,Francis Daly,1860,
+,21,@I503390@,Joseph Daly,1864,
+,21,@I503476@,John McKernan,1840,1840
+,21,@I503477@,Alice Fox,1840,1840
+,21,@I503492@,John Friel,1849,
+,21,@I503493@,Hugh Friel,1854,
+,21,@I503494@,Mary Friel,1871,
+,21,@I503727@,Owen Daly,1788,1866
+,21,@I503728@,Catherine McGough,1797,1866
+,21,@I503732@,Owen Daly,1850,
+,21,@I503733@,Anne Daly,1846,
+,21,@I503734@,Bernard Daly,1859,1869
+,21,@I503735@,Catherine Daly,1848,
+,21,@I503736@,Mary Daly,1856,
+,21,@I503737@,Patrick Daly,,1899
+,21,@I503738@,Thomas Daly,1854,
+,21,@I503803@,Charles Mc conigley,1860,1934
+,21,@I503804@,Francis McConigley,1911,1946
+,21,@I503805@,Patrick Mc Conigley,1901,1938
+,21,@I503806@,Uney McConigley,,
+,21,@I503807@,John (Johnny) McConigley,,
+,21,@I503808@,Catherine,,
+,21,@I503809@,Mary McConnigly,1861,1944
+,21,@I503810@,Nancy McConigley,,
+,21,@I503963@,Micheal Haughey,1815,1883
+,21,@I503964@,Maria McGurk,1809,1860
+,21,@I504155@,Peter Wallace,,
+,21,@I504156@,Bridget Irwin,,
+,21,@I504309@,Mc Ateer,,
+,21,@I504337@,Maggie Hughes,1902,1990
+,21,@I504338@,Joseph Hughes,1904,
+,21,@I504339@,James Hughes,1910,
+,21,@I504370@,Peter McCaughey,1881,
+,21,@I504371@,Anna Bella McCaughey,1873,
+,21,@I504372@,Thomas McCaughey,1889,1966
+,21,@I504373@,"Elizabeth ""Lizzie"" McCaughey",1885,
+,21,@I504374@,Mary McCaughey,1883,
+,21,@I504375@,Thomas McCaughey,1879,1885
+,21,@I504376@,"Margaret Jane ""Maggie"" McCaughey",1876,1960
+,21,@I504377@,Patrick McCaughey,1869,1925
+,21,@I504378@,John McCaughey,1866,
+,21,@I504379@,Henry McCaughey,1871,1911
+,21,@I504476@,Michael Quigley,1911,1978
+,21,@I504477@,Mary Elizabeth Quigley,1900,1911
+,21,@I504478@,Cecila Quigley,1902,1911
+,21,@I504479@,Daniel Quigley,1881,1901
+,21,@I504480@,Edward Joseph Quigley,1894,1935
+,21,@I504481@,Annie Quigley,1879,1901
+,21,@I504482@,Sarah Quigley,1896,1901
+,21,@I504483@,Catherine Quigley,1898,1926
+,21,@I504484@,John Quigley,1889,1901
+,21,@I504485@,Andrew Quigley,1884,1901
+,21,@I504486@,Michael Quigley,1886,1901
+,21,@I504487@,Margaret Quigley,1887,1901
+,21,@I504488@,William Quigley,1874,
+,21,@I504491@,Arthur Kelly,1849,
+,21,@I504492@,Joseph Kelly,1853,
+,21,@I504493@,James Kelly,1842,
+,21,@I504494@,Mary Kelly,1844,
+,21,@I504498@,Arthur Kelly,1849,
+,21,@I504499@,Joseph Kelly,1853,
+,21,@I504500@,James Kelly,1842,
+,21,@I504501@,Mary Kelly,1844,
+,21,@I504510@,Arthur Kelly,1849,
+,21,@I504511@,Joseph Kelly,1853,
+,21,@I504512@,James Kelly,1842,
+,21,@I504513@,Mary Kelly,1844,
+,21,@I504522@,Arthur Kelly,1849,
+,21,@I504523@,Joseph Kelly,1853,
+,21,@I504524@,James Kelly,1842,
+,21,@I504525@,Mary Kelly,1844,
+,21,@I504534@,Arthur Kelly,1849,
+,21,@I504535@,Joseph Kelly,1853,
+,21,@I504536@,James Kelly,1842,
+,21,@I504537@,Mary Kelly,1844,
+,21,@I504650@,Patrick McGirr,1869,
+,21,@I504651@,Catherine McGirr,1872,
+,21,@I504652@,Sarah McGirr,1878,
+,21,@I504682@,Hannah Mc Conigly,1901,
+,21,@I504683@,Julia Mc Conigly,1901,
+,21,@I504684@,James Mc Conigly,1901,
+,21,@I504685@,Bridget Mc Conigly,1901,
+,21,@I504686@,Margaret Mc Conigly,1901,
+,21,@I504697@,John Shumsky,1923,1940
+,21,@I504698@,Alphonso Fox,1920,1920
+,21,@I504699@,Catherine Eleanora Dorn,1875,1920
+,21,@I504752@,Una McGinley,1817,1889
+,21,@I504756@,Daniel Callaghan,1853,
+,21,@I504757@,Michael Callaghan,1880,1880
+,21,@I504758@,John Callaghan,1859,1924
+,21,@I504759@,Anne Callahan,1861,
+,21,@I504760@,Mary Callaghan,1863,1911
+,21,@I504761@,"Delia ""Bridget"" Callahan",1867,
+,21,@I504762@,Bridget O'Callahan,1836,1899
+,21,@I504763@,Patricia B Kelly,1930,1990
+,21,@I504764@,Joan C. Kelly,1935,2001
+,21,@I504765@,Thomas William Kelly,1932,2000
+,21,@I504766@,Dolores Kelly,1923,2006
+,21,@I504767@,Mary Margaret Kelly,1926,2006
+,21,@I504804@,Izabella McDevitt,1874,1954
+,21,@I504806@,Vincent Gerard Mc Elwee,1915,1988
+,21,@I504807@,Alphonsis McElwee,,
+,21,@I504808@,Mona McElwee,,
+,21,@I504809@,William McElwee,,
+,21,@I504810@,Jim McElwee,,
+,21,@I504811@,Kevin McElwee,,
+,21,@I504812@,Tony McElwee,,
+,21,@I504824@,Izabella McDevitt,1874,1954
+,21,@I504825@,Vincent Gerard Mc Elwee,1915,1988
+,21,@I504826@,Alphonsis McElwee,,
+,21,@I504827@,Mona McElwee,,
+,21,@I504828@,William McElwee,,
+,21,@I504829@,Jim McElwee,,
+,21,@I504830@,Kevin McElwee,,
+,21,@I504831@,Tony McElwee,,
+,20,@I502511@,Anthony Callaghan,1815,1899
+,20,@I502512@,Michael Callaghan,1826,1860
+,20,@I502513@,Hugh Callaghan,1828,1880
+,20,@I502514@,Daniel Callaghan,1834,1911
+,20,@I502515@,James Callaghan,,
+,20,@I502874@,Eleanor Nellie Callaghan,,1879
+,20,@I502896@,John Joseph Daly,1895,1895
+,20,@I503023@,Hugh McKernan,1841,1900
+,20,@I503024@,Mary Haughey,1836,1915
+,20,@I503044@,Vincent D Kelly,,
+,20,@I503045@,Mary G Kirrane,,
+,20,@I503050@,William B. Wadsworth,1824,1851
+,20,@I503051@,Arthur A Wadsworth,1866,1891
+,20,@I503052@,Robert Cassins Wadsworth,1867,1899
+,20,@I503053@,John Skiffington,1827,1854
+,20,@I503054@,Mary Kelly,1833,1854
+,20,@I503114@,Philip,,
+,20,@I503152@,Eleanor McGettigan,,
+,20,@I503211@,Fannie Gibbons,1930,1941
+,20,@I503212@,Ena (OonaghUna) Gibbons,1862,
+,20,@I503213@,James Edward Gibbons,1865,1916
+,20,@I503254@,Jane CLARK,1829,1881
+,20,@I503282@,Mahlard Perrin,,
+,20,@I503337@,Columba McElwee,1858,1903
+,20,@I503338@,Darby McElwee,1827,
+,20,@I503339@,John McElwee,1817,1877
+,20,@I503340@,Charles McElwee,1829,
+,20,@I503341@,Michael McElwee,1828,
+,20,@I503357@,Mary Ellen Conroy,1871,1930
+,20,@I503385@,Katie Hyde,1881,
+,20,@I503386@,John Joseph Daly,1820,1845
+,20,@I503387@,Anne McCann,1845,1845
+,20,@I503391@,Agnes Daly,1884,
+,20,@I503392@,Alice Daly,1891,
+,20,@I503490@,Hugh Friel,,
+,20,@I503491@,Susanna Gibbons,1830,1853
+,20,@I503802@,Catherine McConigley,1901,1910
+,20,@I503869@,Owen Girvan,1881,
+,20,@I503870@,,,
+,20,@I503871@,Francis Girvan,1881,1939
+,20,@I503872@,Edwin Holbrook,1920,1960
+,20,@I503873@,Edwin A. Holbrook,1928,2004
+,20,@I503930@,Beulah Dorn Fox,1903,1920
+,20,@I503931@,Clara Kathryn Yerger,1917,1920
+,20,@I503932@,Francis Skiffington,1950,1988
+,20,@I503933@,Esther Skiffington,1931,2009
+,20,@I503934@,Teresa Skiffington,1935,1935
+,20,@I503981@,Frances C Cunningham,1904,1930
+,20,@I503982@,Hugh Edward Skiffington,1925,1925
+,20,@I503983@,Hugh Charles Skiffington,1932,1940
+,20,@I503984@,Frances Patricia Skiffington,1936,1992
+,20,@I503992@,Mary Agnes Wallace,1940,1950
+,20,@I503993@,John Joseph Skiffington,1940,1950
+,20,@I503994@,Hugh G. Skiffington,1940,1950
+,20,@I503995@,Joseph I Skiffington,1950,2011
+,20,@I504211@,Martin Kirrane,1866,1866
+,20,@I504212@,"Peter ""Kirrane"" Carey",1910,1919
+,20,@I504213@,"Mary ""Kirrane"" Carey",1874,1941
+,20,@I504214@,Thomas Kirrane,1876,1938
+,20,@I504215@,"Celia ""Kirrane"" Carey",1879,1932
+,20,@I504216@,"Bridget Agnes ""Kirrane"" Cary",1881,1958
+,20,@I504217@,"Patrick ""Kirrane"" Carey",1884,1956
+,20,@I504218@,John Kirrane,1900,1929
+,20,@I504227@,Hugh Dorrian,,
+,20,@I504228@,Hugh Dorrian,1902,
+,20,@I504229@,Agnes Dorrian,1896,
+,20,@I504230@,Mary Josephine Dorrian,1893,
+,20,@I504231@,Charles Dorrian,1895,
+,20,@I504232@,Anne Dorrian,1898,
+,20,@I504261@,Mable P Rupp,1890,1910
+,20,@I504262@,Lester Mervin Weinhold,1911,1939
+,20,@I504263@,Irwin Richard Weinhold,1928,2005
+,20,@I504264@,Marion Skiffington,,
+,20,@I504335@,James Hughes,1873,1949
+,20,@I504336@,Annie Quinn,1880,1926
+,20,@I504358@,Seamus Mc Elwaine,,
+,20,@I504359@,,,
+,20,@I504360@,Phil McCaffery,1917,2003
+,20,@I504361@,Columba Quigley,1954,2009
+,20,@I504363@,Dan Gibbons,1927,1998
+,20,@I504367@,George O'Donnell,1911,1982
+,20,@I504368@,John McCaughey,1841,1916
+,20,@I504369@,Isabella Flanigan,1846,1929
+,20,@I504452@,Mary Mc Conagly,1901,1926
+,20,@I504453@,Frank McConagly,1832,1892
+,20,@I504454@,Bridget McConagly,1840,
+,20,@I504455@,Sheila McConagly,,
+,20,@I504456@,Henry McConagly,1840,
+,20,@I504474@,Daniel Quigley,1840,1912
+,20,@I504475@,Margaret McCarren,1855,1942
+,20,@I504489@,Kelly,,
+,20,@I504490@,,,
+,20,@I504496@,Kelly,,
+,20,@I504497@,,,
+,20,@I504508@,Kelly,,
+,20,@I504509@,,,
+,20,@I504520@,Kelly,,
+,20,@I504521@,,,
+,20,@I504532@,Kelly,,
+,20,@I504533@,,,
+,20,@I504608@,John McBride,1889,1973
+,20,@I504609@,Patrick Joseph McBride,1915,
+,20,@I504610@,Peter John McBride,1917,
+,20,@I504611@,Mary Theresa McBride,1920,
+,20,@I504612@,Francis McBride,1918,
+,20,@I504613@,Catherine McClafferty,1888,1961
+,20,@I504614@,Eugene A Kelly,1938,2001
+,20,@I504615@,Edward Aloysius Kelly,1923,2003
+,20,@I504616@,John Paul Kelly,1916,1943
+,20,@I504617@,Peter Joseph Kelly,1916,2000
+,20,@I504618@,Catherine McClafferty,1888,1961
+,20,@I504619@,Eugene A Kelly,1938,2001
+,20,@I504620@,Edward Aloysius Kelly,1923,2003
+,20,@I504621@,John Paul Kelly,1916,1943
+,20,@I504622@,Peter Joseph Kelly,1916,2000
+,20,@I504623@,John McBride,1889,1973
+,20,@I504624@,Patrick Joseph McBride,1915,
+,20,@I504625@,Peter John McBride,1917,
+,20,@I504626@,Mary Theresa McBride,1920,
+,20,@I504627@,Francis McBride,1918,
+,20,@I504648@,Michael McGirr,,
+,20,@I504649@,Ann Donnelly,,
+,20,@I504681@,John Mc conagly,,1901
+,20,@I504715@,Anton McElwee,1867,1931
+,20,@I504716@,Daniel McElwee,1874,1940
+,20,@I504717@,Mary McElwee,,
+,20,@I504718@,James McElwee,1876,
+,20,@I504719@,Patrick McElwee,,
+,20,@I504720@,William McElwee,,
+,20,@I504721@,anton McElwee,1867,1931
+,20,@I504753@,Cecelia Callaghan,,
+,20,@I504754@,Mary Callaghan,,
+,20,@I504755@,Catherine Callahan,,
+,20,@I504805@,John McElwee,,
+,20,@I504881@,Patrick McElwee,1811,1883
+,20,@I504882@,Mary Logue,1818,1880
+,20,@I504892@,,,
+,19,@I502161@,Mary Callaghan,1860,1942
+,19,@I502162@,Daniel Callaghan,1862,1934
+,19,@I502163@,John Callaghan,1852,
+,19,@I502164@,Hugh Callaghan,1857,1919
+,19,@I502165@,Michael Callaghan,1848,1848
+,19,@I502166@,James Callaghan,1852,1852
+,19,@I502510@,James Callaghan,,
+,19,@I502535@,James Martin,1847,1865
+,19,@I502536@,Michael Martin,1872,1963
+,19,@I502537@,Michael Martin,1865,1868
+,19,@I502538@,Margaret Martin,1867,1868
+,19,@I502539@,James Martin,1880,1880
+,19,@I502540@,Mary Martin,1869,1899
+,19,@I502541@,Daniel Martin,1882,1913
+,19,@I502542@,John Martin,1874,1898
+,19,@I502543@,Hugh Martin,1879,1965
+,19,@I502544@,James Martin,1877,1878
+,19,@I502628@,James Deeney,1788,
+,19,@I502629@,Mary Diver,1790,
+,19,@I502846@,Thomas Price,1835,1889
+,19,@I502847@,Eunice 'Una' Price,1865,1942
+,19,@I502848@,Isabella Price,1867,
+,19,@I502849@,James Price,1870,1935
+,19,@I502850@,Anna Price,1874,1939
+,19,@I502863@,Anne F. Brown,1900,
+,19,@I502864@,John P Skiffington,1920,1930
+,19,@I502865@,Marie Skiffington,1900,1907
+,19,@I502866@,Hugh P Skiffington,1900,1912
+,19,@I502867@,Francis Cornelius Skiffington,1930,1990
+,19,@I502868@,Annie L Skiffington,1897,
+,19,@I502869@,Della (Bridget) McKernan,1920,1962
+,19,@I502870@,Anastasia Skiffington,1901,1993
+,19,@I502871@,Hugh Charles Skiffington,1896,1978
+,19,@I502873@,John Joseph Skiffington,1894,1900
+,19,@I502880@,Thomas Eugene Curtis,1922,1950
+,19,@I502882@,Donna Mary Margaret Kelly,1950,2001
+,19,@I502894@,John Daly,1851,1940
+,19,@I502895@,Mary Caroline Skiffington,1858,1927
+,19,@I502897@,Catherine McDevitt,,
+,19,@I502898@,Winifred Mary Dunleavy,1880,1884
+,19,@I502899@,James Dunleavy,1881,1905
+,19,@I502900@,Edward Dunleavy,1883,1884
+,19,@I502901@,Hugh Dunleavy,1884,1884
+,19,@I502902@,Catherine Dunleavy,1887,1963
+,19,@I502903@,Mary Anne Dunleavy,1891,1891
+,19,@I502916@,mary carr,,
+,19,@I502940@,Bridget Friel,1856,1930
+,19,@I502941@,John Blase Dougherty,1882,1920
+,19,@I502942@,Mary Grace Doherty,1878,1955
+,19,@I502943@,Hugh Benedict Dougherty,1920,1900
+,19,@I502944@,James Peter Dougherty,1930,1910
+,19,@I502945@,Daniel Edward Dougherty,1912,1952
+,19,@I502946@,Edward Joseph Dougherty,1887,1940
+,19,@I502947@,Bridget A. Dougherty,1890,1990
+,19,@I502948@,George Leo Dougherty,1892,1918
+,19,@I502949@,Susanna Dougherty,1895,1978
+,19,@I502950@,Catherine Mildred Dougherty,1897,1994
+,19,@I502951@,Agnes Dougherty,1899,1901
+,19,@I502975@,Julian Ann Skivington,1824,1862
+,19,@I502976@,Patrick SKIFFINGTON,1826,1896
+,19,@I502977@,Bernard SKIFFINGTON,1825,1888
+,19,@I502978@,Mary S Skivington,1826,1900
+,19,@I502979@,Bridget SKIFFINGTON,1832,1881
+,19,@I502980@,Eleanor Skivington,1812,1846
+,19,@I502981@,Selinah Skivington,1823,1880
+,19,@I502982@,Lydia C Skivington,1828,1900
+,19,@I502983@,Elizabeth Skivington,1910,1913
+,19,@I502985@,William Callahan,1870,
+,19,@I503113@,Mary Curtis,1950,
+,19,@I503150@,Hugh McGettigan,,
+,19,@I503151@,Catherine,,
+,19,@I503178@,Mary Agnes Kirrane,1891,1901
+,19,@I503179@,Agnes G. Kirrane,1940,1910
+,19,@I503180@,Cecilia Jacqueline Kirrane,1899,1910
+,19,@I503181@,William Joseph Kirrane,1897,1910
+,19,@I503182@,Katherine Or Kate Kirrane,1895,1925
+,19,@I503183@,John Joseph Kirrane,1893,1910
+,19,@I503184@,Helen Victoria Kirrane,1892,1944
+,19,@I503209@,Seamus Gibbons,,
+,19,@I503210@,Mary Mc Carry,1831,
+,19,@I503214@,Charles Friel,1838,1897
+,19,@I503215@,John Friel,,
+,19,@I503216@,ANNIE FRIEL,1879,
+,19,@I503217@,Ellen Friel,1867,1901
+,19,@I503218@,Mary Friel,1869,
+,19,@I503219@,Susan Friel,1871,1888
+,19,@I503220@,Francis Friel,1873,
+,19,@I503221@,Catherine Friel,1874,
+,19,@I503222@,Mary Friel,1882,
+,19,@I503223@,Margaret Friel,1887,
+,19,@I503225@,Barney Kerr,,
+,19,@I503226@,Bernard Kerr,1908,1911
+,19,@I503227@,Patrick Kerr,1908,1911
+,19,@I503228@,Daniel Kerr,,
+,19,@I503229@,Cissie (Mary Sarah) Kerr,,
+,19,@I503230@,James Kerr,,1995
+,19,@I503265@,Bernard Skiffington,1760,1840
+,19,@I503275@,James (Big) Gibbons,,
+,19,@I503276@,,,
+,19,@I503277@,James ( John) McConnigly,1911,1944
+,19,@I503278@,Sally Sister Sarah Teresa Mc Conigley,,2010
+,19,@I503279@,John Gerard Mc Conigley,1923,1988
+,19,@I503280@,Una Mc Conigley,1926,1944
+,19,@I503281@,Packie Mc Conigley,,1990
+,19,@I503335@,Michael McElwee,1785,1853
+,19,@I503336@,Anne (Hannah) McElwee,,
+,19,@I503358@,Dan Callahan,1880,
+,19,@I503383@,George Deeney,1950,
+,19,@I503384@,Vincint Deeney,1950,
+,19,@I503401@,Miriam Wieder,,1950
+,19,@I503575@,Irwin Weinhold,1910,1940
+,19,@I503576@,Luella Weinhold,1910,
+,19,@I503577@,Paul M Weinhold,1910,
+,19,@I503665@,Charles Morning,1850,
+,19,@I503666@,James Morning,1876,1900
+,19,@I503667@,Michael Morning,1910,1910
+,19,@I503668@,William Morning,1931,1886
+,19,@I503669@,Rose Morning,1874,1931
+,19,@I503670@,Daniel Morning,1875,1900
+,19,@I503671@,Patrick Morning,1877,1962
+,19,@I503672@,Sarah Morning,1879,
+,19,@I503673@,John Morning,1940,1964
+,19,@I503674@,Bridget Morning,1889,
+,19,@I503718@,Francis Kelly,1903,1976
+,19,@I503719@,Alice Kelly,1909,1978
+,19,@I503720@,Edward Kelly,1896,1900
+,19,@I503721@,Thomas William Kelly,1898,1918
+,19,@I503739@,James McCaughey,1911,1958
+,19,@I503740@,Anastasia McCaughey,1903,1983
+,19,@I503741@,James Henry McCaughey,1899,1902
+,19,@I503742@,Mary Jane McCaughey,1898,1987
+,19,@I503743@,Elizabeth Virginia McCaughey,1909,1981
+,19,@I503744@,Catherine McCaughey,1906,1991
+,19,@I503745@,Margaret McCaughey,1901,1994
+,19,@I503746@,Hugh John McCaughey,1911,1977
+,19,@I503747@,Winifred Evelyn McCaughey,1911,1943
+,19,@I503811@,Margaret McConigley,1936,
+,19,@I503812@,Katie McConigley,1926,2023
+,19,@I503813@,Celia,1928,2022
+,19,@I503814@,Hugh Quigley,1878,1901
+,19,@I503815@,Veronica ‘Vera’ Quigley,1916,1921
+,19,@I503816@,Sarah Cathleen Quigley,1915,1989
+,19,@I503817@,Rita Bridget ‘Sister Cabrini’ (Medical Missionary Nun),1927,1953
+,19,@I503818@,William John Quigley,1919,2003
+,19,@I503819@,Margaret (Sister of the Mercy order) Quigley,1916,2006
+,19,@I503820@,Patrick ‘Paddy’ Hugh Joseph (Priest of the Kiltegan Fathers) Quigley,1921,1939
+,19,@I503821@,James Michael (Brother Theodore of the De la Salle order) Quigley,1924,2004
+,19,@I503822@,Mary Elizabeth ‘Masie’ Quigley,1913,1946
+,19,@I503850@,Mary Hughes,1913,1999
+,19,@I503851@,Sheila McGinley,1900,1929
+,19,@I503852@,Sally Gibbons,1936,2010
+,19,@I503853@,Katie Gibbons,,1979
+,19,@I503854@,Mickey Pat Gibbons,,2007
+,19,@I503855@,James Pat Gibbons,1927,2020
+,19,@I503856@,Patrick Joseph Gibbons,1926,1926
+,19,@I503874@,Peter Kelly,1847,1923
+,19,@I503875@,John (Peter) Kelly,1847,1923
+,19,@I503876@,John (Peter) Kelly,1847,1923
+,19,@I503877@,Peter John Kelly,1847,1923
+,19,@I503878@,Peter John Kelly,1847,1923
+,19,@I503879@,Peter Kelly,1876,1940
+,19,@I503880@,Owen Kelly,1940,1944
+,19,@I503881@,Patrick Kelly,1880,1960
+,19,@I503882@,John Kelly,1882,1972
+,19,@I503883@,Joseph Kelly,1887,1919
+,19,@I503884@,Margaret Kelly,1894,1963
+,19,@I503885@,Owen Kelly,1940,1878
+,19,@I503886@,Patrick Kelly,1880,1880
+,19,@I503887@,John Kelly,1882,1882
+,19,@I503888@,,,
+,19,@I503889@,Joseph Kelly,1887,1919
+,19,@I503890@,Margaret Kelly,1894,1963
+,19,@I503891@,Annie,1880,1920
+,19,@I503895@,Margaret Skiffington,1902,1958
+,19,@I503896@,Francis Michael Skiffington,1903,1939
+,19,@I503898@,John Skiffington,1905,1975
+,19,@I503899@,Michael Skiffington,1907,1908
+,19,@I504129@,Marie Skiffington,1900,1953
+,19,@I504209@,Thomas Kirrane,1842,1894
+,19,@I504210@,Bridget Monaghan,1838,1896
+,19,@I504328@,John Johnny Mor Callaghan,1870,1901
+,19,@I504329@,Mary Callaghan,1907,1986
+,19,@I504330@,Patrick Callaghan,1908,2005
+,19,@I504331@,James Callaghan,1910,1914
+,19,@I504332@,Sarah Callaghan,1912,
+,19,@I504333@,Edward James Callaghan,1915,1985
+,19,@I504334@,Mickey Callaghan,1917,1999
+,19,@I504380@,Margaret Skiffington,1901,1958
+,19,@I504382@,Mae Anna Haney,1899,1980
+,19,@I504383@,Michael Skiffington,1908,1947
+,19,@I504391@,Michael Skiffington,1908,1947
+,19,@I504392@,Francis Michael Skiffington,1855,1939
+,19,@I504393@,Mae Anna Haney,1899,1980
+,19,@I504394@,John Skiffington,1905,1975
+,19,@I504395@,Michael Skiffington,1908,1947
+,19,@I504450@,McConigley,,
+,19,@I504451@,,,
+,19,@I504495@,Mary Kelly,1884,
+,19,@I504502@,Patrick Kelly,1880,1960
+,19,@I504503@,Peter Kelly,1876,1940
+,19,@I504504@,John Kelly,1882,1972
+,19,@I504505@,Mary Kelly,1884,
+,19,@I504506@,Joseph Kelly,1887,1919
+,19,@I504507@,Margaret Kelly,1894,1963
+,19,@I504514@,Peter Kelly,1876,1940
+,19,@I504515@,Owen Kelly,1878,1944
+,19,@I504516@,John Kelly,1882,1972
+,19,@I504517@,Mary Kelly,1884,
+,19,@I504518@,Joseph Kelly,1887,1919
+,19,@I504519@,Margaret Kelly,1894,1963
+,19,@I504526@,Patrick Kelly,1880,1960
+,19,@I504527@,Peter Kelly,1876,1940
+,19,@I504528@,Owen Kelly,1878,1944
+,19,@I504529@,John Kelly,1882,1972
+,19,@I504530@,Mary Kelly,1884,
+,19,@I504531@,Margaret Kelly,1894,1963
+,19,@I504538@,Patrick Kelly,1880,1960
+,19,@I504539@,Peter Kelly,1876,1940
+,19,@I504540@,Owen Kelly,1878,1944
+,19,@I504541@,John Kelly,1882,1972
+,19,@I504542@,Mary Kelly,1884,
+,19,@I504543@,Joseph Kelly,1887,1919
+,19,@I504713@,Charles McElwee,1832,1900
+,19,@I504714@,Hannagh Sweeney,1853,1920
+,19,@I504722@,Anne Grant,1848,1906
+,19,@I504723@,Michael Dunleavy,1875,
+,19,@I504724@,Hugh Dunleavy,1877,
+,19,@I504725@,Annie Dunleavy,1878,1957
+,19,@I504726@,Sarah Dunleavy,1881,
+,18,@I502159@,Patrick G. Callaghan,1815,1883
+,18,@I502160@,Ellen McElwee,1826,1907
+,18,@I502284@,John Deeney,1812,1869
+,18,@I502285@,James Deeney,1843,1863
+,18,@I502286@,Mary Deeney,1865,1885
+,18,@I502287@,James Deeney,1850,1873
+,18,@I502288@,Catherine Deeney,1854,
+,18,@I502289@,John Deeney,1860,
+,18,@I502417@,James Dunleavey,1874,
+,18,@I502418@,,,
+,18,@I502419@,Mick Dunleavey,1875,
+,18,@I502420@,Hugh Dunleavey,1877,
+,18,@I502421@,Dan Dunleavey,,
+,18,@I502422@,Annie Dunleavey,1878,1957
+,18,@I502423@,Winifred (Uney) Dunleavey,,
+,18,@I502424@,Sarah Dunleavy,1881,
+,18,@I502425@,Catherine Dunleavy,1886,
+,18,@I502426@,John Dunleavy,1880,
+,18,@I502578@,Margaret Skiffington,1854,1875
+,18,@I502579@,Patrick Skiffington,1856,1893
+,18,@I502580@,Bridget Skiffington,1861,1904
+,18,@I502581@,John Skiffington,1864,1934
+,18,@I502582@,Hugh Skiffington,1866,1893
+,18,@I502583@,Anne Jane (Jenny) Skiffington,1869,1896
+,18,@I502584@,Michael Skiffington,1871,1897
+,18,@I502645@,Genevieve,1895,1989
+,18,@I502651@,Grace Friel,1823,1889
+,18,@I502652@,Margaret Anne Doherty,1911,1911
+,18,@I502653@,Grace Doherty,1869,1929
+,18,@I502654@,Catherine Doherty,1849,1889
+,18,@I502655@,Mary Doherty,1853,
+,18,@I502656@,James Doherty,1854,1911
+,18,@I502657@,Edward Dougherty,1856,1908
+,18,@I502658@,John Doherty,1858,
+,18,@I502659@,Anne Doherty,1864,1913
+,18,@I502660@,George Dougherty,1852,1910
+,18,@I502667@,Mae Daly,1889,1969
+,18,@I502668@,Nancy Deeney,1923,2016
+,18,@I502669@,John Deeney,1921,2010
+,18,@I502670@,George Callahan Aloysius Deeney,1986,1986
+,18,@I502671@,"Mary Perpetua (Sr. John Mary, IHM) Deeney",1919,2004
+,18,@I502672@,Joseph Deeney,1929,1994
+,18,@I502674@,James Dunleavy,1842,1907
+,18,@I502675@,,,
+,18,@I502676@,Anna Nancy Dunleavy,1845,1875
+,18,@I502677@,Hugh Dunleavy,1847,1892
+,18,@I502678@,John Dunleavy,1850,
+,18,@I502679@,Edward Dunleavy,1852,
+,18,@I502680@,Catherine Dunleavy,1854,
+,18,@I502681@,Edward Dunleavy,1859,
+,18,@I502682@,Patrick George Dunleavy,1859,1906
+,18,@I502683@,Daniel Dunleavy,1862,
+,18,@I502684@,Mary Ann Dunleavy,1856,
+,18,@I502784@,John McGettigan,1805,1872
+,18,@I502785@,Catherine McGettigan,1845,1924
+,18,@I502801@,Brian Whoriskey,1911,
+,18,@I502802@,Johnny Whoriskey,1888,1911
+,18,@I502803@,Patrick Gibbons,1859,1911
+,18,@I502804@,Patrick Gibbons,1894,1911
+,18,@I502805@,Mary Gibbons,1882,1911
+,18,@I502806@,Sarah Gibbons,1885,1977
+,18,@I502807@,James Gibbons,1887,
+,18,@I502808@,Catherine Gibbons,1889,1962
+,18,@I502809@,Michael Gibbons,1890,1959
+,18,@I502810@,Winnie Gibbons,1892,1911
+,18,@I502881@,Edward James Deeney,1927,2012
+,18,@I502973@,John Skivington,1785,1866
+,18,@I502974@,Mary Polly Stansberry,1794,1880
+,18,@I502996@,Elizabeth A Quirk,1950,
+,18,@I502999@,Dorothy May Weinhold,1912,1931
+,18,@I503000@,Ralph Herbert Weinhold,1914,1943
+,18,@I503001@,Eugene Weinhold,1930,1982
+,18,@I503004@,Dolores Kelly,1923,1949
+,18,@I503005@,Patricia Barbara Kelly,1929,1990
+,18,@I503006@,Mary Margaret Kelly,1926,2006
+,18,@I503007@,Thomas Kelly,1932,2000
+,18,@I503008@,Joan C. Kelly,1935,2001
+,18,@I503069@,"Elizabeth ""Lizzie"" Reichwein Scheuren",1893,
+,18,@I503070@,Annie Margaret Reichwein,1876,1896
+,18,@I503071@,Catherine Reichwein,1879,1898
+,18,@I503072@,Mary Reichwein,1880,1900
+,18,@I503073@,"Anthony Peter ""Petie"" Reichwein",1884,1969
+,18,@I503074@,Lena Maria Magdalena Reichwein,1886,1906
+,18,@I503075@,Christina Reichwein,1888,1964
+,18,@I503076@,Joseph Reichwein,1891,1930
+,18,@I503077@,Gertrude Lena Reichwein,1894,1895
+,18,@I503078@,John William Reichwein,1896,1945
+,18,@I503079@,Frank Joseph Reichwein,1917,
+,18,@I503121@,Ellen McHugh,1886,1918
+,18,@I503122@,Mary Sweeney,1898,1900
+,18,@I503123@,William J Sweeney,1889,1900
+,18,@I503124@,Ellen (Nellie) Sweeney,1887,1900
+,18,@I503125@,Susan Sweeney,1885,1885
+,18,@I503126@,Annie Sweeney,1883,1883
+,18,@I503127@,John Sweeney,1893,1900
+,18,@I503128@,Catherine E Sweeney,1910,1998
+,18,@I503137@,Margaret Gallagher,1835,
+,18,@I503138@,Margaret Dougherty,1858,1929
+,18,@I503139@,Hannah Doherty,1852,1939
+,18,@I503140@,Daniel Patrick Dougherty,1855,1943
+,18,@I503141@,John Doherty,1861,1940
+,18,@I503153@,James McGettigan,1844,1920
+,18,@I503154@,Daniel McGettigan,1847,1896
+,18,@I503155@,Roseanne McGettigan,1850,
+,18,@I503156@,Susanna McGettigan,1853,1929
+,18,@I503157@,John McGettigan,1859,
+,18,@I503176@,William J. Kirrane,1863,1912
+,18,@I503177@,Bridget Anne Welsh,1869,1910
+,18,@I503242@,Nellie (Elinor) Johnston,1889,1963
+,18,@I503243@,Joseph Johnston,1896,1954
+,18,@I503244@,James Johnston,1881,1960
+,18,@I503245@,Anthony Johnston,1885,1945
+,18,@I503246@,Paddy (Patrick) Johnston,1893,1944
+,18,@I503247@,Mary Ann Johnston,1882,1936
+,18,@I503248@,Lizzie (Elizabeth) Johnston,1891,1930
+,18,@I503249@,Maggie (Margaret) Johnston,1898,1983
+,18,@I503250@,Michael Francis Johnston,1900,1902
+,18,@I503251@,John Johnston,1884,1885
+,18,@I503252@,John Johnston,1887,1889
+,18,@I503253@,John Johnston,1895,1895
+,18,@I503283@,Levi Weinhold,,
+,18,@I503284@,Ella Frankhouser,,
+,18,@I503663@,Robert Morning,1822,1904
+,18,@I503664@,Mary Doherty,1822,
+,18,@I503693@,Raymond Waller Bowles,1950,1969
+,18,@I503694@,Raymond William Bowles,1988,2011
+,18,@I503695@,Gerard Jude Bowles,1949,2014
+,18,@I503696@,Helen Bowles,1988,2022
+,18,@I503697@,Robert Paul Bowles,1988,2023
+,18,@I503698@,James Henry Bowles,1988,2021
+,18,@I503716@,Thomas William Kelly,1871,1952
+,18,@I503717@,Margaret Elizabeth Waldron,1872,1925
+,18,@I503766@,Susan McElwee,1865,1935
+,18,@I503767@,Charles Grant,1895,1975
+,18,@I503768@,Michael Grant,1893,1966
+,18,@I503769@,Sally Grant,1896,1944
+,18,@I503770@,Hannah Grant,1903,1986
+,18,@I503827@,Patrick McConigley,1841,1911
+,18,@I503828@,Maryanne McConigley,1886,1966
+,18,@I503829@,Catherine McConigley,1884,1911
+,18,@I503830@,John McConigley,1861,1870
+,18,@I503831@,Sarah McConigley,1871,1911
+,18,@I503832@,Bridget McConigley,1881,1946
+,18,@I503833@,Michael McConigley,,1911
+,18,@I503834@,Daniel McConigley,1876,1878
+,18,@I503835@,Patrick McConigley,1879,1879
+,18,@I503836@,McConigley,,1911
+,18,@I504098@,Mary A Coolbrith,1900,1918
+,18,@I504099@,Elmira Coolbrith,1850,
+,18,@I504234@,Neddie Louella Strickland,,
+,18,@I504235@,Clara Fay Campbell,1931,2003
+,18,@I504426@,Patrick McConagly,1841,1911
+,18,@I504427@,Frank McConagly,1832,1892
+,18,@I504428@,Bridget McConagly,1840,
+,18,@I504429@,Sheila McConagly,,
+,18,@I504430@,Henry McConagly,1840,
+,17,@I501770@,Hugh Doherty,1822,1847
+,17,@I501771@,Edward Doherty,1814,
+,17,@I501772@,Susanna Doherty,1818,1895
+,17,@I501773@,Margaret Doherty,1815,1900
+,17,@I501774@,Una Doherty,1824,1841
+,17,@I501775@,George Dougherty,1830,1880
+,17,@I501833@,Sally Grant,1854,1911
+,17,@I501834@,Anne Grant,1848,1906
+,17,@I501835@,Kate Grant,1911,
+,17,@I501836@,Mary Grant,1847,1911
+,17,@I501837@,Mick Grant,1849,1936
+,17,@I502033@,Anna Nancy Callaghan,1870,1921
+,17,@I502034@,George Callahan Aloysius Deeney,1887,1900
+,17,@I502135@,Jacobus McGinley,,
+,17,@I502136@,Patrick McGinley,1860,
+,17,@I502138@,John McGinley,1862,
+,17,@I502139@,Thomas McGinley,1868,
+,17,@I502145@,Grace Carr,,
+,17,@I502158@,John (Msgr) Daly,1895,1979
+,17,@I502167@,Edward Deeney,1883,1883
+,17,@I502168@,Eleanor M Deeney,1885,1885
+,17,@I502350@,Margaret M. Quirk,1881,1926
+,17,@I502351@,Thomas Quirk,1881,1926
+,17,@I502352@,Katie Quirk,1900,
+,17,@I502353@,John Quirk,1882,1898
+,17,@I502354@,Aloysius Joseph Quirk,1888,1910
+,17,@I502355@,Hubert John Quirk,1892,1930
+,17,@I502491@,James McConigley,,
+,17,@I502525@,Dan Daly,1911,
+,17,@I502526@,Michael Daly,1911,
+,17,@I502527@,Margaret Daly,1911,
+,17,@I502528@,Julia Daly,1911,
+,17,@I502576@,John Skivington,1830,1900
+,17,@I502577@,Mary Kelly,1833,1854
+,17,@I502639@,Charles,,
+,17,@I502640@,Mary,,
+,17,@I502821@,James Sweeney,1914,1914
+,17,@I502822@,,,
+,17,@I502835@,William J. Hesser,,
+,17,@I502836@,Mary Ann Hesser,,
+,17,@I502837@,Albert G. Hesser,,
+,17,@I502838@,John W. Hesser,,
+,17,@I502839@,Sophia Hesser,,
+,17,@I502840@,Franklin C. Hesser,,
+,17,@I502841@,Richard P. Hesser,,
+,17,@I502842@,Jonathan D. Hesser,,
+,17,@I502843@,Thomas J. Hesser,,
+,17,@I502911@,Edward Sweeney,1865,1868
+,17,@I502912@,,,
+,17,@I502913@,Edward Sweeney,1861,
+,17,@I502914@,John Sweeney,1864,
+,17,@I502915@,Patrick Sweeney,1867,
+,17,@I502997@,John Agnew Weinhold,1892,1920
+,17,@I502998@,Carrie M Artz,1950,
+,17,@I503002@,Vincent De Paul Kelly,1901,1921
+,17,@I503003@,Mary Gertrude Kirrane,1901,1910
+,17,@I503067@,Johannes Reichwein,1873,
+,17,@I503068@,Elizabeth Stahl,1853,1873
+,17,@I503149@,Bridget Elizabeth (Bessie) Rooney,1930,1978
+,17,@I503240@,Anthony (Twin) Johnston,1859,1904
+,17,@I503241@,Lizzie (Elizabeth) Loughran,1863,1932
+,17,@I503286@,Robert Aloysius Morning,1864,1893
+,17,@I503288@,Robert Morning,1894,1900
+,17,@I503289@,Mary C Morning,1896,1960
+,17,@I503290@,Helen G Morning,1898,1960
+,17,@I503291@,Katherine Alice Morning,1901,1929
+,17,@I503292@,Rose Bernadette Morning,1904,1926
+,17,@I503369@,Ellis G. Campbell,1899,1899
+,17,@I503370@,Campbell,1900,1900
+,17,@I503371@,Gilbert Balfour Campbell,1906,1926
+,17,@I503372@,Walter Raymond Campbell,1908,1930
+,17,@I503373@,Helen Margaret Campbell,1910,1940
+,17,@I503374@,Ruth Anne Campbell,1914,1935
+,17,@I503497@,Susanna Reed,1830,
+,17,@I503498@,Josiah H Reed,1831,1905
+,17,@I503499@,Anna M Reed,1837,
+,17,@I503500@,Ellen M Reed,1910,
+,17,@I503501@,Mary Elizabeth Reed,1844,1846
+,17,@I503580@,Frank B. Coolbrith,1900,1956
+,17,@I503581@,Charles C. Coolbrith,1880,
+,17,@I503582@,Mira E. Coolbrith,1880,1956
+,17,@I503583@,Ella Theresa Coolbrith,1900,1970
+,17,@I503584@,Mabel Coolbrith,1885,1898
+,17,@I503585@,Ernest Eugene Coolbrith,1911,1911
+,17,@I503586@,Rhoda E. Coolbrith,1910,1971
+,17,@I504031@,John J Cain,1920,
+,17,@I504032@,Bridget P Cain,1880,
+,17,@I504033@,Mary Cain,1844,
+,17,@I504034@,Andrew Cain,1860,1897
+,17,@I504035@,Mary Cain,1930,1940
+,17,@I504036@,Anne Cain,1870,
+,17,@I504037@,Michael Cain,1930,
+,17,@I504038@,James E Cain,1920,1951
+,17,@I504096@,Joseph Coolbrith,1822,1870
+,17,@I504097@,Rhoda E. Coolbrith,1823,1860
+,17,@I504424@,McConigley,,
+,17,@I504425@,,,
+,17,@I504434@,Patrick (Peter Patrick) Sweeney,1881,1938
+,17,@I504435@,Francis Sweeney,,1996
+,17,@I504457@,Smith,,
+,17,@I504600@,Peter Kelly,1847,1923
+,17,@I504601@,Patrick Kelly,1880,1960
+,17,@I504602@,Peter Kelly,1876,1940
+,17,@I504603@,Owen Kelly,1878,1944
+,17,@I504604@,John Kelly,1882,1972
+,17,@I504605@,Mary Kelly,1884,
+,17,@I504606@,Joseph Kelly,1887,1919
+,17,@I504607@,Margaret Kelly,1894,1963
+,17,@I504708@,Anne F. Brown,1900,
+,17,@I504709@,Francis Cornelius Skiffington,1930,1990
+,17,@I504710@,John P Skiffington,1920,1930
+,17,@I504711@,Marie Skiffington,1900,1907
+,17,@I504712@,Hugh P Skiffington,1900,1912
+,16,@I501581@,Anna Deeney,1841,1861
+,16,@I501582@,Catherine Deeney,1846,1900
+,16,@I501583@,Una Deeney,1849,1934
+,16,@I501584@,Susan Deeney,1855,1935
+,16,@I501585@,Patrick Deeney,1852,1893
+,16,@I501768@,James Doherty,1790,1853
+,16,@I501769@,Anna Doherty,1798,1853
+,16,@I501831@,Michael Grant,1813,1871
+,16,@I501832@,Sarah McConigley,1815,1900
+,16,@I502133@,Michael McGinley,1871,
+,16,@I502134@,Mary Sweeney,1871,
+,16,@I502146@,Ellen Sweeney,1835,1860
+,16,@I502147@,Michael Callaghan,1862,1882
+,16,@I502156@,John Daly,1851,1942
+,16,@I502157@,Mary Caroline Skiffington,1858,1927
+,16,@I502222@,John Henry (Harry) Clinton,1892,1901
+,16,@I502223@,Richard William (Willie) Clinton,1901,1969
+,16,@I502225@,Elizabeth Mary (Lilian Lily) Clinton,1894,1911
+,16,@I502226@,Bridget Evelyn (Eva Maud) Clinton,1901,1927
+,16,@I502227@,Alfred Joseph Clinton,1902,1978
+,16,@I502256@,Bridget McNern,1930,
+,16,@I502257@,Charlie Sweeney,1930,
+,16,@I502258@,Vincent Sweeney,1940,
+,16,@I502259@,Mary Sweeney,1940,
+,16,@I502348@,John Quirk,1839,1902
+,16,@I502349@,Margaret A. Golden,1858,1916
+,16,@I502469@,Joseph G. Meyer,1878,1955
+,16,@I502470@,Charles Joseph Meyer,1918,1981
+,16,@I502471@,Kathleen Meyer,1915,2000
+,16,@I502472@,Mary Meyer,,1995
+,16,@I502473@,Anne Meyer,1926,2002
+,16,@I502474@,Cassie Meenan,,
+,16,@I502475@,Bridgena Sweeney,,
+,16,@I502501@,Harvey Milton Hesser,1859,1882
+,16,@I502502@,Susan O. Hesser,1861,1936
+,16,@I502503@,Charles H. Hesser,1865,1890
+,16,@I502504@,minnie gertrude hesser,1873,1910
+,16,@I502585@,Thos Callehan,,
+,16,@I502586@,Anna Callehan,1880,
+,16,@I502587@,Julia Callehan,1880,
+,16,@I502588@,James Callehan,1880,
+,16,@I502589@,William Callehan,1880,
+,16,@I502590@,John Callehan,1880,
+,16,@I502591@,Ellen Callehan,1880,
+,16,@I502592@,Mary Callehan,1880,
+,16,@I502632@,Julia Revi,1940,
+,16,@I502633@,Stacia Revi,1940,
+,16,@I502634@,Robert A Revi,2003,
+,16,@I502635@,Thelma Weinhold,1950,1940
+,16,@I502636@,Jerry Kellagher,1950,
+,16,@I502673@,Donna Mary Margaret Kelly,1928,2001
+,16,@I502690@,Una McGinley,1817,1889
+,16,@I502691@,Daniel Callaghan,1853,
+,16,@I502692@,Michael Callaghan,1880,1880
+,16,@I502693@,John Callaghan,1859,1924
+,16,@I502694@,Anne Callahan,1861,
+,16,@I502695@,Mary Callaghan,1863,1911
+,16,@I502696@,"Delia ""Bridget"" Callahan",1867,
+,16,@I502722@,Hugh Blaney,1823,1889
+,16,@I502723@,Anne Nancy Blaney,1848,1930
+,16,@I502724@,Catherine Blaney,1862,1883
+,16,@I502725@,Daniel Blaney,1850,1927
+,16,@I502726@,Mary Blaney,1856,
+,16,@I502773@,Catherine Callaghan,1821,1889
+,16,@I502774@,Ann Callaghan,,
+,16,@I502778@,Bridget O'Callahan,1836,1899
+,16,@I502796@,Mary Ellen O'Mara,1880,1974
+,16,@I502797@,Mary Margaret Dougherty,1900,1974
+,16,@I502798@,Patricia Marie Dougherty,,
+,16,@I502799@,Elizabeth Catherine Dougherty,1903,1996
+,16,@I502800@,Francis Dougherty,,
+,16,@I502812@,Katie (Catherine Josephine) Johnston,1903,1911
+,16,@I502828@,John Logue,,
+,16,@I502831@,Frank Yurkosky,,
+,16,@I502832@,Catherine Fantz,,
+,16,@I502833@,John W. Hesser,,
+,16,@I502834@,Susanna Merkel,,
+,16,@I502908@,Lamar A Kramer,1908,1996
+,16,@I502909@,Hazel M.,1929,2010
+,16,@I502984@,Thomas Curtis,1922,1950
+,16,@I503009@,John Joseph Deeney,,
+,16,@I503046@,Pauline Stabler Reichwein,1907,1940
+,16,@I503062@,Mary Curtis,1950,
+,16,@I503080@,James Quirk,1927,2002
+,16,@I503081@,John Thomas Quirk,1930,1950
+,16,@I503082@,William Harold Quirk,1933,2014
+,16,@I503094@,Rose M. Poppert,1928,
+,16,@I503118@,James Sigerson,,
+,16,@I503148@,Mrs Rooney Not known,,
+,16,@I503287@,Margaret Blaney,1853,
+,16,@I503367@,David Greenwood Campbell,1923,1923
+,16,@I503368@,Bertha Rhoads,1878,1952
+,16,@I503495@,Henry Reed,1807,1880
+,16,@I503496@,Mary Elizabeth Heebner,1802,1885
+,16,@I503578@,Benjamin F Coolbrith,1849,1871
+,16,@I503579@,Frances Ellen Abbott,1937,1871
+,16,@I503587@,Mable Alice Coolberth,1930,1941
+,16,@I503588@,Ernest J Coolberth,1930,1940
+,16,@I503589@,Benjamin Franklin Coolbrith,1944,1930
+,16,@I503590@,Edward Waldo Coolberth,1906,1920
+,16,@I503591@,Philip Elmer Coolberth,1928,1950
+,16,@I503592@,Mary Naomi Coolbrith,1901,1920
+,16,@I503608@,Eduard H Coolberth,1906,
+,16,@I503706@,John Skiffington,1864,1934
+,16,@I503707@,Margaret Skiffington,1930,1930
+,16,@I503708@,Hugh Skiffington,1866,1944
+,16,@I503710@,Anne Jane (Jenny) Skiffington,1869,1941
+,16,@I503711@,Bridget Skiffington,1861,1922
+,16,@I503712@,Patrick Skiffington,1885,1923
+,16,@I503837@,Mary McConigley,1840,1901
+,16,@I503838@,Giley Sweeney,1880,1925
+,16,@I503839@,Catherine Sweeney,1876,1930
+,16,@I503840@,Charles Sweeney,1865,1891
+,16,@I504011@,Bridget Cain,1920,1923
+,16,@I504012@,,,
+,16,@I504013@,Mary Cain,1910,1945
+,16,@I504014@,,,
+,16,@I504015@,Annie Cain,1930,1948
+,16,@I504016@,,,
+,16,@I504017@,Catherine (Katie) Loretta Cain,1920,1940
+,16,@I504018@,,,
+,16,@I504019@,Joseph Francis Cain,1942,1957
+,16,@I504020@,,,
+,16,@I504021@,Margaret (Mame) Cain,1940,1966
+,16,@I504022@,,,
+,16,@I504023@,"Sarah ""Sadie"" Cain",1940,1944
+,16,@I504024@,,,
+,16,@I504025@,James Edward Cain,1934,1937
+,16,@I504026@,,,
+,16,@I504027@,Frank Cain,1888,1897
+,16,@I504028@,,,
+,16,@I504029@,Martin Cain,1882,1882
+,16,@I504030@,Mary Murray,1901,1901
+,16,@I504079@,William Skiffington,,
+,16,@I504080@,Mary,,
+,16,@I504259@,Hugh Blaney,1838,
+,16,@I504260@,James Blaney,1901,
+,16,@I504302@,Michael Callaghan,1833,1863
+,16,@I504305@,Michael (Mickey) Mc elwaine,1936,
+,16,@I504306@,Patrick McElwaine,1927,2000
+,16,@I504307@,Johnny McElwaine,1929,1993
+,16,@I504308@,Jimmy McElwaine,1931,1997
+,16,@I504318@,John James Mc Coach,1911,
+,16,@I504319@,,,
+,16,@I504320@,Hugh McCoach,1901,
+,16,@I504341@,Catherine Shiels,1869,1940
+,16,@I504342@,Mary Ellen McConigley,1897,1911
+,16,@I504343@,Patrick MacConigley,1911,1901
+,16,@I504344@,Margery Hannah MacConigly,1911,1901
+,16,@I504345@,Charles MacConigly,1911,1975
+,16,@I504346@,Laurence MacConigly,1911,1983
+,16,@I504347@,Hugh Aloysius MacConigly,1911,1987
+,16,@I504348@,Denis Ignatius MacConigly,1911,1953
+,16,@I504349@,Margaret Carr,,
+,16,@I504350@,Catherine [Cassie] Mc connigley,1911,1990
+,16,@I504351@,John James Mc connigley,1909,1911
+,16,@I504352@,maggie McConigley,1911,1911
+,16,@I504353@,mary ann Mc connigley,1907,
+,16,@I504366@,Margaret Hegarty,1885,1978
+,16,@I504431@,Bridget Sweeney,1869,1945
+,16,@I504432@,John Sweeney,1901,1942
+,16,@I504433@,Mary Sweeney,1867,1897
+,16,@I504599@,Hugh Skiffington,1789,1865
+,16,@I504664@,Catherine [Cassie] Mc connigley,1903,1911
+,16,@I504665@,Maryanne Mc connigley,1907,
+,16,@I504666@,John james Mc connigley,1909,1911
+,16,@I504731@,Patricia B Kelly,1930,1990
+,16,@I504732@,Joan C. Kelly,1935,2001
+,16,@I504733@,Thomas William Kelly,1932,2000
+,16,@I504734@,Dolores Kelly,1923,2006
+,16,@I504735@,Mary Margaret Kelly,1926,2006
+,15,@I501405@,James Grant,1848,1881
+,15,@I501406@,Hugh Grant,,
+,15,@I501579@,Edward Deeney,1820,1896
+,15,@I501580@,Catherine Doherty,1823,1903
+,15,@I501619@,Mae Anne Daly,1889,1918
+,15,@I501620@,Mary Perpetua (Sr. John Mary IHM) Deeney,1919,1920
+,15,@I501621@,John Deeney SJ,1921,2010
+,15,@I501622@,Nancy Deeney,1923,1950
+,15,@I501623@,George Callahan Aloysius Deeney,1924,1947
+,15,@I501624@,Edward Deeney,1927,1940
+,15,@I501625@,Joseph Deeney,1929,1940
+,15,@I501764@,Christopher Robert (Bobby) Clinton,1925,1984
+,15,@I501765@,John Kevin (Kevin) Clinton,1920,1920
+,15,@I501766@,Thomas J Clinton,1923,1977
+,15,@I501767@,Evaline or Eveleen Gertrude (Eva) Clinton,1921,1998
+,15,@I501793@,Catharine Dougherty,1853,1854
+,15,@I501794@,Bernard Dougherty,1859,
+,15,@I501795@,John Dougherty,1853,
+,15,@I501796@,James Dougherty,1857,
+,15,@I501797@,Daniel Dougherty,1861,
+,15,@I501798@,Elizabeth Bertha Dougherty,1866,1882
+,15,@I501799@,Francis Dougherty,1866,1899
+,15,@I501800@,Joseph Dougherty,1877,1913
+,15,@I501802@,Bernard,1840,1865
+,15,@I501803@,James,1875,1895
+,15,@I501804@,Daniel,1869,1875
+,15,@I501805@,John,1881,1962
+,15,@I501806@,Catherine Duffy,1879,1966
+,15,@I501807@,Bernard A.,1881,1944
+,15,@I501808@,Mary Duffy,1868,1927
+,15,@I501809@,Eunice Duffy,1877,1878
+,15,@I501855@,Bridget Doherty,1864,1901
+,15,@I501856@,Frank (Francis) Sweeney,1895,1901
+,15,@I501857@,Nana (Hannah) Sweeney,1897,1901
+,15,@I501858@,Bridget Sweeney,1883,1901
+,15,@I501859@,Mary Josephine Sweeney,1881,1940
+,15,@I501860@,Jiley Sweeney,1893,1901
+,15,@I501861@,Edward Sweeney,1890,1935
+,15,@I501862@,Catherine Sweeney,1888,1901
+,15,@I501863@,Hugh Sweeney,1886,1901
+,15,@I501864@,Winnie Sweeney,1885,1901
+,15,@I501869@,Connell Milloy,1911,1901
+,15,@I501875@,Edward Gallagher,1901,
+,15,@I501901@,James Callaghan,1813,1888
+,15,@I501902@,Anthony Callaghan,1815,1899
+,15,@I501903@,Eleanor Nellie Callaghan,1819,1879
+,15,@I501904@,Michael Callaghan,1826,1873
+,15,@I501905@,Hugh Callaghan,1893,1893
+,15,@I501906@,Daniel Callaghan,1900,1911
+,15,@I501907@,Cecelia Callaghan,,
+,15,@I501908@,Mary Callaghan,,
+,15,@I501909@,Catherine Callaghan,,
+,15,@I502006@,John Joseph Ryan,1940,
+,15,@I502040@,Hannah McCarron,1858,1937
+,15,@I502041@,"John ""Neidi Mhuirthe"" Sweeney",1894,1982
+,15,@I502042@,Charlie Sweeney,1893,1960
+,15,@I502043@,Mary Sweeney,1896,1979
+,15,@I502044@,James McGinley,1855,1882
+,15,@I502045@,Mary Ann Agnes McGinley,1900,1960
+,15,@I502046@,Charles Joseph McGinley,1950,1953
+,15,@I502102@,Thomas Smeal,,
+,15,@I502103@,Grace L Berg,,
+,15,@I502124@,William E. Quirk,1899,1920
+,15,@I502140@,Grace McGinley,1886,1900
+,15,@I502141@,Edward McGinley,1888,
+,15,@I502142@,James Francis McGinley,1894,1900
+,15,@I502143@,Kate McGinley,1900,
+,15,@I502144@,John McGinley,1900,
+,15,@I502186@,Edgar A. Muldoon,1906,1976
+,15,@I502219@,John Clinton,1901,1920
+,15,@I502220@,Amelia Gertrude Judge,1868,
+,15,@I502331@,Roger Mc Gee,1863,1916
+,15,@I502334@,Paul Peter McGee,1886,1911
+,15,@I502335@,Patrick Jas. McGee,1895,
+,15,@I502336@,James McGee,1904,1928
+,15,@I502337@,Catherine Kellagher,1873,1893
+,15,@I502338@,Phillip T. Mongold,1894,1919
+,15,@I502339@,Antoinette E,1940,
+,15,@I502340@,Richard C Kellagher,1940,1996
+,15,@I502341@,Janice Kellagher,1940,
+,15,@I502356@,Margaret Quirk,1899,1940
+,15,@I502357@,Catherine V Quirk,1910,1920
+,15,@I502358@,James Aloysius Quirk,1902,1925
+,15,@I502359@,Mary Quirk,1905,1906
+,15,@I502360@,Bernadette Bridget Quirk,1907,1920
+,15,@I502361@,John Joseph Quirk,1913,1940
+,15,@I502436@,Mary Caufield,1906,1935
+,15,@I502437@,Rosemary (Margaret) Kellagher,1929,1948
+,15,@I502445@,Francis Sweeney,1901,1910
+,15,@I502446@,John Mor Sweeney,1820,1901
+,15,@I502447@,Denis Mor Sweeney,,
+,15,@I502448@,Kate Mor Sweeney,1837,
+,15,@I502449@,Jiley Sweeney,1836,1909
+,15,@I502484@,Cornelius Donovan,1891,1940
+,15,@I502485@,Cormac Rooney,1893,1935
+,15,@I502486@,Catherine Rooney,1930,2012
+,15,@I502487@,John J Rooney,1930,1987
+,15,@I502488@,Mary Gallagher Rooney,1926,1993
+,15,@I502489@,Anne Rooney,1931,2006
+,15,@I502499@,Charles Henry Hesser,1839,1858
+,15,@I502500@,Sarah Rebecca Reed,1842,1858
+,15,@I502508@,Andrew Revi,1935,1975
+,15,@I502509@,Genevieve Kaskie,1904,1950
+,15,@I502516@,Florence,1940,
+,15,@I502517@,Robert Kellagher,1940,
+,15,@I502518@,Martha Kellagher,1940,
+,15,@I502519@,Violetta Kellagher,1940,
+,15,@I502520@,Mary A Kellagher,1940,
+,15,@I502521@,Margurite Kellagher,1940,
+,15,@I502529@,John,,
+,15,@I502531@,William Hamilton Gibson,1887,1963
+,15,@I502532@,Marguerite Louise Gibson,1916,1938
+,15,@I502533@,William Hamilton Gibson,1919,1944
+,15,@I502534@,frances gibson,1940,
+,15,@I502593@,Kathryn Toland,1887,1927
+,15,@I502603@,Hannah Callaghan,1879,
+,15,@I502604@,Edward,1865,
+,15,@I502605@,Charles,1880,
+,15,@I502606@,James,1878,
+,15,@I502621@,Pearl Collier,1898,1923
+,15,@I502622@,William M. Collier,1901,1981
+,15,@I502623@,Edith V Collier,1904,1924
+,15,@I502624@,Annie B Collier,1907,1907
+,15,@I502625@,Marian Collier,1908,2003
+,15,@I502626@,Samuel James Collier,1910,1990
+,15,@I502627@,Charles Collier,1915,2001
+,15,@I502703@,Condy Brennan,,1942
+,15,@I502704@,Bella Brennan,,2012
+,15,@I502729@,Robert J Robinson,1940,
+,15,@I502813@,James O'Donnell,1901,
+,15,@I502814@,Danny O'Donnell,1913,
+,15,@I502815@,Peg O'Donnell,,
+,15,@I502819@,Thomas Williams,1866,
+,15,@I502820@,Catherine (Kate ) Cleary,1901,1933
+,15,@I502954@,James McGinley,,
+,15,@I502955@,John McGinley,1858,1911
+,15,@I502994@,Elmer James Coolberth,1873,1940
+,15,@I502995@,Mary Alice Skiffington,1910,1900
+,15,@I503047@,Bernard Kellagher,1940,1994
+,15,@I503048@,Joseph Kellagher,1940,2010
+,15,@I503049@,Rachel Rathburn Campbell,1930,1940
+,15,@I503117@,Mary Sullivan,,
+,15,@I503144@,John,1845,1845
+,15,@I503295@,Louise,1950,
+,15,@I503536@,Nicholas Brecker,1843,1880
+,15,@I503537@,Martin Ambrose Cain,1900,1917
+,15,@I503538@,Nicholas Francis Brecker,1883,1910
+,15,@I503539@,Gertrude T Brecker,1885,1955
+,15,@I503540@,Margaret A Brecker,1875,1940
+,15,@I503541@,William Anthony Brecker,1888,1935
+,15,@I503542@,Mary Josephine Brecker,1881,1922
+,15,@I503543@,John E. Brecker,1869,1880
+,15,@I503544@,Henrietta Mary Brecker,1870,1910
+,15,@I503545@,Katherine Kate Brecker,1875,1880
+,15,@I503546@,Anna Christian Brecker,1881,1924
+,15,@I503547@,Peter Philip Brecker,1872,1910
+,15,@I503570@,John Joseph Daly,1895,1979
+,15,@I503605@,Berniece Peggy Simms Crosswhite,1977,2006
+,15,@I503606@,Donald Edward Coolberth,1935,1996
+,15,@I503607@,Joyce Coolberth,,
+,15,@I503659@,John O'Grady,1842,
+,15,@I503660@,Daniel O'Grady,,
+,15,@I503702@,Michael McGinley,1862,1877
+,15,@I503703@,Daniel McGinley,1863,1866
+,15,@I503704@,John Skiffington,1827,1901
+,15,@I503705@,Mary Kelly,1833,1907
+,15,@I503842@,Charles McConigley,1860,1934
+,15,@I503843@,Francis McConigley,1911,1946
+,15,@I503844@,Patrick McConigley,1901,1938
+,15,@I503845@,Uney McConigley,,
+,15,@I503846@,John McConigley,,
+,15,@I503847@,Catherine McConigley,,
+,15,@I503848@,Mary McConigley,1861,1944
+,15,@I503849@,Nancy McConigley,,
+,15,@I504084@,John Coyle,1911,
+,15,@I504085@,Bridget Coyle,1879,
+,15,@I504148@,Lenore D. McMonagle,1940,1944
+,15,@I504149@,Francis James McMonagle,1940,1995
+,15,@I504150@,Francis Mcmonigal,1920,
+,15,@I504151@,Edward McMonigal,1920,
+,15,@I504152@,Cornelius Edward Mcmonagle,1940,
+,15,@I504153@,John Mcmonigal,1920,
+,15,@I504154@,Willard Mcmonigal,1908,
+,15,@I504170@,Patrick McCallion,1950,1971
+,15,@I504171@,James McCallion,1959,1963
+,15,@I504172@,George McCallion,1940,1984
+,15,@I504173@,Joseph Alphonsus McCallion,1959,1985
+,15,@I504174@,Kathleen Bernadette McCallion,1940,1953
+,15,@I504175@,Sarah Frances McCallion,1961,1961
+,15,@I504176@,Denis McCallion,1935,1959
+,15,@I504177@,John Joseph McCallion,1892,1893
+,15,@I504178@,Thomas McCallion,1942,1972
+,15,@I504179@,Mary McCallion,1950,1998
+,15,@I504271@,Arthur Friel,1867,1945
+,15,@I504272@,Margaret Friel,1869,
+,15,@I504273@,Edward (Eddie) Friel,1875,1911
+,15,@I504274@,Daniel (Dan) Friel,1877,1925
+,15,@I504275@,John (Johnny) Friel,1880,1932
+,15,@I504276@,William Friel,1887,1967
+,15,@I504277@,Francis O'Friel,1871,1965
+,15,@I504278@,George O'Friel,1873,1946
+,15,@I504279@,James Friel,1864,
+,15,@I504280@,Michael (Mick) Friel,,
+,15,@I504300@,Seamie Anton Anthony Callaghan,1800,
+,15,@I504301@,Bridget McTier,1800,1875
+,15,@I504303@,Thomas McElwaine,1911,1980
+,15,@I504304@,Mary Anne Clinton,1900,1985
+,15,@I504362@,Mc Ateer,,
+,15,@I504436@,Francis Sweeney,1901,1910
+,15,@I504437@,Bridget Sweeney,1869,1945
+,15,@I504438@,John Sweeney,1901,1942
+,15,@I504439@,Charles Sweeney,1865,1878
+,15,@I504440@,Giley Sweeney,1901,1952
+,15,@I504441@,Catherine Sweeney,1876,1954
+,15,@I504442@,Mary Sweeney,1867,1897
+,15,@I504662@,Patrick Mc connigley,1864,1911
+,15,@I504663@,Maggie carr,1875,1911
+,15,@I504676@,Hannah Mc Conigly,1901,
+,15,@I504677@,Julia Mc Conigly,1901,
+,15,@I504678@,James Mc Conigly,1901,
+,15,@I504679@,Bridget Mc Conigly,1901,
+,15,@I504680@,Margaret Mc Conigly,1901,
+,15,@I504729@,Vincent De Paul Kelly,1901,1942
+,15,@I504730@,Mary Gertrude Kirrane,1901,1984
+,15,@I504853@,Marnie Keenan,,
+,14,@I500660@,Sarah MacCleary,1846,1872
+,14,@I500746@,Margaret Sweeney,1827,1918
+,14,@I500747@,Mary Friel,1856,1881
+,14,@I500845@,Thomas MacCleary,,
+,14,@I501340@,George Patrick Deeney,1852,1872
+,14,@I501341@,George Callahan Aloysius Deeney,1887,1887
+,14,@I501342@,Edward Deeney,1883,1883
+,14,@I501343@,Eleanor M Deeney,1885,1887
+,14,@I501408@,Mary Ellen Conroy,1871,1910
+,14,@I501480@,John McElwee,1900,1917
+,14,@I501481@,,,
+,14,@I501482@,Mary McElwee,1902,
+,14,@I501483@,,,
+,14,@I501484@,Ellen McElwee,1904,
+,14,@I501485@,,,
+,14,@I501498@,Mary Flood,1878,1895
+,14,@I501499@,James Byrne Flood,1880,1923
+,14,@I501500@,Richard Flood,1881,
+,14,@I501501@,Teresa Louisa Flood,1885,
+,14,@I501502@,Margaret Flood,1888,
+,14,@I501503@,Elizabeth Flood,,
+,14,@I501546@,Catherine Sweeney,1845,1894
+,14,@I501547@,Edward Sweeney,1847,1928
+,14,@I501548@,Charles Sweeney,1849,1918
+,14,@I501549@,Cecelia Sweeney,1855,
+,14,@I501550@,James Sweeney,1850,
+,14,@I501551@,Mary Sweeney,1852,
+,14,@I501552@,Winifred Sweeney,1857,1900
+,14,@I501553@,Hannah Sweeney,1863,
+,14,@I501554@,Francis Sweeney,1866,
+,14,@I501608@,Francis Ryan,,
+,14,@I501609@,Agnes Tracy,,
+,14,@I501611@,John Gallagher,1911,1961
+,14,@I501612@,Annie,1911,1901
+,14,@I501613@,Kate Gallagher,1911,1926
+,14,@I501614@,Sara Gallagher,1911,1911
+,14,@I501615@,Rose Gallagher,1911,1911
+,14,@I501616@,Maggie Gallagher,1911,1979
+,14,@I501633@,Catharine Short,1920,1977
+,14,@I501634@,,,
+,14,@I501635@,Elizabeth Short,1920,
+,14,@I501636@,Anna Veronica Short,1920,1935
+,14,@I501637@,Mary Short,1920,
+,14,@I501638@,Mary Carr,1851,
+,14,@I501639@,John McElwee,1879,
+,14,@I501640@,Sarah McElwee,1882,
+,14,@I501641@,Charles McElwee,1884,
+,14,@I501642@,Hugh McElwee,1886,
+,14,@I501643@,Darby McElwee,1888,
+,14,@I501644@,Daniel McElwee,1895,
+,14,@I501762@,Christopher Robert (Bob) Clinton,1889,1901
+,14,@I501763@,Jane Williams,1901,1893
+,14,@I501776@,Mary Duffy,1900,1918
+,14,@I501777@,Agnes McElwee,1910,1982
+,14,@I501778@,Elizabeth McElwee,1910,1984
+,14,@I501779@,Mary McElwee,1910,
+,14,@I501780@,John McElwee,1930,1970
+,14,@I501781@,Margaret McElwee,1940,
+,14,@I501782@,Annie M Mcelwee,1910,1966
+,14,@I501791@,Bernard Dougherty,1901,
+,14,@I501792@,Catherine Friel,1850,
+,14,@I501865@,Charles Sweeney,1800,1862
+,14,@I501866@,Catherine Duffy,1797,1875
+,14,@I501867@,John Milloy,,
+,14,@I501868@,Mary - Molloy nee ?,1812,1901
+,14,@I501870@,Ellen Gallagher,1874,1874
+,14,@I501871@,Bridget Gallagher,1901,1965
+,14,@I501872@,Mary Gallagher,1901,1958
+,14,@I501873@,John (Eoin ) Gallagher,,
+,14,@I501874@,NOT KNOWN not known,,
+,14,@I501899@,James Callaghan,,
+,14,@I501900@,Mary McGinley,,
+,14,@I501993@,Maude Smeal,1916,2006
+,14,@I501996@,Catherine Fitzpatrick,1868,1870
+,14,@I501997@,Mary Ellen Fitzpatrick,1869,1870
+,14,@I501998@,Elizabeth Fitzpatrick,1872,1898
+,14,@I501999@,Bridget Fitzpatick,1861,1870
+,14,@I502008@,Elizabeth Motley,1940,
+,14,@I502009@,Michael Kellagher,1886,1915
+,14,@I502010@,Bernard Edward Kellagher,1900,1981
+,14,@I502011@,Mary A. Kellagher,1891,1940
+,14,@I502012@,Edward Aloysus Kellagher,1893,1940
+,14,@I502013@,Margaret Kellagher,1895,1913
+,14,@I502029@,George,,
+,14,@I502030@,Anna Evanouskey,,
+,14,@I502108@,Eleanor,1933,2007
+,14,@I502131@,Larry J Bannon,1950,
+,14,@I502132@,Glenn A Bannon,1950,
+,14,@I502149@,Lewis Palm,1929,1974
+,14,@I502150@,Lewis J Palm,1955,1961
+,14,@I502151@,Lauretta,1900,1910
+,14,@I502152@,Margereta Kellagher,1900,1940
+,14,@I502153@,John J Kellagher,1900,1953
+,14,@I502154@,Charles B Kellagher,1935,1957
+,14,@I502155@,James Kellagher,1917,1946
+,14,@I502269@,William (Billy) Slyne,1918,1989
+,14,@I502274@,Abby O'Sullivan,1902,1978
+,14,@I502276@,Patrick O'Driscoll,1938,2007
+,14,@I502277@,Mary Margaret Driscoll,1941,2011
+,14,@I502278@,Jeremiah (Jerry) Lyne,1911,1985
+,14,@I502279@,Joseph E. Jordan,1898,1920
+,14,@I502280@,Marie Jordan,1930,
+,14,@I502281@,Joseph Edward Jordan,1924,1948
+,14,@I502282@,Edward Thomas Jordan,1925,1997
+,14,@I502309@,Elizabeth Mongold,1870,1910
+,14,@I502310@,Peter Mongold,1870,
+,14,@I502311@,William Mongold,1870,1944
+,14,@I502321@,Walter David Sinkoskie,1954,2010
+,14,@I502322@,,,
+,14,@I502323@,Lisa Ann Sinkoskie,1963,1963
+,14,@I502324@,,,
+,14,@I502325@,Laura Jane Sinkoskie,1956,2012
+,14,@I502326@,,,
+,14,@I502327@,John Mongold,1870,
+,14,@I502328@,Katie Mongold,1870,
+,14,@I502329@,Philip Mongold,1870,
+,14,@I502330@,Jacob Mongold,1870,
+,14,@I502332@,Henriette Mongold,1846,1846
+,14,@I502333@,Margaretha Mongold,1849,1903
+,14,@I502344@,Margret Kellagher,,
+,14,@I502362@,Genevieve Denise Kellagher,1955,2018
+,14,@I502363@,Andrew James Kellagher,1956,1973
+,14,@I502364@,Ronald Kellagher,1964,1982
+,14,@I502371@,Mary O'Sullivan,1874,1903
+,14,@I502372@,Denis O'Sullivan,1881,
+,14,@I502373@,Patrick O'Sullivan,1882,1974
+,14,@I502374@,John O'Sullivan,1890,
+,14,@I502375@,Ellie O'Sullivan,1900,
+,14,@I502376@,Michael O'Sullivan,1871,1960
+,14,@I502377@,Daniel O'Sullivan,1893,
+,14,@I502393@,Anton McElwee,1867,1931
+,14,@I502394@,Daniel McElwee,1874,1940
+,14,@I502395@,Mary McElwee,,
+,14,@I502396@,James McElwee,1876,
+,14,@I502397@,Patrick McElwee,,
+,14,@I502398@,William McElwee,,
+,14,@I502476@,Otto Heinz,1907,1950
+,14,@I502477@,Alton Parker Coolberth,1926,
+,14,@I502478@,Philip Alton Coolberth,1935,1940
+,14,@I502479@,Michael Columbus Gallagher,1894,1930
+,14,@I502480@,Agnes M Gallagher,1993,2017
+,14,@I502481@,Frances Teresa Gallagher,1940,1930
+,14,@I502482@,Baby Girl Gallagher,1932,1932
+,14,@I502483@,James Michael Gallagher,1935,1935
+,14,@I502505@,Mary Estella Kellagher,1884,1913
+,14,@I502506@,Vincent D. Kellagher,1900,1950
+,14,@I502507@,Eugene Francis Kellagher,1902,1940
+,14,@I502530@,Mary T. Hunt,,
+,14,@I502546@,Patrick Cashel Preaghan 1 Friel,1858,1933
+,14,@I502547@,Catherine Friel,1868,1955
+,14,@I502548@,Sarah Friel,1870,1936
+,14,@I502597@,William Joseph Connors,,
+,14,@I502600@,Edward Hartwell,1860,
+,14,@I502601@,"James ""Seamus Mór"" Callaghan",1828,1868
+,14,@I502602@,Margery (Maidi Mor),1841,1868
+,14,@I502619@,William Collier,1868,1898
+,14,@I502620@,Mame L Haring,1876,1898
+,14,@I502742@,Elizabeth Dempsey,1883,
+,14,@I502743@,Maud Dempsey,1885,
+,14,@I502744@,Bernard Dempsey,1886,
+,14,@I502745@,Malachy Dempsey,1891,
+,14,@I502829@,Bridie (Bridget Ann) Sigerson,1910,1997
+,14,@I502830@,Eileen Lovett,,
+,14,@I502844@,Margaret E Maslin,,
+,14,@I502845@,George Friel,,
+,14,@I502876@,Annie Harkins,1866,1910
+,14,@I502877@,Joseph Charles McFadden,1905,1940
+,14,@I502878@,John Leonard McFadden,1909,1909
+,14,@I502879@,Francis McFadden,1902,1918
+,14,@I502886@,Logue,1817,1839
+,14,@I502887@,Mary Logue,1836,1911
+,14,@I502888@,Logue,1817,1817
+,14,@I502889@,Mary Logue,1836,1836
+,14,@I502890@,Logue,1819,1889
+,14,@I502891@,John Logue,1846,1899
+,14,@I502892@,Logue,1817,1823
+,14,@I502893@,Logue,1832,1832
+,14,@I502922@,James Hughes,1873,1949
+,14,@I502923@,Annie Quinn,1880,1926
+,14,@I502952@,Michael McGinley,,
+,14,@I502953@,Mary Sweeney,,
+,14,@I502956@,McGinley,,
+,14,@I503083@,Nora Bridget Fitzpatrick,1903,1926
+,14,@I503084@,Joseph,1930,1930
+,14,@I503085@,Rosemary Ann Friel,1927,2000
+,14,@I503086@,William James,1934,1958
+,14,@I503087@,Edward Vincent,1935,1993
+,14,@I503088@,Lawrence Thomas,1931,1993
+,14,@I503089@,John Patrick,1928,2011
+,14,@I503115@,Michael (Mikam) Brennan,1916,2008
+,14,@I503142@,James O'Logue,1754,1778
+,14,@I503143@,Miss,1752,1778
+,14,@I503145@,Sarah,1882,1903
+,14,@I503146@,Patrick Logue,1916,1987
+,14,@I503147@,Kitty Logue,1920,1994
+,14,@I503168@,Susan McBride,,
+,14,@I503169@,James Logue,1897,1994
+,14,@I503170@,Sophie logue,1901,1911
+,14,@I503171@,John (Johnny) Logue,1902,1911
+,14,@I503172@,Bridget (Betty) Logue,1930,1986
+,14,@I503173@,Mary Ann Logue,1909,1911
+,14,@I503174@,Michael Logue,1904,1930
+,14,@I503320@,Michael Callahan,1848,1860
+,14,@I503321@,John Callahan,1851,1860
+,14,@I503322@,James Callahan,1852,1870
+,14,@I503323@,Hugh Callahan,1857,1860
+,14,@I503324@,Mary Callahan,1860,1860
+,14,@I503325@,Daniel J Callahan,1862,1910
+,14,@I503326@,William Callahan,1870,
+,14,@I503327@,Mary,1880,
+,14,@I503328@,Dan Callahan,1880,
+,14,@I503355@,Thomas Casey,,
+,14,@I503375@,Walter David Sinkoskie,1954,2010
+,14,@I503376@,,,
+,14,@I503377@,Lisa Ann Sinkoskie,1963,1963
+,14,@I503378@,,,
+,14,@I503379@,Laura Jane Sinkoskie,1956,2012
+,14,@I503380@,,,
+,14,@I503381@,Walter Joseph Sinkoskie,1923,1972
+,14,@I503382@,Harold Donson Sheaffer,1925,2000
+,14,@I503424@,Evelyn Doherty,,
+,14,@I503568@,John Daly,1851,1889
+,14,@I503569@,Mary Caroline Skiffington,1858,1889
+,14,@I503657@,Darby (Jeremiah) O'Grady,1803,1889
+,14,@I503658@,Honora,1809,1887
+,14,@I503661@,Joan (Josie) O'Sullivan,,
+,14,@I503662@,James O'Sullivan,1905,
+,14,@I503758@,Donna Mary Margaret Kelly,1928,2001
+,14,@I503760@,Thomas Curtis,1922,2009
+,14,@I503773@,Mary McConigley,1840,1901
+,14,@I503774@,Frank McConigley,1832,1892
+,14,@I503775@,Bridget McConigley,1840,
+,14,@I503776@,Sheila McConagly,,
+,14,@I503777@,Henry McConigley,1840,
+,14,@I503824@,Fannie Gibbons,1930,1941
+,14,@I503825@,Ena (OonaghUna) Gibbons,1862,
+,14,@I503826@,James Edward Gibbons,1865,1916
+,14,@I503841@,Catherine McConigley,1901,1910
+,14,@I504074@,Hugh Carr,1915,2007
+,14,@I504075@,Mary Carr,1944,2002
+,14,@I504076@,Veronica Carr,1949,2017
+,14,@I504077@,maggie McConigley,1911,1911
+,14,@I504078@,Hugh Gerard Coyle,1949,2010
+,14,@I504081@,Gerard Cutliffe,1911,1955
+,14,@I504082@,Hugh Coyle,1911,
+,14,@I504083@,"Susan ""Mandy"" Friel",1842,1911
+,14,@I504100@,Seamus McElwaine,,2017
+,14,@I504101@,Thomas McElwaine,1940,
+,14,@I504144@,Sheila Seline Sweeney,1925,2020
+,14,@I504145@,Sean Callaghan,,1977
+,14,@I504146@,Cornelius McMonigal,1900,1910
+,14,@I504147@,Frances Lowlar,1920,
+,14,@I504168@,James McCallion,1911,1923
+,14,@I504169@,Mary Ann Deeney,1953,1953
+,14,@I504180@,John Edward Dougherty,1940,2002
+,14,@I504181@,,,
+,14,@I504219@,Bernard (Barney) Shiels,1920,1991
+,14,@I504269@,Daniel (Donie Seoirse) Friel,1835,1903
+,14,@I504270@,Mary Friel,1843,1911
+,14,@I504354@,James Mc Ginley,1808,1864
+,14,@I504355@,Grace Mc Ginley,,
+,14,@I504356@,"James ""Jimmy Mhaire"" Mc Ginley",1855,
+,14,@I504357@,Arthur Mc Ginley,1849,1931
+,14,@I504364@,maggie McConigley,1911,1911
+,14,@I504365@,Hugh Gerard Coyle,1949,2010
+,14,@I504408@,John Mcconigley,1821,1858
+,14,@I504409@,Mary McConigly,1857,1900
+,14,@I504673@,Margaret Martin,1901,1949
+,14,@I504674@,James Patrick Friel,1915,1966
+,14,@I504675@,John Mc conagly,,1901
+,14,@I504802@,Edward Deeney,1830,1896
+,14,@I504832@,John McElwee,,
+,14,@I504863@,Patrick McElwee,1811,1883
+,14,@I504864@,Mary Logue,1818,1880
+,13,@I500462@,Thomas,,
+,13,@I500463@,Mary Sweeney,1861,
+,13,@I500466@,Susan McLaughlin,1820,1866
+,13,@I500611@,Mary Helen Casey,1894,1951
+,13,@I500637@,Michael Friel,,
+,13,@I500638@,Mary Friel,1941,
+,13,@I500745@,Stephen Friel,1831,1911
+,13,@I501188@,Patrick G. Callaghan,1815,1870
+,13,@I501190@,Anna Nancy Callaghan,1847,1860
+,13,@I501191@,Michael Callaghan,1848,1890
+,13,@I501192@,John Callaghan,1851,1940
+,13,@I501193@,Daniel J Callaghan,1862,1910
+,13,@I501194@,Mary Callaghan,1860,1942
+,13,@I501195@,James Callaghan,1853,
+,13,@I501196@,Hugh Callaghan,1857,1919
+,13,@I501369@,Mary Brandy,1828,1890
+,13,@I501380@,Ann Mc Intyre,1825,1864
+,13,@I501381@,James Kellagher,1855,1910
+,13,@I501382@,Bernard Kellagher,1857,1880
+,13,@I501383@,Mathew Kellagher,1880,
+,13,@I501384@,Susan Kellagher,1863,
+,13,@I501385@,Mary Kellagher,1866,1891
+,13,@I501399@,Anne Shiels,,
+,13,@I501400@,Margaret McElwee,1858,1920
+,13,@I501401@,Nora McElwee,1861,
+,13,@I501402@,Darby McElwee,1867,1896
+,13,@I501403@,Michael McElwee,1879,
+,13,@I501404@,Charles McElwee,1856,
+,13,@I501466@,Anna Marie Bannon,1910,1910
+,13,@I501467@,Catherine Bannon,1930,
+,13,@I501468@,John Joseph Bannon,1917,1941
+,13,@I501469@,Francis Bannon,1930,
+,13,@I501476@,Anne McBride,,
+,13,@I501477@,Eleanor McElwee,1853,
+,13,@I501478@,Hannah McElwee,,
+,13,@I501479@,John McElwee,1872,1910
+,13,@I501491@,Helen Milloy,1862,
+,13,@I501492@,Mary Milloy,1865,
+,13,@I501493@,Edward Milloy,1867,
+,13,@I501494@,Hannah Milloy,1870,
+,13,@I501495@,Patrick Milloy,1872,
+,13,@I501496@,Richard Flood,1845,1888
+,13,@I501497@,Mary Byrne,1857,1941
+,13,@I501544@,Morgan Sweeney,1825,
+,13,@I501545@,Mary Mor,1823,1892
+,13,@I501555@,Gallen,,
+,13,@I501556@,Michael Dunn,,
+,13,@I501557@,Anna,,
+,13,@I501558@,Frances Mary Ryan,1935,
+,13,@I501571@,Michael Sexton,1864,
+,13,@I501572@,Thomas Sexton,1869,
+,13,@I501573@,Anne Sexton,1873,
+,13,@I501574@,John Sexton,1911,
+,13,@I501575@,Catherine Sexton,1876,
+,13,@I501576@,Bernard Sexton,1880,
+,13,@I501577@,Joseph Sexton,1911,
+,13,@I501578@,Elizabeth Sexton,1911,
+,13,@I501593@,Daniel Gallagher,1849,1929
+,13,@I501594@,Isabella Milloy,1849,1925
+,13,@I501595@,Sybil Maud Clinton,1918,1918
+,13,@I501596@,Canice John Vianney Gallagher,1958,1959
+,13,@I501632@,Anna Fedorisco,1905,1977
+,13,@I501671@,Winifred Dougherty,1874,1920
+,13,@I501672@,Mary Alvira Friel,1909,1920
+,13,@I501673@,Daniel C. Friel,1940,1920
+,13,@I501674@,Patrick John Friel,1940,1920
+,13,@I501675@,Bernard Joseph Friel,1902,1903
+,13,@I501676@,James Michael Friel,1904,1920
+,13,@I501677@,Margaret W Friel,1900,1920
+,13,@I501678@,Catherine Cecelia Friel,1907,1920
+,13,@I501703@,James Kellagher,1929,1929
+,13,@I501704@,,,
+,13,@I501705@,Mary Elizabeth Kellagher,1927,1971
+,13,@I501706@,James Vincent Kellagher,1930,1948
+,13,@I501783@,Mary McConigley,1907,1934
+,13,@I501784@,Cathal,1935,1995
+,13,@I501801@,Jamie Friel,1905,
+,13,@I501813@,Philip Mongold,1824,1880
+,13,@I501814@,Elizabeth,1827,1880
+,13,@I501823@,James McFadden,1858,1924
+,13,@I501824@,Patrick B McFadden,1868,1949
+,13,@I501825@,Mary McFadden,1867,1929
+,13,@I501827@,William Bernard McFadden,1884,1952
+,13,@I501828@,Patrick Mcfadden,1864,1910
+,13,@I501829@,John H Bassett,1912,
+,13,@I501830@,Saramay Kathryn Bassett,1919,1943
+,13,@I501878@,Mary Josephine Maher,1889,
+,13,@I501879@,Kathleen Elizabeth Maher,1897,1923
+,13,@I501885@,Cornelius (Con) O'Driscoll,1904,1911
+,13,@I501886@,Michael O'Driscoll,1905,1911
+,13,@I501887@,Mary T O'Driscoll,1907,1950
+,13,@I501888@,Paddy (Patrick) O'Driscoll,1911,1987
+,13,@I501889@,Kate (Kathleen) O'Driscoll,1913,1978
+,13,@I501890@,Nell O'Driscoll,1916,
+,13,@I501891@,Taidi O'Driscoll,1920,1999
+,13,@I501892@,Sheila Driscoll,1922,2006
+,13,@I501893@,Dan O'Driscoll,,1989
+,13,@I501894@,Hannah (Joan) O'Driscoll,1926,2009
+,13,@I501895@,Margaret (Peggy) O'Driscoll,1927,2009
+,13,@I501896@,Nancy O'Driscoll,1934,1964
+,13,@I501897@,Nora O'Driscoll,1914,1950
+,13,@I501898@,Deborah (Gobnait) O Driscoll,1918,2015
+,13,@I501983@,Edward Friel,1856,1901
+,13,@I501984@,Katherine Friel,1895,1940
+,13,@I501985@,Patrick FRIEL,1892,1901
+,13,@I501986@,Sarah Ann Friel,1897,1901
+,13,@I501987@,Edward Friel,1899,1901
+,13,@I501988@,John Friel,1905,1978
+,13,@I501989@,Bernard Friel,1909,
+,13,@I501990@,Bridget FRIEL,1901,
+,13,@I501991@,James FRIEL,1901,
+,13,@I501992@,Maggie FRIEL,1901,1950
+,13,@I501994@,James B Fitzpatrick,1837,1870
+,13,@I501995@,Mary Shortal,1840,1870
+,13,@I502003@,Mary Elizabeth Kellagher,1927,1951
+,13,@I502004@,"James Vincent Kellagher, Jr.",1930,1953
+,13,@I502005@,Jean M. Kellagher,1933,2003
+,13,@I502007@,Ann McIntyre,1825,1853
+,13,@I502014@,James (Seamus Mór),1808,1864
+,13,@I502015@,Michael,1848,
+,13,@I502016@,Fanny McGinley,1838,
+,13,@I502017@,Celty McGinley,1835,
+,13,@I502018@,"Margaret Mary ""Peggy"" McGinley",1851,
+,13,@I502019@,James,1855,1886
+,13,@I502020@,Arthur (Art),1849,1931
+,13,@I502035@,William J Martin,1892,1944
+,13,@I502036@,Catherine Cecelia Kay (first name has also been with K) Martin Palm,1923,1990
+,13,@I502037@,James Martin,1940,1982
+,13,@I502038@,William Martin,1920,1925
+,13,@I502039@,Mary Teresa Martin,1940,1994
+,13,@I502087@,John Joseph Kellagher,1860,1884
+,13,@I502098@,Anne M McMonigal,1940,1950
+,13,@I502099@,Elizabeth Claire “Betty” Kellagher,1940,2005
+,13,@I502100@,Marjorie Ann Kellagher,2005,
+,13,@I502101@,William Michael Kellagher,1940,2005
+,13,@I502111@,Bridget T,1950,
+,13,@I502112@,William J Whoriskey,1950,
+,13,@I502114@,Florindo Joseph Sulpazo,1905,1990
+,13,@I502115@,Joseph Donald Sulpazo,1929,1987
+,13,@I502116@,William Sulpazo,1930,1937
+,13,@I502117@,Donald James Sulpazo,1940,2006
+,13,@I502123@,Walter Nungasser Higgins,,
+,13,@I502129@,Peter Rizzo,,
+,13,@I502130@,Theresa Delgaldo,,
+,13,@I502187@,"John ""johnny Mór"" Callaghan",1870,1911
+,13,@I502188@,Edward James Callaghan,1915,1985
+,13,@I502228@,James (Big) Gibbons,,
+,13,@I502229@,,,
+,13,@I502230@,Phyliss Gibbons,,2015
+,13,@I502231@,,,
+,13,@I502235@,Daniel Donie Seoirse Friel,1901,1903
+,13,@I502240@,James Friel,1864,1911
+,13,@I502241@,Arthur Friel,1867,1919
+,13,@I502242@,Francis O'Friel,1871,1965
+,13,@I502243@,George O'Friel,1873,1946
+,13,@I502244@,Margaret Friel,1911,1919
+,13,@I502245@,Edward (Eddie) Friel,1875,1911
+,13,@I502246@,Daniel (Dan) Friel,1877,1911
+,13,@I502247@,John (Johnny) Friel,1880,1911
+,13,@I502248@,Patrick (Pat) Friel,1882,1911
+,13,@I502249@,William Friel,1887,1901
+,13,@I502260@,Margaret Kerr,,
+,13,@I502261@,Charles Alphonsus Dunleavy,1925,1997
+,13,@I502262@,James Dunleavy,1927,2000
+,13,@I502263@,Francis Christopher Dunleavy,1929,1995
+,13,@I502275@,Alice O'Driscoll,1929,2021
+,13,@I502283@,Kathryn Kellagher,1930,1970
+,13,@I502312@,Samuel S Millar,1894,1981
+,13,@I502369@,Michael O'Sullivan,1841,
+,13,@I502370@,Bridget O'Grady,1849,1957
+,13,@I502380@,Hugh Coyle,1878,1911
+,13,@I502384@,Anne Coyle,1910,1911
+,13,@I502385@,Hugh Coyle,1909,1911
+,13,@I502386@,John Patrick Coyle,1917,2007
+,13,@I502387@,,,
+,13,@I502388@,James Coyle,1912,1983
+,13,@I502389@,,,
+,13,@I502390@,Mary Mc Carry,1831,
+,13,@I502391@,Charles McElwee,1832,1900
+,13,@I502392@,Hannagh Sweeney,1841,1920
+,13,@I502401@,Robert Collier,1913,1940
+,13,@I502402@,Robert Collier,,1999
+,13,@I502407@,Patrick (Pat) Friel,1911,1980
+,13,@I502411@,Danny Friel,1923,2019
+,13,@I502412@,John (Pat) Friel,1919,2000
+,13,@I502413@,Patrick (Pat Og) Friel,1914,2005
+,13,@I502414@,Sally Friel,1919,1991
+,13,@I502415@,Maggie Anne Friel,1917,
+,13,@I502416@,Mary (Pat) Friel,1912,1939
+,13,@I502463@,Patrick Joseph O'Hare,1919,1968
+,13,@I502464@,Patricia Ita O'Hare,1958,2015
+,13,@I502465@,Maureen Johnston,1930,2002
+,13,@I502467@,Claire Blaney,1968,2005
+,13,@I502494@,Bernard Duffy,1840,1907
+,13,@I502495@,William DUFFY,1825,1909
+,13,@I502496@,John Duffy,1829,1880
+,13,@I502497@,Mary Duffy,1842,1882
+,13,@I502563@,Patrick Deeney,1796,1866
+,13,@I502564@,James Deeney,,
+,13,@I502607@,Patrick Callaghan,1909,2005
+,13,@I502608@,Mickey Callaghan,1917,1999
+,13,@I502609@,Mary Callaghan,1906,1987
+,13,@I502610@,Arthur George Klinger,1903,1963
+,13,@I502611@,James Maher,1911,
+,13,@I502612@,,,
+,13,@I502613@,John Maher,1911,
+,13,@I502614@,,,
+,13,@I502615@,Annie Maher,1911,
+,13,@I502616@,,,
+,13,@I502617@,William Maher,1911,
+,13,@I502618@,,,
+,13,@I502697@,Mary Hughes,1912,1999
+,13,@I502698@,Sally Gibbons,1936,2010
+,13,@I502740@,James O'Dempsey,1843,1909
+,13,@I502741@,Elizabeth Bradley,1857,1940
+,13,@I502755@,Mary Anne McGinley,1911,1923
+,13,@I502756@,Hannah Marie Friel,1901,1910
+,13,@I502757@,Eunice (Una) Winifred Friel,1884,1911
+,13,@I502758@,Michael Friel,1901,1887
+,13,@I502759@,Grace Friel,1896,1897
+,13,@I502760@,Francis (Francie) Friel,1891,1896
+,13,@I502761@,Winifred Friel,1887,1911
+,13,@I502762@,Michael Friel,1930,1980
+,13,@I502763@,Anthony McFadden,1793,1889
+,13,@I502764@,Bridget Haigney,1797,1880
+,13,@I502779@,James McConigley,1911,1944
+,13,@I502780@,Sally McConigley,,2010
+,13,@I502781@,John Gerard McConigley,1923,1988
+,13,@I502782@,Una McConigley,1926,1944
+,13,@I502783@,Patrick ‘Packie’ McConigley,1930,1990
+,13,@I502855@,Margaret Murphy,1891,1944
+,13,@I502856@,Ann Mc Bride,1876,1911
+,13,@I502857@,Patrick logue,1872,1914
+,13,@I502858@,Daniel Logue,1878,1903
+,13,@I502859@,John Logue,1874,1874
+,13,@I502860@,Catherine Logue,1925,1925
+,13,@I502861@,Francis Patrick Logue,1922,1944
+,13,@I502862@,Sarah Catherine Logue,1920,2002
+,13,@I502875@,"Katherine""Kate"" McGarvey",1830,1899
+,13,@I502883@,Patrick Logue,1796,1857
+,13,@I502884@,Ann Herrity,1796,1872
+,13,@I502885@,Bridget Colye,1858,1937
+,13,@I502924@,Katie Gibbons,1939,1979
+,13,@I502925@,Columba Gibbons,1954,
+,13,@I502926@,John Gibbons,1947,
+,13,@I502927@,Patrick Gibbons,1944,
+,13,@I502928@,Daniel Gibbons,1952,
+,13,@I502929@,Bridget Gibbons,1948,
+,13,@I502930@,Winifred P Gibbons,1942,
+,13,@I502931@,Bernard Gibbons,1950,
+,13,@I502932@,Margaret Gibbons,1938,
+,13,@I502967@,Patrick Gallagher,1839,1911
+,13,@I502968@,Isabella Gallagher,1844,1919
+,13,@I502969@,Hannah Gallagher,1845,
+,13,@I502970@,Joseph Gallagher,1849,1915
+,13,@I502971@,Grace Gallagher,1852,1924
+,13,@I503175@,Fanny Logue,1876,
+,13,@I503231@,Sheila Mc Ginley,1900,1929
+,13,@I503314@,james friel,1924,2002
+,13,@I503315@,Hughie friel,1928,
+,13,@I503316@,Daniel friel,1929,
+,13,@I503317@,Harry friel,,
+,13,@I503318@,Patrick G. Callahan,,1870
+,13,@I503319@,Ellen McElwee,1826,1880
+,13,@I503329@,Mae Anne Daly,1920,1969
+,13,@I503330@,George Callahan Aloysius Deeney,1924,1986
+,13,@I503331@,"Mary Perpetua (Sr. John Mary, IHM) Deeney",1919,2004
+,13,@I503332@,Edward Deeney,1927,2012
+,13,@I503333@,Joseph Deeney,1929,1994
+,13,@I503334@,Nancy Deeney,1923,2016
+,13,@I503356@,Lawrence McElwee,1950,
+,13,@I503393@,Mary Meenan,,1985
+,13,@I503416@,Charles V. Brennan,1889,1960
+,13,@I503425@,Susan Coyle,1911,1911
+,13,@I503426@,Bridget Coyle,1914,2012
+,13,@I503427@,Sarah Coyle,1919,1988
+,13,@I503428@,Michael Joseph Coyle,1921,1997
+,13,@I503429@,Francis Coyle,1923,1948
+,13,@I503518@,Isabelle Frances Meder,1894,1914
+,13,@I503519@,John Edward Dougherty,1916,1976
+,13,@I503520@,Charles Francis Dougherty,1940,1998
+,13,@I503521@,Gerald Martin Dougherty,1940,1972
+,13,@I503522@,Daniel J. Dougherty,1934,1950
+,13,@I503523@,Mary Ellen Dougherty,1994,2010
+,13,@I503524@,Robert James Dougherty,1923,2001
+,13,@I503525@,"John Edward ""Ted"" Dougherty",1940,1976
+,13,@I503526@,Hugh Quigley,1878,1901
+,13,@I503527@,Veronica ‘Vera’ Quigley,1916,1921
+,13,@I503528@,Sarah Cathleen Quigley,1915,1989
+,13,@I503529@,Rita Bridget ‘Sister Cabrini’ (Medical Missionary Nun),1927,1953
+,13,@I503530@,William John Quigley,1919,2003
+,13,@I503531@,Margaret (Sister of the Mercy order) Quigley,1916,2006
+,13,@I503532@,Patrick ‘Paddy’ Hugh Joseph (Priest of the Kiltegan Fathers) Quigley,1921,1939
+,13,@I503533@,James Michael (Brother Theodore of the De la Salle order) Quigley,1924,2004
+,13,@I503534@,Mary Elizabeth ‘Masie’ Quigley,1913,1946
+,13,@I503548@,Margaret McConigley,1936,
+,13,@I503549@,Celia McConigley,1928,2022
+,13,@I503550@,Katie McConigley,1926,2023
+,13,@I503552@,Bridget Gertrude McCallion,1947,1911
+,13,@I503553@,Bridget Friel,1928,1980
+,13,@I503554@,Moira Philomena Friel,1927,2003
+,13,@I503555@,Mary Sara Christina Gibbons,,2000
+,13,@I503556@,,,
+,13,@I503557@,Mick Gibbons,1922,2000
+,13,@I503558@,Hugh Gibbons,1930,2002
+,13,@I503559@,Paddy Gibbons,,
+,13,@I503560@,Bernard Gibbons,1926,1982
+,13,@I503561@,Dennis Gibbons,1928,2000
+,13,@I503562@,Margaret (Peggy) Gibbons,1924,1975
+,13,@I503563@,James Pat Gibbons,1927,2020
+,13,@I503564@,Mickey pat Gibbons,,2007
+,13,@I503565@,Patrick Joseph Gibbons,1926,1926
+,13,@I503566@,Madge Callaghan,,
+,13,@I503567@,,,
+,13,@I503686@,Annie Friel,1849,1897
+,13,@I503687@,O'Friel,1795,1850
+,13,@I503688@,Michael Friel,1795,
+,13,@I503689@,James (Seamus Art óg) Friel,1800,1850
+,13,@I503690@,James (Seamus) Friel,1858,1872
+,13,@I503691@,Mary (Maire) Friel,1901,1903
+,13,@I503692@,"Hugh ""Rua"" Friel",1819,1877
+,13,@I503759@,John Deeney,1921,2010
+,13,@I503771@,John McConigley,1810,
+,13,@I503772@,Mary McAteer,1815,
+,13,@I503796@,Barney Kerr,,
+,13,@I503797@,Bernard Kerr,,
+,13,@I503798@,Patrick Kerr,,
+,13,@I503799@,Daniel Kerr,,
+,13,@I503800@,Cissie (Mary Sarah) Kerr,,
+,13,@I503801@,James Kerr,,1995
+,13,@I503823@,Seamus Gibbons,,
+,13,@I504052@,Thomas Cullen,1833,1863
+,13,@I504053@,Kate Cullen,1864,1894
+,13,@I504054@,Patrick or Peter Cullen,1880,1908
+,13,@I504055@,Edward Ned Cullen,1866,1900
+,13,@I504056@,John Cullen,1869,
+,13,@I504057@,Bridget Cullen,1871,1893
+,13,@I504058@,Margaret Marjory Cullen,1873,1898
+,13,@I504059@,Michael Cullen,1876,1876
+,13,@I504060@,Eleanora Cullen,1877,1877
+,13,@I504061@,Ann Cullen,1884,1921
+,13,@I504062@,Mary Cullen,1877,1900
+,13,@I504063@,Sarah Cullen,1882,1903
+,13,@I504086@,James Coyle,1912,1983
+,13,@I504087@,John Patrick Coyle,1917,2007
+,13,@I504220@,Brian Carr,,
+,13,@I504236@,Thomas Cullen,1911,1911
+,13,@I504237@,Edward Ned Cullen,1866,1911
+,13,@I504238@,Kate Cullen,1864,1896
+,13,@I504239@,John Cullen,1869,
+,13,@I504240@,Bridget Cullen,1871,1964
+,13,@I504241@,Margaret Marjory Cullen,1873,1970
+,13,@I504242@,Michael Cullen,1876,1876
+,13,@I504243@,Eleanora Cullen,1877,1877
+,13,@I504244@,Mary Cullen (Dundoan),1877,1911
+,13,@I504245@,Patrick or Peter Cullen,1880,1935
+,13,@I504246@,Sarah Cullen,1882,1965
+,13,@I504247@,Ann Cullen,1940,1978
+,13,@I504460@,Mary Elizabeth Quigley,1900,1911
+,13,@I504461@,Cecila Quigley,1902,1911
+,13,@I504462@,Daniel Quigley,1881,1911
+,13,@I504463@,Michael Quigley,1891,1911
+,13,@I504464@,Edward Joseph Quigley,1894,1911
+,13,@I504465@,Annie Quigley,1879,1911
+,13,@I504466@,Sarah Quigley,1896,1911
+,13,@I504467@,Catherine Quigley,1898,1911
+,13,@I504468@,Hugh Quigley,1878,
+,13,@I504469@,Andrew Quigley,1884,1966
+,13,@I504470@,Michael Quigley,1886,1896
+,13,@I504471@,Margaret Quigley,1887,
+,13,@I504472@,William Quigley,1874,
+,12,@I500277@,Michael Sweeney,,1877
+,12,@I500278@,Catherine McAteer,,1967
+,12,@I500279@,Patrick Martin,1914,1979
+,12,@I500280@,James Martin,1918,1997
+,12,@I500281@,Winnifred R Martin,,1944
+,12,@I500282@,Mary Martin,,1971
+,12,@I500283@,Bridget Martin,,1997
+,12,@I500284@,Annie Martin,,
+,12,@I500285@,Margaret Martin,,2012
+,12,@I500437@,Francis Mc Ateer,1881,1964
+,12,@I500438@,Theresa (May) Mc Ateer,1921,2013
+,12,@I500439@,Gerard Mc Ateer,,
+,12,@I500440@,Ethna Mc Grath,,
+,12,@I500464@,Bernard Dougherty,,
+,12,@I500465@,Margaret Dougherty,,
+,12,@I500467@,Eleanor McElwee,1915,1977
+,12,@I500468@,Mary McElwee,1892,
+,12,@I500489@,Mary Jane Murray,1852,
+,12,@I500490@,Patrick McElwee,1894,1972
+,12,@I500491@,James McElwee,1894,
+,12,@I500492@,Daniel McElwee,1899,
+,12,@I500493@,Joseph McElwee,1891,
+,12,@I500494@,Columb McElwee,1895,
+,12,@I500610@,Mary Jane Murray,1852,
+,12,@I500631@,John J Lynch,1834,1912
+,12,@I500663@,james Kellagher,1826,1848
+,12,@I500664@,michael kellagher,1822,1916
+,12,@I500742@,Patrick Friel,1808,1874
+,12,@I500743@,Sarah,1800,1885
+,12,@I500744@,Margaret Friel,1878,1881
+,12,@I500791@,James Daniel Gallagher,1911,1886
+,12,@I500792@,Daniel Gerard Gallagher,1921,2006
+,12,@I500793@,Ellen Anne (Eileen) Gallagher,1919,1999
+,12,@I500794@,James Patrick (Seamus Jim) Gallagher,1925,2014
+,12,@I500795@,John Francis Gallagher,1923,2012
+,12,@I500827@,John Dougherty,1878,1892
+,12,@I500828@,Michael Dougherty,1879,1880
+,12,@I500829@,Patrick Dougherty,1881,1882
+,12,@I500830@,George Joseph Dougherty,1885,1885
+,12,@I500835@,John McElwee,1817,1877
+,12,@I500836@,Darby McElwee,1827,
+,12,@I500837@,Charles McElwee,1829,
+,12,@I500838@,Ellen McElwee,1826,1907
+,12,@I500862@,Mary A McHugh,1889,1912
+,12,@I500863@,Catherine Cecilia McHugh,1894,1930
+,12,@I500864@,Edward T Mchugh,1898,
+,12,@I500865@,Rose Mildred McHugh,1903,1910
+,12,@I500866@,Helen McHugh,1905,1940
+,12,@I500887@,Charles Deeney,1794,
+,12,@I500888@,Patrick Deeney,1796,
+,12,@I500889@,Catherine Deeney,1805,
+,12,@I500890@,James Deeney,1810,
+,12,@I500891@,Denis Deeney,1815,
+,12,@I501182@,Mary Mongold,1900,1880
+,12,@I501183@,Mary Schneider,1900,1989
+,12,@I501184@,William Francis Kellagher,1914,1974
+,12,@I501185@,Ella Kellagher,1900,1979
+,12,@I501186@,Michael Patrick Kellagher,1917,1967
+,12,@I501187@,Anna Kellagher,1900,1944
+,12,@I501189@,Michael McElwee,1828,
+,12,@I501237@,Alice Catherine Flood,1883,1962
+,12,@I501238@,Mary Patricia Blaney,1909,
+,12,@I501239@,Michael Flood Blaney,1910,1940
+,12,@I501240@,Richard Noel Blaney,1912,1985
+,12,@I501241@,Eileen Veronica Blaney,1914,2017
+,12,@I501242@,Charles Valentine 'Val' Blaney,,1917
+,12,@I501252@,Michael McBride,1870,1948
+,12,@I501253@,Neal McBride,1882,
+,12,@I501254@,James McBride,1858,
+,12,@I501255@,John McBride,1868,
+,12,@I501256@,Patrick McBride,1876,
+,12,@I501308@,Mary Ann Boran,1867,1903
+,12,@I501312@,"James Vincent Kellagher, Sr.",1904,1930
+,12,@I501370@,Bridget Sweeney,1865,1901
+,12,@I501371@,Catherine Friel,1887,1901
+,12,@I501372@,Mary Friel,1901,
+,12,@I501373@,Bridget Friel,1901,1913
+,12,@I501374@,Margaret Friel,1894,1901
+,12,@I501375@,Unity Friel,1901,
+,12,@I501376@,Hugh Friel,1897,1978
+,12,@I501377@,Charles Friel,1902,1911
+,12,@I501378@,James Friel,1901,
+,12,@I501379@,Edward Friel,1906,1911
+,12,@I501386@,John Ballyheerin 2,1862,
+,12,@I501387@,Hugh,1871,1936
+,12,@I501388@,Mary Friel,1864,1937
+,12,@I501389@,Sarah Friel,1874,
+,12,@I501390@,James Friel,1868,1920
+,12,@I501391@,Patrick Ballyheerin 5,1860,1933
+,12,@I501448@,Anna Louise Gallen,1919,1930
+,12,@I501452@,Mary R Deeney,1930,
+,12,@I501453@,James F. Deeney,1924,1930
+,12,@I501464@,Francis Joseph Bannon,1910,1938
+,12,@I501465@,Anna D Dunn,1910,
+,12,@I501489@,Mark Milloy,,
+,12,@I501490@,Bridget King,,
+,12,@I501504@,Seamus Blaney,,
+,12,@I501569@,Patrick Sexton,1835,1901
+,12,@I501570@,Ann Carolan,1843,1911
+,12,@I501588@,James (Seamus) Friel,1812,1858
+,12,@I501589@,Seamus Friel,,
+,12,@I501590@,Mary (Maire) Friel (Art óg),1819,1901
+,12,@I501591@,James McAteer,1910,
+,12,@I501592@,,,
+,12,@I501617@,Peter Fitzpatrick,1863,1870
+,12,@I501645@,Patrick Gibbons,1859,1911
+,12,@I501646@,Patrick Gibbons,1894,1937
+,12,@I501647@,Mary Gibbons,1882,1974
+,12,@I501648@,Sarah (Sally) Gibbons,1885,1977
+,12,@I501649@,James Gibbons,1887,
+,12,@I501650@,Catherine Gibbons,1889,1962
+,12,@I501651@,Michael Gibbons,1890,1959
+,12,@I501652@,Winnie Gibbons,1892,1911
+,12,@I501654@,James Dunleavey,,
+,12,@I501655@,James Dunleavey,1874,
+,12,@I501656@,Mick Dunleavey,1875,
+,12,@I501657@,Hugh Dunleavey,1877,
+,12,@I501658@,Dan Dunleavey,,
+,12,@I501659@,Annie Dunleavey,1878,1911
+,12,@I501660@,Winifred (Uney) Dunleavey,,
+,12,@I501661@,"Charles J Wreckter,",1932,2008
+,12,@I501695@,Michael J. Kellagher,,
+,12,@I501696@,,,
+,12,@I501697@,William Joseph Kellagher,1898,1977
+,12,@I501698@,Jennie Kellagher,1888,1900
+,12,@I501699@,Child Kellagher,1896,1896
+,12,@I501700@,Helen Kellagher,1900,1995
+,12,@I501701@,Florence Kellagher,1900,1978
+,12,@I501702@,Marguerite Kellagher,1893,1900
+,12,@I501717@,Emmanuel Francis Friel,1919,1996
+,12,@I501718@,,,
+,12,@I501721@,Stephen Coll,1827,1897
+,12,@I501722@,Hannah Coll,1845,1905
+,12,@I501723@,Robert Matthew Spellman,,
+,12,@I501736@,William Friel,1847,1901
+,12,@I501737@,Mary Friel,1843,1864
+,12,@I501739@,"Elenora ""Ellen Prionsias"" Friel",1850,1911
+,12,@I501740@,Arthur Friel,1837,1875
+,12,@I501741@,Edward James Friel,1911,
+,12,@I501742@,Hannah Friel,1940,
+,12,@I501785@,William J. Gillespie,1887,
+,12,@I501786@,Sarah C. Gillespie,1888,1903
+,12,@I501787@,George Gillespie,1890,1900
+,12,@I501788@,Mary Gillespie,1900,
+,12,@I501789@,Charles Gillespie,1900,1968
+,12,@I501790@,Robert Bruce Gillespie,1899,1899
+,12,@I501815@,Carrie Kellagher,1897,1898
+,12,@I501816@,Arthur James Weilde,1898,1974
+,12,@I501817@,Ruth Elizabeth Kellagher,1903,1962
+,12,@I501818@,Margaret Kellagher,1908,1971
+,12,@I501819@,Robert Kellagher,1907,1930
+,12,@I501820@,Genevieve Rose,1909,1936
+,12,@I501821@,Dorothy Levens,1911,1977
+,12,@I501822@,Katherine McGarvey,1830,1899
+,12,@I501826@,Mcfadden,,
+,12,@I501876@,Patrick Maher,1856,
+,12,@I501877@,Elizabeth Shanley,1868,
+,12,@I501880@,Blaney,,
+,12,@I501881@,Stella Rizzo,1939,1997
+,12,@I501882@,Michael Grant,1962,2002
+,12,@I501883@,Michael O'Driscoll,1871,1901
+,12,@I501884@,Bridget Sullivan,1886,1974
+,12,@I501955@,Brian Whoriskey,1911,
+,12,@I501956@,Johnny Whoriskey,1888,1911
+,12,@I502000@,Mary Bernadette Fitzpatrick,1891,1918
+,12,@I502001@,"Jane ""Jennie"" Fitzpatrick",1893,1930
+,12,@I502002@,Ann Fitzpatrick,1893,
+,12,@I502028@,Martha Fitzpatrick,1895,1896
+,12,@I502048@,Mary Ann McConigley,1886,1911
+,12,@I502049@,,,
+,12,@I502050@,Bridget McConigley,1881,1901
+,12,@I502051@,Catherine McConigley,1884,1911
+,12,@I502052@,Daniel McConagly,1876,1878
+,12,@I502053@,Patrick McConagly,1879,1879
+,12,@I502054@,Susan McElwee,1911,1935
+,12,@I502055@,Charles Grant,1911,1975
+,12,@I502056@,Michael Grant,1911,1966
+,12,@I502057@,Sally Grant,1911,1944
+,12,@I502058@,Hannah Grant,1911,1986
+,12,@I502069@,Clare Josephine Dempsey,1888,
+,12,@I502070@,Michael Blaney,1914,2000
+,12,@I502071@,Claire Blaney,1915,1993
+,12,@I502072@,Jack Blaney,1919,2008
+,12,@I502073@,Patricia Blaney,1921,2006
+,12,@I502074@,Sarah Teresa Blaney,1924,1925
+,12,@I502075@,Joan Blaney,1927,2011
+,12,@I502076@,Joseph Blaney,1931,1972
+,12,@I502086@,Kevin Boyle,,
+,12,@I502090@,Patrick McGettigan,1911,
+,12,@I502091@,Mary Josephine McGettigan,1911,
+,12,@I502092@,Maggie McGettigan,1911,
+,12,@I502093@,Daniel Joseph McGettigan,1911,
+,12,@I502094@,Elizabeth Lily McGettigan,1911,
+,12,@I502095@,Teresa McGettigan,1911,
+,12,@I502096@,Mandy McGettigan,1911,
+,12,@I502104@,Anna Nancy Callaghan,1847,1870
+,12,@I502105@,Edward Deeney,1883,1887
+,12,@I502106@,Eleanor Deeney,1885,1887
+,12,@I502107@,George Callahan Aloysius Deeney,1887,1940
+,12,@I502113@,Margaret Anna Dougherty,1875,1921
+,12,@I502120@,John McGettigan,1881,1911
+,12,@I502121@,Mary Ann McGettigan,1911,
+,12,@I502122@,James McGettigan,1911,
+,12,@I502203@,John Deeney,1788,
+,12,@I502204@,Mary Diver,1790,
+,12,@I502236@,Bridget (Biddy) Friel,,1858
+,12,@I502237@,Margaret (Peggy) Friel,,
+,12,@I502238@,Hugh Friel,,1877
+,12,@I502239@,Francis Friel,,
+,12,@I502264@,Anne Grant,1848,1906
+,12,@I502265@,Michael Dunleavy,1875,
+,12,@I502266@,Hugh Dunleavy,1877,
+,12,@I502267@,Annie Dunleavy,1878,1957
+,12,@I502268@,Sarah Dunleavy,1881,
+,12,@I502290@,Teresa McAllister,1872,1935
+,12,@I502297@,Edward Dougherty,1887,1888
+,12,@I502298@,Charles Francis Dougherty,1890,1920
+,12,@I502299@,Margaret Dougherty,1892,1922
+,12,@I502300@,Teresa Evangeline Dougherty,1900,1926
+,12,@I502301@,James Robert Doherty,1913,1994
+,12,@I502302@,Francis John Dougherty,1894,1922
+,12,@I502303@,Mary Dougherty,1896,1984
+,12,@I502304@,John Ignatius Dougherty,1898,1952
+,12,@I502305@,Edward Francis Dougherty,1903,1948
+,12,@I502306@,Sylverster Dougherty,1905,1963
+,12,@I502307@,Leona Ellen Dougherty,1906,1937
+,12,@I502308@,Joseph Earl Dougherty,1910,1939
+,12,@I502378@,Patrick Collins,1860,1924
+,12,@I502379@,Patrick Collins,,1962
+,12,@I502381@,Catherine Dunleavy,1886,
+,12,@I502382@,Sarah Dunleavy,1911,
+,12,@I502383@,John Dunleavy,1880,
+,12,@I502400@,Winefred Doherty,1910,
+,12,@I502408@,John McConigley,1861,1870
+,12,@I502409@,Michael McConagly,,1911
+,12,@I502410@,McConagly,,1911
+,12,@I502442@,May Friel,,1998
+,12,@I502443@,,,
+,12,@I502444@,Thomas Friel,1914,1982
+,12,@I502450@,Patrick McConigley,1841,1911
+,12,@I502451@,Mary Gallagher,1841,
+,12,@I502452@,Margaret Deeney,1882,1944
+,12,@I502453@,Mary Deeney,1864,
+,12,@I502454@,William Deeney,1869,
+,12,@I502455@,Edward Deeney,1871,1935
+,12,@I502456@,Bridget Deeney,1876,
+,12,@I502457@,Sarah Deeney,1878,
+,12,@I502458@,Annie Deeney,1880,1904
+,12,@I502459@,James Deeney,1866,
+,12,@I502460@,Patrick Deeney,1870,1953
+,12,@I502461@,Denis Deeney,1874,1947
+,12,@I502462@,Deeney,,
+,12,@I502466@,Patrick Joseph Blaney,1917,1984
+,12,@I502492@,Brian Bernard Duffy,1834,1873
+,12,@I502493@,Sarah Dorrian,1798,1880
+,12,@I502498@,Catherine McGettigan,1898,
+,12,@I502562@,Patrick Deeney,,
+,12,@I502566@,James Logue,1834,1911
+,12,@I502570@,Michael Logue,1886,1901
+,12,@I502571@,Hugh Logue,1882,1910
+,12,@I502572@,James Logue,1884,1910
+,12,@I502573@,Mary Logue,1890,1890
+,12,@I502574@,Owen Logue,1888,1920
+,12,@I502575@,Peter Logue,1889,1922
+,12,@I502646@,Michael Blaney,1901,1905
+,12,@I502647@,Patrick Joseph Blaney,1874,1964
+,12,@I502648@,Sarah Blaney,1901,1958
+,12,@I502649@,Michael Blaney,1901,
+,12,@I502650@,Gim Blaney,1901,
+,12,@I502705@,Humphrey Sheils,1839,1911
+,12,@I502706@,Hannah Sheils,,1976
+,12,@I502707@,Catherine MariaCissie Shiels,1898,1982
+,12,@I502769@,Edward Carr,,
+,12,@I502770@,Sarah Carr,1899,
+,12,@I502771@,Daniel Clinton,,
+,12,@I502772@,Catherine Clinton,1903,
+,12,@I502816@,Catherine Doyle,,
+,12,@I502817@,Patrick McGettigan,1944,1982
+,12,@I502818@,Edward McGettigan,1919,1995
+,12,@I502910@,Lawrence F. Donnelly,1930,1963
+,12,@I502957@,Mary Ann McVeigh,1856,
+,12,@I502958@,Kathleen (Kitty) Friel,1889,1932
+,12,@I502959@,"Margaret ""Maggie"" Friel",1901,1911
+,12,@I502960@,Maryanne (James Hugh Rua) Friel,1901,
+,12,@I502961@,James (James Hugh Rua) Friel,1901,
+,12,@I502962@,Hugh (James Hugh Rua) Friel,1901,1911
+,12,@I502963@,Bridget Friel,1896,1896
+,12,@I502964@,Bridget Friel,1898,1911
+,12,@I502965@,Antony Gallagher,,
+,12,@I502966@,Rose? Doherty,,
+,12,@I502986@,James Martin,1847,1893
+,12,@I502988@,James Martin,1880,
+,12,@I502989@,James Martin,1880,1880
+,12,@I502990@,James Martin,1877,1878
+,12,@I502991@,John Martin,1874,1958
+,12,@I503095@,Rose Shiels,1911,
+,12,@I503096@,,,
+,12,@I503097@,Dan Shiels,1911,
+,12,@I503098@,,,
+,12,@I503099@,John Shiels,1911,
+,12,@I503100@,,,
+,12,@I503101@,Joseph Shiels,1911,
+,12,@I503102@,,,
+,12,@I503103@,Bridget Shiels,1911,
+,12,@I503104@,,,
+,12,@I503164@,Agnes Melody,1908,1997
+,12,@I503296@,Margaret  Maggie McElwee Shiel,1901,
+,12,@I503298@,Ellen McElwee,1911,1925
+,12,@I503299@,,1911,
+,12,@I503300@,Hugh McElwee,1911,1992
+,12,@I503301@,Columbus McElwee,1911,
+,12,@I503302@,Mary McElwee,1911,1986
+,12,@I503303@,Patrick McElwee,1911,1981
+,12,@I503304@,Cornelius Neal McElwee,1910,1999
+,12,@I503305@,Columba McElwee,1905,1971
+,12,@I503306@,Henry McElwee,1913,1990
+,12,@I503307@,Grace McElwee,1915,
+,12,@I503308@,Margaret McElwee,1918,1998
+,12,@I503309@,Michael McElwee,1902,1984
+,12,@I503310@,,,
+,12,@I503311@,Susanne McLoughlin,1866,1892
+,12,@I503348@,Joseph McElwee,1891,1911
+,12,@I503349@,Patrick McElwee,1894,1972
+,12,@I503350@,James McElwee,1894,
+,12,@I503351@,Colum McElwee,1895,1911
+,12,@I503352@,Daniel McElwee,1899,1911
+,12,@I503353@,Columb McElwee,1895,
+,12,@I503354@,Grace Alice Mc Elwee,,1990
+,12,@I503484@,Ellen McBride,1853,1911
+,12,@I503485@,Catherine (Katie) McBride,1841,1911
+,12,@I503486@,Paddy McBride,1931,1931
+,12,@I503487@,Katie McBride Cullen,1911,1915
+,12,@I503571@,Ella,1900,
+,12,@I503572@,Henrietta Wengert,1900,
+,12,@I503573@,Paul Wengert,1900,1967
+,12,@I503574@,True Wengert,1900,
+,12,@I503654@,Hannah Gallagher,1885,1904
+,12,@I503655@,Sarah Deeney,1905,1935
+,12,@I503656@,Anne Veronica Deeney,1917,1949
+,12,@I503684@,Arthur (Art óg) Friel,1834,1834
+,12,@I503685@,Sweeney,1770,
+,12,@I504458@,Daniel Quigley,1840,1912
+,12,@I504459@,Margaret McCarron,1855,1911
+,11,@I500272@,Anna Sweeney,1839,1917
+,11,@I500273@,John Martin,1877,1951
+,11,@I500274@,Mary Martin,1879,
+,11,@I500275@,JamesSeamus Martin,1884,1973
+,11,@I500276@,Maggie Martin,1879,1949
+,11,@I500355@,Charles Edward Weik,1995,2005
+,11,@I500356@,unknown? Weik,,
+,11,@I500393@,Unity Pollet Friel,1871,1934
+,11,@I500394@,Hanora (Nora Una) Friel,1873,1895
+,11,@I500395@,Francis Columba Friel,1874,1901
+,11,@I500396@,Fr Arthur Friel,1878,1948
+,11,@I500397@,Susan Friel,1882,1956
+,11,@I500398@,Mary Friel,1882,1931
+,11,@I500399@,Annie Friel,1885,1928
+,11,@I500428@,James McElwee,1856,
+,11,@I500429@,Una McElwee,1854,1933
+,11,@I500430@,Darby McElwee,1893,1940
+,11,@I500431@,Bridget McElwee,1860,
+,11,@I500432@,Henry McElwee,1863,1930
+,11,@I500433@,Ignotus McElwee,1865,
+,11,@I500434@,Margaret McElwee,,
+,11,@I500436@,Elizabeth Anne Brestic,1934,2008
+,11,@I500481@,Ann Kellagher,1869,1895
+,11,@I500571@,Bridget Doohan,1836,
+,11,@I500612@,Hugh B Nelson,,
+,11,@I500613@,Mary McGinley,,
+,11,@I500621@,"Edward ""Neddie"" Friel",1860,1930
+,11,@I500622@,Hannah Friel,1847,
+,11,@I500624@,Bridget Friel,1854,1911
+,11,@I500625@,James Friel,1901,1904
+,11,@I500626@,Charles Friel,1859,1901
+,11,@I500628@,Carl Walfred Nelson,1919,2007
+,11,@I500629@,William Lynch,,
+,11,@I500630@,Catherine Reilly Lynch,,
+,11,@I500632@,William Kellagher,1862,1905
+,11,@I500633@,Robert Kellagher,1866,1943
+,11,@I500634@,james kellagher,1880,1940
+,11,@I500635@,katharine kellagher,1880,
+,11,@I500636@,susan kellagher,1880,
+,11,@I500661@,james Kellagher,1790,1875
+,11,@I500662@,jane Kellagher,1800,
+,11,@I500666@,John Nelson,1943,2006
+,11,@I500667@,Harry Alfred Darr,1920,1940
+,11,@I500668@,Jeffrey J Darr,1957,2012
+,11,@I500670@,Louis Girard,1911,1932
+,11,@I500739@,James Friel,1828,1898
+,11,@I500740@,Margaret Duffy,1842,1911
+,11,@I500741@,Margaret (Maggie) Friel,1904,1904
+,11,@I500834@,Michael McElwee,1785,1853
+,11,@I500860@,John Bernard McHue,1915,1942
+,11,@I500861@,Sarah Jane McFadden,1862,1948
+,11,@I500873@,Margaret 'Maggie' Lafferty,1850,1894
+,11,@I500874@,Daniel James Deeney,1874,1897
+,11,@I500875@,Catherine Sharpe,1910,
+,11,@I500876@,Rosanna Deeney,1879,1880
+,11,@I500877@,Margaret(Maude) Josephine Deeney,1880,1910
+,11,@I500878@,Mary Deeney,1881,1886
+,11,@I500879@,Teresa Deeney,1888,1923
+,11,@I500880@,Charles Lemual Deeney,1885,1910
+,11,@I500881@,Hugh Jerome Deeney,1889,1940
+,11,@I500882@,Sally Cecilia Deeney,1892,1910
+,11,@I500886@,EdwardJames Deeney,,
+,11,@I500892@,Michael Blaney,1901,1909
+,11,@I500893@,Patrick Joseph Blaney,1874,1964
+,11,@I500894@,Sarah Blaney,1901,1958
+,11,@I500895@,Michael Blaney,1901,1950
+,11,@I500896@,Gim Blaney,1901,
+,11,@I500897@,John Blaney,1863,
+,11,@I500898@,Charles Blaney,1877,1975
+,11,@I501245@,Kate Grant,1911,
+,11,@I501246@,Mary Grant,1847,1911
+,11,@I501247@,Anne Grant,1848,1906
+,11,@I501248@,Sally Grant,1911,1934
+,11,@I501249@,Mick Grant,1911,1936
+,11,@I501250@,John McBride,1835,1916
+,11,@I501251@,Sophia Callaghan,1841,1921
+,11,@I501277@,James Martin,1847,1893
+,11,@I501278@,James Martin,1880,1880
+,11,@I501279@,James Martin,1877,1878
+,11,@I501280@,John Martin,1874,1958
+,11,@I501281@,Daniel Martin,1882,1913
+,11,@I501282@,Hugh Martin,1879,1965
+,11,@I501283@,Mary Martin,1869,
+,11,@I501284@,Margaret Martin,1867,1868
+,11,@I501285@,Michael Martin,1865,1869
+,11,@I501286@,Michael Martin,1872,1963
+,11,@I501287@,Isabella Sweeney,1856,1927
+,11,@I501288@,John Joseph Deeney,1882,1903
+,11,@I501289@,James F Deeney,1886,1930
+,11,@I501290@,Anne M Deeney,1888,1965
+,11,@I501291@,Mary Jane Deeney,1883,1966
+,11,@I501292@,Patrick JosephBertram Maher,1893,1966
+,11,@I501293@,Eileen Maher,1923,2018
+,11,@I501294@,Sarah Veronica Maher,1925,1964
+,11,@I501295@,John Maher,1926,2009
+,11,@I501296@,Anna Teresa Maher,1927,1927
+,11,@I501297@,Patrick Maher,1939,2019
+,11,@I501309@,Michael J. Kellagher,1857,1887
+,11,@I501310@,Jane Kellagher,1866,1893
+,11,@I501311@,John Kellagher,1867,
+,11,@I501320@,Elizabeth Marie Boyle,1921,1950
+,11,@I501321@,"William Boyle, Jr.",1945,
+,11,@I501363@,Bridie (Bridget) O'Driscoll,1908,1950
+,11,@I501364@,Patrick Joseph Grant,1935,1950
+,11,@I501365@,Michael Grant,1939,1950
+,11,@I501366@,Bernard J Grant,1936,2005
+,11,@I501367@,Mary-Ann Grant,1938,1950
+,11,@I501368@,Agnes Grant,1941,1950
+,11,@I501407@,Francis Carolan Sexton,1878,1925
+,11,@I501409@,Charles Kerr,1891,1952
+,11,@I501410@,Dan Sweeney,1887,1938
+,11,@I501417@,Mary.1 Milloy,1754,
+,11,@I501438@,Florence Grant,1950,
+,11,@I501439@,Cornelius Grant,1940,2018
+,11,@I501449@,Frank T Sweeney,1900,
+,11,@I501450@,Catherine J Sweeney,1900,
+,11,@I501451@,William J Sweeney,1900,
+,11,@I501486@,Mary E Boyle,1950,2020
+,11,@I501487@,Josephine A Boyle,1950,
+,11,@I501488@,Patricia L Boyle,1950,
+,11,@I501526@,Sarah Hasson,1833,1902
+,11,@I501527@,Elizabeth Dougherty,1857,1925
+,11,@I501528@,James Dougherty,1859,1884
+,11,@I501529@,Catherine Dougherty,1867,1900
+,11,@I501530@,Anna Dougherty,1861,1879
+,11,@I501531@,"George Dougherty, Jr.",1870,1893
+,11,@I501532@,Sarah Dougherty,1869,1936
+,11,@I501533@,John Dougherty,1873,1900
+,11,@I501536@,Sarah Friel,1870,1936
+,11,@I501537@,Catherine Friel,1868,1955
+,11,@I501586@,Arthur (Art óg) Friel,1770,1834
+,11,@I501587@,Sweeney (Friel),1770,
+,11,@I501626@,James Cashel Preaghan 1,1897,
+,11,@I501627@,Patrick Cashel Preaghan 1,1858,1933
+,11,@I501628@,Dominic Cashel Preaghan 1,1860,
+,11,@I501663@,Jerry Boyce,,
+,11,@I501664@,Dan Boyce,,
+,11,@I501665@,Jerry Boyce,,
+,11,@I501666@,Margaret Gallagher,1825,
+,11,@I501667@,Margaret Dougherty Doherty,1858,1929
+,11,@I501668@,Hannah Doherty,1852,1939
+,11,@I501669@,Daniel Patrick Dougherty,1855,1910
+,11,@I501670@,John Doherty,1861,1940
+,11,@I501719@,Friel Coll,,
+,11,@I501720@,,,
+,11,@I501724@,Edward Deeney,1820,1896
+,11,@I501725@,Una Deeney,1849,1934
+,11,@I501726@,Susan Deeney,1855,1935
+,11,@I501727@,George P Deeney,1852,1886
+,11,@I501728@,Margaret Deeney,1850,1891
+,11,@I501729@,Catherine Deeney,1846,1900
+,11,@I501730@,Anna Deeney,1846,1868
+,11,@I501734@,Prionnsias Francis (Art Og) Friel,1812,1851
+,11,@I501735@,Winifreda (Winnie Fannie) McAteer,1810,1886
+,11,@I501840@,Ellen Begley,1849,
+,11,@I501841@,Mary Begley,1867,1933
+,11,@I501842@,Dennis Begley,1854,1895
+,11,@I501843@,John Begley,1852,1876
+,11,@I501844@,Catherine Begley,1849,
+,11,@I501845@,Bridget Begley,1864,1882
+,11,@I501846@,"Margaret (Guesswork, based on DNA match with Irvin family) Begley",1842,1870
+,11,@I501847@,Patrick Begley,1859,
+,11,@I501912@,Johnnie McGettigan,1914,1972
+,11,@I501913@,Dominic McGettigan,1931,1999
+,11,@I501914@,Patrick McGettigan,1916,1977
+,11,@I501915@,Margaret McGettigan,1923,1998
+,11,@I501945@,edward dunleavy,,1888
+,11,@I501946@,hugh james dunleavy,1847,1892
+,11,@I501947@,Catherine Dunleavey,1854,1920
+,11,@I501948@,mary dunleavey,1856,
+,11,@I501949@,daniel dunleavey,1862,
+,11,@I501950@,patrick george dunleavy,1859,1906
+,11,@I501951@,edward dunleavy,1859,
+,11,@I501952@,james dunleavy,1842,1907
+,11,@I501953@,anna nancy dunleavy,1845,
+,11,@I501954@,john dunleavy,1850,
+,11,@I501975@,John Deeney,1812,1869
+,11,@I501976@,James Deeney,1840,1911
+,11,@I501977@,Mary Deeney,1849,1885
+,11,@I501978@,Patrick Deeney,1848,1923
+,11,@I501979@,Sarah Deeney,1838,1901
+,11,@I501980@,Charles Deeney,1836,1906
+,11,@I501981@,John Deeney,1835,1900
+,11,@I501982@,Hugh Deeney,1852,1890
+,11,@I502088@,Patrick McGettigan,1911,
+,11,@I502089@,Lizzie Bannon,1911,
+,11,@I502118@,John McGettigan,1843,1911
+,11,@I502119@,Ellen Coyle,1851,1911
+,11,@I502178@,Sarah Logue (born McBride),1890,1890
+,11,@I502179@,James McBride,1874,
+,11,@I502180@,Mary McBride,1860,
+,11,@I502182@,Margaret McBride,1866,
+,11,@I502191@,Mary Gallagher,1843,1901
+,11,@I502192@,Margaret Deeney,1882,1944
+,11,@I502193@,Sarah Deeney,1920,1878
+,11,@I502194@,Annie Deeney,1880,1901
+,11,@I502195@,Mary Deeney,1864,1885
+,11,@I502196@,James Deeney,1866,1901
+,11,@I502197@,William Deeney,1869,1869
+,11,@I502198@,Patrick Deeney,1883,1959
+,11,@I502199@,Edward B. Deeney,1871,1920
+,11,@I502200@,Denis Deeney,1874,1947
+,11,@I502201@,Bridget Deeney,1900,1900
+,11,@I502202@,Deeney,,
+,11,@I502291@,Catherine Doherty,1858,
+,11,@I502292@,Ferdinand Dougherty,1845,
+,11,@I502293@,Mary Doherty,1857,
+,11,@I502294@,Margory Doherty,1847,
+,11,@I502295@,Bridget Doherty,1856,
+,11,@I502296@,Adeline Doherty,1860,
+,11,@I502490@,Sarah Deeney,,
+,11,@I502553@,Maria Elisabetha Wengert,1855,1882
+,11,@I502554@,Louisa Wengert,1856,1858
+,11,@I502555@,John Frederick Wengert,1859,1884
+,11,@I502556@,Herman George Wengert,1865,1888
+,11,@I502557@,Anna Carolina Wengert,1866,1880
+,11,@I502558@,Emma Henriette Wengert,1869,1896
+,11,@I502559@,Karl Heinrich Wengert,1900,
+,11,@I502560@,Alice Virginia Wengert,1878,1880
+,11,@I502561@,Elmer Philipp Wengert,1882,1914
+,11,@I502567@,Hugh McBride,1864,1882
+,11,@I502568@,Anna McBride,1870,
+,11,@I502569@,Eliza McBride,1872,
+,11,@I502768@,James McConigley,,
+,11,@I502853@,Moore MacFarland,,1929
+,11,@I502854@,Mary Henderson,,1951
+,11,@I502972@,Winifred 'Unity' Diver,1856,1901
+,11,@I502987@,Margaret Deeney,1841,1915
+,11,@I503010@,Sarah Cullen (Dundoan),,
+,11,@I503011@,Madge Boyce (Mevagh),1924,1990
+,11,@I503012@,Sarah Boyce (Mevagh),1921,1973
+,11,@I503038@,John Deeney,1901,
+,11,@I503039@,James Deeney,1901,
+,11,@I503040@,Ellen Deeney,1901,
+,11,@I503158@,Mary Louisa O'Brien,1902,
+,11,@I503159@,,,
+,11,@I503160@,Eileen Kathleen O'Brien,1904,
+,11,@I503161@,Anne O'Brien,1907,
+,11,@I503162@,Patrick Joseph Melody,1911,1947
+,11,@I503163@,Bridget Molloy,1911,1946
+,11,@I503196@,Elizabeth O'Connell,1938,1963
+,11,@I503224@,Francis Friel,,
+,11,@I503366@,Anne (Hannah) McElwee,,
+,11,@I503482@,Eamann McBride,1813,
+,11,@I503483@,Mrs. McBride,1813,
+,11,@I503778@,John Quigley,1889,1901
+,11,@I503779@,Margaret Theresa Quigley,1920,2002
+,11,@I503780@,Mary Josephine Quigley,1921,2002
+,11,@I503781@,Catherine Veronica Quigley,1925,
+,11,@I503782@,Cecila Frances Quigley,1927,
+,11,@I503783@,Marjory Berndette Quigley,1928,
+,11,@I503784@,Ellen Agnes Quigley,1931,2017
+,11,@I503785@,James Jude Quigley,1933,1982
+,11,@I504066@,Darby McGarvey,1869,1937
+,11,@I504067@,James McGarvey (Ma Garvey),1870,1901
+,11,@I504068@,Edward McGarvey (Ma Garvey),1866,1926
+,11,@I504069@,Unity McGarvey (Ma Garvey),1873,
+,11,@I504070@,Ann McGarvey (Ma Garvey),1878,
+,11,@I504071@,John McGarvey,1867,
+,11,@I504221@,Hugh Dorrian,,
+,11,@I504222@,Hugh Dorrian,1902,
+,11,@I504223@,Agnes Dorrian,1896,
+,11,@I504224@,Mary Josephine Dorrian,1893,
+,11,@I504225@,Charles Dorrian,1895,
+,11,@I504226@,Anne Dorrian,1898,
+,11,@I504407@,Charles Patrick Carr,1950,1950
+,11,@I504473@,Daniel Anthony Quigley,1923,
+,11,@I504667@,Ann Logue,1876,1911
+,11,@I504668@,Mary Boyce,1912,
+,11,@I504669@,Daniel Boyce,1911,
+,11,@I504670@,James Boyce,1916,1981
+,11,@I504671@,Maggie Boyce,1911,
+,11,@I504672@,Annie Boyce,1914,1990
+,11,@I504687@,Fanny Lynagh,1883,
+,10,@I500270@,Hugh Martin,1845,1937
+,10,@I500271@,,,
+,10,@I500319@,Seretha Raphaela McHugh,1899,1940
+,10,@I500321@,Joseph W McHugh,1940,2004
+,10,@I500322@,Charles McHugh,1940,1940
+,10,@I500323@,John McHugh,1940,1930
+,10,@I500324@,Rita Marie McHugh,1930,1996
+,10,@I500325@,William Joseph McHugh,1930,1957
+,10,@I500326@,Robert P McHugh,1940,1940
+,10,@I500357@,Catherine McHugh,1940,
+,10,@I500391@,John Friel,1843,1901
+,10,@I500392@,Annie (Nancy) Friel Coll,1845,1925
+,10,@I500401@,Catherine Cooney,1896,1950
+,10,@I500402@,John Thomas Mcelwee,1929,1950
+,10,@I500403@,James Francis McElwee,1930,1950
+,10,@I500426@,Columba McElwee,1823,1858
+,10,@I500427@,Eleanor McDermott,1827,1876
+,10,@I500435@,Catherine Cooney,1892,1930
+,10,@I500452@,Patrick Kellagher,1833,1880
+,10,@I500453@,Jane Kellagher,1836,1880
+,10,@I500469@,Anthony Zamell,1901,1959
+,10,@I500470@,Robert Zamell,1920,1981
+,10,@I500471@,Jennie Mc Elroy,1914,1920
+,10,@I500472@,,,
+,10,@I500473@,John Henry Nelson,1930,1975
+,10,@I500474@,Mary Louise Nelson,1925,1930
+,10,@I500475@,Elizabeth Margaret Nelson,1930,2012
+,10,@I500476@,Mildred Nelson,1911,1930
+,10,@I500477@,Connell A. Boyle,1892,1917
+,10,@I500478@,Casper Moore,1897,1988
+,10,@I500521@,Laurence Begley,1882,1901
+,10,@I500522@,Hugh Begley,1884,1901
+,10,@I500523@,John Begley,1887,1901
+,10,@I500524@,Mary Begley,1888,1901
+,10,@I500525@,Charles Begley,1899,1974
+,10,@I500526@,James Begley,1896,1909
+,10,@I500527@,Catherine Begley,1893,1893
+,10,@I500531@,Mary Agnes,,
+,10,@I500532@,Kitty Melody,1916,1974
+,10,@I500533@,Maire Cannon,,
+,10,@I500534@,Amy Corcoran,1909,
+,10,@I500535@,Michael Patrick,1908,1979
+,10,@I500536@,Brian,,
+,10,@I500537@,Mai,,
+,10,@I500538@,Bill Duffin,,
+,10,@I500539@,Maura Duffin,,
+,10,@I500540@,Joan,,
+,10,@I500569@,Manus O'Donnell,1865,1924
+,10,@I500570@,Mary McDermott,1873,1954
+,10,@I500614@,William J Boyle,1930,1950
+,10,@I500615@,Edward J Boyle,1930,
+,10,@I500616@,Mary K. Boyle,1938,2002
+,10,@I500617@,Margaret Mary Boyle,1930,
+,10,@I500618@,Charles John Boyle,1950,1976
+,10,@I500619@,Hughie (Rua) Friel,1819,1877
+,10,@I500620@,Catherine McCarron,1824,1886
+,10,@I500627@,Bridget Begley,1889,
+,10,@I500646@,Hubert Nelson,1930,
+,10,@I500647@,John Nelson,1930,
+,10,@I500650@,Charles James Canning (Cannon),1879,1957
+,10,@I500651@,Mary Cannon,1878,1929
+,10,@I500652@,Margaret M. Cannon,1881,1965
+,10,@I500653@,Sarah Cannon,1940,1910
+,10,@I500654@,Julia Canning,1887,1901
+,10,@I500655@,Daniel Canning,1888,1901
+,10,@I500656@,Catherine Canning,1891,1901
+,10,@I500737@,Bernard Friel,1866,1959
+,10,@I500738@,Annie Carr,,
+,10,@I500812@,Sally Grant,1888,1977
+,10,@I500813@,Michael Grant,1893,1911
+,10,@I500814@,James Grant,1897,1911
+,10,@I500815@,Dennis  Denis Grant,1900,1911
+,10,@I500816@,Patrick Grant,1906,1950
+,10,@I500833@,Eleanor McGettigan,,
+,10,@I500849@,Sarah Deeney,1838,1901
+,10,@I500850@,Mary Deeny Martin,1849,1885
+,10,@I500851@,Charles Deeney,1900,1906
+,10,@I500852@,Hugh Deeney,1870,1890
+,10,@I500854@,Sarah McBride,1869,1901
+,10,@I500855@,Daniel Coll,1905,
+,10,@I500856@,Hannah Maria Coll,1898,1901
+,10,@I500857@,Margaret Coll,1893,1911
+,10,@I500858@,Susan Coll,1896,1901
+,10,@I500859@,Sophia Coll,1901,1901
+,10,@I500868@,Catherine Deeney,1854,
+,10,@I500869@,John Deeney,1835,1900
+,10,@I500871@,Patrick Deeney,1848,1901
+,10,@I500883@,John Deeney,1788,
+,10,@I500884@,Mary Diver,1790,
+,10,@I500899@,Hugh Doherty,1775,
+,10,@I500900@,Bridget Kerr,1765,1853
+,10,@I501243@,Michael Grant,1813,1871
+,10,@I501244@,Sarah McConigley,1815,1900
+,10,@I501257@,Ann Callaghan,,
+,10,@I501258@,Peter Mor Coyle,1881,1973
+,10,@I501259@,Ellen Coyle,1901,1935
+,10,@I501260@,Catherine Coyle,1882,1975
+,10,@I501261@,Mary Ann Coyle,1901,
+,10,@I501263@,Margaret Doherty,1813,1900
+,10,@I501264@,Catherine Doherty,1852,1903
+,10,@I501265@,Edward Doherty,1814,1911
+,10,@I501266@,George Dougherty (born Doherty),1830,1894
+,10,@I501267@,Una Doherty,1824,1864
+,10,@I501268@,John Doherty,1817,1890
+,10,@I501269@,Charles Doherty,1818,1868
+,10,@I501347@,Edward McAteer,1874,
+,10,@I501348@,Winifred McAteer,1877,
+,10,@I501349@,Patrick McAteer,1879,
+,10,@I501350@,Ellen McAteer,1881,
+,10,@I501351@,Hannah McAteer,1883,
+,10,@I501352@,William McAteer,1886,
+,10,@I501353@,James McAteer,1888,
+,10,@I501354@,Margaret McAteer,1890,
+,10,@I501355@,Anna McAteer,1892,
+,10,@I501356@,Eunice McAteer,1894,
+,10,@I501357@,John McAteer,1895,
+,10,@I501358@,Daniel McAteer,1896,1982
+,10,@I501359@,Thomas McAteer,1897,
+,10,@I501360@,Charles McAteer,1901,
+,10,@I501411@,Dorothy Mc Elroy,1920,
+,10,@I501412@,,,
+,10,@I501413@,Elizabeth Frances McElroy,1918,1944
+,10,@I501414@,,,
+,10,@I501415@,Hugh Edward McElroy,1922,1940
+,10,@I501416@,,,
+,10,@I501534@,Stephen Friel,1821,1911
+,10,@I501535@,Margaret Sweeney,1831,1918
+,10,@I501610@,Mary Lou,1938,2008
+,10,@I501662@,John Grant,1911,
+,10,@I501838@,Begley,,
+,10,@I501839@,,,
+,10,@I501910@,Michael McGettigan,1884,1911
+,10,@I501911@,Bridget McGettigan,1893,1911
+,10,@I502078@,James Deeney,1840,1901
+,10,@I502176@,John McBride,1864,1864
+,10,@I502177@,Mary McGinley,1864,
+,10,@I502209@,Patrick Sarsfield Doherty,1878,1901
+,10,@I502210@,Michael Davitt Doherty,1882,1901
+,10,@I502211@,Sarah Doherty,1884,1901
+,10,@I502212@,Jennie Doherty,1888,1901
+,10,@I502213@,Thomas Doherty,1890,1952
+,10,@I502214@,John Doherty,1892,1901
+,10,@I502215@,Margaret Doherty,1894,1901
+,10,@I502216@,Josephine Doherty,1898,1901
+,10,@I502217@,Frank Deane,1905,1975
+,10,@I502218@,Eilis McLaughlin Deane,,
+,10,@I502233@,Michael Friel,1868,
+,10,@I502234@,LETITIA AGNES FRIEL,1917,2008
+,10,@I502273@,Denis Heaney,1922,1985
+,10,@I502346@,Birdie Jones,,
+,10,@I502405@,Manus Gallagher,1876,1952
+,10,@I502406@,John Gallagher,1880,1900
+,10,@I502427@,Hugh Boyce,1877,
+,10,@I502428@,Mary Boyce,1861,
+,10,@I502429@,James Boyce,1871,1951
+,10,@I502430@,Ann Boyce,1869,
+,10,@I502431@,John Boyce,1881,
+,10,@I502432@,Briney Boyce,,
+,10,@I502433@,Aneas Boyce,1873,
+,10,@I502434@,Bridget Boyce,1862,
+,10,@I502435@,Patrick Boyce,1877,
+,10,@I502468@,Mary Mcgonigle,,
+,10,@I502549@,Margery Grant,1911,1969
+,10,@I502550@,Catherine (Kate) Grant,1898,1911
+,10,@I502551@,Philipp Wengert,1826,1862
+,10,@I502552@,Maria Elisabetha Stentzel,1843,1862
+,10,@I502641@,Donald Williams,,
+,10,@I502642@,Louise Gleim,,
+,10,@I502661@,Mary Anne McCauley,1911,1987
+,10,@I502662@,Mary Doherty,1934,2015
+,10,@I502663@,John Doherty,1934,
+,10,@I502664@,Manasses Anthony (Manus) Doherty,1946,2012
+,10,@I502699@,Dan Carr (Murleog),1841,
+,10,@I502700@,John Carr (Murleog),1869,
+,10,@I502708@,Paddy Boyce (Dundoan),,
+,10,@I502709@,Majie Boyce (Dundoan),1871,1926
+,10,@I502711@,Andy Boyce (Dundoan),1892,
+,10,@I502712@,Jamie Boyce (Dundoan),,
+,10,@I502713@,Sarah Anne Boyce (Dundoan),1879,
+,10,@I502714@,Manus Boyce (Dundoan),1885,
+,10,@I502715@,Frank Boyce (Dundoan),1875,
+,10,@I502716@,Dan Boyce (Dundoan),1873,1942
+,10,@I502718@,Eoghan Boyce (Mevagh),1881,1965
+,10,@I502719@,Paddy Boyce (Kinnalargy),1883,1968
+,10,@I502720@,Nellie Boyce (Dundoan),1887,1960
+,10,@I502721@,Denis Boyce (Mevagh),1889,1957
+,10,@I502730@,Dorothy McFarlane,1913,1994
+,10,@I502731@,William Roddy Doherty,1901,1957
+,10,@I502732@,Isabella (Bella) Doherty,1901,1957
+,10,@I502733@,Mayanna Parnell Doherty,1881,1931
+,10,@I502734@,Mary Doherty,1901,
+,10,@I502735@,Constantine Doherty,1876,1946
+,10,@I502737@,Jim McGuinness,,
+,10,@I502738@,Dennis Heaney,,
+,10,@I502739@,,,
+,10,@I502767@,Bridie,,
+,10,@I502776@,Owen (maybe) Begley,1806,1881
+,10,@I502777@,Michael? Begley,1824,1878
+,10,@I502786@,Charles Friel,1838,1897
+,10,@I502787@,John Friel,1880,1958
+,10,@I502788@,Ellen Friel,1867,1901
+,10,@I502789@,Mary (1) Friel,1869,1869
+,10,@I502790@,Susan Friel,1871,1888
+,10,@I502791@,Francis Friel,1873,
+,10,@I502792@,Catherine Friel,1874,
+,10,@I502793@,Anne Friel,1878,1959
+,10,@I502794@,Mary Friel,1882,
+,10,@I502795@,Margaret Friel,1887,
+,10,@I502851@,James (Jim) Doherty,1930,2017
+,10,@I502852@,Catherine (Agnes) Doherty,1938,2021
+,10,@I502905@,Margery McBride,1911,
+,10,@I502906@,Eunice McBride,1911,
+,10,@I502907@,Phina McBride,1902,1905
+,10,@I503488@,Catherine McAteer,,1992
+,10,@I503516@,Paddy Gallagher,,
+,10,@I503517@,Mary McBride,1884,1947
+,10,@I503551@,Hugh Phillip Gallagher,1899,1962
+,10,@I504043@,Patrick Gallagher,1866,1956
+,10,@I504044@,Daniel Gallagher,1926,1979
+,10,@I504045@,William Gallagher,1925,
+,10,@I504064@,Darby McGarvey,1840,1901
+,10,@I504065@,Susan McClafferty,1901,1910
+,10,@I504072@,Ann Gallagher,1938,2012
+,10,@I504073@,,,
+,10,@I504112@,Michael Burns,1890,1965
+,10,@I504113@,Elizabeth Burns,,
+,10,@I504114@,Michael Hugo Burns,1913,1989
+,10,@I504115@,Thomas William Burns,1917,2001
+,10,@I504116@,Stanley Burns,1926,1926
+,10,@I504117@,Neil Alphonso Burns,1922,2011
+,10,@I504118@,Oliver Burns,1924,2002
+,10,@I504119@,Kathleen Burns,1919,2008
+,10,@I504120@,Robert John Burns,1916,1982
+,10,@I504405@,Neil Carr,1909,1972
+,10,@I504406@,Rose (Rosie) Peoples,1907,1911
+,10,@I504661@,Mary Marley,1934,1991
+,9,@I500131@,John M Coyle,1837,1891
+,9,@I500132@,Catharine Coyle,1847,1920
+,9,@I500133@,Eleanor Coyle,1848,
+,9,@I500134@,Rose Ann Coyle,1850,1883
+,9,@I500135@,Honora Coyle,1853,1909
+,9,@I500136@,Mary,,
+,9,@I500139@,Catherine McGettigan,1845,1865
+,9,@I500140@,James McGettigan,1844,1911
+,9,@I500141@,Daniel McGettigan,1847,1890
+,9,@I500142@,Roseanne McGettigan,1850,
+,9,@I500143@,John McGettigan,1859,
+,9,@I500147@,Hugh Coll,1864,1901
+,9,@I500149@,Margaret Coll,1872,1940
+,9,@I500150@,Daniel Coll,1866,1893
+,9,@I500151@,Giley Coll,1882,
+,9,@I500152@,Mary Coll,1870,1892
+,9,@I500153@,John Coll,1877,1957
+,9,@I500154@,Catherine Coll,1874,1895
+,9,@I500155@,Steven Coll,1861,1918
+,9,@I500156@,Susan Coll,1868,
+,9,@I500269@,James Martin,,
+,9,@I500311@,patrick martin,1856,1935
+,9,@I500313@,edward martin,1904,1986
+,9,@I500314@,Patrick Martin,,
+,9,@I500335@,Roseann Gallagher,,1963
+,9,@I500336@,Mary Friel,1880,1911
+,9,@I500337@,Thomas Cannon,1918,1997
+,9,@I500338@,Patrick Pearse Cannon,1928,2015
+,9,@I500339@,Margaret Anne Cannon,1907,1907
+,9,@I500340@,Anne Marie Cannon,1908,1977
+,9,@I500341@,Catherine (Kitty) Friel,1876,1911
+,9,@I500342@,Bernard Vincent Cannon,1911,
+,9,@I500343@,Hanorah Cannon,1911,
+,9,@I500344@,Patrick Valentine Cannon,1911,1991
+,9,@I500345@,Sean Cannon,1910,
+,9,@I500367@,Frank Cannon,,
+,9,@I500368@,Annie Teresa Cannon,1951,1951
+,9,@I500369@,Arthur Henry,1916,
+,9,@I500371@,John McElwee,1853,1911
+,9,@I500372@,John McElwee,1892,1950
+,9,@I500373@,Winnie McElwee,1894,1911
+,9,@I500374@,James McElwee,1897,1911
+,9,@I500375@,Henry McElwee,1899,1911
+,9,@I500376@,Giley McElwee,1901,1911
+,9,@I500377@,Mary McElwee,1903,1911
+,9,@I500378@,Maggie Heraghty,1869,1943
+,9,@I500404@,Michael McElwee,1901,
+,9,@I500442@,John B McHugh,1780,1840
+,9,@I500443@,Mary E. Kellagher,1860,1910
+,9,@I500444@,Cecelia McHugh,1900,1978
+,9,@I500445@,Anne McHugh,1886,1947
+,9,@I500446@,Jennie McHugh,1887,1940
+,9,@I500447@,Elizabeth McHugh,1889,1930
+,9,@I500448@,Charles McHugh,1890,1920
+,9,@I500449@,Catherine M. McHugh,1893,1935
+,9,@I500450@,Mary McHugh,1895,1975
+,9,@I500451@,James D Mchugh,1888,
+,9,@I500519@,James Begley,1847,1901
+,9,@I500520@,Catherine Friel,1851,1889
+,9,@I500565@,James McAteer,,1899
+,9,@I500566@,James Deeney,,
+,9,@I500567@,James O'Donnell,1914,1996
+,9,@I500568@,Daniel Griffin,,
+,9,@I500648@,Patrick Canning (Cannon),1851,1901
+,9,@I500649@,Bridget M'Cleferty,1851,1901
+,9,@I500686@,William Joseph McHugh,1898,1930
+,9,@I500708@,Catherine Gortnatraw North 4 Friel,1861,1873
+,9,@I500709@,Anne (Nancy) Gortnatraw North 2 Friel,1851,
+,9,@I500710@,Michael Gortnatraw North 4,1857,1927
+,9,@I500711@,Bridget Gortnatraw North 3 Friel,1854,
+,9,@I500712@,Mary Gortnatraw North 4 Friel,1858,1888
+,9,@I500736@,Agnes Friel,1906,1965
+,9,@I500779@,Dan Ned Martin,1901,
+,9,@I500781@,Thomas Martin,1900,1982
+,9,@I500782@,John Martin,1903,
+,9,@I500783@,Patrick Martin,1907,
+,9,@I500784@,Manus Martin,1910,1942
+,9,@I500785@,Jiley Martin,1911,
+,9,@I500810@,James Grant,1848,1911
+,9,@I500811@,Mary Friel,1864,1864
+,9,@I500817@,Dan Canning,,
+,9,@I500818@,Charlie Canning,,
+,9,@I500819@,Pat Canning,,
+,9,@I500820@,Julia Canning,,
+,9,@I500823@,Mary Anne Friel,1894,
+,9,@I500824@,Patrick Friel,1898,
+,9,@I500825@,Charles Friel,1896,
+,9,@I500826@,Kate Friel,1892,
+,9,@I500831@,Hugh McGettigan,,
+,9,@I500832@,Catherine,,
+,9,@I500842@,James M. Keesor Keesor,1866,1933
+,9,@I500843@,Frederica Amelia C. Keesor Wengert,1871,1940
+,9,@I500847@,John Deeney,1812,1869
+,9,@I500848@,Margaret Doherty,1813,1900
+,9,@I501069@,Mary Cannon,1919,1998
+,9,@I501070@,Annie McElwee,1912,
+,9,@I501071@,Alexander Gillan,1890,1962
+,9,@I501262@,Hugh Doherty,,
+,9,@I501304@,Percy Pearson,,
+,9,@I501344@,James McGettigan,1926,1982
+,9,@I501345@,John McAteer,1840,1905
+,9,@I501346@,Catherine Gibbons,1856,1920
+,9,@I501361@,Ellen (Nellie) Martin,1913,2003
+,9,@I501362@,Denis Martin,1918,
+,9,@I501525@,Anna Noon,1798,1854
+,9,@I501559@,Grace Meenan,1902,1940
+,9,@I501560@,Estelle Churchill,1910,2001
+,9,@I501561@,John Coyle,1938,2005
+,9,@I501562@,Anne Marie Coyle,1937,2018
+,9,@I501709@,Sally McBride,1852,1927
+,9,@I501710@,Bridget McBride,,
+,9,@I501711@,Peggy McBride,,
+,9,@I501712@,Nellie McBride,,
+,9,@I501713@,Annie McBride,1846,
+,9,@I501714@,Madge McBride,,
+,9,@I501715@,Fanny McBride,1838,1928
+,9,@I501716@,Mary McBride,1836,
+,9,@I501746@,John Boyce,1898,1965
+,9,@I501747@,Sarah Boyce,1901,
+,9,@I501748@,Grace Boyce,1894,
+,9,@I501749@,Ann Boyce,1899,
+,9,@I501750@,Kathleen Boyce,,
+,9,@I501751@,Margaret Boyce,1892,
+,9,@I501752@,Patrick Boyce,1897,
+,9,@I501850@,William Friel,1911,1997
+,9,@I501851@,Ned Friel,1907,1975
+,9,@I501852@,Patrick G Friel,1903,1911
+,9,@I501853@,John James Friel,1905,1909
+,9,@I501854@,Catherine Friel,1914,1935
+,9,@I501918@,Thomas Doherty,1912,1995
+,9,@I501919@,James Joseph (known as Séamus) O'Doherty,1920,2009
+,9,@I501920@,Winnie Doherty,1904,1911
+,9,@I501921@,Sarah Doherty,1905,1911
+,9,@I501922@,Katherine Marie Doherty,1906,1911
+,9,@I501923@,Dominic Doherty,1908,1911
+,9,@I501924@,Mary Doherty,1910,1911
+,9,@I501925@,Constantine Doherty,1914,1989
+,9,@I501926@,Daniel O'Doherty,1913,2004
+,9,@I501927@,John Doherty,1919,1986
+,9,@I501928@,Agnes Doherty,1916,1921
+,9,@I501929@,Eilis Doherty,1922,2013
+,9,@I501930@,James Alphonsus Nelis,1935,
+,9,@I501931@,Thomas Lee,,2010
+,9,@I501938@,Ferdinand mcbride,1870,1940
+,9,@I501939@,Owen mcbride,1904,1991
+,9,@I501957@,Micky McBride,1911,1926
+,9,@I501959@,Annie McBride,1896,1911
+,9,@I501960@,Bridget McBride (Gortnalughoge),1893,1901
+,9,@I501961@,Hugh Lee McBride (Gortnalughoge),1903,1915
+,9,@I501962@,Margaret McBride (Gortnalughoge),1911,1938
+,9,@I501964@,Joseph McBride (Gortnalughoge),1904,1906
+,9,@I501965@,Owen McBride (Gortnalughoge),1905,1979
+,9,@I501966@,John1 McBride (Gortnalughoge),1895,1911
+,9,@I501967@,Katie McBride (Gortnalughoge),1900,1911
+,9,@I501968@,Sallie McBride (Gortnalughoge),1911,1968
+,9,@I501969@,Ellen McBride (Gortnalughoge),1901,1992
+,9,@I501970@,Winnie McBride (Gortnalughoge),1910,1990
+,9,@I501971@,Fanny ? McBride (Gortnalughoge),1902,1905
+,9,@I502023@,John Sweeney,1854,
+,9,@I502024@,Bridget Sweeney,1859,
+,9,@I502025@,Hugh Sweeney,1861,
+,9,@I502026@,Cecelia Sweeney,1863,1889
+,9,@I502027@,Hannah Sweeney,1866,
+,9,@I502080@,Raymond Mackin,1919,2006
+,9,@I502081@,Patrick Begley,1861,1931
+,9,@I502082@,Eoin MorEugene Begley,1901,1915
+,9,@I502083@,James Begley,1855,1924
+,9,@I502084@,Bridget Begley,1865,1873
+,9,@I502085@,Daniel Begley,1869,1869
+,9,@I502148@,Kathleen MacKin,1950,
+,9,@I502205@,Patrick Boyce,1845,
+,9,@I502206@,Margaret Coyle,1839,
+,9,@I502207@,Manasses Doherty,1851,1901
+,9,@I502208@,Sarah McDaid,1857,1901
+,9,@I502232@,Ellen McElwee,1845,1907
+,9,@I502270@,Arnold Noffsinger,1922,2004
+,9,@I502272@,Mary Josephine Burke,1922,2000
+,9,@I502347@,Ellen J. Williams,1944,
+,9,@I502403@,Michael Gallagher,1841,
+,9,@I502404@,Grace Gallagher,1842,1925
+,9,@I502522@,Patricia Dillon,1950,
+,9,@I502523@,Thomas Dillon,1950,
+,9,@I502524@,John Dillon,1950,
+,9,@I502545@,Denise Noffsinger,1950,
+,9,@I502565@,Hughie Cannon,1920,2000
+,9,@I502727@,William Doherty,1914,1996
+,9,@I502728@,James McDermott,1916,2003
+,9,@I502765@,Dominic Doherty,,1910
+,9,@I502766@,Winifred Unity,,1916
+,9,@I502775@,Begley,,
+,9,@I502919@,Lily,,
+,9,@I502920@,Jimmy Coyle,,
+,9,@I502921@,Annie Coyle,1953,1954
+,9,@I503194@,Mary McKinley,,
+,9,@I503195@,,,
+,9,@I503502@,Catherine McGarvey,1859,1901
+,9,@I503503@,Rose Ann Gallagher,1896,1911
+,9,@I503504@,James Gallagher,1894,1911
+,9,@I503505@,Annie (Anna) Gallagher,1901,1930
+,9,@I503506@,Susan Gallagher,1885,1974
+,9,@I503507@,Patrick Gallagher,1918,1956
+,9,@I503508@,Winifred Gallagher,1901,1910
+,9,@I503509@,Jeremiah Gallagher,1911,1965
+,9,@I503510@,John Ignatius Gallagher,1911,1961
+,9,@I503511@,Catherine Gallagher,1893,
+,9,@I503512@,Mary Gallagher,1901,1962
+,9,@I503513@,Sophia Gallagher,1890,1993
+,9,@I503514@,Hugh Gallagher,1905,1911
+,9,@I503515@,Eunice Gallagher,1890,
+,9,@I503677@,Hugh Coll,1894,1911
+,9,@I503678@,Maggie Coll,1893,1901
+,9,@I503679@,Edward Coll,1879,1911
+,9,@I503680@,Thomas Coll,1901,1936
+,9,@I503681@,Paddy Coll,1901,1957
+,9,@I503682@,Mary Coll,1940,1967
+,9,@I503683@,Aley (Alice) Coll,1901,1961
+,9,@I503699@,Anna Carr,1933,2016
+,9,@I503700@,Baby Begley,1963,1963
+,9,@I503701@,Baby Begley,1965,1965
+,9,@I504039@,Mary Mcelwaine,1902,
+,9,@I504040@,Mary Theresa Cannon,1939,2014
+,9,@I504041@,Susan Cannon,1940,
+,9,@I504659@,James McAllister,1895,1968
+,9,@I504660@,Mary anne Heraghty,1893,1901
+,8,@I500118@,Dan Coyle,1911,
+,8,@I500119@,Patrick Coyle,1911,
+,8,@I500120@,Hugh Coyle,1911,1901
+,8,@I500121@,Barney Coyle,1911,1911
+,8,@I500122@,Stephen Coyle,1911,1994
+,8,@I500123@,John Coyle,1911,1980
+,8,@I500124@,James Coyle,1911,1968
+,8,@I500125@,John Sweeney,1911,1901
+,8,@I500126@,William Sweeney,1901,
+,8,@I500127@,Edd Sweeney,1911,1901
+,8,@I500128@,Cassic Sweeney,1911,
+,8,@I500129@,Peter Coyle,1803,1888
+,8,@I500130@,Eleanor Mcgettigan,1808,1884
+,8,@I500137@,John Mc Gettigan,1805,1872
+,8,@I500138@,Susanna Doherty,1818,1895
+,8,@I500145@,Daniel Coll,1831,1856
+,8,@I500146@,Margaret Deeney,1841,1856
+,8,@I500176@,Honora Mcginley,1841,1908
+,8,@I500180@,John Cannon,1911,1958
+,8,@I500181@,Mary Cannon,1871,1947
+,8,@I500182@,Patrick Cannon,1867,
+,8,@I500202@,Patrick Canning,1885,1901
+,8,@I500203@,Susanna Grant,1895,1957
+,8,@I500233@,Margaret Friel,,1901
+,8,@I500234@,Michael Cannon,1875,1875
+,8,@I500235@,Margaret Cannon,1870,1886
+,8,@I500236@,Ellen Cannon,1878,1878
+,8,@I500237@,James McElwaine,1831,1911
+,8,@I500238@,Thomas McElwee,1874,
+,8,@I500239@,Hannah McElwee,1865,1910
+,8,@I500240@,Nancy McElwee,1876,
+,8,@I500241@,Michael McElwaine,1872,1943
+,8,@I500242@,Jiley McElwee,1877,1895
+,8,@I500243@,Mary McCarry,1865,1930
+,8,@I500244@,Margaret Cannon,1883,1968
+,8,@I500268@,Martin,,
+,8,@I500291@,Charles McHugh,1820,1870
+,8,@I500292@,John Charles McHugh,1859,1920
+,8,@I500293@,Mary Friel,,
+,8,@I500294@,Mary Cannon,1891,
+,8,@I500295@,Henry John Cannon,1898,1966
+,8,@I500296@,Patrick Begley,1818,1898
+,8,@I500297@,Bridget Carr,1822,1884
+,8,@I500298@,Catherine Begley,1886,1901
+,8,@I500299@,Michael Joe Begley,1931,1949
+,8,@I500300@,Bridget McGinley,1907,1911
+,8,@I500301@,John J Begley,1938,
+,8,@I500302@,James Michael Begley,1928,1982
+,8,@I500554@,Fergus Friel,1880,1911
+,8,@I500555@,Hugh Friel,1873,1911
+,8,@I500556@,Katie Friel,1878,
+,8,@I500560@,John Boyle,,1899
+,8,@I500561@,Mary Ann O Boyle,1910,1937
+,8,@I500562@,Charles Deeney,,1967
+,8,@I500563@,Kathleen Deeney,1924,2015
+,8,@I500564@,Rose Anne Griffin,1898,1984
+,8,@I500591@,Begley,,
+,8,@I500592@,Alice Elizabeth Keesor,1898,1992
+,8,@I500593@,Manus Boyle,,1900
+,8,@I500594@,Patrick Griffin,1811,1882
+,8,@I500595@,Bryan Callaghan,,1895
+,8,@I500596@,Catherine,1826,
+,8,@I500597@,Sarah Creaven,1898,1969
+,8,@I500598@,Suzanne Sarah Callaghan,1936,2012
+,8,@I500599@,Agnes Mary Oshea,1899,1989
+,8,@I500600@,Suzanne C Callaghan,1932,1945
+,8,@I500639@,May O Boyle,1910,
+,8,@I500640@,John O Boyle,1910,
+,8,@I500641@,James O Boyle,1910,
+,8,@I500642@,Joseph O Boyle,1910,
+,8,@I500643@,Frank O Boyle,1910,
+,8,@I500644@,Harry O Boyle,1910,
+,8,@I500645@,Winnie O Boyle,1910,
+,8,@I500665@,Anne Gallagher,,
+,8,@I500687@,Mary Shiels,1881,
+,8,@I500688@,John,1876,
+,8,@I500689@,Hugh,1873,
+,8,@I500690@,Darby (Jeremiah),,
+,8,@I500691@,Neal,1883,
+,8,@I500692@,Michael,1889,
+,8,@I500693@,Patrick,1880,
+,8,@I500694@,Bridget Shiels,1884,
+,8,@I500695@,Margaret (Maggie) Shiels,1875,
+,8,@I500696@,Mary Gortnatraw North 5 Friel,1888,
+,8,@I500706@,Hugh Gortnatraw North 1,1816,1902
+,8,@I500707@,Catherine Gortnatraw North 2 Friel,1823,1895
+,8,@I500767@,Ann McGroddy,1929,1992
+,8,@I500768@,Grace McGroddy,1925,1994
+,8,@I500769@,Sally McGroddy,1933,1987
+,8,@I500770@,Margaret (Peggy) McGroddy,1923,2014
+,8,@I500771@,Norah McGroddy,1921,1946
+,8,@I500772@,Madge McGroddy,1931,1953
+,8,@I500773@,John McGroddy,1924,1989
+,8,@I500774@,Daniel McGroddy,1917,1976
+,8,@I500775@,Kathleen McGroddy,1920,1993
+,8,@I500776@,Bridget McGroddy,1926,1991
+,8,@I500777@,Edward Martin,1868,1918
+,8,@I500778@,Mary McAteer,1876,1937
+,8,@I500786@,May friel,,2014
+,8,@I500821@,Edward friel,1856,
+,8,@I500822@,Mary,1871,
+,8,@I500839@,Winifred Friel,,
+,8,@I500840@,Mary Friel,,
+,8,@I500841@,Margaret Friel,1967,1971
+,8,@I501066@,Joseph B Callaghan,1933,2016
+,8,@I501067@,Mary C Callaghan,1935,2014
+,8,@I501068@,John Edward Callaghan,1941,2003
+,8,@I501159@,Hugh Gallagher,1859,1858
+,8,@I501160@,William Shiels,1897,1980
+,8,@I501161@,William Shiels,,2010
+,8,@I501162@,Pat Shiels,,2009
+,8,@I501163@,Jerry Shiels,,2020
+,8,@I501221@,Christopher McBride,1975,
+,8,@I501222@,Brian McBride,1993,
+,8,@I501223@,Cahir McBride,,
+,8,@I501224@,Aisling McBride,2001,
+,8,@I501225@,Freda Clinton,,
+,8,@I501226@,Seamus Coyle,1992,
+,8,@I501227@,Brian Coyle,1992,
+,8,@I501228@,Paul Coyle,1989,
+,8,@I501300@,Mary Theresa McGroddy,1919,
+,8,@I501301@,Manus McBride,1866,
+,8,@I501302@,Ellen (Nellie) McBride,1911,1961
+,8,@I501303@,Mary (Rua) McBride,1877,1982
+,8,@I501421@,Sarah Gallagher,1898,1970
+,8,@I501422@,Donal Gallagher,1935,1976
+,8,@I501423@,Grace Gallagher,1937,
+,8,@I501424@,Edward Gallagher,1928,
+,8,@I501425@,Catherine Gallagher,1931,
+,8,@I501472@,Arthur Friel,1831,
+,8,@I501473@,Edward Friel,1835,1901
+,8,@I501474@,Margaret (Peggy) Friel,1849,1876
+,8,@I501475@,Catherine Friel,1858,1929
+,8,@I501514@,Daniel Mc Allister,1841,
+,8,@I501515@,margaret Mc Allister,1846,
+,8,@I501516@,Susana Mc Allister,1844,
+,8,@I501517@,Joe Doherty,,
+,8,@I501607@,John W Doherty,1950,
+,8,@I501707@,Donal McBride,,
+,8,@I501708@,Ellen Bradley,,
+,8,@I501744@,Michael Boyce,1867,1929
+,8,@I501745@,Kathleen Gallagher,1864,1901
+,8,@I501848@,Bryan Friel,1911,1945
+,8,@I501849@,Bridget Bradley,1871,1911
+,8,@I501916@,James (the Brad) Doherty,1881,1911
+,8,@I501917@,Elizabeth Doherty (maiden name),1879,1901
+,8,@I501932@,Coletta Noffsinger Dillon,1925,2020
+,8,@I501933@,,,
+,8,@I501936@,Sarah Anastasia Carrabine,1904,1950
+,8,@I501937@,Catherine Marie Dillon,1927,1935
+,8,@I502021@,Charles Sweeney,1830,1875
+,8,@I502022@,Margaret Madge Dorrian,1835,
+,8,@I502031@,Mary L Doherty,1940,
+,8,@I502032@,Margaret T Doherty,1940,
+,8,@I502061@,Mary Josephine Mallon,,
+,8,@I502062@,Thomas Dillon,1921,2009
+,8,@I502063@,Mary Anne (Maureen) Dillon,1923,1949
+,8,@I502064@,Teresa Dillon,1926,2011
+,8,@I502065@,John Joseph (John Joe) Dillon,1922,2004
+,8,@I502068@,Mary Sweeney,,2016
+,8,@I502077@,John Sweeney,,
+,8,@I502097@,Robert Dillon,1940,
+,8,@I502271@,Margaret Mary Dillon,1924,1968
+,8,@I502342@,Arthur Joseph Girouard,,
+,8,@I502665@,Dennis Sweeney,,
+,8,@I502666@,Mary Clinton,,
+,8,@I502685@,Hugh Doherty,1871,1911
+,8,@I502686@,May J Doherty,1908,1911
+,8,@I502687@,Samuel J Doherty,1907,1911
+,8,@I502688@,Hugh Doherty,,1911
+,8,@I502689@,Kathleen Doherty,1915,2007
+,8,@I502736@,Joseph Dillon,1928,1930
+,8,@I502823@,Ellen Rodgers,1901,1910
+,8,@I502824@,Anthony Roger,1911,1937
+,8,@I502825@,Annie (Nancy) Roger,1860,
+,8,@I502826@,Paddy Roger,1871,
+,8,@I502827@,Margery Rodger Shiels,1857,
+,8,@I502935@,John McKinley,1885,
+,8,@I502936@,Rose Anne Mc Kinley,1895,1911
+,8,@I502937@,Daniel Mc Kinley,1897,1971
+,8,@I502938@,Giles McKinley,1883,1964
+,8,@I502939@,Edward Mc Kinley,1894,1911
+,8,@I503535@,Patrick Cannon,1885,1923
+,8,@I503632@,Sarah McAllister,1935,2017
+,8,@I503675@,Hugh Coll,1845,1911
+,8,@I503676@,Alice McCarry,1856,1901
+,8,@I504042@,John Cannon,1886,1908
+,8,@I504048@,Charles McElwaine,1930,1994
+,7,@I500048@,Patrick Coyle,1846,1870
+,7,@I500049@,Anna Coll,1870,1946
+,7,@I500050@,Sarah Canning,1932,2013
+,7,@I500051@,Tessie Coll,,
+,7,@I500052@,William Sweeney,1851,1901
+,7,@I500053@,Susanna McGettigan,1853,1901
+,7,@I500054@,Cannon,,
+,7,@I500055@,Thomas Cannon,1843,1913
+,7,@I500056@,Brian (Briney Bán) Cannon,1840,1898
+,7,@I500057@,Shiela Cannon,1836,1886
+,7,@I500097@,JohnOwen Friel,1841,1911
+,7,@I500098@,JileyGiley Friel,1840,1911
+,7,@I500099@,Johnny Friel,1903,1911
+,7,@I500100@,Neil Friel,1905,1940
+,7,@I500101@,Mary Friel,1901,1911
+,7,@I500102@,James Friel,1911,1998
+,7,@I500103@,Hugh Friel,1911,
+,7,@I500104@,Mickey Friel,1916,2001
+,7,@I500105@,Neil Shiels,1844,1901
+,7,@I500157@,Patrick O Boyle,1856,1910
+,7,@I500158@,AnnaNancy Boyle,1892,1975
+,7,@I500159@,Patrick Boyle,1896,1901
+,7,@I500160@,James Boyle,1894,1901
+,7,@I500161@,John Boyle,1891,1901
+,7,@I500162@,Hannah Coll,1885,1940
+,7,@I500163@,Alice Marie Cannon,1940,2008
+,7,@I500177@,Mary E Cannon,1823,1880
+,7,@I500178@,John Cannon,,
+,7,@I500179@,Henry Cannon,1841,1911
+,7,@I500194@,Susan Sweeney (of the hill),,
+,7,@I500197@,Bridget Callaghan,,
+,7,@I500198@,John Callaghan,,
+,7,@I500199@,Charlie Callaghan,,
+,7,@I500200@,Dan Callaghan,,1976
+,7,@I500201@,Patrick Callaghan,1924,2007
+,7,@I500213@,Michael Begley,1857,1901
+,7,@I500214@,John Begley,1889,1911
+,7,@I500215@,Thomas Begley,1893,1911
+,7,@I500216@,Susan Begley,1897,1911
+,7,@I500217@,James Begley,1899,1911
+,7,@I500218@,Ellen Begley,1903,1911
+,7,@I500219@,Nancy Begley,1895,1901
+,7,@I500220@,Bridget Begley,1890,1901
+,7,@I500221@,Patrick Begley,1886,1965
+,7,@I500222@,Catherine 'Kate Wandy' Boyle,1871,1936
+,7,@I500223@,Patrick Cannon,1901,1975
+,7,@I500224@,Mary Anne Cannon,1905,1985
+,7,@I500225@,John Griffin,1849,1884
+,7,@I500226@,Anthony Callaghan,1852,1911
+,7,@I500227@,Patrick Griffin,1883,
+,7,@I500228@,Francis (Frank) Callaghan,1896,1911
+,7,@I500229@,Patrick Callaghan,1899,1911
+,7,@I500230@,John Edward Callaghan,1901,1911
+,7,@I500231@,Barney Callaghan,1903,1911
+,7,@I500232@,Michael Callaghan,1907,1911
+,7,@I500248@,Edward Friel,1904,1969
+,7,@I500249@,Mary K Martin,1905,1981
+,7,@I500265@,Winifred Sweeney,,
+,7,@I500266@,Denis McMackin,1847,
+,7,@I500267@,"Neil (not sure if they were brothers, educated guess) Martin",,
+,7,@I500315@,John Patrick CANNON,1940,1930
+,7,@I500316@,Ann Ellen CANNON,1940,1930
+,7,@I500317@,Edward Hugh CANNON,1940,1930
+,7,@I500318@,Susan Cannon,1940,1930
+,7,@I500553@,Mary Shiels,1844,1901
+,7,@I500588@,Johnny Lewis,,
+,7,@I500589@,Robert Lewis,,
+,7,@I500765@,Domnick Mc Groddy,1883,
+,7,@I500766@,Mary Boyce,1889,1971
+,7,@I500780@,Winnie Martin,1897,1976
+,7,@I500952@,Denis Sweeney,,
+,7,@I500953@,Mary Clinton,,
+,7,@I500962@,,,
+,7,@I500997@,Daniel McAllister,1906,
+,7,@I501026@,Frank McConigley,,
+,7,@I501027@,John McAteer,,
+,7,@I501089@,Robert Dillon,1809,
+,7,@I501090@,Hannah Sheils,,
+,7,@I501091@,Anthony Dillon,1896,1935
+,7,@I501092@,Robert Dillon,1877,1901
+,7,@I501093@,Thomas Dillon,1882,1911
+,7,@I501094@,Isabella Dillon,1884,1901
+,7,@I501095@,John Dillon,1884,1901
+,7,@I501096@,Michael (Joe) Dillon,1890,1911
+,7,@I501108@,Maureen O'Keeffe,1923,1992
+,7,@I501109@,Patrick Dillon,1954,2010
+,7,@I501110@,Edward Dillon,1947,2016
+,7,@I501111@,Mary Dillon,1949,2020
+,7,@I501112@,Patrick Carlin,,
+,7,@I501113@,Patrick Dillon,1888,1911
+,7,@I501114@,Edmund Dillon,1889,
+,7,@I501115@,James Dillon,1891,1911
+,7,@I501116@,Mary Ann Dillon,1893,1911
+,7,@I501117@,Ellen Dillon,1894,
+,7,@I501118@,Hannah Dillon,1877,1911
+,7,@I501119@,,,
+,7,@I501130@,James Marley,,
+,7,@I501131@,Annie McMonagle,,
+,7,@I501140@,Humphrey (already on tree) Shiels,,
+,7,@I501141@,James C Gallagher,1894,1959
+,7,@I501142@,Bernard Friel,1911,1956
+,7,@I501143@,MargaretMadge Friel,1912,
+,7,@I501152@,James Gallagher,1836,
+,7,@I501153@,Nancy,1841,
+,7,@I501154@,Anne McGinley,1871,1978
+,7,@I501155@,Nan Gallagher,1892,1978
+,7,@I501156@,Catherine Gallagher,1902,1956
+,7,@I501157@,Jimmy Gallagher,,
+,7,@I501158@,Mick Carr,,1893
+,7,@I501178@,,,
+,7,@I501179@,Joe Coll,,
+,7,@I501217@,Margaret Coyle,,
+,7,@I501218@,Donal Coyle,,
+,7,@I501219@,Patrick Joseph Coyle,,
+,7,@I501220@,Francis Gibney,1931,
+,7,@I501298@,John (Owen) McBride,1911,
+,7,@I501299@,Sarah Sweeney,1847,
+,7,@I501339@,Manasses Doherty,1909,1911
+,7,@I501426@,Hugh Gallagher,1904,
+,7,@I501427@,Mary Anne Gallagher,1909,
+,7,@I501428@,Dunsworth,,
+,7,@I501429@,Aaron Dunworth,,
+,7,@I501470@,James Seamus Friel,1810,1860
+,7,@I501471@,Grace Grainne Shiels,,
+,7,@I501506@,james Mc Allister,,
+,7,@I501507@,Mary McAllister,1896,
+,7,@I501508@,Maggie McAllister,1901,
+,7,@I501509@,Sarah McAllister,1904,
+,7,@I501510@,Ellen McAllister,1908,
+,7,@I501511@,John McAllister,1910,
+,7,@I501512@,Andrew Mc Groddy,1928,1980
+,7,@I501513@,,,
+,7,@I501812@,Friel,,
+,7,@I501934@,Anton Rodgers,,
+,7,@I501935@,Isabella McGinley,1851,1912
+,7,@I502066@,John Sweeney,1875,1956
+,7,@I502190@,Sean Callaghan,,1977
+,7,@I502630@,Patrick Gallagher,,
+,7,@I502631@,Ellen Calkin,,
+,7,@I502637@,Hugh Connor,,
+,7,@I502638@,,,
+,7,@I502933@,Darby Mc Kinley,1901,1911
+,7,@I502934@,Dorothy Sweeney,1851,1911
+,7,@I503436@,James Kerr,,1866
+,7,@I503437@,,,
+,7,@I503438@,john Martin,1781,1881
+,7,@I503439@,Anna,,1879
+,7,@I503440@,Mary Martin,1885,1959
+,7,@I503441@,Michael Martin,1889,1919
+,7,@I503442@,Maggie Martin,1882,1907
+,7,@I503603@,Claire Heraghty,1990,
+,7,@I503604@,Daragh Fahey,2021,
+,7,@I503633@,Ann McGroddy,1929,1992
+,7,@I503634@,Grace McGroddy,1925,1994
+,7,@I503635@,Sally McGroddy,1933,1987
+,7,@I503636@,Margaret (Peggy) McGroddy,1923,2014
+,7,@I503637@,Norah McGroddy,1923,1946
+,7,@I503638@,Madge McGroddy,1931,1953
+,7,@I503639@,John McGroddy,1924,1989
+,7,@I503640@,Daniel McGroddy,1917,1976
+,7,@I503641@,Kathleen McGroddy,1920,1993
+,7,@I503642@,Bridget McGroddy,1926,1991
+,7,@I504046@,Patrick McElwaine,1890,1954
+,7,@I504047@,Catherine McCafferty,1889,1953
+,7,@I504137@,Edward Callaghan,1901,
+,7,@I504138@,Patrick Callaghan,1865,
+,7,@I504139@,James Joseph Callaghan,1878,1920
+,7,@I504140@,Mary Callaghan,1868,
+,7,@I504141@,"Bridget ""Biddy"" Callaghan",1873,1902
+,7,@I504142@,Hannah Callaghan,1901,
+,7,@I504143@,Charles Callaghan,1880,1911
+,7,@I504803@,John Boyle,1891,1965
+,6,@I500030@,Peter Coyle,1890,1911
+,6,@I500031@,Eddie Coyle,,2019
+,6,@I500032@,Patrick Coyle,,2003
+,6,@I500033@,Barney Coyle,,2010
+,6,@I500034@,Charles Sweeney,1879,1901
+,6,@I500035@,Charles Sweeney,,2013
+,6,@I500036@,Shiela Sweeney,,1993
+,6,@I500037@,Pat Cannon,,
+,6,@I500038@,Ann McAteer  McIntire  McIntyre,,
+,6,@I500039@,Mary Cannon,1861,1911
+,6,@I500040@,Catherine Cannon,1865,1881
+,6,@I500041@,Anne Cannon,1867,1871
+,6,@I500043@,John Cannon,1871,1881
+,6,@I500044@,Susan Callaghan,1911,1925
+,6,@I500045@,Patrick F Cannon,1879,1940
+,6,@I500046@,Bridget Cannon,1873,
+,6,@I500047@,Ellen Cannon,1876,1910
+,6,@I500090@,Andrew McGroddy,1928,1980
+,6,@I500091@,Edward Marley,1935,2015
+,6,@I500092@,Michael McAteer,1866,1933
+,6,@I500093@,Patrick Sweeney,,1932
+,6,@I500094@,John McElwaine,1927,1969
+,6,@I500095@,Patrick Friel,1875,1911
+,6,@I500096@,Grace Shiels,1878,1911
+,6,@I500144@,Celia j Coyle,1931,2017
+,6,@I500192@,Sweeney (of the hill),,
+,6,@I500193@,,,
+,6,@I500195@,Henry Callaghan,1875,1965
+,6,@I500196@,Annie McCarron,1889,1940
+,6,@I500247@,Dermot Friel,1949,2021
+,6,@I500263@,Denis McMackin,,
+,6,@I500264@,Stephen Martin,1855,1933
+,6,@I500551@,michael logue,1901,1983
+,6,@I500552@,grace coll,,1969
+,6,@I500584@,Cecelia Friel,1920,1988
+,6,@I500585@,Maggie Friel,,
+,6,@I500586@,Patrick McKinley,1891,1901
+,6,@I500587@,Mary Ann Kelly,1905,1982
+,6,@I500601@,Ben McFadden,1955,2022
+,6,@I500949@,Danny Sweeney,,
+,6,@I500950@,Daniel Sweeney,,
+,6,@I500951@,Catherine Mckernan,,
+,6,@I500960@,Francis McConigley,,
+,6,@I500965@,Bridget McConigley,1831,
+,6,@I500970@,Josephine Dillon,1914,1995
+,6,@I500971@,Patrick(packy) Dillon,1918,1993
+,6,@I500972@,Michael (Mick) Dillon,,
+,6,@I500973@,sarah (cissie) Dillon,,
+,6,@I500974@,Molly Dillon,,
+,6,@I500975@,Edward Dillon,1925,1946
+,6,@I500985@,Grace McElwaine,1897,
+,6,@I500986@,Neil McElwaine,,
+,6,@I500988@,John McElwaine,,
+,6,@I500989@,Alice McElwaine,,
+,6,@I500990@,Patrick McElwaine,,
+,6,@I500991@,James McElwaine,,
+,6,@I500995@,Hugh McAllister,1864,
+,6,@I500996@,Bridget McBride,1871,1910
+,6,@I500998@,Mary McConigley,,
+,6,@I501019@,John Dalton,,
+,6,@I501040@,Frances Margaret Davitt,1889,1916
+,6,@I501041@,,,
+,6,@I501085@,Thomas Dillon,1911,1901
+,6,@I501086@,Mary Rodgers,1861,1911
+,6,@I501087@,Patrick Friel,,
+,6,@I501088@,Sally Mary McBrearty,,1943
+,6,@I501132@,Mary Shiels,1873,
+,6,@I501133@,John Carr,1907,
+,6,@I501134@,Denis Carr,1910,
+,6,@I501135@,John Gallagher,1930,1951
+,6,@I501136@,Mary,1861,
+,6,@I501137@,Paddy Barney Friel,1936,2007
+,6,@I501138@,Patrick Gallagher,1866,1951
+,6,@I501139@,Anne Carr,1869,1902
+,6,@I501172@,Monica Sweeney,,
+,6,@I501173@,Emmanuel Megafu,,
+,6,@I501174@,Michael Megafu,,
+,6,@I501175@,Jennifer Megafu,,
+,6,@I501176@,Liam Anthony Friel,1980,
+,6,@I501177@,Eamon Friel,,
+,6,@I501392@,Bridget Friel,1854,1860
+,6,@I501393@,Grace McGonigle,1871,1910
+,6,@I501394@,Charles Francis McGonigle,1873,1889
+,6,@I501395@,Ellen McGonigle,1875,1910
+,6,@I501396@,John Joseph McGonigle,1910,
+,6,@I501397@,Hugh Frederick McGonigle,1883,1960
+,6,@I501398@,Edward James McGonigle,1888,1910
+,6,@I501418@,Bridget Friel,1967,
+,6,@I501419@,Michael Friel,1971,
+,6,@I501420@,Barney Friel,1970,
+,6,@I501505@,McGroddy,,
+,6,@I501563@,Patrick Friel,1911,
+,6,@I501564@,Ellen Friel,1906,1911
+,6,@I501565@,Bridget Friel,1914,
+,6,@I501618@,Patrick Cannon,1869,1879
+,6,@I501629@,John Friel,1911,
+,6,@I501630@,Mary Friel,1911,
+,6,@I501631@,James Friel,1911,
+,6,@I501811@,Margery Gallagher,,
+,6,@I502067@,Sheila Seline Sweeney,1925,2020
+,6,@I503430@,James Carr,1911,
+,6,@I503431@,Margaret Kerr,1843,1901
+,6,@I503432@,john Martin,1838,1903
+,6,@I503433@,Julia McConigley,1847,1919
+,6,@I503434@,john mc ateer,,
+,6,@I503435@,mary carr,,
+,6,@I503597@,Alan Fahey,,
+,6,@I503598@,Jacqueline Fahey,1981,
+,6,@I503599@,Amanda Fahey,1989,
+,6,@I503600@,Jenna Fahey,,
+,6,@I503601@,Paul Fahey,1983,
+,6,@I503602@,Gavin Fahey,1987,
+,6,@I504049@,John McElwaine,,
+,6,@I504135@,"James ""Seamus Mor"" Callaghan",1828,1862
+,6,@I504136@,"Mary Margaret ""Margery"" ""Madge"" Kelly",1839,1862
+,6,@I504413@,Sean Callaghan,,1977
+,6,@I504414@,,,
+,6,@I504415@,Kathleen Gavigan,1925,1980
+,5,@I500020@,Cecelia Callaghan,1922,2014
+,5,@I500021@,Kathleen Patricia Dorrian,1947,1995
+,5,@I500022@,James Dorrian,,1892
+,5,@I500023@,Ellen Dorrian,1902,1980
+,5,@I500024@,Mary Dorrian,1896,1901
+,5,@I500025@,Julia Dorrian,1899,1901
+,5,@I500026@,Kate Dorrian,1905,
+,5,@I500027@,Sarah Dorrian,1908,2003
+,5,@I500028@,Patrick Cannon,1831,1861
+,5,@I500029@,Anne Sweeney (of the hill),1861,1891
+,5,@I500077@,James McAllister,1895,1968
+,5,@I500078@,Sarah McAllister,1935,2017
+,5,@I500079@,Mary Marley,1934,1991
+,5,@I500080@,Patrick McAteer,1886,1963
+,5,@I500081@,John McAteer,1935,2021
+,5,@I500082@,Edward McAteer,1946,1964
+,5,@I500083@,John Sweeney,1905,1967
+,5,@I500084@,Mary Sweeney,1931,1965
+,5,@I500085@,Patrick Heraghty,1888,1917
+,5,@I500086@,Maggie Kate Friel,1924,2007
+,5,@I500087@,John Logue,1926,2008
+,5,@I500088@,Cassie Coyle,1882,1901
+,5,@I500089@,Patrick Coyle,1884,1901
+,5,@I500115@,Bridget Dorrian,1911,
+,5,@I500116@,Nancy Dorrian,1911,1982
+,5,@I500117@,Sarah Dorrian,1911,1991
+,5,@I500211@,Annie Dorrian,1894,1901
+,5,@I500212@,Eileen Dorrian,,2020
+,5,@I500256@,Patrick Gibbons,,
+,5,@I500257@,Daniel? McMackin,,
+,5,@I500258@,Ann,1787,1868
+,5,@I500259@,Bridget McMackin,1864,1937
+,5,@I500260@,John McMackin,1853,1915
+,5,@I500261@,Denis McMackin,1850,
+,5,@I500262@,Eleanor McMackin,1860,
+,5,@I500389@,James Friel,,
+,5,@I500415@,Willie McAteer,1942,2005
+,5,@I500499@,Mickey Gallagher,1897,1971
+,5,@I500500@,Mary Ellen Gallagher,1934,1983
+,5,@I500501@,Michael Gallagher,1896,1975
+,5,@I500502@,Gallagher,,
+,5,@I500503@,Gallagher,,
+,5,@I500506@,Edward Carr,1865,
+,5,@I500507@,Anne Carr,1876,
+,5,@I500528@,Ellen Dorrian,,
+,5,@I500529@,Susanah Dorrian,1911,1961
+,5,@I500550@,Michael Heraghty,,1875
+,5,@I500582@,Catherine McKinley,,
+,5,@I500583@,marie da silva,,2004
+,5,@I500590@,Dorrian,,
+,5,@I500659@,Annie Martin,1881,1968
+,5,@I500756@,sean friel,1970,1972
+,5,@I500757@,,,
+,5,@I500798@,Annie Mc Ginley,1876,
+,5,@I500799@,Hugh Mc Ginley,1880,
+,5,@I500800@,Edwad Mc Ginley,1882,
+,5,@I500801@,Daniel Mc Ginley,1884,
+,5,@I500802@,Bridget Mc Ginley,1888,
+,5,@I500846@,Hannah Carr,1914,1992
+,5,@I500940@,Majilla Wilhaire,,
+,5,@I500941@,Sean Wilhaire,,
+,5,@I500942@,Rosaleen Wilhaire,,
+,5,@I500943@,Joseph Wilhaire,,
+,5,@I500944@,Margaret Wilhaire,,
+,5,@I500947@,John Sweeney,,
+,5,@I500948@,Helen Lambie,,
+,5,@I500954@,Christopher Cahill,,
+,5,@I500955@,Ellen Crossan-McDonald,,
+,5,@I500958@,Patrick McConigley,1800,
+,5,@I500959@,Bridget McAteer,1805,
+,5,@I500968@,EDWARD Dillon,1880,1901
+,5,@I500969@,Sarah freil,,
+,5,@I500978@,James Friel,,
+,5,@I500983@,Catriona McKinley,,
+,5,@I500992@,Hugh McGonigle,1855,1910
+,5,@I500993@,Second Unknown McConigley,,
+,5,@I500994@,McConigley,,
+,5,@I501018@,John Dalton,1903,
+,5,@I501021@,Patrick Ward,1975,1975
+,5,@I501022@,Ger Ward,,
+,5,@I501023@,Maeve Ward,1986,1986
+,5,@I501024@,Marie Ward,,2006
+,5,@I501025@,Phyllis Ward,,
+,5,@I501033@,William Davitt,1865,1883
+,5,@I501034@,James Davitt,1869,
+,5,@I501035@,Bridget Davitt,1871,
+,5,@I501036@,Rose Davitt,1872,
+,5,@I501037@,Mary E Davitt,1908,
+,5,@I501038@,Catherine Davitt,1875,
+,5,@I501044@,Ann Davitt,1864,
+,5,@I501057@,Frankie (Marie Sarah) Dalton,1940,1990
+,5,@I501058@,Maureen Dalton,,
+,5,@I501059@,Jackie John Dalton,1932,
+,5,@I501060@,Noel Dalton,1932,
+,5,@I501061@,Michael Davitt,,
+,5,@I501062@,Mary Flynn,,
+,5,@I501063@,Paudge Davitt,,
+,5,@I501064@,Sean Davitt,,
+,5,@I501128@,George Reilly,,
+,5,@I501129@,Ellen,1799,1879
+,5,@I501197@,Francis McAteer,1942,
+,5,@I501198@,Anthony McAteer,1941,
+,5,@I501199@,Michael McAteer,1935,
+,5,@I501200@,Hugh J McAteer,1944,
+,5,@I501201@,Sallyanne McAteer,,
+,5,@I501202@,Norah Sweeney,1942,
+,5,@I501203@,Michael Sweeney,1935,
+,5,@I501204@,John Sweeney,1950,
+,5,@I501205@,Catherine Sweeney,1953,
+,5,@I501206@,EdwardEamonn Sweeney,1944,
+,5,@I501207@,Margaret Sweeney,1940,
+,5,@I501208@,Anne Sweeney,1948,
+,5,@I503041@,John McCarron,,
+,5,@I503042@,Sarah M. McCarron,1891,
+,5,@I503596@,Susannah Dorrian,1960,2024
+,5,@I503618@,Sarah Stevens,,
+,5,@I503619@,Helen Nolan,,
+,5,@I503620@,David Murphy,,
+,5,@I503621@,Fiach Murphy,,
+,5,@I503622@,Doireann Murphy,,
+,5,@I503623@,Senan McConigley,,
+,5,@I503624@,Caoimhe McConigley,,
+,5,@I503625@,Oisin McConigley,,
+,5,@I503626@,Tadhg McConigley,,
+,5,@I504121@,"John ""Johnny Mόr"" Callaghan",1870,1911
+,5,@I504122@,Mary Callaghan,1906,1987
+,5,@I504123@,Edward James Callaghan,1915,1985
+,5,@I504124@,Mickey Callaghan,1917,1999
+,5,@I504125@,Margaret (Madge) Callaghan,1923,
+,5,@I504126@,Patrick Callaghan,1924,2005
+,5,@I504410@,Sarah Callaghan,1912,
+,5,@I504411@,Charles Callaghan,1919,
+,5,@I504412@,John Callaghan,1921,
+,4,@I500014@,William Dorrian,1838,1911
+,4,@I500015@,Nancy,1839,1911
+,4,@I500016@,William Dorrian,1912,1993
+,4,@I500017@,Shelia Dorrian,1914,1992
+,4,@I500018@,Edward Dorrian,1866,1901
+,4,@I500019@,SheilaGileyJulia Cannon,1871,1901
+,4,@I500062@,Mary Anne Heraghty,1911,
+,4,@I500063@,Cassie Heraghty,1911,1993
+,4,@I500064@,Rose Heraghty,1911,1956
+,4,@I500066@,Patrick Heraghty,1849,1892
+,4,@I500067@,Margaret Friel,1849,1895
+,4,@I500068@,Mickey Heraghty,1918,2007
+,4,@I500069@,Dan Heraghty,1917,1997
+,4,@I500070@,Hughie Carr,1907,1911
+,4,@I500071@,Hannah Heraghty,1912,1993
+,4,@I500072@,Agnes Heraghty,1921,1979
+,4,@I500073@,Patrick Heraghty,1908,1908
+,4,@I500074@,Theresa Heraghty,1925,2009
+,4,@I500075@,Hugh Coyle,1842,1901
+,4,@I500076@,Catherine Kerr,1901,1907
+,4,@I500166@,Bridget.1a McConigley,1901,
+,4,@I500167@,Catherine McConigley,1901,
+,4,@I500168@,Maggie Mcconigley,1901,
+,4,@I500169@,Patrick McConigley,1901,
+,4,@I500170@,John McConigley,1911,
+,4,@I500184@,Biddy CarrKerr,1910,1990
+,4,@I500185@,Charles Carr,1904,
+,4,@I500186@,Annie Carr,1905,1911
+,4,@I500188@,Alice Carr,1902,1911
+,4,@I500189@,James Carr,1841,1901
+,4,@I500190@,Alice Boyle,1835,1901
+,4,@I500251@,Unity Gibbons,1859,1889
+,4,@I500252@,John McMackin,1820,1892
+,4,@I500253@,Nancy McAteer,1826,1874
+,4,@I500254@,,,1891
+,4,@I500388@,James Friel,,
+,4,@I500390@,Seamus Friel,1946,2012
+,4,@I500407@,Margaret Friel,1949,
+,4,@I500408@,Michael Friel,1953,2003
+,4,@I500409@,Charlie Friel,1959,2018
+,4,@I500410@,gerard friel,,
+,4,@I500414@,John Dillon,1916,1992
+,4,@I500495@,Bridget.1b McConigley,1901,1946
+,4,@I500496@,Catherine McConigley,1901,1920
+,4,@I500497@,Maggie McConigley,1901,
+,4,@I500498@,Patrick McConigley,1901,
+,4,@I500580@,Mary Teresa mc conigley,1971,2022
+,4,@I500581@,Annie Doherty,,
+,4,@I500722@,Gerard Anthony Dillon,,
+,4,@I500727@,Annie Friel,1951,
+,4,@I500728@,John Friel,1950,
+,4,@I500729@,Patrick Friel,1958,
+,4,@I500730@,Shiela Friel,1962,
+,4,@I500731@,May Friel,,
+,4,@I500733@,Alice Carr,,
+,4,@I500734@,Thomas McConigley,1976,
+,4,@I500735@,Noreen McConigley,1973,
+,4,@I500758@,Sinead McConigley,,
+,4,@I500759@,Fiona McConigley,,
+,4,@I500760@,Patrick Carr,1903,1911
+,4,@I500796@,Charles Mc Ginley,1851,
+,4,@I500797@,Bridget McAteer,1856,
+,4,@I500915@,Ben Chodzeisner,,
+,4,@I500929@,Donata,,
+,4,@I500930@,Fiachra McConigley,2020,
+,4,@I500931@,Dave Keane,,
+,4,@I500932@,Conn Keane,2021,
+,4,@I500933@,Emmet Ryan,1982,
+,4,@I500934@,Harry Ryan,2006,
+,4,@I500935@,Lucy Ryan,2021,
+,4,@I500936@,Joanne McAndrew,,
+,4,@I500937@,Sarah Kelly,,
+,4,@I500938@,John Wilhaire,,
+,4,@I500939@,Eileen McBride,,
+,4,@I500945@,John Sweeney,1935,
+,4,@I500946@,Catherine Cahill,,
+,4,@I500956@,John McConigley,1825,1910
+,4,@I500957@,Bridget Callaghan,1830,
+,4,@I500966@,"Sarah Anne ""Anne"" Dillon",1959,
+,4,@I500967@,Michael Joseph Dillon,1969,
+,4,@I500976@,John Joseph Dillon,1958,1958
+,4,@I500977@,Bridget Heraghty,1916,2003
+,4,@I500980@,John Doherty,,
+,4,@I500981@,Sean Doherty,,
+,4,@I500982@,Seamus Doherty,,
+,4,@I501008@,Patt Flynn,,
+,4,@I501009@,Ellen Early,,
+,4,@I501012@,Mary Davitt,1916,1936
+,4,@I501013@,Michael Davitt,1907,
+,4,@I501014@,John Davitt,1909,
+,4,@I501015@,Mary Davitt,1905,1905
+,4,@I501016@,Elizabeth Davitt,1901,
+,4,@I501017@,Ellen Davitt,1903,
+,4,@I501020@,Mary Davitt,1912,1912
+,4,@I501028@,Dominic Davitt,1841,1895
+,4,@I501029@,Mary McNiff,1836,1877
+,4,@I501105@,Nora Eileen Bridget O'Donnell,1909,
+,4,@I501106@,Arthur Ferry,1819,1884
+,4,@I501107@,Ellen Reilly,1838,1917
+,4,@I503399@,Séamus Michael McConigley,2023,
+,4,@I503609@,Bridget McGuane,,
+,4,@I503610@,Michael McConigley,,
+,4,@I503611@,Eileen McConigley,,
+,4,@I503612@,Thomas McConigley,,
+,4,@I503613@,Mairead McConigley,,
+,4,@I503614@,Sean McConigley,,
+,4,@I503615@,Claire McConigley,,
+,4,@I503616@,Cathal McConigley,,
+,4,@I503617@,Jamesy McConigley,,
+,4,@I503627@,Margaretta McConigley,1968,
+,4,@I503628@,Anita McConigley,,
+,4,@I503629@,Noreen McConigley,1973,
+,4,@I503630@,Patrick McConigley,,
+,4,@I503631@,Paula McConigley,,
+,3,@I500008@,John Dorrian,1879,1911
+,3,@I500009@,Bridget Dorrian,1893,1901
+,3,@I500010@,Grace Carr,1941,1942
+,3,@I500011@,John Carr,1945,1945
+,3,@I500012@,Seamus Carr,1947,1947
+,3,@I500013@,Denis Carr,1859,1911
+,3,@I500060@,Michael Heraghty,1911,1948
+,3,@I500061@,Hannah Coyle,1911,1946
+,3,@I500164@,John McConigley,1854,1911
+,3,@I500165@,Mary McMackin,1856,1911
+,3,@I500191@,Grace Mc Ginley,1878,1911
+,3,@I500209@,Norah McConigley,1932,2005
+,3,@I500210@,Mary McConigley,,2001
+,3,@I500405@,Patrick McConigley,1936,2008
+,3,@I500406@,Brigid McConigley,1934,1999
+,3,@I500724@,Sean McConigley,,
+,3,@I500725@,Danny McConigley,,
+,3,@I500726@,Tommy McConigley,,
+,3,@I500732@,Charlie McConigley,1938,2017
+,3,@I500901@,Carmel Corrigan,,
+,3,@I500902@,Michael McConigley,1991,
+,3,@I500903@,Cormac McConigley,1994,
+,3,@I500904@,Matt O'Donoghue,,
+,3,@I500905@,Ciara O'Donoghue,,
+,3,@I500906@,Eimear O'Donoghue,,
+,3,@I500907@,Ciaran McConigley,,
+,3,@I500908@,Catherine Sheridan,,
+,3,@I500909@,Niamh McConigley,,
+,3,@I500910@,Evelyn Wilhaire,1972,
+,3,@I500911@,Cillian McConigley,,
+,3,@I500912@,Laura McConigley,,
+,3,@I500913@,Simon Chodzeisner,,
+,3,@I500914@,Liam Chodzeisner,,
+,3,@I500916@,John Sweeney,1966,
+,3,@I500917@,Sean Sweeney,2001,
+,3,@I500918@,Grainne Sweeney,2004,
+,3,@I500919@,Margaret Gallagher,1969,
+,3,@I500920@,Ruadhri McConigley,1999,
+,3,@I500921@,Odhran McConigley,2003,
+,3,@I500922@,Ollie Cleary,1973,
+,3,@I500923@,Ronan Cleary,2013,
+,3,@I500924@,Orlagh Cleary,2014,
+,3,@I500925@,Aoife Cleary,2014,
+,3,@I500926@,James McGettigan,1972,
+,3,@I500927@,Enda McGettigan,2006,
+,3,@I500928@,Kevin McGettigan,2008,
+,3,@I500979@,Grace Ann Carr,1943,
+,3,@I500999@,Michael Davitt,1867,1935
+,3,@I501000@,Sarah Flynn,1871,1965
+,3,@I501010@,Hugh O'Donnell,1911,
+,3,@I501011@,Margaret Norah Ferry,1911,
+,3,@I501054@,Mary O'Donnell,1944,
+,3,@I501055@,Hugh O'Donnell,1950,2009
+,3,@I501056@,Fergus O'Donnell,1946,
+,2,@I500004@,Annie Dorrian,1916,1947
+,2,@I500005@,James Carr,1910,1911
+,2,@I500006@,Margaret Heraghty,1902,1911
+,2,@I500007@,Mick Sean McConigley,1897,1911
+,2,@I500387@,Arthur Hugh O'Donnell,1906,1911
+,2,@I500425@,Christina Davitt,1913,
+,2,@I500713@,James McConigley,1961,
+,2,@I500714@,Margaret McConigley,1962,
+,2,@I500715@,John McConigley,1964,
+,2,@I500716@,Ann McConigley,1965,
+,2,@I500717@,Patrick McConigley,1967,
+,2,@I500718@,Liam McConigley,1969,
+,2,@I500719@,Maureen McConigley,1971,
+,2,@I500720@,Martina McConigley,1973,
+,2,@I500721@,Noreen McConigley,1975,
+,2,@I503400@,Joseph Byrne,1988,
+,1,@I500002@,Bridget Carr,1939,
+,1,@I500003@,Mick McConigley,1928,2017
+,1,@I500106@,Anne O'Donnell,1956,
+,1,@I500107@,Christine McConigley,1988,
+,1,@I500108@,Brid McConigley,1990,
+,0,@I500001@,Mike McConigley,1960,
+,DISCONNECTED,@I500183@,Annie McGinley,1876,
+,DISCONNECTED,@I500245@,Charles McGinley,1851,
+,DISCONNECTED,@I500246@,Bridget,1856,
+,DISCONNECTED,@I500346@,Maura Cannon,1919,1967
+,DISCONNECTED,@I500358@,Patrick Coyle,1901,1901
+,DISCONNECTED,@I500400@,Edward Coyle,1881,
+,DISCONNECTED,@I500505@,Patrick Carr,1944,1970
+,DISCONNECTED,@I500508@,Grace(1) McGinley,1878,
+,DISCONNECTED,@I500509@,Hugh McGinley,1880,
+,DISCONNECTED,@I500510@,Edward McGinley,1882,
+,DISCONNECTED,@I500530@,Daniel Coughlan,1926,2001
+,DISCONNECTED,@I500541@,Margaret Mc Carthy,,
+,DISCONNECTED,@I500762@,Carr,,
+,DISCONNECTED,@I500763@,,,
+,DISCONNECTED,@I500764@,James Carr,,
+,DISCONNECTED,@I500872@,John Deeney,1835,1900
+,DISCONNECTED,@I500961@,Patrick McConigley,,
+,DISCONNECTED,@I500963@,Catherine McConigley,,1920
+,DISCONNECTED,@I500964@,,,
+,DISCONNECTED,@I501270@,Margaret Doherty,1813,1900
+,DISCONNECTED,@I501271@,Margaret Deeney,1841,1911
+,DISCONNECTED,@I501272@,Hugh Deeney,1870,1880
+,DISCONNECTED,@I501273@,Mary Deeney,1849,1885
+,DISCONNECTED,@I501274@,Catherine Deeney,1854,
+,DISCONNECTED,@I501275@,James Deeney,1900,1901
+,DISCONNECTED,@I501276@,Sarah Deeney,1838,1901
+,DISCONNECTED,@I501440@,John Deeney,1812,1869
+,DISCONNECTED,@I501441@,Isabella Sweeney,1855,1920
+,DISCONNECTED,@I501442@,Charles Deeney,1836,1906
+,DISCONNECTED,@I501443@,Patrick Deeney,1848,1923
+,DISCONNECTED,@I501444@,John Joseph Deeney,1881,1903
+,DISCONNECTED,@I501445@,Mary Jane Deeney,1883,1920
+,DISCONNECTED,@I501446@,James Francis Deeney,1886,1935
+,DISCONNECTED,@I501447@,Anna M Deeney,1920,
+,DISCONNECTED,@I501454@,James Martin,1847,1865
+,DISCONNECTED,@I501455@,Michael Martin,1872,1963
+,DISCONNECTED,@I501456@,Michael Martin,1865,1868
+,DISCONNECTED,@I501457@,Margaret Martin,1867,1868
+,DISCONNECTED,@I501458@,James Martin,1880,1880
+,DISCONNECTED,@I501459@,Mary Martin,1869,1899
+,DISCONNECTED,@I501460@,Daniel Martin,1882,1913
+,DISCONNECTED,@I501461@,John Martin,1874,1898
+,DISCONNECTED,@I501462@,Hugh Martin,1879,1965
+,DISCONNECTED,@I501463@,James Martin,1877,1878
+,DISCONNECTED,@I501538@,Anna Louise Gallen,1919,1983
+,DISCONNECTED,@I501539@,Frank T Sweeney,1900,
+,DISCONNECTED,@I501540@,Catherine J Sweeney,1900,
+,DISCONNECTED,@I501541@,William J Sweeney,1900,
+,DISCONNECTED,@I501542@,Mary R Deeney,1940,
+,DISCONNECTED,@I501543@,James F. Deeney,1924,1940
+,DISCONNECTED,@I501597@,John (Johnny) Cannon,1911,1958
+,DISCONNECTED,@I501598@,Catherine (Kitty) Friel,1876,1911
+,DISCONNECTED,@I501599@,Patrick Cannon,1908,1911
+,DISCONNECTED,@I501600@,Frank Cannon,1912,1989
+,DISCONNECTED,@I501601@,Sean Cannon,1910,
+,DISCONNECTED,@I501602@,Annie Teresa Cannon,1951,1951
+,DISCONNECTED,@I501603@,Bernard Cannon,1911,
+,DISCONNECTED,@I501604@,Hanorah Cannon,1907,
+,DISCONNECTED,@I501605@,Art Cannon,,
+,DISCONNECTED,@I501606@,Gallen,,
+,DISCONNECTED,@I501679@,John Deeney,1788,
+,DISCONNECTED,@I501680@,Mary Diver,1790,
+,DISCONNECTED,@I501681@,Hugh Doherty,1775,
+,DISCONNECTED,@I501682@,Anna Noon,1798,1853
+,DISCONNECTED,@I501683@,Mary Gallagher,1843,1901
+,DISCONNECTED,@I501684@,Margaret (Maggie) Deeney,1944,1944
+,DISCONNECTED,@I501685@,Sarah Deeney,1920,1878
+,DISCONNECTED,@I501686@,Annie Deeney,1880,1901
+,DISCONNECTED,@I501687@,Mary Deeney,1864,1885
+,DISCONNECTED,@I501688@,James Deeney,1866,1901
+,DISCONNECTED,@I501689@,William Deeney,1869,1869
+,DISCONNECTED,@I501690@,Patrick Deeney,1883,1959
+,DISCONNECTED,@I501691@,Edward Deeney,1871,1920
+,DISCONNECTED,@I501692@,Denis Deeney,1874,1947
+,DISCONNECTED,@I501693@,Bridget Deeney,1900,1900
+,DISCONNECTED,@I501694@,Deeney,,
+,DISCONNECTED,@I501731@,Patrick Deeney,1834,1897
+,DISCONNECTED,@I501732@,Eleanor Griffin,1814,1881
+,DISCONNECTED,@I501733@,Michael Deeney,1840,1909
+,DISCONNECTED,@I501753@,"John ""John Proinsias"" Friel",1901,1911
+,DISCONNECTED,@I501754@,Anna (Nancy Mhici) Coll,1911,1851
+,DISCONNECTED,@I501755@,Mary Friel,1882,1931
+,DISCONNECTED,@I501756@,Hanora (Nora Una) Friel Friel,1873,1895
+,DISCONNECTED,@I501757@,Uney Friel,1911,1901
+,DISCONNECTED,@I501758@,Susan Friel,1882,1911
+,DISCONNECTED,@I501759@,Francis Columba Friel,1874,1901
+,DISCONNECTED,@I501760@,Fr. Arthur (Old Art) Friel,1939,1948
+,DISCONNECTED,@I501761@,Annie Friel,1901,1928
+,DISCONNECTED,@I501810@,Frances Mary Ryan,1931,
+,DISCONNECTED,@I501940@,Michael Blaney,1901,1905
+,DISCONNECTED,@I501941@,Patrick Joseph Blaney,1874,1964
+,DISCONNECTED,@I501942@,Sarah Blaney,1901,1958
+,DISCONNECTED,@I501943@,Michael Blaney,1901,
+,DISCONNECTED,@I501944@,Gim Blaney,1901,
+,DISCONNECTED,@I501973@,Mary McBride (Gortnalughoge),1947,1911
+,DISCONNECTED,@I502047@,Mary Agnes Shiels,1918,1998
+,DISCONNECTED,@I502059@,Kitty Melody,1916,1974
+,DISCONNECTED,@I502060@,Maire Cannon,1946,1997
+,DISCONNECTED,@I502109@,Francis Ryan,,
+,DISCONNECTED,@I502110@,Agnes Tracy,,
+,DISCONNECTED,@I502125@,Francis,1881,1920
+,DISCONNECTED,@I502126@,Gerard,1927,2000
+,DISCONNECTED,@I502127@,Mary Teresa (May) McAteer,1921,2013
+,DISCONNECTED,@I502128@,Ethna Veronica McAteer,1924,
+,DISCONNECTED,@I502169@,Catherine Doherty,1823,1852
+,DISCONNECTED,@I502170@,,,
+,DISCONNECTED,@I502171@,Hugh Doherty,1822,1847
+,DISCONNECTED,@I502172@,Edward Doherty,1814,
+,DISCONNECTED,@I502173@,Susanna Doherty,1818,1895
+,DISCONNECTED,@I502174@,Una Doherty,1824,1841
+,DISCONNECTED,@I502175@,George Dougherty,1830,1880
+,DISCONNECTED,@I502184@,O'Connor,1870,
+,DISCONNECTED,@I502185@,Alice O'Connor,1902,1921
+,DISCONNECTED,@I502251@,John (Nanny) Friel,1911,1949
+,DISCONNECTED,@I502252@,Edward Friel,1900,1911
+,DISCONNECTED,@I502253@,Mary Alice (John Nanny) Friel,1899,1911
+,DISCONNECTED,@I502254@,John Friel,1901,1911
+,DISCONNECTED,@I502255@,Arthur (Art John Nanny) Friel,1905,1911
+,DISCONNECTED,@I502313@,Patrick Joseph McGovern,1869,1902
+,DISCONNECTED,@I502314@,Edward Joseph McGovern,1903,1933
+,DISCONNECTED,@I502315@,Rita McGovern,1918,1920
+,DISCONNECTED,@I502316@,James Bernard McGovern,1905,1938
+,DISCONNECTED,@I502317@,Mary A. McGovern,1907,1924
+,DISCONNECTED,@I502318@,Patrick Aloysius McGovern,1909,1947
+,DISCONNECTED,@I502319@,Elizabeth M. McGovern,1920,
+,DISCONNECTED,@I502320@,William Joseph McGovern,1935,1963
+,DISCONNECTED,@I502343@,John J Ryan,1950,
+,DISCONNECTED,@I502365@,Coll,,
+,DISCONNECTED,@I502366@,,,
+,DISCONNECTED,@I502367@,Stephen Coll,1827,1897
+,DISCONNECTED,@I502368@,Hannah Coll,1845,1905
+,DISCONNECTED,@I502438@,Cecelia (Sheila),1887,1980
+,DISCONNECTED,@I502439@,May Friel,,1998
+,DISCONNECTED,@I502440@,Emmanuel Friel,,1985
+,DISCONNECTED,@I502441@,Thomas Friel,,1982
+,DISCONNECTED,@I502594@,Patrick Deeney,1796,1866
+,DISCONNECTED,@I502595@,Edward Deeney,1830,1896
+,DISCONNECTED,@I502596@,James Deeney,,
+,DISCONNECTED,@I502701@,Proinsias Friel,,
+,DISCONNECTED,@I502702@,Uney McAteer,,
+,DISCONNECTED,@I502746@,Clare Josephine Dempsey,1888,
+,DISCONNECTED,@I502747@,Patrick Joseph Blaney,1917,1984
+,DISCONNECTED,@I502748@,Michael Blaney,1914,2000
+,DISCONNECTED,@I502749@,Claire Blaney,1915,1993
+,DISCONNECTED,@I502750@,Jack Blaney,1919,2008
+,DISCONNECTED,@I502751@,Patricia Blaney,1921,2006
+,DISCONNECTED,@I502752@,Sarah Teresa Blaney,1924,1925
+,DISCONNECTED,@I502753@,Joan Blaney,1927,2011
+,DISCONNECTED,@I502754@,Joseph Blaney,1931,1972
+,DISCONNECTED,@I502872@,Mary Ellen ONeil,1885,1953
+,DISCONNECTED,@I502904@,John Shiels (Dundoan),1911,1985
+,DISCONNECTED,@I503013@,Eleanor Griffin,1814,1881
+,DISCONNECTED,@I503014@,Catherine Doherty,1823,1903
+,DISCONNECTED,@I503015@,Anna Deeney,1841,1868
+,DISCONNECTED,@I503016@,Margaret Deeney,1843,1866
+,DISCONNECTED,@I503017@,Catherine Deeney,1846,1900
+,DISCONNECTED,@I503018@,Una Deeney,1849,1911
+,DISCONNECTED,@I503019@,Margaret Deeney,1850,1891
+,DISCONNECTED,@I503020@,George Patrick Deeney,1852,1881
+,DISCONNECTED,@I503021@,Joanna Deeney,1855,
+,DISCONNECTED,@I503022@,Susan Deeney,1855,1935
+,DISCONNECTED,@I503043@,Francis Skiffington,1918,1957
+,DISCONNECTED,@I503063@,Francis Columba Friel,1911,1911
+,DISCONNECTED,@I503064@,James Friel,1911,
+,DISCONNECTED,@I503065@,Annie Friel,1911,
+,DISCONNECTED,@I503129@,James Doherty,1790,1853
+,DISCONNECTED,@I503130@,Anna Doherty,1798,1853
+,DISCONNECTED,@I503131@,Edward Doherty,1814,1911
+,DISCONNECTED,@I503132@,Hugh Doherty,1822,1847
+,DISCONNECTED,@I503133@,Susanna Doherty,1818,1895
+,DISCONNECTED,@I503134@,Margaret Doherty,1815,1900
+,DISCONNECTED,@I503135@,Una Doherty,1824,1841
+,DISCONNECTED,@I503136@,George Dougherty,1829,1894
+,DISCONNECTED,@I503165@,Patrick Joseph Melody,1911,1947
+,DISCONNECTED,@I503166@,Bridget Molloy,1911,1946
+,DISCONNECTED,@I503167@,Agnes Melody,1908,1997
+,DISCONNECTED,@I503185@,Daniel Martin,1911,1939
+,DISCONNECTED,@I503186@,John Martin,1901,1961
+,DISCONNECTED,@I503187@,Mary Anne Martin,1880,1957
+,DISCONNECTED,@I503188@,Edward Martin,1911,1966
+,DISCONNECTED,@I503189@,Michael Martin,1911,
+,DISCONNECTED,@I503190@,Bridget Martin,1911,1966
+,DISCONNECTED,@I503191@,James Martin,1901,
+,DISCONNECTED,@I503192@,Patrick Joseph Martin,1911,1975
+,DISCONNECTED,@I503193@,Catherine Martin,1911,
+,DISCONNECTED,@I503197@,Anna Nancy Callahan,1870,1921
+,DISCONNECTED,@I503198@,Edward Deeney,1883,1883
+,DISCONNECTED,@I503199@,Eleanor M Deeney,1885,1885
+,DISCONNECTED,@I503200@,George Callahan Aloysius Daly,1887,1968
+,DISCONNECTED,@I503232@,Michael (Mixty) Shiels (Dundoan),1860,
+,DISCONNECTED,@I503233@,Bridget Shiels (2nd Wife),1882,1942
+,DISCONNECTED,@I503234@,Margaret (Madge) Shiels (Dundoan),1884,
+,DISCONNECTED,@I503235@,Michael Shiels (Dundoan),1886,
+,DISCONNECTED,@I503236@,Pat Shiels (Dundoan),1892,
+,DISCONNECTED,@I503237@,Mary Shiels (Dundoan),1896,
+,DISCONNECTED,@I503238@,Gracie Shiels (Dundoan),1897,1983
+,DISCONNECTED,@I503239@,Kate Shiels (Dundoan),1900,
+,DISCONNECTED,@I503285@,Olga Hyduknatz,1913,
+,DISCONNECTED,@I503342@,Mae Anne Daly,1920,1969
+,DISCONNECTED,@I503343@,George Callahan Aloysius Deeney,1924,1986
+,DISCONNECTED,@I503344@,"Mary Perpetua (Sr. John Mary, IHM) Deeney",1919,2004
+,DISCONNECTED,@I503345@,Edward Deeney,1927,2012
+,DISCONNECTED,@I503346@,Joseph Deeney,1929,1994
+,DISCONNECTED,@I503347@,Nancy Deeney,1923,2016
+,DISCONNECTED,@I503359@,Edward Deeney,1830,1896
+,DISCONNECTED,@I503360@,George Patrick Deeney,1872,1893
+,DISCONNECTED,@I503361@,Anna Deeney,1841,1861
+,DISCONNECTED,@I503362@,Catherine Deeney,1846,1900
+,DISCONNECTED,@I503363@,Una (Winifred) Deeney,1849,1911
+,DISCONNECTED,@I503364@,Susan Deeney,1855,1911
+,DISCONNECTED,@I503365@,Margaret Deeney,1850,1891
+,DISCONNECTED,@I503394@,James Daniel Gallagher,1944,1944
+,DISCONNECTED,@I503395@,May Gallagher,1917,2007
+,DISCONNECTED,@I503396@,Eileen Gallagher,1919,1999
+,DISCONNECTED,@I503397@,Gerard Gallagher,1921,1979
+,DISCONNECTED,@I503398@,Seamus Gallagher,1925,
+,DISCONNECTED,@I503402@,Margaret Gallagher,1835,
+,DISCONNECTED,@I503403@,James Doherty,1826,
+,DISCONNECTED,@I503404@,John Doherty,,
+,DISCONNECTED,@I503405@,Mary Doherty,,
+,DISCONNECTED,@I503406@,Daniel Edward Doherty,1855,1943
+,DISCONNECTED,@I503407@,Margaret J Doherty,1858,1929
+,DISCONNECTED,@I503408@,John Doherty,1861,1940
+,DISCONNECTED,@I503409@,Hannah Doherty,1852,1939
+,DISCONNECTED,@I503410@,Catherine Doherty,1858,
+,DISCONNECTED,@I503411@,Ferdinand Dougherty,1845,
+,DISCONNECTED,@I503412@,Mary Doherty,1857,
+,DISCONNECTED,@I503413@,Margory Doherty,1847,
+,DISCONNECTED,@I503414@,Bridget Doherty,1856,
+,DISCONNECTED,@I503415@,Adeline Doherty,1860,
+,DISCONNECTED,@I503417@,"John ""Johnny Mόr"" Callaghan",1870,1911
+,DISCONNECTED,@I503418@,Bridget McConigley,1883,1901
+,DISCONNECTED,@I503422@,James Callaghan,1910,1985
+,DISCONNECTED,@I503458@,Hugh Skiffington,1868,
+,DISCONNECTED,@I503459@,Bridget Hamill,1845,1910
+,DISCONNECTED,@I503460@,James Skiffington,1871,
+,DISCONNECTED,@I503461@,Mary Skiffington,1877,1910
+,DISCONNECTED,@I503462@,Elizabeth Anna Skiffington,1882,1954
+,DISCONNECTED,@I503463@,Bridget,1886,1949
+,DISCONNECTED,@I503464@,John Skiffington,1869,1927
+,DISCONNECTED,@I503465@,Thomas Patrick Skiffington,1874,1949
+,DISCONNECTED,@I503466@,Kathleen Skiffington,,
+,DISCONNECTED,@I503467@,Alma Lucy Skiffington,1977,1995
+,DISCONNECTED,@I503468@,Eileen Frances Skiffington,1909,1992
+,DISCONNECTED,@I503469@,Thomas Patrick Skiffington,1913,1995
+,DISCONNECTED,@I503470@,Felix O'Neil (Mick) Skiffington,1912,1989
+,DISCONNECTED,@I503471@,Lillian Mary Skiffington Casteleyns,1908,1992
+,DISCONNECTED,@I503489@,catherine mcateer,,
+,DISCONNECTED,@I503643@,Hannah Gallagher,1885,1904
+,DISCONNECTED,@I503644@,Sarah Deeney,1905,1935
+,DISCONNECTED,@I503645@,Anne Veronica Deeney,1917,1949
+,DISCONNECTED,@I503723@,John Daly,1851,1942
+,DISCONNECTED,@I503724@,Mary Caroline Daly,1732,1927
+,DISCONNECTED,@I503725@,John (Msgr) Daly,1895,1979
+,DISCONNECTED,@I503726@,John Deeney,1921,2010
+,DISCONNECTED,@I503761@,Donna Mary Margaret Kelly,1928,2001
+,DISCONNECTED,@I503762@,Thomas Curtis,1922,2009
+,DISCONNECTED,@I503786@,Patrick McConigley,1841,1911
+,DISCONNECTED,@I503787@,Mary Grant,1847,1911
+,DISCONNECTED,@I503788@,Maryanne McConigley,1886,1966
+,DISCONNECTED,@I503789@,Catherine McConigley,1884,1911
+,DISCONNECTED,@I503790@,John McConigley,1861,1870
+,DISCONNECTED,@I503791@,Sarah McConigley,1871,1911
+,DISCONNECTED,@I503792@,Michael McConigley,,1911
+,DISCONNECTED,@I503793@,Daniel McConagly,1876,1878
+,DISCONNECTED,@I503794@,Patrick McConagly,1879,1879
+,DISCONNECTED,@I503795@,McConigley,,1911
+,DISCONNECTED,@I503892@,Annie,1880,1920
+,DISCONNECTED,@I503893@,Anna McGirr,1897,1920
+,DISCONNECTED,@I503897@,,,
+,DISCONNECTED,@I503900@,,,
+,DISCONNECTED,@I504003@,Walter Herbert Perry,1884,1925
+,DISCONNECTED,@I504004@,Gloria Josephine Perry,1926,1954
+,DISCONNECTED,@I504005@,Walter John Perry,,1917
+,DISCONNECTED,@I504006@,Iris Lilian Perry,1915,1980
+,DISCONNECTED,@I504007@,Kevin Francis Perry,1922,1958
+,DISCONNECTED,@I504008@,Walter John (Jack) Perry,1918,1949
+,DISCONNECTED,@I504009@,Sylvester Mary Perry,1917,1943
+,DISCONNECTED,@I504010@,Thomas Herbert Patrick Perry,1917,1917
+,DISCONNECTED,@I504050@,Patrick Collins,1860,1924
+,DISCONNECTED,@I504051@,Patrick Collins,,1962
+,DISCONNECTED,@I504088@,Patrick G. Callahan,1815,1883
+,DISCONNECTED,@I504089@,Ellen McElwee,1826,1907
+,DISCONNECTED,@I504090@,James Callahan,1853,1852
+,DISCONNECTED,@I504091@,Hugh Callahan,1857,1919
+,DISCONNECTED,@I504092@,John Callahan,1851,1943
+,DISCONNECTED,@I504093@,Mary Callahan,1860,1942
+,DISCONNECTED,@I504094@,Michael Callahan,1848,1848
+,DISCONNECTED,@I504095@,Daniel Callahan,1862,1934
+,DISCONNECTED,@I504127@,Thomas J ONeil,,
+,DISCONNECTED,@I504128@,Alice M,,
+,DISCONNECTED,@I504163@,John Sweeney,1911,1918
+,DISCONNECTED,@I504164@,Edward Sweeney,1861,
+,DISCONNECTED,@I504165@,James Sweeney,1911,1914
+,DISCONNECTED,@I504166@,John Sweeney,1864,
+,DISCONNECTED,@I504167@,Patrick Sweeney,1867,
+,DISCONNECTED,@I504182@,Anthony Molloy,1911,1901
+,DISCONNECTED,@I504183@,Mary Kate Foley,1853,1901
+,DISCONNECTED,@I504184@,Annie Molloy,1901,
+,DISCONNECTED,@I504185@,Mary Molloy,1911,1901
+,DISCONNECTED,@I504186@,Patrick Molloy,1873,1941
+,DISCONNECTED,@I504187@,Bryan Molloy,1901,
+,DISCONNECTED,@I504188@,Michael Molloy,1911,1912
+,DISCONNECTED,@I504189@,Elizabeth Molloy,1911,1901
+,DISCONNECTED,@I504190@,Anthony Molloy,1911,1901
+,DISCONNECTED,@I504191@,Ellen Molloy,1880,1901
+,DISCONNECTED,@I504192@,John Molloy,1918,
+,DISCONNECTED,@I504193@,Edward Molloy,1905,1901
+,DISCONNECTED,@I504194@,Catherina Molloy,1887,1901
+,DISCONNECTED,@I504195@,Alice Molloy,1911,1901
+,DISCONNECTED,@I504196@,Dominick Molloy,1885,1901
+,DISCONNECTED,@I504197@,Margaret Molloy,1911,1901
+,DISCONNECTED,@I504198@,Michael Joseph Melody,1902,1942
+,DISCONNECTED,@I504199@,Michael Josephus Melody,1902,1940
+,DISCONNECTED,@I504200@,Teresa Melody,1923,1977
+,DISCONNECTED,@I504201@,Jimmy Melody,1918,1939
+,DISCONNECTED,@I504202@,Sean Melody,1920,2004
+,DISCONNECTED,@I504203@,Sean Flynn,,
+,DISCONNECTED,@I504204@,Anna Nancy Callahan,1847,1921
+,DISCONNECTED,@I504205@,Sarah Deeney,,
+,DISCONNECTED,@I504206@,"George Callahan Aloysius Deeney, Sr.",1887,1968
+,DISCONNECTED,@I504207@,Edward P Deeney,1883,1887
+,DISCONNECTED,@I504208@,Elenora M Deeney,1885,1887
+,DISCONNECTED,@I504248@,Doreen Mary Keegan,1914,2005
+,DISCONNECTED,@I504249@,Lloyd Skiffington,,
+,DISCONNECTED,@I504250@,John Skiffington,,
+,DISCONNECTED,@I504251@,Suzanne May Skiffington,1949,2007
+,DISCONNECTED,@I504252@,John McGettigan McGettigan,1805,1872
+,DISCONNECTED,@I504253@,Catherine McGettigan,1843,1924
+,DISCONNECTED,@I504254@,James McGettigan,1844,1920
+,DISCONNECTED,@I504255@,Daniel McGettigan,1847,1896
+,DISCONNECTED,@I504256@,John McGettigan,1859,
+,DISCONNECTED,@I504257@,delete,,
+,DISCONNECTED,@I504258@,Roseanne McGettigan,1850,
+,DISCONNECTED,@I504265@,Patrick (Pat) Friel,1885,1980
+,DISCONNECTED,@I504266@,Mary Friel,1913,1939
+,DISCONNECTED,@I504267@,Patrick Friel,1914,2005
+,DISCONNECTED,@I504268@,John Friel,1919,2000
+,DISCONNECTED,@I504281@,James Callahan,,
+,DISCONNECTED,@I504282@,Eleanor Nellie Callaghan,,1879
+,DISCONNECTED,@I504283@,Michael Callahan,1833,1873
+,DISCONNECTED,@I504284@,Hugh Callahan,1828,1893
+,DISCONNECTED,@I504285@,Daniel Callahan,1900,1911
+,DISCONNECTED,@I504286@,James Callaghan,1813,1888
+,DISCONNECTED,@I504287@,Anthony Callaghan,1815,1899
+,DISCONNECTED,@I504288@,John Skiffington,1632,1695
+,DISCONNECTED,@I504289@,Mary Skiffington,1633,1686
+,DISCONNECTED,@I504290@,Michael Skiffington,1871,1908
+,DISCONNECTED,@I504291@,John Skiffington,1864,1934
+,DISCONNECTED,@I504292@,Patrick Skiffington,1856,1923
+,DISCONNECTED,@I504293@,Margaret Kelly,1662,1711
+,DISCONNECTED,@I504294@,Anne Jane (Jenny) McCaughey,1869,1941
+,DISCONNECTED,@I504295@,Hugh Skiffington,1866,1944
+,DISCONNECTED,@I504321@,Michael Grant,1813,1871
+,DISCONNECTED,@I504322@,Sarah McConigley,1815,1900
+,DISCONNECTED,@I504323@,Sally Grant Mc Grane,1849,1934
+,DISCONNECTED,@I504324@,Anne Grant,1848,1906
+,DISCONNECTED,@I504325@,Kate Grant,1911,
+,DISCONNECTED,@I504326@,Mick Grant,,1936
+,DISCONNECTED,@I504327@,James Grant,1856,1930
+,DISCONNECTED,@I504443@,McConigley,,
+,DISCONNECTED,@I504444@,,,
+,DISCONNECTED,@I504445@,Mary Mc Conagly,1901,1926
+,DISCONNECTED,@I504446@,Frank McConagly,1832,1892
+,DISCONNECTED,@I504447@,Bridget McConagly,1840,
+,DISCONNECTED,@I504448@,Sheila McConagly,,
+,DISCONNECTED,@I504449@,Henry McConagly,1840,
+,DISCONNECTED,@I504653@,Annie McGirr,1880,1920
+,DISCONNECTED,@I504654@,Margaret Skiffington,1901,1958
+,DISCONNECTED,@I504655@,Francis Michael Skiffington,1903,1904
+,DISCONNECTED,@I504656@,John Skiffington,1905,1975
+,DISCONNECTED,@I504657@,Michael Skiffington,1907,1946
+,DISCONNECTED,@I504658@,Bridget Skiffington,1861,1922
+,DISCONNECTED,@I504688@,James Séamus Mόr Callaghan,1828,1911
+,DISCONNECTED,@I504689@,"Mary Margaret Margery, Madge Kelly",1839,1901
+,DISCONNECTED,@I504690@,"Bridget ""Biddy"" Callaghan",1911,1955
+,DISCONNECTED,@I504691@,James Joseph Callaghan,1878,1981
+,DISCONNECTED,@I504692@,Patrick Callaghan,1865,1892
+,DISCONNECTED,@I504693@,Mary Callaghan,1868,1868
+,DISCONNECTED,@I504694@,Honora Hannah Callaghan,1876,1901
+,DISCONNECTED,@I504695@,James Joseph Séamus Minor Callaghan,1878,1981
+,DISCONNECTED,@I504696@,Charles Callaghan,1880,1911
+,DISCONNECTED,@I504727@,James Dunleavy,1842,1907
+,DISCONNECTED,@I504728@,James Dunleavy,1842,1907
+,DISCONNECTED,@I504736@,Vincent De Paul Kelly,1901,1942
+,DISCONNECTED,@I504737@,Mary Gertrude Kirrane,1901,1984
+,DISCONNECTED,@I504738@,Patricia B Kelly,1930,1990
+,DISCONNECTED,@I504739@,Joan C. Kelly,1935,2001
+,DISCONNECTED,@I504740@,Thomas William Kelly,1932,2000
+,DISCONNECTED,@I504741@,Dolores Kelly,1923,2006
+,DISCONNECTED,@I504742@,Mary Margaret Kelly,1926,2006

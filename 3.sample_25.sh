@@ -1,0 +1,1 @@
+python3 -c "import pandas as pd; df = pd.read_csv('~/Genealogy/Cousin_Review/extracted_diffs/all_cousin_additions_anchored.csv'); print(df[['Sheet_Row', 'Sibling_Branch', 'Generation_Col', 'Identified_Name', 'Relation', 'Anchor_Gramps_ID', 'Anchor_Name']].head(25).to_string())"

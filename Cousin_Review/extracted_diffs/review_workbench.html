@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cousin Additions Review Workbench</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 20px; background: #f8f9fa; color: #212529; }
+  h1 { margin-bottom: 5px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 15px; border-bottom: 2px solid #dee2e6; padding-bottom: 8px; flex-wrap: wrap; }
+  .tab-btn { padding: 8px 16px; border: 1px solid #ced4da; background: white; border-radius: 4px; cursor: pointer; font-weight: 600; }
+  .tab-btn.active { background: #0d6efd; color: white; border-color: #0d6efd; }
+  .panel { display: none; background: white; padding: 15px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  .panel.active { display: block; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 8px 12px; border-bottom: 1px solid #dee2e6; text-align: left; }
+  th { background: #f1f3f5; font-weight: 600; }
+  tr:hover { background: #f8f9fa; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge-child { background: #d1e7dd; color: #0f5132; }
+  .badge-parent { background: #cff4fc; color: #055160; }
+  .badge-warn { background: #fff3cd; color: #664d03; }
+</style>
+</head>
+<body>
+<h1>Cousin Additions Review Workbench</h1>
+<p style="color: #6c757d;">Inspect newly anchored individuals grouped by sibling branch before committal to Gramps.</p>
+
+<div class="tabs">
+<button class="tab-btn active" onclick="openTab('brigid-29d76039')">Brigid (4)</button>
+<button class="tab-btn " onclick="openTab('danny-4099237d')">Danny (9)</button>
+<button class="tab-btn " onclick="openTab('mary-d9019cd4')">Mary (80)</button>
+<button class="tab-btn " onclick="openTab('mick-de3d04b5')">Mick (1)</button>
+<button class="tab-btn " onclick="openTab('paddy-2cb79295')">Paddy (14)</button>
+<button class="tab-btn " onclick="openTab('sean-d85eb77e')">Sean (28)</button>
+<button class="tab-btn " onclick="openTab('tommy-1e091c4b')">Tommy (2)</button>
+</div>
+<div id="brigid-29d76039" class="panel active">
+<h3>Branch: brigid-29d76039 (4 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>33</td>
+        <td><strong>sp. Catherine</strong></td>
+        <td>Focus / Siblings</td>
+        <td><span class="badge badge-child">Child of Parents</span></td>
+        <td>sp. Margaret Heraghty (<code>I500006</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 6 Aug 1933 | Death Date: 16 Nov 1999 | Death Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td><strong>sp. Anne Marie Furlong</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. John Dillon (<code>I500414</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 29 Oct 1975 | Birth Place: Wexford, Ireland</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td><strong>Ava Bridget Dillon</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Anne Marie Furlong (<code>New:Row_43</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 05 July 2005 | Birth Place: Wexford, Ireland</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td><strong>Sean James Dillon</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Anne Marie Furlong (<code>New:Row_43</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 01 Apr 2007 | Birth Place: Wexford, Ireland</td>
+      </tr>
+</tbody></table></div>
+<div id="danny-4099237d" class="panel ">
+<h3>Branch: danny-4099237d (9 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>38</td>
+        <td><strong>Sp. Kathleen Wilkes</strong></td>
+        <td>Focus / Siblings</td>
+        <td><span class="badge badge-child">Child of Parents</span></td>
+        <td>sp. Margaret Heraghty (<code>I500006</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td><strong>2. Mike Kent-McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Sp. Kathleen Wilkes (<code>New:Row_38</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1Jun 1974 | Birth Place: Bolton</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td><strong>sp. Gillian Kent</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Sp. Kathleen Wilkes (<code>New:Row_38</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td><strong>3. Jessica Kent-McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Gillian Kent (<code>New:Row_40</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Nov 2005</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td><strong>3. Hannah Kent-McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Gillian Kent (<code>New:Row_40</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 Oct 2007</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td><strong>3. Caitlin Kent-McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Gillian Kent (<code>New:Row_40</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 Oct 2007</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td><strong>2. Dominic McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Sp. Kathleen Wilkes (<code>New:Row_38</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 26 Aug 1977 | Birth Place: Bolton | Death Date: 16 Apr 1998 | Death Place: Bolton</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td><strong>2. Celia Robinson</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Sp. Kathleen Wilkes (<code>New:Row_38</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 09 Feb 1983 | Birth Place: Bolton</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td><strong>sp. Warren Robinson</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Sp. Kathleen Wilkes (<code>New:Row_38</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+</tbody></table></div>
+<div id="mary-d9019cd4" class="panel ">
+<h3>Branch: mary-d9019cd4 (80 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>41</td>
+        <td><strong>3.James Patrick Friel</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 4 Dec 1983 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td><strong>sp.Sharon Keneddy</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 31 Aug 1990</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td><strong>4.Saoirse Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Sharon Keneddy (<code>New:Row_42</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 13 Dec 2018 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td><strong>ex Theresa Coll</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 Jul 1987 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td><strong>4.Kayleigh Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>ex Theresa Coll (<code>New:Row_44</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 28 Oct 2009 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td><strong>4. Aleesha Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>ex Theresa Coll (<code>New:Row_44</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 21 Mar 2012 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td><strong>3. Jerry Friel</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 10 Feb 1988 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td><strong>sp. Emma Nugent</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 29 Sept 1987</td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td><strong>4. Maime Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Emma Nugent (<code>New:Row_48</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 11 Dec2021 | Birth Place: Galway</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td><strong>4. Lottie Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Emma Nugent (<code>New:Row_48</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 15 May2024 | Birth Place: Galway</td>
+      </tr>
+      <tr>
+        <td>51</td>
+        <td><strong>3.Annemarie Friel</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 27 Aug1991 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td><strong>sp. Alan Murphy</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Catherine McKinley (<code>I500582</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 27 Sept 1981</td>
+      </tr>
+      <tr>
+        <td>55</td>
+        <td><strong>3. John Mc Ateer</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 Feb 1973 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td><strong>sp. Maria Stanley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 2 Nov1967 | Birth Place: meath</td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td><strong>4. Gemma Stanley</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Maria Stanley (<code>New:Row_56</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 7 Jun 1996</td>
+      </tr>
+      <tr>
+        <td>58</td>
+        <td><strong>4.Liam Mc Ateer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Maria Stanley (<code>New:Row_56</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 23 Sept 2010 | Birth Place: Meath</td>
+      </tr>
+      <tr>
+        <td>59</td>
+        <td><strong>3. James Mc Ateer</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 28 Nov 1976 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>60</td>
+        <td><strong>sp. Maureen Coll</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 3 Dec 1982 | Birth Place: letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>61</td>
+        <td><strong>4. Jamie Mc Ateer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Maureen Coll (<code>New:Row_60</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1 April 2006 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>62</td>
+        <td><strong>4. Tyler Mc Ateer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Maureen Coll (<code>New:Row_60</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1 Mar 2012 | Birth Place: letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>63</td>
+        <td><strong>4. Kadyn Mc Ateer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Maureen Coll (<code>New:Row_60</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 15 May 2024 | Birth Place: letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>64</td>
+        <td><strong>3. Sheila Mc Ateer</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 8 Sept  1982 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>65</td>
+        <td><strong>sp.Mark Tierney</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Place: St. Camillus Hospital</td>
+      </tr>
+      <tr>
+        <td>66</td>
+        <td><strong>4.Michael Tierney</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Mark Tierney (<code>New:Row_65</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 4 Feb 2015 | Birth Place: St Camillus Hospital Limerick</td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td><strong>4. Luke Tierney</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Mark Tierney (<code>New:Row_65</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 7  Sept2018 | Birth Place: St Camillus Hospital Limerick</td>
+      </tr>
+      <tr>
+        <td>68</td>
+        <td><strong>4. Jake Tierney</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Mark Tierney (<code>New:Row_65</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 29 Apr 2020 | Birth Place: St Camillus Hospital Limerick</td>
+      </tr>
+      <tr>
+        <td>69</td>
+        <td><strong>4. Shaun Tierney</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Mark Tierney (<code>New:Row_65</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Jul 2024 | Birth Place: St Camillus Hospital Limerick</td>
+      </tr>
+      <tr>
+        <td>70</td>
+        <td><strong>3. Angela Mc Ateer</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 15 Aug 1984 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>71</td>
+        <td><strong>sp. Damien Lynch</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 16 July 1984 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>72</td>
+        <td><strong>4.Cormic Lynch</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Damien Lynch (<code>New:Row_71</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 28 April 2012 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>73</td>
+        <td><strong>4.Ciaran Lynch</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Damien Lynch (<code>New:Row_71</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 July 2014 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>74</td>
+        <td><strong>4.Zoe Lynch</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Damien Lynch (<code>New:Row_71</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 11 Aug 2016 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>75</td>
+        <td><strong>4.Clara Lynch</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Damien Lynch (<code>New:Row_71</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 13 Nov 2018 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>76</td>
+        <td><strong>3. Marie Mc Ateer</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Jan 1986 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>77</td>
+        <td><strong>sp. Martin Mc Ateer</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Willie McAteer (<code>I500415</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 22 Dec 1981 | Birth Place: letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td><strong>4.Calum Mc Ateer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Martin Mc Ateer (<code>New:Row_77</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 12 June 2005 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>79</td>
+        <td><strong>4. Amy Mc Ateeer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Martin Mc Ateer (<code>New:Row_77</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 30 October 2010 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>80</td>
+        <td><strong>4. Lucy Mc Ateer</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Martin Mc Ateer (<code>New:Row_77</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 4 Sept 2018 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>83</td>
+        <td><strong>3. Sean Friel</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>ex.sp Rachael Fox (<code>I500757</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 30 Dec 1970 | Birth Place: Bradford | Death Date: 13 Jan 1973 | Death Place: Bradford, England</td>
+      </tr>
+      <tr>
+        <td>85</td>
+        <td><strong>2. Annie Friel</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. James Friel II (<code>I500388</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 7 Sept 1951 | Birth Place: Pollaid, Fanad</td>
+      </tr>
+      <tr>
+        <td>87</td>
+        <td><strong>3. Angela Morris</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. John Morris (<code>I500727</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 7 Jun 1970 | Birth Place: London England</td>
+      </tr>
+      <tr>
+        <td>88</td>
+        <td><strong>sp. Duncan Roberts</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. John Morris (<code>I500727</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>89</td>
+        <td><strong>4. Calum Roberts</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Duncan Roberts (<code>New:Row_88</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>90</td>
+        <td><strong>4.Joseph Roberts</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Duncan Roberts (<code>New:Row_88</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>91</td>
+        <td><strong>3.Lisa Morris</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. John Morris (<code>I500727</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 28 Feb 1977 | Birth Place: London England</td>
+      </tr>
+      <tr>
+        <td>92</td>
+        <td><strong>sp. Rob Mosquito</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. John Morris (<code>I500727</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 26 Aug 1977</td>
+      </tr>
+      <tr>
+        <td>93</td>
+        <td><strong>4. Connor Mosquito</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Rob Mosquito (<code>New:Row_92</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 February 2002</td>
+      </tr>
+      <tr>
+        <td>94</td>
+        <td><strong>4. Poppy Mosquito</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Rob Mosquito (<code>New:Row_92</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 29 March 2015</td>
+      </tr>
+      <tr>
+        <td>95</td>
+        <td><strong>3. Bobby Morris</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. John Morris (<code>I500727</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 2 May 1980 | Birth Place: London England</td>
+      </tr>
+      <tr>
+        <td>96</td>
+        <td><strong>4. Olivia Morris</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3. Bobby Morris (<code>New:Row_95</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 23 Jan 2010</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td><strong>sp Anne-Marie Bain</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. James Friel II (<code>I500388</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 8 Dec | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td><strong>3.Dawn Grossart</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp Anne-Marie Bain (<code>New:Row_100</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 3Jan 1976 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td><strong>4.Rebecca Bain</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3.Dawn Grossart (<code>New:Row_101</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 6 July 1996 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td><strong>5. Tyler Bain</strong></td>
+        <td>Great++ Grand children (Gen 5)</td>
+        <td><span class="badge badge-child">Child of new entry in Great Grand children (Gen 4)</span></td>
+        <td>4.Rebecca Bain (<code>New:Row_102</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 7 Mar 2014 | Birth Place: scotland</td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td><strong>5.Ellie Bain</strong></td>
+        <td>Great++ Grand children (Gen 5)</td>
+        <td><span class="badge badge-child">Child of new entry in Great Grand children (Gen 4)</span></td>
+        <td>4.Rebecca Bain (<code>New:Row_102</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 3 Jul 2020 | Birth Place: scotland</td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td><strong>4.Melissa Covin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3.Dawn Grossart (<code>New:Row_101</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 18 Aug 1998 | Birth Place: scotland</td>
+      </tr>
+      <tr>
+        <td>106</td>
+        <td><strong>sp Ryan Covin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3.Dawn Grossart (<code>New:Row_101</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>107</td>
+        <td><strong>4.Theo Bain</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3.Dawn Grossart (<code>New:Row_101</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 19 Nov 2014 | Birth Place: scotland</td>
+      </tr>
+      <tr>
+        <td>108</td>
+        <td><strong>3. Gail Grossart</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp Anne-Marie Bain (<code>New:Row_100</code>)</td>
+        <td style="color: #6c757d;">Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>109</td>
+        <td><strong>4. Kyle Mc Loughlin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3. Gail Grossart (<code>New:Row_108</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 15 Jan 2010 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>110</td>
+        <td><strong>3. Liam Friel</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp Anne-Marie Bain (<code>New:Row_100</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Nov 1985 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>112</td>
+        <td><strong>sp Kathleen Ruddy</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. James Friel II (<code>I500388</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1 Sept 1962 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>113</td>
+        <td><strong>3. Daniel Friel</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp Kathleen Ruddy (<code>New:Row_112</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 5 Dec 1990 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>114</td>
+        <td><strong>sp.Sian Downey</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp Kathleen Ruddy (<code>New:Row_112</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 6 Jan 1990</td>
+      </tr>
+      <tr>
+        <td>115</td>
+        <td><strong>4.Sloane Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Sian Downey (<code>New:Row_114</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 2 Sept 2022 | Birth Place: Scotland</td>
+      </tr>
+      <tr>
+        <td>116</td>
+        <td><strong>4. Quinn Friel</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp.Sian Downey (<code>New:Row_114</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 14 Sept 2025 | Birth Place: scotland</td>
+      </tr>
+      <tr>
+        <td>118</td>
+        <td><strong>sp. Patrick Mc Loughlin</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. James Friel II (<code>I500388</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 21 July 1960 | Birth Place: Limerick</td>
+      </tr>
+      <tr>
+        <td>119</td>
+        <td><strong>3.Christopher McLoughlin  25 Aug 1985</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Patrick Mc Loughlin (<code>New:Row_118</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Aug 1985 | Birth Place: St. Thomas Hospital, London England</td>
+      </tr>
+      <tr>
+        <td>120</td>
+        <td><strong>sp. Jackie Ryan</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Patrick Mc Loughlin (<code>New:Row_118</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 19 Sept 1989 | Birth Place: St.Camillus Hospital,Limerick</td>
+      </tr>
+      <tr>
+        <td>121</td>
+        <td><strong>4. Patrick Mc Loughlin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Jackie Ryan (<code>New:Row_120</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 26 Mar 2008 | Birth Place: St. Camillus Hospitsl Limerick</td>
+      </tr>
+      <tr>
+        <td>122</td>
+        <td><strong>4. Darragh Mc Loughlin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Jackie Ryan (<code>New:Row_120</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 15 May 2019 | Birth Place: Sydney Australia</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td><strong>4. Fiadh Mc Loughlin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>sp. Jackie Ryan (<code>New:Row_120</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 22 Jul 2024 | Birth Place: Sydney Australia</td>
+      </tr>
+      <tr>
+        <td>124</td>
+        <td><strong>3. Scott Mc Loughlin</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Patrick Mc Loughlin (<code>New:Row_118</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 4 Jan 1997 | Birth Place: St. Camillus Hospital, Limerick</td>
+      </tr>
+      <tr>
+        <td>127</td>
+        <td><strong>sp. Donal Mc Loughlin</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. James Friel II (<code>I500388</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 8 Jan 1967 | Birth Place: St. Camillus, Hospital, Limerick</td>
+      </tr>
+      <tr>
+        <td>128</td>
+        <td><strong>3. Paul Mc Loughlin</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Donal Mc Loughlin (<code>New:Row_127</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 3 Mar 1988 | Birth Place: St. Thomas Hospital, London England</td>
+      </tr>
+      <tr>
+        <td>129</td>
+        <td><strong>4.Chloe Kennedy McLoughlin</strong></td>
+        <td>Great Grand children (Gen 4)</td>
+        <td><span class="badge badge-child">Child of new entry in Grandchildren (Gen 3)</span></td>
+        <td>3. Paul Mc Loughlin (<code>New:Row_128</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 22 Sept 2011 | Birth Place: Sligo Hospital</td>
+      </tr>
+      <tr>
+        <td>130</td>
+        <td><strong>3. Ashleigh Mc Loughlin</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Donal Mc Loughlin (<code>New:Row_127</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 6 Oct 1994 | Birth Place: st. Camillus, Hospital Limerick</td>
+      </tr>
+      <tr>
+        <td>131</td>
+        <td><strong>3. Megan Mc Loughlin</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Donal Mc Loughlin (<code>New:Row_127</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 24 Jan 2006 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>132</td>
+        <td><strong>3. Leah Mc Loughlin</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Donal Mc Loughlin (<code>New:Row_127</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 24 Jan 2006 | Birth Place: Letterkenny Hospital</td>
+      </tr>
+      <tr>
+        <td>133</td>
+        <td><strong>bf Colm  Gilheaney</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Donal Mc Loughlin (<code>New:Row_127</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 14 March 2001 | Birth Place: Enniskillen Hospital</td>
+      </tr>
+</tbody></table></div>
+<div id="mick-de3d04b5" class="panel ">
+<h3>Branch: mick-de3d04b5 (1 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>78</td>
+        <td><strong>sp.Emma</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. Margaret Gallagher (<code>I500919</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+</tbody></table></div>
+<div id="paddy-2cb79295" class="panel ">
+<h3>Branch: paddy-2cb79295 (14 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>39</td>
+        <td><strong>Mark McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>2. Margaretta McConigley (<code>I503627</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 30 Apr 90</td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td><strong>sp. Paul McBride</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. Annie Doherty (<code>I500581</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 12 Jul 75</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td><strong>Damien McBride</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Paul McBride (<code>New:Row_41</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 26 Jan 00</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td><strong>Lauren McBride</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Paul McBride (<code>New:Row_41</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Mar 02</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td><strong>Ryan McBride</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Paul McBride (<code>New:Row_41</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 27 Feb 11</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td><strong>Aaron McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>2. Mary Teresa McConigley (<code>I500580</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 01 Mar 04</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td><strong>Lisa McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>2. Noreen McConigley (<code>I503629</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 Aug 93</td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td><strong>Conor McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>2. Noreen McConigley (<code>I503629</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 05 Jun 95</td>
+      </tr>
+      <tr>
+        <td>51</td>
+        <td><strong>sp. Siobhan McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. Annie Doherty (<code>I500581</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 18 Sep 77</td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td><strong>Odhrán McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Siobhan McConigley (<code>New:Row_51</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 04 Apr 11</td>
+      </tr>
+      <tr>
+        <td>53</td>
+        <td><strong>Darragh McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Siobhan McConigley (<code>New:Row_51</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 11 Sep 14</td>
+      </tr>
+      <tr>
+        <td>54</td>
+        <td><strong>Patrick McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. Siobhan McConigley (<code>New:Row_51</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 17 Sep 17</td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td><strong>Michaela McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>2. Paula McConigley (<code>I503631</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 31 Dec 00</td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td><strong>Patrick McConigley</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>2. Paula McConigley (<code>I503631</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 08 Jan 12</td>
+      </tr>
+</tbody></table></div>
+<div id="sean-d85eb77e" class="panel ">
+<h3>Branch: sean-d85eb77e (28 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>38</td>
+        <td><strong>Michael McAnnena</strong></td>
+        <td>Parents</td>
+        <td><span class="badge badge-child">Child of Grandparents</span></td>
+        <td>sp. Hannah Coyle (<code>I500061</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1895 | Death Date: 19 Aug 1937 | Death Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td><strong>Rose Murphy</strong></td>
+        <td>Parents</td>
+        <td><span class="badge badge-child">Child of Grandparents</span></td>
+        <td>sp. Hannah Coyle (<code>I500061</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1902 | Death Date: 25 Jun 1967 | Death Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td><strong>sp. Catherine McAnnena</strong></td>
+        <td>Focus / Siblings</td>
+        <td><span class="badge badge-child">Child of new entry in Parents</span></td>
+        <td>Rose Murphy (<code>New:Row_39</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 6 Aug 1933 | Death Date: 16 Nov 1999 | Death Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td><strong>Anne McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>sp. Catherine McAnnena (<code>New:Row_40</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 10 Mar 1953 | Birth Place: Glasgow, Lanarkshire, Scotland | Death Date: 28 Mar 2014 | Death Place: Blackridge, West Lothian, Scotland</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td><strong>Emil Peterson</strong></td>
+        <td>Grandparents</td>
+        <td><span class="badge badge-child">Child of Great-Grands</span></td>
+        <td>sp. Catherine Kerr (<code>I500076</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 21 Oct 1873 | Birth Place: Asa, Kronoberg, Sweden | Death Date: 15 Jul 1935 | Death Place: Elkhart, Elkhart County, Indiana, United States</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td><strong>Hilma Olivia Maria Scherling</strong></td>
+        <td>Grandparents</td>
+        <td><span class="badge badge-child">Child of Great-Grands</span></td>
+        <td>sp. Catherine Kerr (<code>I500076</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 11 Apr 1878 | Birth Place: Hvetl | Death Date: 1958 | Death Place: Elkhart, Elkhart, Indiana, USA</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td><strong>Walter Harry Peterson</strong></td>
+        <td>Parents</td>
+        <td><span class="badge badge-child">Child of new entry in Grandparents</span></td>
+        <td>Hilma Olivia Maria Scherling (<code>New:Row_43</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1898 | Death Date: 1992</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td><strong>Catherine A Baker</strong></td>
+        <td>Parents</td>
+        <td><span class="badge badge-child">Child of new entry in Grandparents</span></td>
+        <td>Hilma Olivia Maria Scherling (<code>New:Row_43</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1901 | Death Date: 1978</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td><strong>Robert N Peterson</strong></td>
+        <td>Focus / Siblings</td>
+        <td><span class="badge badge-child">Child of new entry in Parents</span></td>
+        <td>Catherine A Baker (<code>New:Row_45</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1928 | Death Date: 2011</td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td><strong>William H Harris</strong></td>
+        <td>Great-Grands</td>
+        <td><span class="badge badge-child">Child of Ancestors (-4)</span></td>
+        <td>Michael Heraghty (<code>I500550</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1/5/1838 | Birth Place: IN, United States</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td><strong>M Anna</strong></td>
+        <td>Great-Grands</td>
+        <td><span class="badge badge-child">Child of Ancestors (-4)</span></td>
+        <td>Michael Heraghty (<code>I500550</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1838 | Birth Place: Ohio</td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td><strong>Dennis T Harris</strong></td>
+        <td>Grandparents</td>
+        <td><span class="badge badge-child">Child of new entry in Great-Grands</span></td>
+        <td>M Anna (<code>New:Row_48</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 10 Nov 1876 | Birth Place: Angola, Indiana | Death Date: 9/2/1939 | Death Place: Plymouth, Marshall, Indiana, USA</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td><strong>Estelle Hiams</strong></td>
+        <td>Grandparents</td>
+        <td><span class="badge badge-child">Child of new entry in Great-Grands</span></td>
+        <td>M Anna (<code>New:Row_48</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 9 Jan 1939 | Birth Place: Plymouth, Marshall, Indiana, USA</td>
+      </tr>
+      <tr>
+        <td>51</td>
+        <td><strong>Harry J Harris</strong></td>
+        <td>Parents</td>
+        <td><span class="badge badge-child">Child of new entry in Grandparents</span></td>
+        <td>Estelle Hiams (<code>New:Row_50</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 25 Jul 1905 | Birth Place: Plymouth, Marshall, Indiana, USA | Death Date: 15 Oct 2000 | Death Place: South Bend, St Joseph, Indiana, United States of America</td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td><strong>Charles A Johnson</strong></td>
+        <td>Grandparents</td>
+        <td><span class="badge badge-child">Child of new entry in Great-Grands</span></td>
+        <td>M Anna (<code>New:Row_48</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 19 Dec 1886 | Birth Place: Galien, Michigan, USA | Death Date: 1954 | Death Place: Michigan, USA</td>
+      </tr>
+      <tr>
+        <td>53</td>
+        <td><strong>Alta Viola Desonia</strong></td>
+        <td>Grandparents</td>
+        <td><span class="badge badge-child">Child of new entry in Great-Grands</span></td>
+        <td>M Anna (<code>New:Row_48</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 6 Nov 1893 | Birth Place: Michigan | Death Date: 21/12/72 | Death Place: Niles, Berrien, Michigan, USA</td>
+      </tr>
+      <tr>
+        <td>54</td>
+        <td><strong>Delcia Mae Johnson</strong></td>
+        <td>Parents</td>
+        <td><span class="badge badge-child">Child of new entry in Grandparents</span></td>
+        <td>Alta Viola Desonia (<code>New:Row_53</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 24 Sept 1910 | Birth Place: South Bend, St Joseph, Indiana, USA | Death Date: 7 Jan 1991 | Death Place: South Bend, St. Joseph, Indiana, USA</td>
+      </tr>
+      <tr>
+        <td>55</td>
+        <td><strong>Rosemond B Harris</strong></td>
+        <td>Focus / Siblings</td>
+        <td><span class="badge badge-child">Child of new entry in Parents</span></td>
+        <td>Delcia Mae Johnson (<code>New:Row_54</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 16 Apr 1905 | Death Date: 2000</td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td><strong>sp. ? Peterson</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td><strong>Steven Peterson</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. ? Peterson (<code>New:Row_56</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>58</td>
+        <td><strong>Sharon Peterson</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. ? Peterson (<code>New:Row_56</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>59</td>
+        <td><strong>sp. ? Haylock</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of new entry in Children (Gen 2)</span></td>
+        <td>sp. ? Peterson (<code>New:Row_56</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>61</td>
+        <td><strong>Margaret McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 7 Jul 1955 | Birth Place: Glasgow, Scotland | Death Date: 27 Feb 2007 | Death Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>62</td>
+        <td><strong>Rose McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+      <tr>
+        <td>63</td>
+        <td><strong>Maureen McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 21 Jul 1963 | Birth Place: Glasgow, Scotland | Death Date: 2014 | Death Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>64</td>
+        <td><strong>Teresa McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 21 Jul 1963 | Birth Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>65</td>
+        <td><strong>John McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 1961 | Birth Place: Glasgow, Scotland</td>
+      </tr>
+      <tr>
+        <td>66</td>
+        <td><strong>Charles McConigley</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of new entry in Focus / Siblings</span></td>
+        <td>Rosemond B Harris (<code>New:Row_55</code>)</td>
+        <td style="color: #6c757d;"></td>
+      </tr>
+</tbody></table></div>
+<div id="tommy-1e091c4b" class="panel ">
+<h3>Branch: tommy-1e091c4b (2 additions)</h3>
+<table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>Person Name</th>
+        <th>Generation Col</th>
+        <th>Inferred Relationship</th>
+        <th>Anchor Person (Gramps ID)</th>
+        <th>Dates / Places</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>52</td>
+        <td><strong>3. Sadhbh Murphy</strong></td>
+        <td>Grandchildren (Gen 3)</td>
+        <td><span class="badge badge-child">Child of Children (Gen 2)</span></td>
+        <td>sp. David Murphy (<code>I503620</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 22 Feb 2026 | Birth Place: Knockacarron, Co Clare, Ireland</td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td><strong>sp. Ariela Araneda</strong></td>
+        <td>Children (Gen 2)</td>
+        <td><span class="badge badge-child">Child of Focus / Siblings</span></td>
+        <td>sp. Bridget McGuane (<code>I503609</code>)</td>
+        <td style="color: #6c757d;">Birth Date: 18 Nov 1995 | Birth Place: Buenos Aires, Argentina</td>
+      </tr>
+</tbody></table></div>
+
+<script>
+function openTab(id) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById(id).classList.add('active');
+}
+</script>
+</body>
+</html>

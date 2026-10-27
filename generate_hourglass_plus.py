@@ -137,7 +137,7 @@ def build_hourglass_plus(gedcom_path, focus_query, base_name):
     out_csv = os.path.join("family", "sheets", f"{slug}.csv")
     out_xlsx = os.path.join("family", "sheets", f"{slug}.xlsx")
     out_html = os.path.join("family", f"{slug}.html")
-    sheet_redirect_link = f"sheets/{slug}.php"
+    sheet_redirect_link = f"sheets/redirect.php?id={slug}"
 
     indis, fams = parse_gedcom(gedcom_path)
     if len(indis) == 0:
@@ -470,6 +470,7 @@ def build_hourglass_plus(gedcom_path, focus_query, base_name):
     html_doc = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>Hourglass+ View: {html.escape(focus_p['name'])}</title>
   <style>
@@ -564,7 +565,8 @@ def build_hourglass_plus(gedcom_path, focus_query, base_name):
     </div>
     <a href="{html.escape(sheet_redirect_link)}" target="_blank" class="edit-btn">✏️ Report changes</a>
   </div>
-  <table>
+  <div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+    <table>
     <thead>
       <tr>
         <th class="badge-header">Role / Line</th>
@@ -575,7 +577,8 @@ def build_hourglass_plus(gedcom_path, focus_query, base_name):
       </tr>
     </thead>
     <tbody>{table_rows}</tbody>
-  </table>
+      </table>
+</div>
 </body>
 </html>"""
 

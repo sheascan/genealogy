@@ -1,0 +1,200 @@
+Here is a categorized reference index of your `Genealogy` repository, mapping out your core processing pipelines, standalone utilities, and folder architecture.
+
+---
+
+### 1. Root Python Automation Pipelines
+
+The root scripts form a staged data pipeline—from raw slice imports and reconciliation to multi-branch website rendering.
+
+#### Staged Pipeline Scripts (Numbered)
+
+* **`1.anchor_by_generation_slice.py`**: Slices the tree around generational reference anchors for targeted cohort processing.
+
+
+* **`5.generate_review_html.py` / `8.generate_review_html.py**`: Generates diagnostic HTML reports to review additions, links, or tree discrepancies.
+
+
+* **`10.generate_gramps_import_csv.py`** *(and `x-10...py`)*: Transforms curated spreadsheet and CSV data into Gramps-compliant CSV import format.
+
+
+* **`21.generate_combined_xml.py`**: Consolidates separate branch datasets into a master Gramps XML tree.
+
+
+* **`22.generate_html_from_xml.py`**: Parses the combined XML export to produce static web summaries.
+
+
+* **`23.generate_hourglass.py`**: Programmatically generates ancestor/descendant hourglass layouts.
+
+
+* **`24.run_mick_sean_hourglass.py`** *(and root copy)*: Runs targeted hourglass reports specifically for the Mick and Sean lines.
+
+
+* **`25.generate_branches.py`** *(and unnumbered copy)*: Scans the database and writes `branches.json` for frontend site routing.
+
+
+* **`26.batch_export_desc_fans.py`**: Automates bulk generation of descendant fan SVGs across all siblings and sub-branches.
+
+
+
+#### Standalone Gramps & Data Utilities
+
+* **`generate_ancestry_wheel.py`**: Cairo-based headless renderer producing the primary 5-generation `Ancestry.svg` for Mick Shan McConigley (`I500003`).
+
+
+* **`build_ancestry_wheel.py`**: Earlier prototype or helper for fan/wheel SVG generation.
+
+
+* **`generate_hourglass_plus.py`**: Enhanced generator for text/HTML hourglass reports with extra biographical metadata.
+
+
+* **`compare_sheets.py` / `compare_sibling_csvs.py**`: Audits and reconciles differences between branch Google Sheets / cousin review spreadsheets.
+
+
+* **`fix_gender.py`**: Database cleanup script standardizing missing or inverted gender fields across imported records.
+
+
+* **`patch_anchor.py` / `patch_visualizer.py**`: Hotfixes broken anchor links or ID mismatches and validates link placement.
+
+
+* **`add_ancestry.py` / `test_mary.py**`: Unit test and targeted injection scripts (e.g., verifying Mary’s fan chart generation).
+
+
+
+---
+
+### 2. Specialized Cleanup Scripts (`Genealogy_Cleanup/`)
+
+A dedicated suite of graph and GEDCOM normalization tools used to de-duplicate, bridge, and audit trees:
+
+* **Auditing & Metrics**:
+* `gedcom_audit.py`: Validates syntax, dangling references, and tag completeness.
+
+
+* `gedcom_distance_report.py`: Calculates degree-of-separation metrics from the primary root.
+
+
+* `gedcom_kinship.py`: Computes cousin/aunt/uncle relationship paths.
+
+
+* `dump_surnames.py` / `gedcom_surnames.py`: Analyzes surname variations and frequencies.
+
+
+
+
+* **Deduplication & Clustering**:
+* `gedcom_detect_duplicates.py`: Heuristic scanner detecting identical individuals across branches.
+
+
+* `gedcom_quarantine_duplicates.py`: Isolates duplicate records into `quarantine_catalog.csv`.
+
+
+* `gedcom_cluster_orphans.py`: Identifies and groups disconnected parentless/childless clusters.
+
+
+
+
+* **Graph Healing & Merging**:
+* `gedcom_stitch.py`: Merges disparate sub-trees into a single connected graph.
+
+
+* `gedcom_find_bridges.py` / `gedcom_suggest_bridges.py`: Suggests potential missing parental/spousal links between clusters.
+
+
+* `merge_parent_families.py` / `fix_duplicate_parent_families.py` / `fix_partial_parent_families.py`: Resolves split family cards where one individual had multiple parent records.
+
+
+* `apply_surnames_corrections.py`: Mass-updates spelling variations based on audit tables.
+
+
+* `gedcom_prune_branches.py` / `gedcom_tuned_branches.py`: Trims dead-end or out-of-scope lineages.
+
+
+
+
+
+---
+
+### 3. Pipeline Shell Scripts
+
+Quick-run CLI runners for auditing, backups, and local servers:
+
+* **Auditing & Verification**:
+* `11.scan_gramps_counts.sh` / `12.scan_gramps_counts_anon.sh`: Reports person, family, and event counts from Gramps databases.
+
+
+* `13.verify_baseline_v_cousins_adds.sh`: Diffs baseline tree counts against cousin-submitted data.
+
+
+* `14.locate_missing_anchor.sh`: Scans for broken cross-generational references.
+
+
+* `15.Check_SiblingSheet_4_Context.sh`: Validates CSV formatting before running batch builders.
+
+
+* `7.breakdown_of_additions.sh`: Quantifies newly ingested records.
+
+
+
+
+* **Workflow & Server**:
+* `9.webserver.sh`: Launches local Python HTTP preview server.
+
+
+* `run_all.sh`: Master orchestration script running sequential data rebuilds.
+
+
+* `deploy_csv.sh` / `upload_and_sync.sh`: Syncs data to production / remote hosting (`sheascan.co.uk`).
+
+
+* `fmp_request.sh`: Helper for FindMyPast scraping/session querying.
+
+
+
+
+
+---
+
+### 4. Key Directory Index
+
+* **`website2/` (Active Production Web Suite)**:
+
+
+* `index.html`: The Hub & Spoke dark-canvas entry portal with integrated Ancestry viewer and quickbar.
+
+
+* `descendants.html`: The descendant fan chart browser.
+
+
+* `branches.json`: Sibling and branch navigation metadata.
+
+
+* `Ancestry.svg`: The full 5-generation ancestor wheel for Mick Shan McConigley.
+
+
+* `*.svg`: Complete set of 9 sibling and sub-branch fan charts (e.g., `Mary.svg`, `Mary_Annie.svg`, `Mick.svg`).
+
+
+* `hub_spokes.js`, `fan_viewer.js`, `panzoom.js`, `hub_styles.css`: Modular frontend engine.
+
+
+
+
+* **`Cousin_Review/`**: Staging area for cousin collaboration, containing diff extracts, baseline snapshots (`baseline_4_cousins.gramps`), and conflict resolution audits.
+
+
+* **`Rebuilds/`**: Milestone `.gramps` databases tracking cumulative amalgamations and fixed merges (up through `Master_26Oct.gramps`).
+
+
+* **`Gramps Backups/`**: Dated point-in-time database snapshots (`.gramps`).
+
+
+* **`GEDCOM_Files/`**: Raw GEDCOM exports, manifest spreadsheets, and bridge review tables.
+
+
+* **`ancestry/`**: Scraping logs, FindMyPast CSV outputs (`findmypast_results_*.csv`), search dumps, and reference PDFs.
+
+
+* **`family/`**: Older PHP/HTML portal iteration with individual hashed sibling profile pages.
+
+
+* **`website/` & `website-ark/**`: Deprecated earlier web builds preserved for historical reference.

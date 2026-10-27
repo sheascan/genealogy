@@ -1,0 +1,324 @@
+Confidence,Year_Diff,Connected_ID,Connected_Hop,Connected_Name,Connected_Birth,Orphan_ID,Orphan_Name,Orphan_Birth,Action_Suggestion
+HIGH (Shared Spouse),0,@I500848@,9,Margaret Doherty,1813,@I501270@,Margaret Doherty,1813,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501263@,10,Margaret Doherty,1813,@I501270@,Margaret Doherty,1813,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500852@,10,Hugh Deeney,1870,@I501272@,Hugh Deeney,1870,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501977@,11,Mary Deeney,1849,@I501273@,Mary Deeney,1849,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500849@,10,Sarah Deeney,1838,@I501276@,Sarah Deeney,1838,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501979@,11,Sarah Deeney,1838,@I501276@,Sarah Deeney,1838,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500847@,9,John Deeney,1812,@I501440@,John Deeney,1812,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501975@,11,John Deeney,1812,@I501440@,John Deeney,1812,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502284@,18,John Deeney,1812,@I501440@,John Deeney,1812,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502986@,12,James Martin,1847,@I501454@,James Martin,1847,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502535@,19,James Martin,1847,@I501454@,James Martin,1847,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500180@,8,John Cannon,1911,@I501597@,John (Johnny) Cannon,1911,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500341@,9,Catherine (Kitty) Friel,1876,@I501598@,Catherine (Kitty) Friel,1876,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500883@,10,John Deeney,1788,@I501679@,John Deeney,1788,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502203@,12,John Deeney,1788,@I501679@,John Deeney,1788,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500884@,10,Mary Diver,1790,@I501680@,Mary Diver,1790,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502204@,12,Mary Diver,1790,@I501680@,Mary Diver,1790,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502629@,19,Mary Diver,1790,@I501680@,Mary Diver,1790,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502191@,11,Mary Gallagher,1843,@I501683@,Mary Gallagher,1843,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502199@,11,Edward B. Deeney,1871,@I501691@,Edward Deeney,1871,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500398@,11,Mary Friel,1882,@I501755@,Mary Friel,1882,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500892@,11,Michael Blaney,1901,@I501940@,Michael Blaney,1901,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502646@,12,Michael Blaney,1901,@I501940@,Michael Blaney,1901,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501188@,13,Patrick G. Callaghan,1815,@I502159@,Patrick G. Callaghan,1815,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500838@,12,Ellen McElwee,1826,@I502160@,Ellen McElwee,1826,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501580@,15,Catherine Doherty,1823,@I502169@,Catherine Doherty,1823,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I504121@,5,"John ""Johnny Mόr"" Callaghan",1870,@I502187@,"John ""johnny Mór"" Callaghan",1870,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I504123@,5,Edward James Callaghan,1915,@I502188@,Edward James Callaghan,1915,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501902@,15,Anthony Callaghan,1815,@I502511@,Anthony Callaghan,1815,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501904@,15,Michael Callaghan,1826,@I502512@,Michael Callaghan,1826,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502146@,16,Ellen Sweeney,1835,@I502917@,Ellen Sweeney,1835,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501580@,15,Catherine Doherty,1823,@I503014@,Catherine Doherty,1823,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501768@,16,James Doherty,1790,@I503129@,James Doherty,1790,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501769@,16,Anna Doherty,1798,@I503130@,Anna Doherty,1798,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501265@,10,Edward Doherty,1814,@I503131@,Edward Doherty,1814,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501771@,17,Edward Doherty,1814,@I503131@,Edward Doherty,1814,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I500834@,11,Michael McElwee,1785,@I503335@,Michael McElwee,1785,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I503137@,18,Margaret Gallagher,1835,@I503402@,Margaret Gallagher,1835,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I504121@,5,"John ""Johnny Mόr"" Callaghan",1870,@I503417@,"John ""Johnny Mόr"" Callaghan",1870,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I503654@,12,Hannah Gallagher,1885,@I503643@,Hannah Gallagher,1885,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I503319@,13,Ellen McElwee,1826,@I504089@,Ellen McElwee,1826,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502067@,6,Sheila Seline Sweeney,1925,@I504144@,Sheila Seline Sweeney,1925,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I501737@,12,Mary Friel,1843,@I504270@,Mary Friel,1843,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502690@,16,Una McGinley,1817,@I504752@,Una McGinley,1817,Merge identical person or re-link family
+HIGH (Shared Spouse),0,@I502778@,16,Bridget O'Callahan,1836,@I504762@,Bridget O'Callahan,1836,Merge identical person or re-link family
+HIGH (Shared Spouse),1,@I501287@,11,Isabella Sweeney,1856,@I501441@,Isabella Sweeney,1855,Merge identical person or re-link family
+HIGH (Shared Spouse),2,@I501773@,17,Margaret Doherty,1815,@I501270@,Margaret Doherty,1813,Merge identical person or re-link family
+HIGH (Shared Spouse),2,@I502451@,12,Mary Gallagher,1841,@I501683@,Mary Gallagher,1843,Merge identical person or re-link family
+MEDIUM,0,@I500798@,5,Annie Mc Ginley,1876,@I500183@,Annie McGinley,1876,Merge identical person or re-link family
+MEDIUM,0,@I500796@,4,Charles Mc Ginley,1851,@I500245@,Charles McGinley,1851,Merge identical person or re-link family
+MEDIUM,0,@I500191@,3,Grace Mc Ginley,1878,@I500508@,Grace(1) McGinley,1878,Merge identical person or re-link family
+MEDIUM,0,@I500799@,5,Hugh Mc Ginley,1880,@I500509@,Hugh McGinley,1880,Merge identical person or re-link family
+MEDIUM,0,@I501392@,6,Bridget Friel,1854,@I500711@,Bridget Gortnatraw North 3 Friel,1854,Merge identical person or re-link family
+MEDIUM,0,@I500624@,11,Bridget Friel,1854,@I500711@,Bridget Gortnatraw North 3 Friel,1854,Merge identical person or re-link family
+MEDIUM,0,@I500869@,10,John Deeney,1835,@I500872@,John Deeney,1835,Merge identical person or re-link family
+MEDIUM,0,@I501981@,11,John Deeney,1835,@I500872@,John Deeney,1835,Merge identical person or re-link family
+MEDIUM,0,@I502563@,13,Patrick Deeney,1796,@I500888@,Patrick Deeney,1796,Merge identical person or re-link family
+MEDIUM,0,@I500146@,8,Margaret Deeney,1841,@I501271@,Margaret Deeney,1841,Merge identical person or re-link family
+MEDIUM,0,@I502987@,11,Margaret Deeney,1841,@I501271@,Margaret Deeney,1841,Merge identical person or re-link family
+MEDIUM,0,@I500868@,10,Catherine Deeney,1854,@I501274@,Catherine Deeney,1854,Merge identical person or re-link family
+MEDIUM,0,@I502288@,18,Catherine Deeney,1854,@I501274@,Catherine Deeney,1854,Merge identical person or re-link family
+MEDIUM,0,@I502986@,12,James Martin,1847,@I501277@,James Martin,1847,Merge identical person or re-link family
+MEDIUM,0,@I502535@,19,James Martin,1847,@I501277@,James Martin,1847,Merge identical person or re-link family
+MEDIUM,0,@I502989@,12,James Martin,1880,@I501278@,James Martin,1880,Merge identical person or re-link family
+MEDIUM,0,@I502539@,19,James Martin,1880,@I501278@,James Martin,1880,Merge identical person or re-link family
+MEDIUM,0,@I502991@,12,John Martin,1874,@I501280@,John Martin,1874,Merge identical person or re-link family
+MEDIUM,0,@I502542@,19,John Martin,1874,@I501280@,John Martin,1874,Merge identical person or re-link family
+MEDIUM,0,@I502541@,19,Daniel Martin,1882,@I501281@,Daniel Martin,1882,Merge identical person or re-link family
+MEDIUM,0,@I502543@,19,Hugh Martin,1879,@I501282@,Hugh Martin,1879,Merge identical person or re-link family
+MEDIUM,0,@I502540@,19,Mary Martin,1869,@I501283@,Mary Martin,1869,Merge identical person or re-link family
+MEDIUM,0,@I502538@,19,Margaret Martin,1867,@I501284@,Margaret Martin,1867,Merge identical person or re-link family
+MEDIUM,0,@I502537@,19,Michael Martin,1865,@I501285@,Michael Martin,1865,Merge identical person or re-link family
+MEDIUM,0,@I502536@,19,Michael Martin,1872,@I501286@,Michael Martin,1872,Merge identical person or re-link family
+MEDIUM,0,@I501980@,11,Charles Deeney,1836,@I501442@,Charles Deeney,1836,Merge identical person or re-link family
+MEDIUM,0,@I500871@,10,Patrick Deeney,1848,@I501443@,Patrick Deeney,1848,Merge identical person or re-link family
+MEDIUM,0,@I501978@,11,Patrick Deeney,1848,@I501443@,Patrick Deeney,1848,Merge identical person or re-link family
+MEDIUM,0,@I501291@,11,Mary Jane Deeney,1883,@I501445@,Mary Jane Deeney,1883,Merge identical person or re-link family
+MEDIUM,0,@I501289@,11,James F Deeney,1886,@I501446@,James Francis Deeney,1886,Merge identical person or re-link family
+MEDIUM,0,@I502536@,19,Michael Martin,1872,@I501455@,Michael Martin,1872,Merge identical person or re-link family
+MEDIUM,0,@I502537@,19,Michael Martin,1865,@I501456@,Michael Martin,1865,Merge identical person or re-link family
+MEDIUM,0,@I502538@,19,Margaret Martin,1867,@I501457@,Margaret Martin,1867,Merge identical person or re-link family
+MEDIUM,0,@I502989@,12,James Martin,1880,@I501458@,James Martin,1880,Merge identical person or re-link family
+MEDIUM,0,@I502539@,19,James Martin,1880,@I501458@,James Martin,1880,Merge identical person or re-link family
+MEDIUM,0,@I502540@,19,Mary Martin,1869,@I501459@,Mary Martin,1869,Merge identical person or re-link family
+MEDIUM,0,@I502541@,19,Daniel Martin,1882,@I501460@,Daniel Martin,1882,Merge identical person or re-link family
+MEDIUM,0,@I502991@,12,John Martin,1874,@I501461@,John Martin,1874,Merge identical person or re-link family
+MEDIUM,0,@I502542@,19,John Martin,1874,@I501461@,John Martin,1874,Merge identical person or re-link family
+MEDIUM,0,@I502543@,19,Hugh Martin,1879,@I501462@,Hugh Martin,1879,Merge identical person or re-link family
+MEDIUM,0,@I501449@,11,Frank T Sweeney,1900,@I501539@,Frank T Sweeney,1900,Merge identical person or re-link family
+MEDIUM,0,@I501450@,11,Catherine J Sweeney,1900,@I501540@,Catherine J Sweeney,1900,Merge identical person or re-link family
+MEDIUM,0,@I501451@,11,William J Sweeney,1900,@I501541@,William J Sweeney,1900,Merge identical person or re-link family
+MEDIUM,0,@I501453@,12,James F. Deeney,1924,@I501543@,James F. Deeney,1924,Merge identical person or re-link family
+MEDIUM,0,@I500345@,9,Sean Cannon,1910,@I501601@,Sean Cannon,1910,Merge identical person or re-link family
+MEDIUM,0,@I500368@,9,Annie Teresa Cannon,1951,@I501602@,Annie Teresa Cannon,1951,Merge identical person or re-link family
+MEDIUM,0,@I500342@,9,Bernard Vincent Cannon,1911,@I501603@,Bernard Cannon,1911,Merge identical person or re-link family
+MEDIUM,0,@I500899@,10,Hugh Doherty,1775,@I501681@,Hugh Doherty,1775,Merge identical person or re-link family
+MEDIUM,0,@I502193@,11,Sarah Deeney,1920,@I501685@,Sarah Deeney,1920,Merge identical person or re-link family
+MEDIUM,0,@I502194@,11,Annie Deeney,1880,@I501686@,Annie Deeney,1880,Merge identical person or re-link family
+MEDIUM,0,@I502458@,12,Annie Deeney,1880,@I501686@,Annie Deeney,1880,Merge identical person or re-link family
+MEDIUM,0,@I502195@,11,Mary Deeney,1864,@I501687@,Mary Deeney,1864,Merge identical person or re-link family
+MEDIUM,0,@I502453@,12,Mary Deeney,1864,@I501687@,Mary Deeney,1864,Merge identical person or re-link family
+MEDIUM,0,@I502196@,11,James Deeney,1866,@I501688@,James Deeney,1866,Merge identical person or re-link family
+MEDIUM,0,@I502459@,12,James Deeney,1866,@I501688@,James Deeney,1866,Merge identical person or re-link family
+MEDIUM,0,@I502197@,11,William Deeney,1869,@I501689@,William Deeney,1869,Merge identical person or re-link family
+MEDIUM,0,@I502454@,12,William Deeney,1869,@I501689@,William Deeney,1869,Merge identical person or re-link family
+MEDIUM,0,@I502198@,11,Patrick Deeney,1883,@I501690@,Patrick Deeney,1883,Merge identical person or re-link family
+MEDIUM,0,@I502455@,12,Edward Deeney,1871,@I501691@,Edward Deeney,1871,Merge identical person or re-link family
+MEDIUM,0,@I502200@,11,Denis Deeney,1874,@I501692@,Denis Deeney,1874,Merge identical person or re-link family
+MEDIUM,0,@I502461@,12,Denis Deeney,1874,@I501692@,Denis Deeney,1874,Merge identical person or re-link family
+MEDIUM,0,@I502201@,11,Bridget Deeney,1900,@I501693@,Bridget Deeney,1900,Merge identical person or re-link family
+MEDIUM,0,@I500397@,11,Susan Friel,1882,@I501758@,Susan Friel,1882,Merge identical person or re-link family
+MEDIUM,0,@I500395@,11,Francis Columba Friel,1874,@I501759@,Francis Columba Friel,1874,Merge identical person or re-link family
+MEDIUM,0,@I502960@,12,Maryanne (James Hugh Rua) Friel,1901,@I501761@,Annie Friel,1901,Merge identical person or re-link family
+MEDIUM,0,@I502756@,13,Hannah Marie Friel,1901,@I501761@,Annie Friel,1901,Merge identical person or re-link family
+MEDIUM,0,@I500895@,11,Michael Blaney,1901,@I501940@,Michael Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I502649@,12,Michael Blaney,1901,@I501940@,Michael Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I500893@,11,Patrick Joseph Blaney,1874,@I501941@,Patrick Joseph Blaney,1874,Merge identical person or re-link family
+MEDIUM,0,@I502647@,12,Patrick Joseph Blaney,1874,@I501941@,Patrick Joseph Blaney,1874,Merge identical person or re-link family
+MEDIUM,0,@I500894@,11,Sarah Blaney,1901,@I501942@,Sarah Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I502648@,12,Sarah Blaney,1901,@I501942@,Sarah Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I500892@,11,Michael Blaney,1901,@I501943@,Michael Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I500895@,11,Michael Blaney,1901,@I501943@,Michael Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I502649@,12,Michael Blaney,1901,@I501943@,Michael Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I502646@,12,Michael Blaney,1901,@I501943@,Michael Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I500896@,11,Gim Blaney,1901,@I501944@,Gim Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I502650@,12,Gim Blaney,1901,@I501944@,Gim Blaney,1901,Merge identical person or re-link family
+MEDIUM,0,@I500438@,12,Theresa (May) Mc Ateer,1921,@I502127@,Mary Teresa (May) McAteer,1921,Merge identical person or re-link family
+MEDIUM,0,@I503319@,13,Ellen McElwee,1826,@I502160@,Ellen McElwee,1826,Merge identical person or re-link family
+MEDIUM,0,@I501194@,13,Mary Callaghan,1860,@I502161@,Mary Callaghan,1860,Merge identical person or re-link family
+MEDIUM,0,@I501193@,13,Daniel J Callaghan,1862,@I502162@,Daniel Callaghan,1862,Merge identical person or re-link family
+MEDIUM,0,@I501196@,13,Hugh Callaghan,1857,@I502164@,Hugh Callaghan,1857,Merge identical person or re-link family
+MEDIUM,0,@I501191@,13,Michael Callaghan,1848,@I502165@,Michael Callaghan,1848,Merge identical person or re-link family
+MEDIUM,0,@I501770@,17,Hugh Doherty,1822,@I502171@,Hugh Doherty,1822,Merge identical person or re-link family
+MEDIUM,0,@I501265@,10,Edward Doherty,1814,@I502172@,Edward Doherty,1814,Merge identical person or re-link family
+MEDIUM,0,@I501771@,17,Edward Doherty,1814,@I502172@,Edward Doherty,1814,Merge identical person or re-link family
+MEDIUM,0,@I500138@,8,Susanna Doherty,1818,@I502173@,Susanna Doherty,1818,Merge identical person or re-link family
+MEDIUM,0,@I501772@,17,Susanna Doherty,1818,@I502173@,Susanna Doherty,1818,Merge identical person or re-link family
+MEDIUM,0,@I501267@,10,Una Doherty,1824,@I502174@,Una Doherty,1824,Merge identical person or re-link family
+MEDIUM,0,@I501774@,17,Una Doherty,1824,@I502174@,Una Doherty,1824,Merge identical person or re-link family
+MEDIUM,0,@I501629@,6,John Friel,1911,@I502251@,John (Nanny) Friel,1911,Merge identical person or re-link family
+MEDIUM,0,@I501988@,13,John Friel,1905,@I502255@,Arthur (Art John Nanny) Friel,1905,Merge identical person or re-link family
+MEDIUM,0,@I501563@,6,Patrick Friel,1911,@I502407@,Patrick (Pat) Friel,1911,Merge identical person or re-link family
+MEDIUM,0,@I502442@,12,May Friel,1998,@I502439@,May Friel,1998,Merge identical person or re-link family
+MEDIUM,0,@I502563@,13,Patrick Deeney,1796,@I502594@,Patrick Deeney,1796,Merge identical person or re-link family
+MEDIUM,0,@I504802@,14,Edward Deeney,1830,@I502595@,Edward Deeney,1830,Merge identical person or re-link family
+MEDIUM,0,@I504135@,6,"James ""Seamus Mor"" Callaghan",1828,@I502601@,"James ""Seamus Mór"" Callaghan",1828,Merge identical person or re-link family
+MEDIUM,0,@I504124@,5,Mickey Callaghan,1917,@I502608@,Mickey Callaghan,1917,Merge identical person or re-link family
+MEDIUM,0,@I504122@,5,Mary Callaghan,1906,@I502609@,Mary Callaghan,1906,Merge identical person or re-link family
+MEDIUM,0,@I502466@,12,Patrick Joseph Blaney,1917,@I502747@,Patrick Joseph Blaney,1917,Merge identical person or re-link family
+MEDIUM,0,@I502070@,12,Michael Blaney,1914,@I502748@,Michael Blaney,1914,Merge identical person or re-link family
+MEDIUM,0,@I502071@,12,Claire Blaney,1915,@I502749@,Claire Blaney,1915,Merge identical person or re-link family
+MEDIUM,0,@I502072@,12,Jack Blaney,1919,@I502750@,Jack Blaney,1919,Merge identical person or re-link family
+MEDIUM,0,@I502073@,12,Patricia Blaney,1921,@I502751@,Patricia Blaney,1921,Merge identical person or re-link family
+MEDIUM,0,@I502074@,12,Sarah Teresa Blaney,1924,@I502752@,Sarah Teresa Blaney,1924,Merge identical person or re-link family
+MEDIUM,0,@I502075@,12,Joan Blaney,1927,@I502753@,Joan Blaney,1927,Merge identical person or re-link family
+MEDIUM,0,@I502076@,12,Joseph Blaney,1931,@I502754@,Joseph Blaney,1931,Merge identical person or re-link family
+MEDIUM,0,@I502247@,13,John (Johnny) Friel,1880,@I502787@,John Friel,1880,Merge identical person or re-link family
+MEDIUM,0,@I500398@,11,Mary Friel,1882,@I502794@,Mary Friel,1882,Merge identical person or re-link family
+MEDIUM,0,@I503326@,14,William Callahan,1870,@I502985@,William Callahan,1870,Merge identical person or re-link family
+MEDIUM,0,@I501581@,16,Anna Deeney,1841,@I503015@,Anna Deeney,1841,Merge identical person or re-link family
+MEDIUM,0,@I501729@,11,Catherine Deeney,1846,@I503017@,Catherine Deeney,1846,Merge identical person or re-link family
+MEDIUM,0,@I501582@,16,Catherine Deeney,1846,@I503017@,Catherine Deeney,1846,Merge identical person or re-link family
+MEDIUM,0,@I501725@,11,Una Deeney,1849,@I503018@,Una Deeney,1849,Merge identical person or re-link family
+MEDIUM,0,@I501583@,16,Una Deeney,1849,@I503018@,Una Deeney,1849,Merge identical person or re-link family
+MEDIUM,0,@I501728@,11,Margaret Deeney,1850,@I503019@,Margaret Deeney,1850,Merge identical person or re-link family
+MEDIUM,0,@I501727@,11,George P Deeney,1852,@I503020@,George Patrick Deeney,1852,Merge identical person or re-link family
+MEDIUM,0,@I501340@,14,George Patrick Deeney,1852,@I503020@,George Patrick Deeney,1852,Merge identical person or re-link family
+MEDIUM,0,@I501726@,11,Susan Deeney,1855,@I503022@,Susan Deeney,1855,Merge identical person or re-link family
+MEDIUM,0,@I501584@,16,Susan Deeney,1855,@I503022@,Susan Deeney,1855,Merge identical person or re-link family
+MEDIUM,0,@I501631@,6,James Friel,1911,@I503064@,James Friel,1911,Merge identical person or re-link family
+MEDIUM,0,@I500102@,7,James Friel,1911,@I503064@,James Friel,1911,Merge identical person or re-link family
+MEDIUM,0,@I501741@,12,Edward James Friel,1911,@I503064@,James Friel,1911,Merge identical person or re-link family
+MEDIUM,0,@I501770@,17,Hugh Doherty,1822,@I503132@,Hugh Doherty,1822,Merge identical person or re-link family
+MEDIUM,0,@I500138@,8,Susanna Doherty,1818,@I503133@,Susanna Doherty,1818,Merge identical person or re-link family
+MEDIUM,0,@I501772@,17,Susanna Doherty,1818,@I503133@,Susanna Doherty,1818,Merge identical person or re-link family
+MEDIUM,0,@I501773@,17,Margaret Doherty,1815,@I503134@,Margaret Doherty,1815,Merge identical person or re-link family
+MEDIUM,0,@I501267@,10,Una Doherty,1824,@I503135@,Una Doherty,1824,Merge identical person or re-link family
+MEDIUM,0,@I501774@,17,Una Doherty,1824,@I503135@,Una Doherty,1824,Merge identical person or re-link family
+MEDIUM,0,@I502105@,12,Edward Deeney,1883,@I503198@,Edward Deeney,1883,Merge identical person or re-link family
+MEDIUM,0,@I501342@,14,Edward Deeney,1883,@I503198@,Edward Deeney,1883,Merge identical person or re-link family
+MEDIUM,0,@I502106@,12,Eleanor Deeney,1885,@I503199@,Eleanor M Deeney,1885,Merge identical person or re-link family
+MEDIUM,0,@I501343@,14,Eleanor M Deeney,1885,@I503199@,Eleanor M Deeney,1885,Merge identical person or re-link family
+MEDIUM,0,@I500398@,11,Mary Friel,1882,@I503222@,Mary Friel,1882,Merge identical person or re-link family
+MEDIUM,0,@I500836@,12,Darby McElwee,1827,@I503338@,Darby McElwee,1827,Merge identical person or re-link family
+MEDIUM,0,@I500835@,12,John McElwee,1817,@I503339@,John McElwee,1817,Merge identical person or re-link family
+MEDIUM,0,@I500837@,12,Charles McElwee,1829,@I503340@,Charles McElwee,1829,Merge identical person or re-link family
+MEDIUM,0,@I501189@,12,Michael McElwee,1828,@I503341@,Michael McElwee,1828,Merge identical person or re-link family
+MEDIUM,0,@I503330@,13,George Callahan Aloysius Deeney,1924,@I503343@,George Callahan Aloysius Deeney,1924,Merge identical person or re-link family
+MEDIUM,0,@I501623@,15,George Callahan Aloysius Deeney,1924,@I503343@,George Callahan Aloysius Deeney,1924,Merge identical person or re-link family
+MEDIUM,0,@I503331@,13,"Mary Perpetua (Sr. John Mary, IHM) Deeney",1919,@I503344@,"Mary Perpetua (Sr. John Mary, IHM) Deeney",1919,Merge identical person or re-link family
+MEDIUM,0,@I501620@,15,Mary Perpetua (Sr. John Mary IHM) Deeney,1919,@I503344@,"Mary Perpetua (Sr. John Mary, IHM) Deeney",1919,Merge identical person or re-link family
+MEDIUM,0,@I503332@,13,Edward Deeney,1927,@I503345@,Edward Deeney,1927,Merge identical person or re-link family
+MEDIUM,0,@I501624@,15,Edward Deeney,1927,@I503345@,Edward Deeney,1927,Merge identical person or re-link family
+MEDIUM,0,@I503333@,13,Joseph Deeney,1929,@I503346@,Joseph Deeney,1929,Merge identical person or re-link family
+MEDIUM,0,@I501625@,15,Joseph Deeney,1929,@I503346@,Joseph Deeney,1929,Merge identical person or re-link family
+MEDIUM,0,@I503334@,13,Nancy Deeney,1923,@I503347@,Nancy Deeney,1923,Merge identical person or re-link family
+MEDIUM,0,@I501622@,15,Nancy Deeney,1923,@I503347@,Nancy Deeney,1923,Merge identical person or re-link family
+MEDIUM,0,@I503328@,14,Dan Callahan,1880,@I503358@,Dan Callahan,1880,Merge identical person or re-link family
+MEDIUM,0,@I504802@,14,Edward Deeney,1830,@I503359@,Edward Deeney,1830,Merge identical person or re-link family
+MEDIUM,0,@I501581@,16,Anna Deeney,1841,@I503361@,Anna Deeney,1841,Merge identical person or re-link family
+MEDIUM,0,@I501729@,11,Catherine Deeney,1846,@I503362@,Catherine Deeney,1846,Merge identical person or re-link family
+MEDIUM,0,@I501582@,16,Catherine Deeney,1846,@I503362@,Catherine Deeney,1846,Merge identical person or re-link family
+MEDIUM,0,@I501725@,11,Una Deeney,1849,@I503363@,Una (Winifred) Deeney,1849,Merge identical person or re-link family
+MEDIUM,0,@I501583@,16,Una Deeney,1849,@I503363@,Una (Winifred) Deeney,1849,Merge identical person or re-link family
+MEDIUM,0,@I501726@,11,Susan Deeney,1855,@I503364@,Susan Deeney,1855,Merge identical person or re-link family
+MEDIUM,0,@I501584@,16,Susan Deeney,1855,@I503364@,Susan Deeney,1855,Merge identical person or re-link family
+MEDIUM,0,@I501728@,11,Margaret Deeney,1850,@I503365@,Margaret Deeney,1850,Merge identical person or re-link family
+MEDIUM,0,@I500793@,12,Ellen Anne (Eileen) Gallagher,1919,@I503396@,Eileen Gallagher,1919,Merge identical person or re-link family
+MEDIUM,0,@I500792@,12,Daniel Gerard Gallagher,1921,@I503397@,Gerard Gallagher,1921,Merge identical person or re-link family
+MEDIUM,0,@I501670@,11,John Doherty,1861,@I503408@,John Doherty,1861,Merge identical person or re-link family
+MEDIUM,0,@I503141@,18,John Doherty,1861,@I503408@,John Doherty,1861,Merge identical person or re-link family
+MEDIUM,0,@I501668@,11,Hannah Doherty,1852,@I503409@,Hannah Doherty,1852,Merge identical person or re-link family
+MEDIUM,0,@I503139@,18,Hannah Doherty,1852,@I503409@,Hannah Doherty,1852,Merge identical person or re-link family
+MEDIUM,0,@I502291@,11,Catherine Doherty,1858,@I503410@,Catherine Doherty,1858,Merge identical person or re-link family
+MEDIUM,0,@I502293@,11,Mary Doherty,1857,@I503412@,Mary Doherty,1857,Merge identical person or re-link family
+MEDIUM,0,@I502294@,11,Margory Doherty,1847,@I503413@,Margory Doherty,1847,Merge identical person or re-link family
+MEDIUM,0,@I502295@,11,Bridget Doherty,1856,@I503414@,Bridget Doherty,1856,Merge identical person or re-link family
+MEDIUM,0,@I502296@,11,Adeline Doherty,1860,@I503415@,Adeline Doherty,1860,Merge identical person or re-link family
+MEDIUM,0,@I503655@,12,Sarah Deeney,1905,@I503644@,Sarah Deeney,1905,Merge identical person or re-link family
+MEDIUM,0,@I503656@,12,Anne Veronica Deeney,1917,@I503645@,Anne Veronica Deeney,1917,Merge identical person or re-link family
+MEDIUM,0,@I500496@,4,Catherine McConigley,1901,@I503802@,Catherine McConigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500167@,4,Catherine McConigley,1901,@I503802@,Catherine McConigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500498@,4,Patrick McConigley,1901,@I503805@,Patrick Mc Conigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500169@,4,Patrick McConigley,1901,@I503805@,Patrick Mc Conigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500496@,4,Catherine McConigley,1901,@I503841@,Catherine McConigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500167@,4,Catherine McConigley,1901,@I503841@,Catherine McConigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500498@,4,Patrick McConigley,1901,@I503844@,Patrick McConigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I500169@,4,Patrick McConigley,1901,@I503844@,Patrick McConigley,1901,Merge identical person or re-link family
+MEDIUM,0,@I501138@,6,Patrick Gallagher,1866,@I504043@,Patrick Gallagher,1866,Merge identical person or re-link family
+MEDIUM,0,@I500120@,8,Hugh Coyle,1911,@I504082@,Hugh Coyle,1911,Merge identical person or re-link family
+MEDIUM,0,@I500123@,8,John Coyle,1911,@I504084@,John Coyle,1911,Merge identical person or re-link family
+MEDIUM,0,@I500838@,12,Ellen McElwee,1826,@I504089@,Ellen McElwee,1826,Merge identical person or re-link family
+MEDIUM,0,@I503323@,14,Hugh Callahan,1857,@I504091@,Hugh Callahan,1857,Merge identical person or re-link family
+MEDIUM,0,@I503321@,14,John Callahan,1851,@I504092@,John Callahan,1851,Merge identical person or re-link family
+MEDIUM,0,@I503324@,14,Mary Callahan,1860,@I504093@,Mary Callahan,1860,Merge identical person or re-link family
+MEDIUM,0,@I503320@,14,Michael Callahan,1848,@I504094@,Michael Callahan,1848,Merge identical person or re-link family
+MEDIUM,0,@I503325@,14,Daniel J Callahan,1862,@I504095@,Daniel Callahan,1862,Merge identical person or re-link family
+MEDIUM,0,@I504413@,6,Sean Callaghan,1977,@I504145@,Sean Callaghan,1977,Merge identical person or re-link family
+MEDIUM,0,@I502190@,7,Sean Callaghan,1977,@I504145@,Sean Callaghan,1977,Merge identical person or re-link family
+MEDIUM,0,@I500125@,8,John Sweeney,1911,@I504163@,John Sweeney,1911,Merge identical person or re-link family
+MEDIUM,0,@I502913@,17,Edward Sweeney,1861,@I504164@,Edward Sweeney,1861,Merge identical person or re-link family
+MEDIUM,0,@I502914@,17,John Sweeney,1864,@I504166@,John Sweeney,1864,Merge identical person or re-link family
+MEDIUM,0,@I502915@,17,Patrick Sweeney,1867,@I504167@,Patrick Sweeney,1867,Merge identical person or re-link family
+MEDIUM,0,@I502490@,11,Sarah Deeney,1851,@I504205@,Sarah Deeney,1851,Merge identical person or re-link family
+MEDIUM,0,@I502105@,12,Edward Deeney,1883,@I504207@,Edward P Deeney,1883,Merge identical person or re-link family
+MEDIUM,0,@I501342@,14,Edward Deeney,1883,@I504207@,Edward P Deeney,1883,Merge identical person or re-link family
+MEDIUM,0,@I502241@,13,Arthur Friel,1867,@I504271@,Arthur Friel,1867,Merge identical person or re-link family
+MEDIUM,0,@I502245@,13,Edward (Eddie) Friel,1875,@I504273@,Edward (Eddie) Friel,1875,Merge identical person or re-link family
+MEDIUM,0,@I502246@,13,Daniel (Dan) Friel,1877,@I504274@,Daniel (Dan) Friel,1877,Merge identical person or re-link family
+MEDIUM,0,@I502247@,13,John (Johnny) Friel,1880,@I504275@,John (Johnny) Friel,1880,Merge identical person or re-link family
+MEDIUM,0,@I502249@,13,William Friel,1887,@I504276@,William Friel,1887,Merge identical person or re-link family
+MEDIUM,0,@I502240@,13,James Friel,1864,@I504279@,James Friel,1864,Merge identical person or re-link family
+MEDIUM,0,@I501901@,15,James Callaghan,1813,@I504286@,James Callaghan,1813,Merge identical person or re-link family
+MEDIUM,0,@I501902@,15,Anthony Callaghan,1815,@I504287@,Anthony Callaghan,1815,Merge identical person or re-link family
+MEDIUM,0,@I504410@,5,Sarah Callaghan,1912,@I504332@,Sarah Callaghan,1912,Merge identical person or re-link family
+MEDIUM,0,@I504123@,5,Edward James Callaghan,1915,@I504333@,Edward James Callaghan,1915,Merge identical person or re-link family
+MEDIUM,0,@I504124@,5,Mickey Callaghan,1917,@I504334@,Mickey Callaghan,1917,Merge identical person or re-link family
+MEDIUM,0,@I504135@,6,"James ""Seamus Mor"" Callaghan",1828,@I504688@,James Séamus Mόr Callaghan,1828,Merge identical person or re-link family
+MEDIUM,0,@I504139@,7,James Joseph Callaghan,1878,@I504691@,James Joseph Callaghan,1878,Merge identical person or re-link family
+MEDIUM,0,@I504138@,7,Patrick Callaghan,1865,@I504692@,Patrick Callaghan,1865,Merge identical person or re-link family
+MEDIUM,0,@I504140@,7,Mary Callaghan,1868,@I504693@,Mary Callaghan,1868,Merge identical person or re-link family
+MEDIUM,0,@I504143@,7,Charles Callaghan,1880,@I504696@,Charles Callaghan,1880,Merge identical person or re-link family
+MEDIUM,0,@I502691@,16,Daniel Callaghan,1853,@I504756@,Daniel Callaghan,1853,Merge identical person or re-link family
+MEDIUM,0,@I502692@,16,Michael Callaghan,1880,@I504757@,Michael Callaghan,1880,Merge identical person or re-link family
+MEDIUM,0,@I502693@,16,John Callaghan,1859,@I504758@,John Callaghan,1859,Merge identical person or re-link family
+MEDIUM,0,@I502694@,16,Anne Callahan,1861,@I504759@,Anne Callahan,1861,Merge identical person or re-link family
+MEDIUM,0,@I502695@,16,Mary Callaghan,1863,@I504760@,Mary Callaghan,1863,Merge identical person or re-link family
+MEDIUM,0,@I502696@,16,"Delia ""Bridget"" Callahan",1867,@I504761@,"Delia ""Bridget"" Callahan",1867,Merge identical person or re-link family
+LOW,1,@I503039@,11,James Deeney,1901,@I501275@,James Deeney,1900,Merge identical person or re-link family
+LOW,1,@I501288@,11,John Joseph Deeney,1882,@I501444@,John Joseph Deeney,1881,Merge identical person or re-link family
+LOW,1,@I500126@,8,William Sweeney,1901,@I501541@,William J Sweeney,1900,Merge identical person or re-link family
+LOW,1,@I500876@,11,Rosanna Deeney,1879,@I501686@,Annie Deeney,1880,Merge identical person or re-link family
+LOW,1,@I502286@,18,Mary Deeney,1865,@I501687@,Mary Deeney,1864,Merge identical person or re-link family
+LOW,1,@I500520@,9,Catherine Friel,1851,@I501792@,Catherine Friel,1850,Merge identical person or re-link family
+LOW,1,@I501192@,13,John Callaghan,1851,@I502163@,John Callaghan,1852,Merge identical person or re-link family
+LOW,1,@I501195@,13,James Callaghan,1853,@I502166@,James Callaghan,1852,Merge identical person or re-link family
+LOW,1,@I501987@,13,Edward Friel,1899,@I502252@,Edward Friel,1900,Merge identical person or re-link family
+LOW,1,@I500061@,3,Hannah Coyle,1911,@I502384@,Anne Coyle,1910,Merge identical person or re-link family
+LOW,1,@I500124@,8,James Coyle,1911,@I502388@,James Coyle,1912,Merge identical person or re-link family
+LOW,1,@I504674@,14,James Patrick Friel,1915,@I502413@,Patrick (Pat Og) Friel,1914,Merge identical person or re-link family
+LOW,1,@I501563@,6,Patrick Friel,1911,@I502416@,Mary (Pat) Friel,1912,Merge identical person or re-link family
+LOW,1,@I501630@,6,Mary Friel,1911,@I502416@,Mary (Pat) Friel,1912,Merge identical person or re-link family
+LOW,1,@I500395@,11,Francis Columba Friel,1874,@I502791@,Francis Friel,1873,Merge identical person or re-link family
+LOW,1,@I500274@,11,Mary Martin,1879,@I503187@,Mary Anne Martin,1880,Merge identical person or re-link family
+LOW,1,@I500659@,5,Annie Martin,1881,@I503187@,Mary Anne Martin,1880,Merge identical person or re-link family
+LOW,1,@I500395@,11,Francis Columba Friel,1874,@I503220@,Francis Friel,1873,Merge identical person or re-link family
+LOW,1,@I502655@,18,Mary Doherty,1853,@I503405@,Mary Doherty,1854,Merge identical person or re-link family
+LOW,1,@I500124@,8,James Coyle,1911,@I504086@,James Coyle,1912,Merge identical person or re-link family
+LOW,1,@I503322@,14,James Callahan,1852,@I504090@,James Callahan,1853,Merge identical person or re-link family
+LOW,1,@I504674@,14,James Patrick Friel,1915,@I504267@,Patrick Friel,1914,Merge identical person or re-link family
+LOW,1,@I504122@,5,Mary Callaghan,1906,@I504329@,Mary Callaghan,1907,Merge identical person or re-link family
+LOW,2,@I500341@,9,Catherine (Kitty) Friel,1876,@I500556@,Katie Friel,1878,Merge identical person or re-link family
+LOW,2,@I500244@,8,Margaret Cannon,1883,@I500652@,Margaret M. Cannon,1881,Merge identical person or re-link family
+LOW,2,@I503686@,13,Annie Friel,1849,@I500709@,Anne (Nancy) Gortnatraw North 2 Friel,1851,Merge identical person or re-link family
+LOW,2,@I500747@,14,Mary Friel,1856,@I500712@,Mary Gortnatraw North 4 Friel,1858,Merge identical person or re-link family
+LOW,2,@I500878@,11,Mary Deeney,1881,@I501445@,Mary Jane Deeney,1883,Merge identical person or re-link family
+LOW,2,@I500336@,9,Mary Friel,1880,@I501755@,Mary Friel,1882,Merge identical person or re-link family
+LOW,2,@I501986@,13,Sarah Ann Friel,1897,@I502253@,Mary Alice (John Nanny) Friel,1899,Merge identical person or re-link family
+LOW,2,@I500101@,7,Mary Friel,1901,@I502253@,Mary Alice (John Nanny) Friel,1899,Merge identical person or re-link family
+LOW,2,@I501372@,12,Mary Friel,1901,@I502253@,Mary Alice (John Nanny) Friel,1899,Merge identical person or re-link family
+LOW,2,@I502960@,12,Maryanne (James Hugh Rua) Friel,1901,@I502253@,Mary Alice (John Nanny) Friel,1899,Merge identical person or re-link family
+LOW,2,@I502756@,13,Hannah Marie Friel,1901,@I502253@,Mary Alice (John Nanny) Friel,1899,Merge identical person or re-link family
+LOW,2,@I503691@,13,Mary (Maire) Friel,1901,@I502253@,Mary Alice (John Nanny) Friel,1899,Merge identical person or re-link family
+LOW,2,@I500120@,8,Hugh Coyle,1911,@I502385@,Hugh Coyle,1909,Merge identical person or re-link family
+LOW,2,@I500272@,11,Anna Sweeney,1839,@I502392@,Hannagh Sweeney,1841,Merge identical person or re-link family
+LOW,2,@I500341@,9,Catherine (Kitty) Friel,1876,@I502792@,Catherine Friel,1874,Merge identical person or re-link family
+LOW,2,@I500336@,9,Mary Friel,1880,@I502794@,Mary Friel,1882,Merge identical person or re-link family
+LOW,2,@I501392@,6,Bridget Friel,1854,@I502940@,Bridget Friel,1856,Merge identical person or re-link family
+LOW,2,@I500624@,11,Bridget Friel,1854,@I502940@,Bridget Friel,1856,Merge identical person or re-link family
+LOW,2,@I500146@,8,Margaret Deeney,1841,@I503016@,Margaret Deeney,1843,Merge identical person or re-link family
+LOW,2,@I502987@,11,Margaret Deeney,1841,@I503016@,Margaret Deeney,1843,Merge identical person or re-link family
+LOW,2,@I500848@,9,Margaret Doherty,1813,@I503134@,Margaret Doherty,1815,Merge identical person or re-link family
+LOW,2,@I501263@,10,Margaret Doherty,1813,@I503134@,Margaret Doherty,1815,Merge identical person or re-link family
+LOW,2,@I500782@,9,John Martin,1903,@I503186@,John Martin,1901,Merge identical person or re-link family
+LOW,2,@I500341@,9,Catherine (Kitty) Friel,1876,@I503221@,Catherine Friel,1874,Merge identical person or re-link family
+LOW,2,@I500336@,9,Mary Friel,1880,@I503222@,Mary Friel,1882,Merge identical person or re-link family
+LOW,2,@I502460@,12,Patrick Deeney,1870,@I503360@,George Patrick Deeney,1872,Merge identical person or re-link family
+LOW,2,@I501630@,6,Mary Friel,1911,@I504266@,Mary Friel,1913,Merge identical person or re-link family
+LOW,2,@I500094@,6,John McElwaine,1927,@I504307@,Johnny McElwaine,1929,Merge identical person or re-link family
+LOW,2,@I500146@,8,Margaret Deeney,1841,@I504814@,Margaret Jane (Peggy) Deeney,1839,Merge identical person or re-link family
+LOW,2,@I502987@,11,Margaret Deeney,1841,@I504814@,Margaret Jane (Peggy) Deeney,1839,Merge identical person or re-link family
+LOW,2,@I500146@,8,Margaret Deeney,1841,@I504834@,Margaret Jane (Peggy) Deeney,1839,Merge identical person or re-link family
+LOW,2,@I502987@,11,Margaret Deeney,1841,@I504834@,Margaret Jane (Peggy) Deeney,1839,Merge identical person or re-link family
